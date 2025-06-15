@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import aboutData from "@/aboutus.json";
-import Image from "next/image";
 
 export const metadata = {
   title: "About Us - MarkMorente Suits",
@@ -89,14 +88,12 @@ export default function AboutUsPage() {
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
-            {aboutData.faq.map(
-              (item: { q: string; a: string }, idx: number) => (
-                <div key={item.q} className="bg-white rounded-lg shadow p-4">
-                  <h4 className="font-semibold mb-1">{item.q}</h4>
-                  <p className="text-gray-700">{item.a}</p>
-                </div>
-              )
-            )}
+            {aboutData.faq.map((item: { q: string; a: string }) => (
+              <div key={item.q} className="bg-white rounded-lg shadow p-4">
+                <h4 className="font-semibold mb-1">{item.q}</h4>
+                <p className="text-gray-700">{item.a}</p>
+              </div>
+            ))}
           </div>
         </section>
       </main>

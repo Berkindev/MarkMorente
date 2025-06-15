@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import collectionsData from "@/collections.json";
 import Link from "next/link";
+import Image from "next/image";
 
 // Define ProductDescription type based on collections.json structure
 interface ProductDescription {
@@ -91,10 +92,13 @@ export default function CollectionPage() {
               className="block group"
             >
               <div className="border rounded-xl p-4 hover:shadow-xl transition flex flex-col items-center bg-white dark:bg-zinc-900">
-                <img
+                <Image
                   src={product.images[0]}
                   alt={product.title}
-                  className="w-full h-56 object-cover rounded mb-3 transition-transform group-hover:scale-105"
+                  className="object-cover w-full h-72 rounded mb-2 transition-transform group-hover:scale-105"
+                  width={320}
+                  height={288}
+                  loading="lazy"
                 />
                 <h2 className="font-semibold text-lg mb-2 text-center line-clamp-2 min-h-[3rem]">
                   {product.title}

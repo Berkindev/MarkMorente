@@ -1,5 +1,5 @@
 "use client";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import collectionsData from "../collections.json";
 import {
@@ -89,9 +89,11 @@ function ContactCTA() {
           aria-label="Telegram"
           className="hover:opacity-80"
         >
-          <img
+          <Image
             src="/telegramlogo.svg"
             alt="Telegram Logo"
+            width={28}
+            height={28}
             className="w-7 h-7"
           />
         </a>
@@ -102,9 +104,11 @@ function ContactCTA() {
           aria-label="WhatsApp"
           className="hover:opacity-80"
         >
-          <img
+          <Image
             src="/whatsapplogo.svg"
             alt="Whatsapp Logo"
+            width={28}
+            height={28}
             className="w-7 h-7"
           />
         </a>
@@ -115,9 +119,11 @@ function ContactCTA() {
           aria-label="Instagram"
           className="hover:opacity-80"
         >
-          <img
+          <Image
             src="/instagramlogo.png"
             alt="Instagram Logo"
+            width={28}
+            height={28}
             className="w-7 h-7"
           />
         </a>
@@ -133,10 +139,13 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center flex-1 px-4 py-4 w-full">
         <div className="container mx-auto max-w-7xl xl:max-w-[1600px] flex flex-col items-center">
           <div className="mt-0 mb-2">
-            <img
+            <Image
               src="/mmlogo.png"
               alt="Mark Morente - Men's Suit Manufacturer Logo"
+              width={180}
+              height={120}
               className="h-20 md:h-28 xl:h-36 w-auto mx-auto"
+              priority
             />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-2">

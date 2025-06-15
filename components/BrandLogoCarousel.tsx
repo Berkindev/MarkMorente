@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
+import Image from "next/image";
 
 // Brand logoları public/brandlogo klasöründe
 const BRAND_LOGOS = [
@@ -43,10 +44,12 @@ export default function BrandLogoCarousel() {
               }`}
               style={{ minWidth: "120px", maxWidth: "160px" }}
             >
-              <img
+              <Image
                 src={`/brandlogo/${logo}`}
                 alt={logo.replace(/\.png$/, "") + " logo"}
                 className="object-contain h-24 w-auto max-w-[176px] mx-auto p-2"
+                width={176}
+                height={96}
                 loading="lazy"
                 draggable={false}
               />
