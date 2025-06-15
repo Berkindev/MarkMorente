@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Belleza } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -10,6 +11,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const belleza = Belleza({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-belleza",
 });
 
 export const metadata: Metadata = {
@@ -25,15 +32,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ fontFamily: "'Belleza', sans-serif" }}>
+    <html
+      lang="en"
+      style={{ fontFamily: "'Belleza', sans-serif" }}
+      className={`${belleza.variable}`}
+    >
       <head>
         <link rel="icon" href="/logo.png" type="image/png" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${belleza.variable} antialiased`}
         style={{ fontFamily: "'Belleza', sans-serif" }}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
