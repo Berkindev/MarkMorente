@@ -16,7 +16,7 @@ interface Category {
 interface Section {
   type: string;
   title?: string;
-  categories?: Category[] | string[];
+  categories?: { title: string; image: string }[];
   items?: { title: string; content: string; keywords?: string[] }[];
   content?: string;
   keywords?: string[];
@@ -68,15 +68,9 @@ export default function ManufacturingPage() {
                 Product Categories
               </h2>
               <ul className="list-disc list-inside max-w-xl mx-auto text-lg text-gray-800 space-y-2">
-                {categories?.map((cat, idx) => {
-                  if (typeof cat === "string") {
-                    return <li key={cat + "-" + idx}>{cat}</li>;
-                  } else if (cat && typeof cat === "object" && "title" in cat) {
-                    const c = cat as Category;
-                    return <li key={c.title + "-" + idx}>{c.title}</li>;
-                  }
-                  return null;
-                })}
+                {categories?.map((cat, idx) => (
+                  <li key={cat.title + "-" + idx}>{cat.title}</li>
+                ))}
               </ul>
               <div className="mt-8 text-center">
                 <Link
