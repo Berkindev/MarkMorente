@@ -1,0 +1,148 @@
+{
+  "title": "Men\u2019s Suit Manufacturing \u2013 Private Label, OEM & Wholesale Production",
+  "meta": {
+    "title": "Men's Suit Manufacturer Turkey | Private Label, OEM & Wholesale Suits",
+    "description": "Premium quality suits with high production capacity. Private Label, OEM and wholesale manufacturing solutions from Turkey with global B2B shipping.",
+    "keywords": [
+      "men's suit manufacturer Turkey",
+      "private label suits",
+      "OEM suit manufacturing",
+      "wholesale men's suits",
+      "custom tailored suits",
+      "bulk suit production",
+      "Made in Turkey suits",
+      "B2B fashion manufacturing",
+      "high quality suit factory"
+    ]
+  },
+  "sections": [
+    {
+      "type": "categories",
+      "title": "Product Categories",
+      "categories": [
+        {
+          "title": "3-Piece Suits",
+          "image": "/manufacturing/3-piece-suits.jpg"
+        },
+        {
+          "title": "2-Piece Suits",
+          "image": "/manufacturing/2-piece-suits.jpg"
+        },
+        {
+          "title": "Tuxedos",
+          "image": "/manufacturing/tuxedos.jpg"
+        },
+        {
+          "title": "Wedding Suits",
+          "image": "/manufacturing/wedding-suits.jpg"
+        },
+        {
+          "title": "Ceremony Suits",
+          "image": "/manufacturing/ceremony-suits.jpg"
+        },
+        {
+          "title": "Big & Tall Suits",
+          "image": "/manufacturing/big-tall-suits.jpg"
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Private Label Suit Manufacturing",
+          "content": "Launch or expand your brand with our Private Label services. We offer full control over design, fabric, labels, and packaging. Ideal for fashion labels seeking unique product identity.",
+          "keywords": [
+            "private label suits",
+            "own brand production",
+            "custom label suits"
+          ]
+        },
+        {
+          "title": "OEM Suit Production",
+          "content": "We produce suits to your exact technical specs, protecting your IP and brand identity. OEM manufacturing is perfect for established brands requiring high precision and consistency.",
+          "keywords": [
+            "OEM suit manufacturing",
+            "original equipment manufacturing",
+            "contract manufacturing"
+          ]
+        },
+        {
+          "title": "Wholesale Suit Production",
+          "content": "Our wholesale model delivers high-volume men's suits at competitive prices. Serving retail chains, importers, and distributors globally with consistent quality and timely delivery.",
+          "keywords": [
+            "wholesale men's suits",
+            "bulk men's suits",
+            "men's suits wholesale"
+          ]
+        },
+        {
+          "title": "Custom Suit Production",
+          "content": "We provide custom tailoring services including made-to-measure and bespoke suits. A great choice for brands or boutiques offering personalized fashion solutions.",
+          "keywords": [
+            "custom suits",
+            "made-to-measure suits",
+            "tailored suits"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quality",
+      "title": "Craftsmanship & Quality",
+      "content": "We source and use the finest fabrics including wool, linen, and cotton blends. Every suit goes through a detailed quality control process to ensure flawless tailoring and luxurious feel. Our workshop follows modern suit construction methods: full canvas, half canvas, and fused options.",
+      "keywords": [
+        "premium suits",
+        "luxury suits",
+        "superior quality suits",
+        "high-end suits"
+      ],
+      "image": "/manufacturing/quality.jpg"
+    },
+    {
+      "type": "designs",
+      "title": "Designs & Styles",
+      "content": "From classic fit to slim fit and fashion-forward models, we offer a wide variety of designs. Available in different patterns, textures, and seasonal trends \u2013 ideal for modern retail brands.",
+      "keywords": [
+        "modern suits",
+        "trendy suits",
+        "fashion-forward suits",
+        "latest suit styles"
+      ],
+      "image": "/manufacturing/designs.jpg"
+    },
+    {
+      "type": "markets",
+      "title": "Our Global Reach",
+      "content": "We export to the USA, UK, Europe, and Gulf Countries. Whether you're a boutique in London or a chain in Dubai, we provide seamless B2B suit manufacturing solutions tailored to regional trends.",
+      "keywords": [
+        "men's suit manufacturer USA",
+        "wholesale men's suits UK",
+        "private label suits Europe",
+        "OEM suit supplier Gulf countries"
+      ],
+      "image": "/manufacturing/markets.jpg"
+    },
+
+    {
+      "type": "capacity",
+      "title": "Production Capacity & Logistics",
+      "content": "With a production output of over 950 suits per day, we meet high-volume demands with ease. Our facility integrates ERP and CAD systems for efficient tracking, order accuracy, and international shipping.",
+      "keywords": [
+        "high production capacity",
+        "bulk suit production",
+        "international shipping",
+        "logistics solutions for apparel"
+      ],
+      "image": "/manufacturing/capacity.jpg"
+    },
+    {
+      "type": "cta",
+      "title": "Let\u2019s Manufacture Together",
+      "content": "Contact us today to get a detailed quote for your private label, OEM, or wholesale suit production needs. Discover the advantage of partnering with a top-tier Turkish manufacturer.",
+      "cta": "Start via WhatsApp",
+      "cta_link": "https://wa.me/90XXXXXXXXXX"
+    }
+  ]
+}

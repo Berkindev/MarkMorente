@@ -1,103 +1,162 @@
-import Image from "next/image";
+"use client";
+// import Image from "next/image";
+import Link from "next/link";
+import collectionsData from "../collections.json";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "../components/ui/carousel";
+import Navbar from "../components/Navbar";
+import { useRef, useEffect } from "react";
+import BrandLogoCarousel from "../components/BrandLogoCarousel";
+
+// Carousel Placeholder (shadcn carousel ile değiştirilecek)
+function HomeCarousel() {
+  const products = collectionsData.products;
+  const carouselRef = useRef(null);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (!carouselRef.current) return;
+      const el = (carouselRef.current as HTMLElement).querySelector(
+        "[data-carousel-content]"
+      ) as HTMLElement | null;
+      if (!el) return;
+      const items = Array.from(el.children) as HTMLElement[];
+      const total = items.length;
+      let active = items.findIndex((item) => item.classList.contains("active"));
+      if (active === -1) active = 0;
+      const next = (active + 1) % total;
+      items[active].classList.remove("active");
+      items[next].classList.add("active");
+      el.scrollTo({ left: items[next].offsetLeft, behavior: "smooth" });
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+  return (
+    <section
+      aria-label="Lookbook"
+      className="w-full flex justify-center items-center mt-0 mb-4"
+      ref={carouselRef}
+    >
+      <Carousel
+        opts={{ loop: true, align: "start", slidesToScroll: 1 }}
+        className="w-full max-w-6xl h-[400px] flex items-center justify-center relative"
+      >
+        <CarouselContent data-carousel-content>
+          {products.map((product) => (
+            <CarouselItem
+              key={product.slug}
+              className="pl-4 basis-1/2 sm:basis-1/2 md:basis-1/3 xl:basis-1/4 flex items-center justify-center h-[370px]"
+            >
+              <article className="w-full h-full flex flex-col items-center justify-center">
+                <Link
+                  href={`/collections/${product.slug}`}
+                  className="block w-full h-full group focus:outline-none"
+                  prefetch={false}
+                  aria-label={product.title}
+                >
+                  <div className="border rounded-xl p-2 flex flex-col items-center bg-white dark:bg-zinc-900 shadow hover:shadow-xl transition h-full">
+                    <img
+                      src={product.images[0]}
+                      alt={product.title}
+                      className="object-cover w-full h-72 rounded mb-2 transition-transform group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <h3 className="font-semibold text-base text-center line-clamp-2 min-h-[2.5rem]">
+                      {product.title}
+                    </h3>
+                  </div>
+                </Link>
+              </article>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+    </section>
+  );
+}
+
+function ContactCTA() {
+  return (
+    <section className="w-full flex justify-center mt-8">
+      <div className="flex gap-4 items-center bg-primary text-primary-foreground px-6 py-3 rounded-full shadow-lg">
+        <span className="font-semibold text-lg">Contact Us</span>
+        <a
+          href="https://t.me/markmorente"
+          target="_blank"
+          rel="noopener"
+          aria-label="Telegram"
+          className="hover:opacity-80"
+        >
+          <img
+            src="/telegramlogo.svg"
+            alt="Telegram Logo"
+            className="w-7 h-7"
+          />
+        </a>
+        <a
+          href="https://wa.me/905321711494"
+          target="_blank"
+          rel="noopener"
+          aria-label="WhatsApp"
+          className="hover:opacity-80"
+        >
+          <img
+            src="/whatsapplogo.svg"
+            alt="Whatsapp Logo"
+            className="w-7 h-7"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/mark.morente/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          className="hover:opacity-80"
+        >
+          <img
+            src="/instagramlogo.png"
+            alt="Instagram Logo"
+            className="w-7 h-7"
+          />
+        </a>
+      </div>
+    </section>
+  );
+}
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <Navbar />
+      <main className="flex flex-col items-center justify-center flex-1 px-4 py-4 w-full">
+        <div className="container mx-auto max-w-7xl xl:max-w-[1600px] flex flex-col items-center">
+          <div className="mt-0 mb-2">
+            <img
+              src="/mmlogo.png"
+              alt="Mark Morente - Men's Suit Manufacturer Logo"
+              className="h-20 md:h-28 xl:h-36 w-auto mx-auto"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-2">
+            Premium Men&apos;s Suit Manufacturer
+            <br />
+            Custom, OEM & Private Label Production
+          </h1>
+          <p className="text-lg md:text-xl text-center mb-4 max-w-2xl">
+            We produce premium-quality custom, private label, and wholesale
+            men&apos;s suits with high daily capacity, modern fits, and fast
+            global delivery — combining precision tailoring with exceptional
+            craftsmanship.
+          </p>
+        </div>
+        <HomeCarousel />
+        <BrandLogoCarousel />
+        <div className="w-full flex-shrink-0 mt-2">
+          <ContactCTA />
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
