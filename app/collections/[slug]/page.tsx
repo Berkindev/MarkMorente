@@ -48,85 +48,94 @@ export default function ProductPage({
   return (
     <>
       <Navbar />
-      <main className="max-w-4xl mx-auto py-10 px-4">
-        <div className="flex flex-col md:flex-row gap-10">
+      <main className="max-w-4xl mx-auto py-10 px-2 sm:px-4">
+        <div className="flex flex-col md:flex-row gap-10 items-start md:items-start">
           {/* Left: Main Image and Thumbnails */}
-          <div className="flex-1 flex flex-col items-center">
-            <div className="w-full aspect-square relative mb-4 max-w-md">
+          <div className="flex-1 flex flex-col items-center mb-6 md:mb-0 w-full">
+            <div className="w-full aspect-square relative mb-4 md:mb-8 max-w-md rounded-xl overflow-hidden shadow border">
               <Image
                 src={mainImg}
                 alt={product.title}
                 fill
                 style={{ objectFit: "cover" }}
-                className="rounded-lg border"
+                className="rounded-xl border"
                 sizes="(max-width: 768px) 100vw, 400px"
                 priority
               />
             </div>
-            <div className="flex gap-2 flex-wrap justify-center">
+            <div className="flex gap-3 flex-wrap justify-center mb-4 md:mb-6">
               {product.images.map((img, i) => (
                 <button
                   key={img}
                   onClick={() => setMainImg(img)}
-                  className={`border rounded overflow-hidden w-16 h-16 relative ${
-                    mainImg === img ? "ring-2 ring-black" : ""
+                  className={`border rounded-xl overflow-hidden w-16 h-16 md:w-16 md:h-16 w-20 h-20 relative transition-all duration-150 bg-white shadow-sm ${
+                    mainImg === img ? "ring-2 ring-primary" : ""
                   }`}
                   aria-label={`Show image ${i + 1}`}
+                  style={{ touchAction: "manipulation" }}
                 >
                   <Image
                     src={img}
                     alt={product.title + " thumbnail"}
                     fill
                     style={{ objectFit: "cover" }}
-                    sizes="64px"
+                    sizes="80px"
                   />
                 </button>
               ))}
             </div>
           </div>
           {/* Right: Product Info */}
-          <div className="flex-1 space-y-4">
-            <h1 className="text-3xl font-bold font-belleza mb-2">
+          <div className="flex-1 flex flex-col items-center w-full space-y-8">
+            <h1 className="text-2xl md:text-3xl font-bold font-belleza mb-4 text-center max-w-xl">
               {product.title}
             </h1>
-            <p className="text-base text-gray-700 mb-2 font-medium">
+            <p className="text-base text-gray-700 mb-4 font-medium text-center max-w-lg">
               {product.content}
             </p>
-            <div className="grid grid-cols-2 gap-2 text-sm bg-gray-50 rounded-lg p-4">
-              <span className="font-semibold">Model:</span>{" "}
-              <span>{product.model}</span>
-              <span className="font-semibold">Fit:</span>{" "}
-              <span>{product.fit}</span>
-              <span className="font-semibold">Fabric:</span>{" "}
-              <span>{product.fabric}</span>
-              <span className="font-semibold">Lining:</span>{" "}
-              <span>{product.lining}</span>
-              <span className="font-semibold">Color:</span>{" "}
-              <span>{product.color}</span>
-              <span className="font-semibold">Code:</span>{" "}
-              <span>{product.code}</span>
-              <span className="font-semibold">Status:</span>{" "}
-              <span
-                className={`font-bold ${
-                  product.status === "In Stock"
-                    ? "text-green-600"
-                    : "text-red-600"
-                }`}
-              >
-                {product.status === "In Stock" ? "In Stock" : "Out of Stock"}
-              </span>
+            <div className="w-full flex justify-center">
+              <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm bg-gray-50 rounded-2xl p-6 shadow max-w-md w-full">
+                <span className="font-semibold">Model:</span>{" "}
+                <span>{product.model}</span>
+                <span className="font-semibold">Fit:</span>{" "}
+                <span>{product.fit}</span>
+                <span className="font-semibold">Fabric:</span>{" "}
+                <span>{product.fabric}</span>
+                <span className="font-semibold">Lining:</span>{" "}
+                <span>{product.lining}</span>
+                <span className="font-semibold">Color:</span>{" "}
+                <span>{product.color}</span>
+                <span className="font-semibold">Code:</span>{" "}
+                <span>{product.code}</span>
+                <span className="font-semibold">Status:</span>{" "}
+                <span
+                  className={`font-bold ${
+                    product.status === "In Stock"
+                      ? "text-green-600"
+                      : "text-red-600"
+                  }`}
+                >
+                  {product.status === "In Stock" ? "In Stock" : "Out of Stock"}
+                </span>
+              </div>
             </div>
-            <div>
-              <h2 className="font-semibold mt-4 mb-1">Features</h2>
-              <ul className="list-disc ml-5">
+            <div className="w-full flex flex-col items-center mt-2">
+              <h2 className="font-semibold mt-2 mb-2 text-lg text-center">
+                Features
+              </h2>
+              <ul className="list-disc flex flex-col justify-center items-center space-y-1 max-w-md mx-auto pl-0 mb-1">
                 {product.description.features.map((feature, index) => (
-                  <li key={index}>{feature}</li>
+                  <li key={index} className="text-left list-inside w-full">
+                    {feature}
+                  </li>
                 ))}
               </ul>
             </div>
-            <div>
-              <h2 className="font-semibold mt-4 mb-1">Lot Info</h2>
-              <div className="flex flex-col gap-2">
+            <div className="w-full flex flex-col items-center mt-0">
+              <h2 className="font-semibold mt-2 mb-2 text-lg text-center">
+                Lot Info
+              </h2>
+              <div className="flex flex-col gap-2 items-center">
                 <div
                   className={`grid gap-1 mb-1 w-fit grid-cols-${product.description.lot.sizes.length}`}
                   style={{

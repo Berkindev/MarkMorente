@@ -22,27 +22,27 @@
       "categories": [
         {
           "title": "3-Piece Suits",
-          "image": "/manufacturing/3-piece-suits.jpg"
+          "image": "/mens-suit-manufacturing/3-piece-suits.jpg"
         },
         {
           "title": "2-Piece Suits",
-          "image": "/manufacturing/2-piece-suits.jpg"
+          "image": "/mens-suit-manufacturing/2-piece-suits.jpg"
         },
         {
           "title": "Tuxedos",
-          "image": "/manufacturing/tuxedos.jpg"
+          "image": "/mens-suit-manufacturing/tuxedos.jpg"
         },
         {
           "title": "Wedding Suits",
-          "image": "/manufacturing/wedding-suits.jpg"
+          "image": "/mens-suit-manufacturing/wedding-suits.jpg"
         },
         {
           "title": "Ceremony Suits",
-          "image": "/manufacturing/ceremony-suits.jpg"
+          "image": "/mens-suit-manufacturing/ceremony-suits.jpg"
         },
         {
           "title": "Big & Tall Suits",
-          "image": "/manufacturing/big-tall-suits.jpg"
+          "image": "/mens-suit-manufacturing/big-tall-suits.jpg"
         }
       ]
     },
@@ -98,7 +98,7 @@
         "superior quality suits",
         "high-end suits"
       ],
-      "image": "/manufacturing/quality.jpg"
+      "image": "/mens-suit-manufacturing/quality.jpg"
     },
     {
       "type": "designs",
@@ -110,7 +110,7 @@
         "fashion-forward suits",
         "latest suit styles"
       ],
-      "image": "/manufacturing/designs.jpg"
+      "image": "/mens-suit-manufacturing/designs.jpg"
     },
     {
       "type": "markets",
@@ -122,7 +122,7 @@
         "private label suits Europe",
         "OEM suit supplier Gulf countries"
       ],
-      "image": "/manufacturing/markets.jpg"
+      "image": "/mens-suit-manufacturing/markets.jpg"
     },
 
     {
@@ -135,7 +135,7 @@
         "international shipping",
         "logistics solutions for apparel"
       ],
-      "image": "/manufacturing/capacity.jpg"
+      "image": "/mens-suit-manufacturing/capacity.jpg"
     },
     {
       "type": "cta",

@@ -6,7 +6,7 @@
       {
         "slug": "3-piece-suits",
         "title": "3-Piece Suits Manufacturing",
-        "image": "https://example.com/images/3-piece-suit.jpg",
+        "image": "/categories/3-piece-suit.jpg",
         "content": "As a leading men's suit manufacturer in Turkey, we specialize in 3-piece suits crafted with precision and premium fabrics. Our 3-piece sets typically include a blazer, trousers, and a matching waistcoat. Designed for elegance and versatility, 3-piece suits are ideal for weddings, formal events, or business settings. We offer high-volume production, private label services, and OEM solutions for international brands, retailers, and wholesalers. Whether you need classic cuts or fashion-forward styles, our factory is equipped to deliver tailored excellence.",
         "keywords": [
           "3-piece suits manufacturer",
@@ -22,7 +22,7 @@
       {
         "slug": "2-piece-suits",
         "title": "2-Piece Suits Manufacturing",
-        "image": "https://example.com/images/2-piece-suit.jpg",
+        "image": "/categories/2-piece-suit.jpg",
         "content": "Our 2-piece suits combine timeless tailoring with modern trends, including a jacket and trousers. We support fashion brands and B2B buyers with private label, OEM, and wholesale production from our suit factory in Turkey. With scalable capacity and style flexibility, we cater to both premium fashion collections and high-volume retail programs. Choose from classic, modern, and slim fits in a wide array of fabrics and colors.",
         "keywords": [
           "2-piece suits manufacturer",
@@ -37,7 +37,7 @@
       {
         "slug": "tuxedos",
         "title": "Tuxedo Manufacturing",
-        "image": "https://example.com/images/tuxedo.jpg",
+        "image": "/categories/tuxedo.jpg",
         "content": "We produce luxury tuxedos designed for weddings, black-tie events, and formal occasions. With satin lapels, premium lining, and detailed construction, our tuxedos blend elegance with comfort. Available in various styles like shawl, peak, or notch lapels. We provide full-service private label tuxedo manufacturing for fashion brands and wholesalers worldwide.",
         "keywords": [
           "tuxedo manufacturer",
@@ -52,7 +52,7 @@
       {
         "slug": "wedding-suits",
         "title": "Wedding Suits Manufacturing",
-        "image": "https://example.com/images/wedding-suit.jpg",
+        "image": "/categories/wedding-suit.jpg",
         "content": "As a Turkish suit manufacturer, we offer elegant and customizable wedding suits for grooms, best men, and guests. Our wedding suits feature refined fabrics, flattering fits, and exceptional craftsmanship. Whether you're a boutique or a global brand, we can tailor your wedding collection under private label or OEM agreements, with low MOQs and fast production times.",
         "keywords": [
           "wedding suit manufacturer",
@@ -66,7 +66,7 @@
       {
         "slug": "ceremony-suits",
         "title": "Ceremony Suits Manufacturing",
-        "image": "https://example.com/images/ceremony-suit.jpg",
+        "image": "/categories/ceremony-suit.jpg",
         "content": "Our ceremony suits are designed for exclusive events, galas, and high-end functions. With sharp lines, fine fabrics, and premium tailoring, these suits reflect luxury and formality. We support brands seeking B2B production of unique styles through private label or OEM services. Available in various silhouettes including peak lapel, velvet finishes, and metallic details.",
         "keywords": [
           "ceremony suits manufacturer",
@@ -80,7 +80,7 @@
       {
         "slug": "big-tall-suits",
         "title": "Big & Tall Suits Manufacturing",
-        "image": "https://example.com/images/big-tall-suit.jpg",
+        "image": "/categories/big-tall-suit.jpg",
         "content": "We provide inclusive sizing with our Big & Tall suits, engineered for comfort, style, and perfect fit. With expertise in fit engineering, our factory offers custom sizing options from XL up to 6XL. Ideal for retailers and brands serving diverse body types. We offer private label and wholesale Big & Tall suit production with flexible cuts, durable fabrics, and international delivery.",
         "keywords": [
           "big and tall suits manufacturer",
