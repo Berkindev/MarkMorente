@@ -4,6 +4,9 @@ import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Footer from "@/components/Footer";
+import Head from "next/head";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +31,21 @@ export const metadata: Metadata = {
     "Premium quality men's suits manufacturer in Turkey. Private label, OEM, and custom suit production for brands, retailers, and wholesalers. Fast global shipping.",
 };
 
+function CanonicalHead() {
+  const pathname = usePathname();
+  const [canonical, setCanonical] = useState("");
+  useEffect(() => {
+    setCanonical(`https://markmorente.com${pathname}`);
+  }, [pathname]);
+  return (
+    <Head>
+      <link rel="icon" href="/logo.png" type="image/png" />
+      <link rel="canonical" href={canonical} />
+      <meta name="robots" content="index, follow" />
+    </Head>
+  );
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -39,9 +57,7 @@ export default function RootLayout({
       style={{ fontFamily: "'Belleza', sans-serif" }}
       className={`${belleza.variable}`}
     >
-      <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
-      </head>
+      <CanonicalHead />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${belleza.variable} antialiased`}
         style={{ fontFamily: "'Belleza', sans-serif" }}

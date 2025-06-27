@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://markmorente.com/sitemap.xml 
