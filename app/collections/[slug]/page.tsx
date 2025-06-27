@@ -61,6 +61,7 @@ export default function ProductPage({
                 className="rounded-xl border"
                 sizes="(max-width: 768px) 100vw, 400px"
                 priority
+                unoptimized
               />
             </div>
             <div className="flex gap-3 flex-wrap justify-center mb-4 md:mb-6">
@@ -80,6 +81,7 @@ export default function ProductPage({
                     fill
                     style={{ objectFit: "cover" }}
                     sizes="80px"
+                    unoptimized
                   />
                 </button>
               ))}

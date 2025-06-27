@@ -75,6 +75,7 @@ export default function ManufacturingPage() {
                     fill
                     className="object-cover group-hover:scale-105 transition-transform"
                     sizes="(max-width: 768px) 100vw, 400px"
+                    unoptimized
                   />
                 </div>
                 <div className="p-4 text-center">
@@ -145,6 +146,7 @@ export default function ManufacturingPage() {
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, 600px"
                         priority={idx === 0}
+                        unoptimized
                       />
                     </div>
                   )}
@@ -165,6 +167,7 @@ export default function ManufacturingPage() {
                         className="object-cover"
                         sizes="(max-width: 768px) 100vw, 600px"
                         priority={idx === 0}
+                        unoptimized
                       />
                     </div>
                   )}

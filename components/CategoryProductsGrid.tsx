@@ -52,6 +52,7 @@ export default function CategoryProductsGrid({
                 loading="lazy"
                 width={400}
                 height={500}
+                unoptimized
               />
             </div>
             <div className="p-3 md:p-4 flex-1 flex flex-col justify-between">

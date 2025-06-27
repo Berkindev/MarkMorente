@@ -50,6 +50,7 @@ export default function CategoryPage({
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 400px"
               priority
+              unoptimized
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left">
@@ -104,6 +105,7 @@ export default function CategoryPage({
                     alt="WhatsApp"
                     width={28}
                     height={28}
+                    unoptimized
                   />
                 </span>
                 {cta.cta}

@@ -99,6 +99,7 @@ export default function CollectionPage() {
                   width={320}
                   height={288}
                   loading="lazy"
+                  unoptimized
                 />
                 <h2 className="font-semibold text-lg mb-2 text-center line-clamp-2 min-h-[3rem]">
                   {product.title}
