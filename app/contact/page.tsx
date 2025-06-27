@@ -66,6 +66,7 @@ export default function ContactPage() {
                   alt={ch.platform + " logo"}
                   width={28}
                   height={28}
+                  unoptimized
                 />
               )}
               <span>{ch.platform}</span>

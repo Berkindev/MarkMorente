@@ -10,6 +10,7 @@ import {
 import Navbar from "../components/Navbar";
 import { useRef, useEffect } from "react";
 import BrandLogoCarousel from "../components/BrandLogoCarousel";
+import mmlogo from "../public/mmlogo.png";
 
 // Carousel Placeholder (shadcn carousel ile değiştirilecek)
 function HomeCarousel() {
@@ -95,6 +96,7 @@ function ContactCTA() {
             width={28}
             height={28}
             className="w-7 h-7"
+            unoptimized
           />
         </a>
         <a
@@ -110,6 +112,7 @@ function ContactCTA() {
             width={28}
             height={28}
             className="w-7 h-7"
+            unoptimized
           />
         </a>
         <a
@@ -125,6 +128,7 @@ function ContactCTA() {
             width={28}
             height={28}
             className="w-7 h-7"
+            unoptimized
           />
         </a>
       </div>
@@ -140,12 +144,13 @@ export default function Home() {
         <div className="container mx-auto max-w-7xl xl:max-w-[1600px] flex flex-col items-center">
           <div className="mt-0 mb-2">
             <Image
-              src="/mmlogo.png"
+              src={mmlogo}
               alt="Mark Morente - Men's Suit Manufacturer Logo"
               width={180}
               height={120}
               className="h-20 md:h-28 xl:h-36 w-auto mx-auto"
               priority
+              unoptimized
             />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-2">

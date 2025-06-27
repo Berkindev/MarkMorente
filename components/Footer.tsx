@@ -66,7 +66,7 @@ export default function Footer() {
                       alt={social.platform}
                       width={28}
                       height={28}
-                      className="object-contain"
+                      unoptimized
                     />
                   </a>
                 </li>
@@ -136,7 +136,7 @@ export default function Footer() {
                       alt={social.platform}
                       width={24}
                       height={24}
-                      className="object-contain"
+                      unoptimized
                     />
                   </a>
                 </li>

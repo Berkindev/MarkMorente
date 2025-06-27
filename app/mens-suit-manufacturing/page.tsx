@@ -196,6 +196,7 @@ export default function ManufacturingPage() {
                       alt="WhatsApp"
                       width={28}
                       height={28}
+                      unoptimized
                     />
                   </span>
                   {section.cta}

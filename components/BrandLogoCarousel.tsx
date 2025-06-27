@@ -52,6 +52,7 @@ export default function BrandLogoCarousel() {
                 height={96}
                 loading="lazy"
                 draggable={false}
+                unoptimized
               />
             </CarouselItem>
           ))}
