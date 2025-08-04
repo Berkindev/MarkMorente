@@ -166,7 +166,7 @@ export default function Home() {
           </p>
         </div>
         <HomeCarousel />
-        <BrandLogoCarousel />
+        {/* <BrandLogoCarousel /> */}
         <div className="w-full flex-shrink-0 mt-2">
           <ContactCTA />
         </div>
