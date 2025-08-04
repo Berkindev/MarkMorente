@@ -9,7 +9,7 @@ import {
 } from "../components/ui/carousel";
 import Navbar from "../components/Navbar";
 import { useRef, useEffect } from "react";
-import BrandLogoCarousel from "../components/BrandLogoCarousel";
+// import BrandLogoCarousel from "../components/BrandLogoCarousel";
 import mmlogo from "../public/mmlogo.png";
 
 // Carousel Placeholder (shadcn carousel ile değiştirilecek)
