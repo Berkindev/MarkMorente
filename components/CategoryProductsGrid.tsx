@@ -20,6 +20,7 @@ export default function CategoryProductsGrid({
   const loader = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const currentLoader = loader.current;
     const observer = new window.IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && visibleCount < products.length) {
@@ -28,9 +29,9 @@ export default function CategoryProductsGrid({
       },
       { threshold: 1 }
     );
-    if (loader.current) observer.observe(loader.current);
+    if (currentLoader) observer.observe(currentLoader);
     return () => {
-      if (loader.current) observer.unobserve(loader.current);
+      if (currentLoader) observer.unobserve(currentLoader);
     };
   }, [visibleCount, products.length]);
 
