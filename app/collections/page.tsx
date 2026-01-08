@@ -1,5 +1,3 @@
-"use client";
-import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import collectionsData from "@/collections.json";
 import Link from "next/link";
@@ -34,23 +32,11 @@ interface Product {
   description: ProductDescription;
 }
 
-const getUniqueModels = (products: Product[]): string[] => {
-  const models = products.map((p) => p.model);
-  return Array.from(new Set(models));
-};
-
 export default function CollectionPage() {
   const products: Product[] = collectionsData.products;
-  const models = getUniqueModels(products);
-  const [selectedModel, setSelectedModel] = useState<string>("All");
-
-  const filteredProducts =
-    selectedModel === "All"
-      ? products
-      : products.filter((p) => p.model === selectedModel);
 
   // Remove duplicate products by slug
-  const uniqueProducts = filteredProducts.filter(
+  const uniqueProducts = products.filter(
     (prod, idx, arr) => arr.findIndex((p) => p.slug === prod.slug) === idx
   );
 
@@ -58,31 +44,13 @@ export default function CollectionPage() {
     <>
       <Navbar />
       <main className="max-w-7xl mx-auto py-8 px-4">
-        <div className="flex flex-wrap gap-3 mb-8 justify-center">
-          <button
-            key="All"
-            className={`px-4 py-2 rounded-full border font-medium transition-colors ${
-              selectedModel === "All"
-                ? "bg-black text-white"
-                : "bg-white text-black hover:bg-gray-100"
-            }`}
-            onClick={() => setSelectedModel("All")}
-          >
-            All
-          </button>
-          {models.map((model: string) => (
-            <button
-              key={model}
-              className={`px-4 py-2 rounded-full border font-medium transition-colors ${
-                selectedModel === model
-                  ? "bg-black text-white"
-                  : "bg-white text-black hover:bg-gray-100"
-              }`}
-              onClick={() => setSelectedModel(model)}
-            >
-              {model}
-            </button>
-          ))}
+        <div className="text-center mb-8">
+          <h1 className="font-serif text-3xl md:text-5xl text-[#1a1f3c] mb-4">
+            Our Collections
+          </h1>
+          <p className="text-[#8b8680] max-w-2xl mx-auto">
+            Explore our premium range of men&apos;s suits, crafted with excellence.
+          </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
           {uniqueProducts.map((product: Product) => (

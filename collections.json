@@ -37,8 +37,22 @@
           "Ideal for spring-summer formal events and stylish ceremonies"
         ],
         "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
@@ -54,7 +68,10 @@
       "lining": "%100 Viscose",
       "color": "Various Options",
       "code": "524",
-      "images": ["/collections/524/524-39.jpg", "/collections/524/524-45.jpg"],
+      "images": [
+        "/collections/524/524-39.jpg",
+        "/collections/524/524-45.jpg"
+      ],
       "status": "In Stock",
       "description": {
         "compositions": {
@@ -71,8 +88,22 @@
           "Ideal for business, evening receptions and formal gatherings"
         ],
         "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
@@ -88,7 +119,10 @@
       "lining": "%100 Viscose",
       "color": "Various Options",
       "code": "666",
-      "images": ["/collections/666/666-12.jpg", "/collections/666/666-52.jpg"],
+      "images": [
+        "/collections/666/666-12.jpg",
+        "/collections/666/666-52.jpg"
+      ],
       "status": "In Stock",
       "description": {
         "compositions": {
@@ -104,14 +138,27 @@
           "Ideal for business meetings, evening events and formal occasions"
         ],
         "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Sophisticated double-breasted men's suit with peak lapel and gold button details. Suitable for both corporate and formal occasions."
     },
-
     {
       "slug": "double-breasted-peak-lapel-suit-710",
       "title": "Double-Breasted Peak Lapel Suit with Gold Buttons",
@@ -152,184 +199,27 @@
           "Statement design for exclusive occasions"
         ],
         "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Modern double-breasted men's suit with wide peak lapel and elegant gold buttons. Perfect for upscale events and stylish appearances."
     },
-    {
-      "slug": "ceremony-tuxedo-150",
-      "title": "White & Black Gradient Shawl Lapel Men's Tuxedo",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "White-Black Gradient",
-      "code": "150",
-      "images": [
-        "/collections/150/150s-01-01.jpg",
-        "/collections/150/150s-01-02.jpg",
-        "/collections/150/150s-02-01.jpg",
-        "/collections/150/150s-02-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Shawl Lapel",
-          "Double Breasted Front",
-          "Black Crystal Gradient Design",
-          "Set include: Jacket - Trousers - Bowtie",
-          "Fully Lined",
-          "Slim Fit",
-          "Perfect for weddings and formal events"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with shawl lapel, black gradient design and slim fit cut. Ideal men's wedding suit and ceremony tuxedo. Includes bowtie for formal elegance."
-    },
-    {
-      "slug": "embroidered-ceremony-tuxedo-151",
-      "title": "Embroidered Shawl Lapel Men's Ceremony Tuxedo",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "151",
-      "images": [
-        "/collections/151/151s-01-01.jpg",
-        "/collections/151/151s-01-02.jpg",
-        "/collections/151/151s-02-01.jpg",
-        "/collections/151/151s-02-02.jpg",
-        "/collections/151/151s-03-01.jpg",
-        "/collections/151/151s-03-02.jpg",
-        "/collections/151/151s-04-01.jpg",
-        "/collections/151/151s-04-02.jpg",
-        "/collections/151/151s-05-01.jpg",
-        "/collections/151/151s-05-02.jpg",
-        "/collections/151/151s-06-01.jpg",
-        "/collections/151/151s-06-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Shawl Lapel with Embroidered Leaf Motif",
-          "Slim Fit",
-          "Beaded and Crystal Embellishments",
-          "Set include: Jacket - Trousers - Vest - Bowtie",
-          "Fully Lined",
-          "Designed for weddings, ceremonies and special occasions"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56", "58", "60"],
-          "quantities": [1, 1, 1, 1, 1, 1, 1, 1],
-          "total": "8 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with shawl lapel and embroidered detailing. Slim fit, beaded embellishments and elegant ceremony design. Ideal men's wedding suit and tuxedo for formal events. Includes vest and bowtie."
-    },
-
-    {
-      "slug": "embroidered-tuxedo-153",
-      "title": "Ornamental Shawl Lapel Men's Tuxedo for Ceremony",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "153",
-      "images": [
-        "/collections/153/153s-01-01.jpg",
-        "/collections/153/153s-01-02.jpg",
-        "/collections/153/153s-02-01.jpg",
-        "/collections/153/153s-02-02.jpg",
-        "/collections/153/153s-03-01.jpg",
-        "/collections/153/153s-03-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Shawl Lapel with Ornamental Embroidery",
-          "Double Breasted Design",
-          "Detailed Metallic Thread Patterns on Jacket & Sleeves",
-          "Set include: Jacket - Trousers - Bowtie",
-          "Slim Fit",
-          "Fully Lined",
-          "Designed for weddings, ceremonies and special occasions"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with shawl lapel and metallic embroidery. Ceremony tuxedo ideal for weddings and formal occasions. Slim fit suit set includes bowtie and ornamental jacket."
-    },
-
-    {
-      "slug": "gold-embroidered-ceremony-tuxedo-154",
-      "title": "Gold Embroidered Shawl Lapel Men's Tuxedo",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "154",
-      "images": [
-        "/collections/154/154s-01-01.jpg",
-        "/collections/154/154s-01-02.jpg",
-        "/collections/154/154s-02-01.jpg",
-        "/collections/154/154s-02-02.jpg",
-        "/collections/154/154s-03-01.jpg",
-        "/collections/154/154s-03-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Shawl Lapel with Black Satin Finish",
-          "Gold Leaf Embroidery and Beading",
-          "Double Breasted Jacket",
-          "Shoulder Gold Stud Details",
-          "Set include: Jacket - Trousers - Bowtie",
-          "Slim Fit",
-          "Fully Lined",
-          "Designed for weddings and ceremonial occasions"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with shawl lapel, gold embroidery and black satin finish. Ceremony tuxedo designed for weddings and formal events. Includes bowtie and ornamental details."
-    },
-
     {
       "slug": "crystal-shawl-ceremony-tuxedo-165",
       "title": "Crystal Detailed Shawl Lapel Men's Tuxedo",
@@ -368,14 +258,27 @@
           "Designed for weddings, gala events and special ceremonies"
         ],
         "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Men's tuxedo with satin shawl lapel and crystal detailing. Ceremony tuxedo ideal for weddings, evening receptions, and formal events. Includes jacket, trousers, and bowtie."
     },
-
     {
       "slug": "gold-studded-ceremony-tuxedo-238",
       "title": "Gold Studded Shawl Lapel Men's Tuxedo",
@@ -412,68 +315,27 @@
           "Ideal for weddings, receptions, and special events"
         ],
         "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Men's tuxedo with gold studs and satin shawl lapel. Ceremony suit for weddings and formal occasions. Includes bowtie and matching trousers."
     },
-
-    {
-      "slug": "jacquard-ceremony-tuxedo-291",
-      "title": "Jacquard Fabric Shawl Lapel Men's Tuxedo",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "291",
-      "images": [
-        "/collections/291/291-01-01.jpg",
-        "/collections/291/291-01-02.jpg",
-        "/collections/291/291-02-01.jpg",
-        "/collections/291/291-02-02.jpg",
-        "/collections/291/291-03-01.jpg",
-        "/collections/291/291-03-02.jpg",
-        "/collections/291/291-04-01.jpg",
-        "/collections/291/291-04-02.jpg",
-        "/collections/291/291-05-01.jpg",
-        "/collections/291/291-05-02.jpg",
-        "/collections/291/291-06-01.jpg",
-        "/collections/291/291-06-02.jpg",
-        "/collections/291/291-07-01.jpg",
-        "/collections/291/291-07-02.jpg",
-        "/collections/291/291-08-01.jpg",
-        "/collections/291/291-08-02.jpg",
-        "/collections/291/291-09-01.jpg",
-        "/collections/291/291-09-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Black Satin Shawl Lapel with Crystal Details",
-          "Slim Fit Design",
-          "Jacquard Patterned Fabric",
-          "Black Beading on Sleeves and Jacket Body",
-          "Set include: Jacket - Trousers - Vest - Bowtie",
-          "Fully Lined",
-          "Perfect for weddings, ceremonies and receptions"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with jacquard fabric, satin shawl lapel and crystal beading. Ceremony suit for weddings and formal occasions. Includes 3-piece set with vest and bowtie."
-    },
-
     {
       "slug": "patterned-peak-tuxedo-312",
       "title": "Patterned Peak Lapel Men's Tuxedo with Belt Detail",
@@ -513,14 +375,27 @@
           "Perfect for weddings, receptions, and special occasions"
         ],
         "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Men's tuxedo with patterned fabric and wide peak lapel. Elegant and bold choice for weddings and formal events. Includes bowtie and decorative belt detail."
     },
-
     {
       "slug": "asymmetric-modern-suit-341",
       "title": "Asymmetric Front Men's Modern Two Piece Suit with Hook Detail",
@@ -553,14 +428,29 @@
           "Ideal for modern weddings, special appearances, or fashion events"
         ],
         "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "7 SET SUIT IN A LOT"
         }
       },
       "content": "Men's modern suit with asymmetrical design and metal hook closure. Contemporary peak lapel and slim fit cut. Perfect choice for weddings, parties, and fashion-forward events."
     },
-
     {
       "slug": "crystal-detailed-ceremony-tuxedo-366",
       "title": "Crystal Detailed Shawl Lapel Men's Tuxedo",
@@ -593,12 +483,25 @@
           "Slim Fit",
           "Set include: Jacket - Trousers - Bowtie",
           "Fully Lined",
-
           "Ideal for weddings, receptions, and gala events"
         ],
         "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
@@ -632,12 +535,25 @@
           "Slim Fit",
           "Set include: Jacket - Trousers - Bowtie",
           "Fully Lined",
-
           "Designed for weddings, special events and receptions"
         ],
         "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
@@ -694,18 +610,30 @@
           "Modern Slim Fit",
           "Set include: Jacket - Trousers - Optional Tie",
           "Fully Lined",
-
           "Ideal for weddings, special events, and receptions"
         ],
         "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Men's tuxedo with satin shawl lapel and gold line embroidery. Modern ceremony suit for weddings, receptions and formal occasions. Includes trousers and optional necktie."
     },
-
     {
       "slug": "floral-pattern-shawl-ceremony-tuxedo-404",
       "title": "Floral Pattern Shawl Lapel Men's Tuxedo",
@@ -742,613 +670,29 @@
           "Slim Fit Cut",
           "Set include: Jacket - Trousers - Bowtie",
           "Fully Lined",
-
           "Perfect for weddings, receptions, and gala nights"
         ],
         "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
           "total": "6 SET SUIT IN A LOT"
         }
       },
       "content": "Men's tuxedo with satin shawl lapel and silver floral embroidery. Designed for weddings, special events and stage-ready elegance. Includes bowtie and trousers."
-    },
-
-    {
-      "slug": "gold-beaded-ceremony-tuxedo-421",
-      "title": "Gold Beaded Shawl Lapel Men's Tuxedo with Vest",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "421",
-      "images": [
-        "/collections/421/421-01-01.jpg",
-        "/collections/421/421-01-02.jpg",
-        "/collections/421/421-02-01.jpg",
-        "/collections/421/421-02-02.jpg",
-        "/collections/421/421-03-01.jpg",
-        "/collections/421/421-03-02.jpg",
-        "/collections/421/421-04-01.jpg",
-        "/collections/421/421-04-02.jpg",
-        "/collections/421/421-05-01.jpg",
-        "/collections/421/421-05-02.jpg",
-        "/collections/421/421-06-01.jpg",
-        "/collections/421/421-06-02.jpg",
-        "/collections/421/421-07-01.jpg",
-        "/collections/421/421-07-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Shawl Lapel with Gold Beaded Embroidery",
-          "Matching Double-Breasted Vest",
-          "Gold Dot Pattern on Sleeves and Hem",
-          "Slim Fit",
-          "Set include: Jacket - Trousers - Vest - Bowtie",
-          "Fully Lined",
-
-          "Ideal for weddings, gala events, and high-end ceremonies"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with gold beaded embroidery and matching vest. Ceremony suit designed for weddings, receptions and formal gala events. Includes bowtie and trousers."
-    },
-
-    {
-      "slug": "gold-detailed-ceremony-tuxedo-427",
-      "title": "Black andWhite Ceremony Tuxedo with Crystal and Gold Details",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Peak Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "427",
-      "images": [
-        "/collections/427/427-02-01.jpg",
-        "/collections/427/427-02-02.jpg",
-        "/collections/427/427-13-01.jpg",
-        "/collections/427/427-13-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Peak Lapel with Crystal Detailing",
-          "Double Horizontal Gold Accent Buttons",
-          "Crystal Beading on Sleeves and Pockets",
-          "Slim Fit Design",
-          "Set include: Jacket - Trousers - Bowtie",
-          "Fully Lined",
-
-          "Designed for weddings, ceremonies and exclusive events"
-        ],
-        "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with gold accents and crystal details. Modern ceremony suit perfect for weddings, receptions and high-end occasions. Includes trousers and bowtie."
-    },
-    {
-      "slug": "three-piece-business-suit-440",
-      "title": "Three Piece Slim Fit Business Men's Suit with Vest",
-      "model": "Three Piece Suit",
-      "fit": "Slim Fit",
-      "lapel": "Notch Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "440",
-      "images": [
-        "/collections/440/440-01.jpg",
-        "/collections/440/440-8.jpg",
-        "/collections/440/440-16.jpg",
-        "/collections/440/440-25jpg",
-        "/collections/440/440-26.jpg",
-        "/collections/440/440-29.jpg",
-        "/collections/440/440-152.jpg",
-        "/collections/440/440-156.jpg",
-        "/collections/440/440-417.jpg",
-        "/collections/440/440-442.jpg",
-        "/collections/440/440-443.jpg",
-        "/collections/440/440-469.jpg",
-        "/collections/440/440-713.jpg",
-        "/collections/440/440-925.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Notch Lapel",
-          "Slim Fit Single Breasted Design",
-          "3-Piece Set: Jacket - Vest - Trousers",
-          "Minimal and Modern Look",
-          "Optional Tie Included",
-          "Fully Lined",
-
-          "Ideal for office wear, meetings and formal events"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1, 1],
-          "total": "7 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's 3-piece business suit with notch lapel and slim fit design. Includes vest and trousers. Ideal for formal meetings, workwear or classic elegance."
-    },
-    {
-      "slug": "contrast-vest-ceremony-tuxedo-442",
-      "title": "Beige Ceremony Tuxedo with Black Shawl Lapel and Vest",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "442",
-      "images": [
-        "/collections/442/442-23.jpg",
-        "/collections/442/442-24.jpg",
-        "/collections/442/442-27.jpg",
-        "/collections/442/442-320.jpg",
-        "/collections/442/442-346.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Black Satin Shawl Lapel",
-          "One Button Closure",
-          "Contrast Beige Vest with Matching Buttons",
-          "Slim Fit Cut",
-          "Set include: Jacket - Trousers - Vest - Bowtie",
-          "Fully Lined",
-
-          "Perfect for weddings, receptions and formal occasions"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with contrast beige vest and black shawl lapel. Elegant wedding suit for ceremonies and formal occasions. Includes trousers, vest and bowtie."
-    },
-    {
-      "slug": "black-shawl-ceremony-tuxedo-475",
-      "title": "Black Shawl Lapel Ceremony Tuxedo with Vest",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "475",
-      "images": [
-        "/collections/475/475-23.jpg",
-        "/collections/475/475-24.jpg",
-        "/collections/475/475-25.jpg",
-        "/collections/475/475-104.jpg",
-        "/collections/475/475-150.jpg",
-        "/collections/475/475-320.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Black Satin Shawl Lapel",
-          "Navy Blue Jacket and Vest Combo",
-          "One Button Closure",
-          "Slim Fit Silhouette",
-          "Set include: Jacket - Trousers - Vest - Bowtie",
-          "Fully Lined",
-
-          "Ideal for weddings, receptions and formal occasions"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with satin shawl lapel and matching vest. Ceremony suit ideal for weddings, formal events and black tie occasions. Includes trousers, vest and bowtie."
-    },
-
-    {
-      "slug": "modern-cut-three-piece-suit-537",
-      "title": "Modern Cut Three Piece Slim Fit Men's Suit",
-      "model": "Three Piece Suit",
-      "fit": "Slim Fit",
-      "lapel": "Notch Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "537",
-      "images": [
-        "/collections/537/537-01.jpg",
-        "/collections/537/537-01A.jpg",
-        "/collections/537/537-02.jpg",
-        "/collections/537/537-05.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Notch Lapel",
-          "Light Grey Color with Tonal Buttons",
-          "3-Piece Set: Jacket - Vest - Trousers",
-          "Slim Fit Cut",
-          "Fully Lined",
-          "Ideal for office wear, daytime weddings, and special events"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's slim fit 3-piece suit in light grey with notch lapel. Ideal choice for weddings, formal meetings and spring-summer events. Includes jacket, trousers and vest."
-    },
-
-    {
-      "slug": "three-piece-ceremony-suit-569",
-      "title": "Three Piece Slim Fit Men's Suit with Vest",
-      "model": "Three Piece Suit",
-      "fit": "Slim Fit",
-      "lapel": "Notch Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "569",
-      "images": [
-        "/collections/569/569-03.jpg",
-        "/collections/569/569-03B.jpg",
-        "/collections/569/569-05.jpg",
-        "/collections/569/569-10.jpg",
-        "/collections/569/569-15.jpg",
-        "/collections/569/569-25.jpg",
-        "/collections/569/569-26.jpg",
-        "/collections/569/569-35.jpg",
-        "/collections/569/569-40.jpg",
-        "/collections/569/569-70.jpg",
-        "/collections/569/569-84.jpg",
-        "/collections/569/569-419.jpg",
-        "/collections/569/569-S.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Notch Lapel",
-          "Single Breasted Jacket",
-          "Three-Piece Set: Jacket - Vest - Trousers",
-          "Slim Fit Design",
-          "Ideal for spring/summer weddings and stylish events",
-          "Fully Lined"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's slim fit three-piece suit with notch lapel and seasonal elegance. Perfect for spring weddings, receptions and stylish occasions. Includes vest and trousers."
-    },
-
-    {
-      "slug": "asymmetric-crystal-tuxedo-588",
-      "title": "Asymmetric Zip Closure Ceremony Tuxedo with Crystal Details",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Peak Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "588",
-      "images": [
-        "/collections/588/588-02-01.jpg",
-        "/collections/588/588-02-02.jpg",
-        "/collections/588/588-05-01.jpg",
-        "/collections/588/588-05-02.jpg",
-        "/collections/588/588-07-01.jpg",
-        "/collections/588/588-07-02.jpg",
-        "/collections/588/588-09-01.jpg",
-        "/collections/588/588-09-02.jpg",
-        "/collections/588/588-11-01.jpg",
-        "/collections/588/588-11-02.jpg",
-        "/collections/588/588-17-01.jpg",
-        "/collections/588/588-17-02.jpg",
-        "/collections/588/588-18-01.jpg",
-        "/collections/588/588-18-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Peak Lapel",
-          "Asymmetric Zip Closure",
-          "Crystal Studded Lapel, Sleeves and Jacket Body",
-          "Slim Fit Design",
-          "Set include: Jacket - Trousers - Bowtie",
-          "Fully Lined",
-          "Perfect for stage, red carpet and luxury weddings"
-        ],
-        "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's tuxedo with asymmetrical zip closure and crystal detailing. Luxury ceremony suit designed for weddings, red carpet and special stage moments. Includes bowtie and trousers."
-    },
-
-    {
-      "slug": "three-piece-slim-fit-suit-603",
-      "title": "Three Piece Slim Fit Men's Suit with Double-Breasted Vest",
-      "model": "Three Piece Suit",
-      "fit": "Slim Fit",
-      "lapel": "Notch Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "603",
-      "images": [
-        "/collections/603/603-02.jpg",
-        "/collections/603/603-03.jpg",
-        "/collections/603/603-04.jpg",
-        "/collections/603/603-06.jpg",
-        "/collections/603/603-07.jpg",
-        "/collections/603/603-08.jpg",
-        "/collections/603/603-10.jpg",
-        "/collections/603/603-11.jpg",
-        "/collections/603/603-13.jpg",
-        "/collections/603/603-14.jpg",
-        "/collections/603/603-18.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Notch Lapel",
-          "Double-Breasted Vest",
-          "Slim Fit Tailoring",
-          "Single Breasted Two-Button Jacket",
-          "Three Piece Set: Jacket - Vest - Trousers",
-          "Fully Lined",
-          "Ideal for business, ceremonies and stylish appearances"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's slim fit three-piece suit with notch lapel and double-breasted vest. Ideal for business meetings, stylish occasions and special events. Includes trousers and vest."
-    },
-
-    {
-      "slug": "asymmetric-modern-suit-633",
-      "title": "Four-Button Special Cut Slim Fit Modern Men'sSuit",
-      "model": "Modern Suit",
-      "fit": "Slim Fit",
-      "lapel": "Peak Lapel",
-      "fabric": "Cotton Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "633",
-      "images": [
-        "/collections/633/633-14-01.jpg",
-        "/collections/633/633-14-02.jpg",
-        "/collections/633/633-17-01.jpg",
-        "/collections/633/633-17-02.jpg",
-        "/collections/633/633-18-01.jpg",
-        "/collections/633/633-18-02.jpg",
-        "/collections/633/633-21-01.jpg",
-        "/collections/633/633-21-02.jpg",
-        "/collections/633/633-24-01.jpg",
-        "/collections/633/633-24-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Cotton Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Wide Peak Lapel",
-          "Five Decorative Front Buttons",
-          "Slim Fit Pattern",
-          "Minimal Pocket Design",
-          "Set include: Jacket - Trousers",
-          "Fully Lined",
-          "Perfect for modern weddings, special occasions, and fashion-forward events"
-        ],
-        "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's slim fit modern suit with special cut and five-button closure. Designed for weddings, exclusive events and stylish occasions. Includes trousers."
-    },
-
-    {
-      "slug": "glitter-shawl-lapel-ceremony-tuxedo-636",
-      "title": "Shawl Lapel Glitter Ceremony Tuxedo with Matching Vest",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Metallic Patterned Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "636",
-      "images": [
-        "/collections/636/636-01.jpg",
-        "/collections/636/636-02.jpg",
-        "/collections/636/636-04.jpg",
-        "/collections/636/636-05.jpg",
-        "/collections/636/636-06.jpg",
-        "/collections/636/636-07.jpg",
-        "/collections/636/636-10.jpg",
-        "/collections/636/636-11.jpg",
-        "/collections/636/636-13.jpg",
-        "/collections/636/636-14.jpg",
-        "/collections/636/636-16.jpg",
-        "/collections/636/636-17.jpg",
-        "/collections/636/636-19.jpg",
-        "/collections/636/636-20.jpg",
-        "/collections/636/636-21.jpg",
-        "/collections/636/636-22.jpg",
-        "/collections/636/636-23.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Metallic Patterned Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Shawl Satin Lapel",
-          "Metallic Glitter Finish",
-          "Matching Patterned Vest",
-          "Slim Fit Cut",
-          "Set include: Jacket - Vest - Trousers - Bowtie",
-          "Fully Lined",
-          "Perfect for luxury weddings, gala nights and exclusive events"
-        ],
-        "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's ceremony tuxedo with glittery metallic fabric and shawl satin lapel. Matching vest included. Perfect for weddings, gala nights and luxury occasions."
-    },
-
-    {
-      "slug": "gold-striped-ceremony-tuxedo-660",
-      "title": "Gold Striped Avant-Garde Ceremony Tuxedo with Crystal Lapel",
-      "model": "Tuxedo",
-      "fit": "Slim Fit",
-      "lapel": "Peak Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "660",
-      "images": [
-        "/collections/660/660-08-01.jpg",
-        "/collections/660/660-08-02.jpg",
-        "/collections/660/660-17-01.jpg",
-        "/collections/660/660-17-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Peak Lapel with Gold Crystal Detailing",
-          "Double Gold Ring Closure",
-          "Asymmetrical Gold Striped Embroidery",
-          "Embellished Cuffs",
-          "Slim Fit Cut",
-          "Set include: Jacket - Trousers - Bowtie",
-          "Fully Lined",
-          "Ideal for red carpet, gala shows, and high-fashion weddings"
-        ],
-        "lot": {
-          "sizes": ["48", "50", "52", "54", "56", "58"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's avant-garde tuxedo with gold stripe detailing and embellished lapel. Statement suit for red carpet, stage performance or luxury wedding. Includes trousers and bowtie."
-    },
-
-    {
-      "slug": "three-piece-business-suit-728",
-      "title": "Three Piece Slim Fit Business Men's Suit with Vest",
-      "model": "Three Piece Suit",
-      "fit": "Slim Fit",
-      "lapel": "Notch Lapel",
-      "fabric": "Mix Wool",
-      "lining": "%100 Viscose",
-      "color": "Various Options",
-      "code": "728",
-      "images": [
-        "/collections/728/728-03-01.jpg",
-        "/collections/728/728-03-02.jpg",
-        "/collections/728/728-05-01.jpg",
-        "/collections/728/728-05-02.jpg",
-        "/collections/728/728-08-01.jpg",
-        "/collections/728/728-08-02.jpg",
-        "/collections/728/728-10-01.jpg",
-        "/collections/728/728-10-02.jpg",
-        "/collections/728/728-13-01.jpg",
-        "/collections/728/728-14-01.jpg",
-        "/collections/728/728-14-02.jpg",
-        "/collections/728/728-18-01.jpg",
-        "/collections/728/728-18-02.jpg"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Mix Wool",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Notch Lapel",
-          "Three-Piece Set: Jacket - Vest - Trousers",
-          "Two-Button Slim Fit Jacket",
-          "Classic Pocket Layout",
-          "Fully Lined",
-          "Ideal for business, meetings, and office wear"
-        ],
-        "lot": {
-          "sizes": ["46", "48", "50", "52", "54", "56"],
-          "quantities": [1, 1, 1, 1, 1, 1],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Men's slim fit business suit with three-piece structure and notch lapel. Designed for meetings, office use and corporate occasions. Includes trousers and vest."
     }
   ]
 }
