@@ -486,7 +486,7 @@ function AboutSection() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="/collections/151/151s-01-01.jpg"
+                src="/collections/500/500-26B.jpg"
                 alt="Mark Morente Manufacturing"
                 fill
                 className="object-cover"
