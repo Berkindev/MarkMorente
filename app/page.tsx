@@ -156,7 +156,7 @@ function HeroSection() {
   ];
 
   return (
-    <section className="relative min-h-[70vh] md:min-h-[75vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[50vh] md:min-h-[55vh] flex items-center justify-center overflow-hidden">
       {/* Multiple Background Images */}
       <div className="absolute inset-0 z-0 flex">
         {heroImages.map((img, idx) => (
@@ -175,33 +175,24 @@ function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24 text-center py-16 md:py-20">
-        <div className="mb-4">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24 text-center py-12 md:py-16">
+        <div className="mb-3">
           <span className="inline-block text-[#c9a962] text-sm md:text-base font-medium tracking-[0.3em] uppercase hero-subtitle">
             Premium B2B Manufacturing
           </span>
         </div>
 
-        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white font-medium leading-tight mb-5 hero-title">
+        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-medium leading-tight mb-4 hero-title">
           Crafting Excellence
         </h1>
 
-        <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto mb-8 font-light leading-relaxed hero-subtitle">
+        <p className="text-sm md:text-base text-white/80 max-w-xl mx-auto mb-6 font-light leading-relaxed hero-subtitle">
           Premium men&apos;s suit manufacturer specializing in Private Label, OEM &
           Wholesale production. 950+ suits daily capacity with global delivery.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center hero-cta mb-10">
-          <a href="#collections" className="btn-primary">
-            Explore Collections
-          </a>
-          <a href="#contact" className="btn-outline">
-            Request Catalog
-          </a>
-        </div>
-
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 pt-8 border-t border-white/20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 pt-6 border-t border-white/20">
           {[
             { value: "20+", label: "Years Experience" },
             { value: "950+", label: "Suits Per Day" },
@@ -209,7 +200,7 @@ function HeroSection() {
             { value: "100%", label: "Premium Quality" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="font-serif text-2xl md:text-3xl text-[#c9a962] font-medium mb-1">
+              <div className="font-serif text-xl md:text-2xl text-[#c9a962] font-medium mb-1">
                 {stat.value}
               </div>
               <div className="text-white/70 text-xs tracking-wider uppercase">
