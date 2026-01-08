@@ -3,7 +3,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
-import mmlogo from "../public/mmlogo.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -22,13 +21,12 @@ export default function Navbar() {
         <div className="flex items-center md:hidden">
           <Link href="/">
             <Image
-              src={mmlogo}
+              src="/logo.png"
               alt="Mark Morente Logo"
-              width={64}
-              height={64}
-              className="h-16 w-auto"
+              width={140}
+              height={50}
+              className="h-12 w-auto"
               priority
-              unoptimized
             />
           </Link>
         </div>

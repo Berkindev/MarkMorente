@@ -38,24 +38,17 @@ function Navigation() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center">
             <Image
-              src="/mmlogo.png"
+              src="/logo.png"
               alt="Mark Morente Logo"
-              width={50}
-              height={50}
-              className={`transition-all duration-500 ${
-                isScrolled ? "h-10 w-auto" : "h-12 w-auto"
+              width={240}
+              height={100}
+              className={`transition-all duration-500 drop-shadow-lg ${
+                isScrolled ? "h-16 w-auto" : "h-20 w-auto"
               }`}
               priority
             />
-            <span
-              className={`font-serif text-xl md:text-2xl font-medium tracking-wide transition-colors duration-500 ${
-                isScrolled ? "text-[#1a1f3c]" : "text-white"
-              }`}
-            >
-              Mark Morente
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -676,15 +669,14 @@ function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="mb-4">
               <Image
-                src="/mmlogo.png"
+                src="/logo.png"
                 alt="Mark Morente"
-                width={50}
-                height={50}
-                className="h-12 w-auto"
+                width={180}
+                height={60}
+                className="h-14 w-auto brightness-0 invert"
               />
-              <span className="font-serif text-2xl text-white">Mark Morente</span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed max-w-md">
               Premium men&apos;s suit manufacturer specializing in Private Label, OEM
