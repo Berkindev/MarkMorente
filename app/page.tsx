@@ -148,38 +148,50 @@ function Navigation() {
 // HERO SECTION
 // ============================================
 function HeroSection() {
+  const heroImages = [
+    "/collections/500/500-3B.jpg",
+    "/collections/710/710-01.jpg",
+    "/collections/524/524-39.jpg",
+    "/collections/666/666-12.jpg",
+  ];
+
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/collections/500/500-3B.jpg"
-          alt="Premium Men's Suits"
-          fill
-          className="object-cover object-center"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f3c]/80 via-[#1a1f3c]/60 to-[#0a0a0a]/90" />
+    <section className="relative min-h-[70vh] md:min-h-[75vh] flex items-center justify-center overflow-hidden">
+      {/* Multiple Background Images */}
+      <div className="absolute inset-0 z-0 flex">
+        {heroImages.map((img, idx) => (
+          <div key={idx} className="relative flex-1 h-full">
+            <Image
+              src={img}
+              alt={`Premium Suit ${idx + 1}`}
+              fill
+              className="object-cover object-top"
+              priority={idx === 0}
+            />
+          </div>
+        ))}
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f3c]/85 via-[#1a1f3c]/70 to-[#1a1f3c]/90" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24 text-center">
-        <div className="mb-6">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24 text-center py-16 md:py-20">
+        <div className="mb-4">
           <span className="inline-block text-[#c9a962] text-sm md:text-base font-medium tracking-[0.3em] uppercase hero-subtitle">
             Premium B2B Manufacturing
           </span>
         </div>
 
-        <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-white font-medium leading-tight mb-6 hero-title">
+        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white font-medium leading-tight mb-5 hero-title">
           Crafting Excellence
         </h1>
 
-        <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10 font-light leading-relaxed hero-subtitle">
+        <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto mb-8 font-light leading-relaxed hero-subtitle">
           Premium men&apos;s suit manufacturer specializing in Private Label, OEM &
           Wholesale production. 950+ suits daily capacity with global delivery.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center hero-cta">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center hero-cta mb-10">
           <a href="#collections" className="btn-primary">
             Explore Collections
           </a>
@@ -189,7 +201,7 @@ function HeroSection() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 mt-16 md:mt-24 pt-12 border-t border-white/20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 pt-8 border-t border-white/20">
           {[
             { value: "20+", label: "Years Experience" },
             { value: "950+", label: "Suits Per Day" },
@@ -197,24 +209,15 @@ function HeroSection() {
             { value: "100%", label: "Premium Quality" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="font-serif text-3xl md:text-4xl text-[#c9a962] font-medium mb-2">
+              <div className="font-serif text-2xl md:text-3xl text-[#c9a962] font-medium mb-1">
                 {stat.value}
               </div>
-              <div className="text-white/70 text-xs md:text-sm tracking-wider uppercase">
+              <div className="text-white/70 text-xs tracking-wider uppercase">
                 {stat.label}
               </div>
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <a href="#collections" className="text-white/60 hover:text-[#c9a962] transition-colors">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
-        </a>
       </div>
     </section>
   );
