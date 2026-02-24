@@ -70,7 +70,7 @@ function Navigation() {
               rel="noopener"
               className="btn-primary ml-4"
             >
-              Get Quote
+              Inquire via WhatsApp
             </a>
           </div>
 
@@ -127,7 +127,7 @@ function Navigation() {
                 rel="noopener"
                 className="btn-primary text-center mt-2"
               >
-                Get Quote
+                Inquire via WhatsApp
               </a>
             </div>
           </div>
