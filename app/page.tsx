@@ -70,7 +70,7 @@ function Navigation() {
               rel="noopener"
               className="btn-primary ml-4"
             >
-              Inquire via WhatsApp
+              Message on WhatsApp
             </a>
           </div>
 
@@ -127,7 +127,7 @@ function Navigation() {
                 rel="noopener"
                 className="btn-primary text-center mt-2"
               >
-                Inquire via WhatsApp
+                Message on WhatsApp
               </a>
             </div>
           </div>
@@ -176,7 +176,7 @@ function HeroSection() {
             rel="noopener"
             className="inline-flex items-center gap-2 px-6 py-3 md:px-7 md:py-4 text-xs md:text-sm font-medium tracking-wider uppercase transition-all duration-300 bg-[#c9a962] text-[#1a1f3c] hover:bg-[#d4ba7a] hover:shadow-lg hover:shadow-[#c9a962]/20"
           >
-            Inquire via WhatsApp
+            Message on WhatsApp
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </a>
           <Link
