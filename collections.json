@@ -1,0 +1,885 @@
+{
+  "products": [
+    {
+      "slug": "modern-fit-double-breasted-suit-500",
+      "title": "Modern Fit Double-Breasted Suit",
+      "model": "Double-Breasted Suit",
+      "fit": "Modern Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "500",
+      "images": [
+        "/collections/500/500-3B.jpg",
+        "/collections/500/500-07.jpg",
+        "/collections/500/500-12A.jpg",
+        "/collections/500/500-15B.jpg",
+        "/collections/500/500-21B.jpg",
+        "/collections/500/500-26.jpg",
+        "/collections/500/500-26B.jpg",
+        "/collections/500/500-76.jpg",
+        "/collections/500/500-100.jpg",
+        "/collections/500/500-426.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Double-Breasted Front Closure",
+          "Gold Metal Buttons",
+          "Peak Lapel",
+          "Flap Pockets with Chest Pocket",
+          "Slim Fit Cut",
+          "Ideal for spring-summer formal events and stylish ceremonies"
+        ],
+        "lot": {
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Elegant double-breasted men's suit with peak lapel and gold button details. Perfect for formal occasions and fashion-forward men."
+    },
+    {
+      "slug": "metal-buttons-double-breasted-suit-524",
+      "title": "Metal Buttons Double-Breasted Suit",
+      "model": "Double-Breasted Suit",
+      "fit": "Slim Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "524",
+      "images": [
+        "/collections/524/524-39.jpg",
+        "/collections/524/524-45.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Double-Breasted Front Closure",
+          "Gold Metal Buttons",
+          "Peak Lapel",
+          "Flap Pockets and Chest Pocket with Pocket Square",
+          "Navy Blue Color",
+          "Slim Fit Cut",
+          "Ideal for business, evening receptions and formal gatherings"
+        ],
+        "lot": {
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Elegant double-breasted men's suit with peak lapel and gold button accents. A timeless option for business and formal occasions."
+    },
+    {
+      "slug": "peak-lapel-double-breasted-suit-666",
+      "title": "Peak Lapel Double-Breasted Suit",
+      "model": "Double-Breasted Suit",
+      "fit": "Slim Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "666",
+      "images": [
+        "/collections/666/666-12.jpg",
+        "/collections/666/666-52.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Double-Breasted Front Closure",
+          "Gold Metal Buttons",
+          "Peak Lapel",
+          "Flap Pockets and Chest Pocket with Patterned Pocket Square",
+          "Slim Fit Cut",
+          "Ideal for business meetings, evening events and formal occasions"
+        ],
+        "lot": {
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Sophisticated double-breasted men's suit with peak lapel and gold button details. Suitable for both corporate and formal occasions."
+    },
+    {
+      "slug": "double-breasted-peak-lapel-suit-710",
+      "title": "Double-Breasted Peak Lapel Suit with Gold Buttons",
+      "model": "Double-Breasted Suit",
+      "fit": "Slim Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "710",
+      "images": [
+        "/collections/710/710-01.jpg",
+        "/collections/710/710-07.jpg",
+        "/collections/710/710-08.jpg",
+        "/collections/710/710-12.jpg",
+        "/collections/710/710-13.jpg",
+        "/collections/710/710-14.jpg",
+        "/collections/710/710-16.jpg",
+        "/collections/710/710-18.jpg",
+        "/collections/710/710-21.jpg",
+        "/collections/710/710-45.jpg",
+        "/collections/710/710-52.jpg",
+        "/collections/710/710-57.jpg",
+        "/collections/710/710-66.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Double-Breasted Front Closure",
+          "Gold Metal Buttons",
+          "Wide Peak Lapel",
+          "Flap Pockets and Chest Pocket",
+          "Slim Fit Silhouette",
+          "Statement design for exclusive occasions"
+        ],
+        "lot": {
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Modern double-breasted men's suit with wide peak lapel and elegant gold buttons. Perfect for upscale events and stylish appearances."
+    },
+    {
+      "slug": "crystal-shawl-ceremony-tuxedo-165",
+      "title": "Crystal Detailed Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Shawl Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "165",
+      "images": [
+        "/collections/165/165-02-01.jpg",
+        "/collections/165/165-02-02.jpg",
+        "/collections/165/165-03-01.jpg",
+        "/collections/165/165-03-02.jpg",
+        "/collections/165/165-04-01.jpg",
+        "/collections/165/165-04-02.jpg",
+        "/collections/165/165-05-01.jpg",
+        "/collections/165/165-05-02.jpg",
+        "/collections/165/165-08-01.jpg",
+        "/collections/165/165-08-02.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Satin Shawl Lapel with Crystal Detailing",
+          "Slim Fit Design",
+          "Crystal Beaded Lower Jacket and Sleeves",
+          "Double Breasted Closure",
+          "Set include: Jacket - Trousers - Bowtie",
+          "Fully Lined",
+          "Designed for weddings, gala events and special ceremonies"
+        ],
+        "lot": {
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with satin shawl lapel and crystal detailing. Ceremony tuxedo ideal for weddings, evening receptions, and formal events. Includes jacket, trousers, and bowtie."
+    },
+    {
+      "slug": "gold-studded-ceremony-tuxedo-238",
+      "title": "Gold Studded Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Shawl Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "238",
+      "images": [
+        "/collections/238/238-01-01.jpg",
+        "/collections/238/238-01-02.jpg",
+        "/collections/238/238-02-01.jpg",
+        "/collections/238/238-02-02.jpg",
+        "/collections/238/238-04-01.jpg",
+        "/collections/238/238-04-02.jpg",
+        "/collections/238/238-14-01.jpg",
+        "/collections/238/238-14-02.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Black Satin Shawl Lapel with Gold Studs",
+          "Double Breasted Jacket",
+          "Gold Beading on Sleeves and Lower Body",
+          "Slim Fit",
+          "Set include: Jacket - Trousers - Bowtie",
+          "Fully Lined",
+          "Ideal for weddings, receptions, and special events"
+        ],
+        "lot": {
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with gold studs and satin shawl lapel. Ceremony suit for weddings and formal occasions. Includes bowtie and matching trousers."
+    },
+    {
+      "slug": "patterned-peak-tuxedo-312",
+      "title": "Patterned Peak Lapel Men's Tuxedo with Belt Detail",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Patterned Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "312",
+      "images": [
+        "/collections/312/312-01.jpg",
+        "/collections/312/312-06.jpg",
+        "/collections/312/312-08.jpg",
+        "/collections/312/312-09.jpg",
+        "/collections/312/312-10.jpg",
+        "/collections/312/312-11.jpg",
+        "/collections/312/312-12.jpg",
+        "/collections/312/312-13.jpg",
+        "/collections/312/312-14.jpg",
+        "/collections/312/312-15.jpg",
+        "/collections/312/312-18.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Patterned Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Wide Peak Lapel with Velvet Texture",
+          "Slim Fit Silhouette",
+          "Abstract Patterned Fabric",
+          "Decorative Waist Belt Detail",
+          "Set include: Jacket - Trousers - Bowtie",
+          "Fully Lined",
+          "Perfect for weddings, receptions, and special occasions"
+        ],
+        "lot": {
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with patterned fabric and wide peak lapel. Elegant and bold choice for weddings and formal events. Includes bowtie and decorative belt detail."
+    },
+    {
+      "slug": "asymmetric-modern-suit-341",
+      "title": "Asymmetric Front Men's Modern Two Piece Suit with Hook Detail",
+      "model": "Two Piece Suit",
+      "fit": "Slim Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Premium Cotton Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "341",
+      "images": [
+        "/collections/341/341PRS-61-01.jpg",
+        "/collections/341/341PRS-78-01.jpg",
+        "/collections/341/341PRS-86-01.jpg",
+        "/collections/341/341PRS-86-02.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Premium Cotton Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Wide Peak Lapel",
+          "Asymmetric Front Closure with Decorative Metal Loops",
+          "Minimalist Design with Clean Lines",
+          "Slim Fit",
+          "Set include: Jacket - Trousers",
+          "Fully Lined",
+          "Ideal for modern weddings, special appearances, or fashion events"
+        ],
+        "lot": {
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "7 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's modern suit with asymmetrical design and metal hook closure. Contemporary peak lapel and slim fit cut. Perfect choice for weddings, parties, and fashion-forward events."
+    },
+    {
+      "slug": "crystal-detailed-ceremony-tuxedo-366",
+      "title": "Crystal Detailed Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Shawl Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "366",
+      "images": [
+        "/collections/366/366-09-01.jpg",
+        "/collections/366/366-09-02.jpg",
+        "/collections/366/366-10-01.jpg",
+        "/collections/366/366-10-02.jpg",
+        "/collections/366/366-19-01.jpg",
+        "/collections/366/366-19-02.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Shawl Lapel with Full Crystal Embellishment",
+          "Satin Lapel Finish",
+          "Double Breasted Closure",
+          "Crystal Beaded Jacket and Sleeves",
+          "Slim Fit",
+          "Set include: Jacket - Trousers - Bowtie",
+          "Fully Lined",
+          "Ideal for weddings, receptions, and gala events"
+        ],
+        "lot": {
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with satin shawl lapel and full crystal beading. Ceremony suit perfect for weddings, black tie events, and receptions. Includes trousers and bowtie."
+    },
+    {
+      "slug": "gold-patterned-ceremony-tuxedo-378",
+      "title": "Gold Patterned Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Shawl Lapel",
+      "fabric": "Patterned Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "378",
+      "images": [
+        "/collections/378/378-01.jpg",
+        "/collections/378/378-08.jpg",
+        "/collections/378/378-11.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Patterned Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Shawl Lapel with Black Satin Finish",
+          "Gold Abstract Patterned Fabric",
+          "Double Breasted Jacket",
+          "Slim Fit",
+          "Set include: Jacket - Trousers - Bowtie",
+          "Fully Lined",
+          "Designed for weddings, special events and receptions"
+        ],
+        "lot": {
+          "sizes": [
+            "48",
+            "50",
+            "52",
+            "54",
+            "56",
+            "58"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with gold abstract patterned fabric and satin shawl lapel. Ceremony suit ideal for weddings and formal occasions. Includes trousers and bowtie."
+    },
+    {
+      "slug": "gold-line-shawl-ceremony-tuxedo-403",
+      "title": "Gold Line Detail Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Shawl Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "403",
+      "images": [
+        "/collections/403/403PRS-16-01.jpg",
+        "/collections/403/403PRS-16-02.jpg",
+        "/collections/403/403PRS-25-01.jpg",
+        "/collections/403/403PRS-25-02.jpg",
+        "/collections/403/403PRS-26-01.jpg",
+        "/collections/403/403PRS-26-02.jpg",
+        "/collections/403/403PRS-39-01.jpg",
+        "/collections/403/403PRS-39-02.jpg",
+        "/collections/403/403PRS-42-01.jpg",
+        "/collections/403/403PRS-42-02.jpg",
+        "/collections/403/403PRS-50-01.jpg",
+        "/collections/403/403PRS-50-02.jpg",
+        "/collections/403/403PRS-52-01.jpg",
+        "/collections/403/403PRS-52-02.jpg",
+        "/collections/403/403PRS-53-01.jpg",
+        "/collections/403/403PRS-53-02.jpg",
+        "/collections/403/403PRS-55-01.jpg",
+        "/collections/403/403PRS-55-02.jpg",
+        "/collections/403/403PRS-188-01.jpg",
+        "/collections/403/403PRS-188-02.jpg",
+        "/collections/403/403PRS-GC1C-01.jpg",
+        "/collections/403/403PRS-GC1C-02.jpg",
+        "/collections/403/403PRS-GC2A-01.jpg",
+        "/collections/403/403PRS-GC2A-02.jpg",
+        "/collections/403/403PRS-GREY-01.jpg",
+        "/collections/403/403PRS-GREY-02.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Satin Shawl Lapel",
+          "Double Breasted Closure",
+          "Gold Vertical Line Embroidery",
+          "Modern Slim Fit",
+          "Set include: Jacket - Trousers - Optional Tie",
+          "Fully Lined",
+          "Ideal for weddings, special events, and receptions"
+        ],
+        "lot": {
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with satin shawl lapel and gold line embroidery. Modern ceremony suit for weddings, receptions and formal occasions. Includes trousers and optional necktie."
+    },
+    {
+      "slug": "floral-pattern-shawl-ceremony-tuxedo-404",
+      "title": "Floral Pattern Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
+      "fit": "Slim Fit",
+      "lapel": "Shawl Lapel",
+      "fabric": "Embroidered Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "404",
+      "images": [
+        "/collections/404/404-01.jpg",
+        "/collections/404/404-08.jpg",
+        "/collections/404/404-09.jpg",
+        "/collections/404/404-10.jpg",
+        "/collections/404/404-11.jpg",
+        "/collections/404/404-12.jpg",
+        "/collections/404/404-13.jpg",
+        "/collections/404/404-15.jpg",
+        "/collections/404/404-16.jpg",
+        "/collections/404/404-17.jpg",
+        "/collections/404/404-18.jpg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Embroidered Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Satin Shawl Lapel",
+          "Black Base with Silver Embroidered Floral Motifs",
+          "Double Breasted Design",
+          "Slim Fit Cut",
+          "Set include: Jacket - Trousers - Bowtie",
+          "Fully Lined",
+          "Perfect for weddings, receptions, and gala nights"
+        ],
+        "lot": {
+          "sizes": [
+            "46",
+            "48",
+            "50",
+            "52",
+            "54",
+            "56"
+          ],
+          "quantities": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Men's tuxedo with satin shawl lapel and silver floral embroidery. Designed for weddings, special events and stage-ready elegance. Includes bowtie and trousers."
+    },
+    {
+      "slug": "premium-double-breasted-suit-collection",
+      "title": "Premium Double-Breasted Suit Collection",
+      "model": "Double-Breasted Suit",
+      "fit": "Modern Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "DB-PRE",
+      "images": [
+        "/collections/1/mark-morente-double-breasted-suit-01.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-02.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-03.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-04.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-05.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-06.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-07.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-08.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-09.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-10.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-11.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-12.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-13.jpeg",
+        "/collections/1/mark-morente-double-breasted-suit-14.jpeg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Double-Breasted Front Closure",
+          "Peak Lapel",
+          "Modern Fit Cut",
+          "Flap Pockets and Chest Pocket",
+          "Available in Multiple Colors",
+          "Set includes: Jacket - Trousers",
+          "Ideal for wholesale and private label B2B clients"
+        ],
+        "lot": {
+          "sizes": ["46", "48", "50", "52", "54", "56"],
+          "quantities": [1, 1, 1, 1, 1, 1],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Premium double-breasted men's suit with peak lapel and modern fit. A versatile option for wholesale buyers and private label brands seeking classic elegance."
+    },
+    {
+      "slug": "classic-slim-fit-suit-collection",
+      "title": "Classic Slim Fit Suit Collection",
+      "model": "Two Piece Suit",
+      "fit": "Slim Fit",
+      "lapel": "Notch Lapel",
+      "fabric": "Wool Blend",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "SF-CLS",
+      "images": [
+        "/collections/2/mark-morente-slim-fit-suit-01.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-02.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-03.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-04.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-05.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-06.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-07.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-11.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-22.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-33.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-44.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-55.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-66.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-77.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-88.jpeg",
+        "/collections/2/mark-morente-slim-fit-suit-99.jpeg"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Wool Blend",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Single-Breasted Closure",
+          "Notch Lapel",
+          "Slim Fit Silhouette",
+          "Flap Pockets and Chest Pocket",
+          "Available in Multiple Colors and Textures",
+          "Set includes: Jacket - Trousers",
+          "Perfect for wholesale and retail distribution"
+        ],
+        "lot": {
+          "sizes": ["46", "48", "50", "52", "54", "56"],
+          "quantities": [1, 1, 1, 1, 1, 1],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Classic slim fit men's suit with notch lapel. Timeless design ideal for wholesale buyers seeking versatile, everyday business suits."
+    },
+    {
+      "slug": "formal-business-suit-collection",
+      "title": "Formal Business Suit Collection",
+      "model": "Two Piece Suit",
+      "fit": "Slim Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Premium Wool",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "FB-FRM",
+      "images": [
+        "/collections/3/mark-morente-formal-suit-01.png",
+        "/collections/3/mark-morente-formal-suit-02.png",
+        "/collections/3/mark-morente-formal-suit-03.png",
+        "/collections/3/mark-morente-formal-suit-04.png",
+        "/collections/3/mark-morente-formal-suit-05.png",
+        "/collections/3/mark-morente-formal-suit-06.png",
+        "/collections/3/mark-morente-formal-suit-07.png",
+        "/collections/3/mark-morente-formal-suit-08.png",
+        "/collections/3/mark-morente-formal-suit-09.png",
+        "/collections/3/mark-morente-formal-suit-10.png",
+        "/collections/3/mark-morente-formal-suit-11.png",
+        "/collections/3/mark-morente-formal-suit-12.png"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Premium Wool",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Peak Lapel / Notch Lapel options",
+          "Single & Double-Breasted variations",
+          "Slim Fit Cut",
+          "Wide range of colors and patterns",
+          "Model-shot professional imagery",
+          "Set includes: Jacket - Trousers",
+          "Ideal for retail chains and fashion brands"
+        ],
+        "lot": {
+          "sizes": ["46", "48", "50", "52", "54", "56"],
+          "quantities": [1, 1, 1, 1, 1, 1],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Premium formal business suit collection featuring model-shot photography. Wide range of slim fit and double-breasted designs for wholesale and private label production."
+    },
+    {
+      "slug": "premium-three-piece-suit-collection",
+      "title": "Premium Three-Piece Suit Collection",
+      "model": "Three Piece Suit",
+      "fit": "Modern Fit",
+      "lapel": "Peak Lapel",
+      "fabric": "Premium Wool",
+      "lining": "%100 Viscose",
+      "color": "Various Options",
+      "code": "TP-PRE",
+      "images": [
+        "/collections/4/mark-morente-three-piece-suit-01.png",
+        "/collections/4/mark-morente-three-piece-suit-02.png",
+        "/collections/4/mark-morente-three-piece-suit-03.png",
+        "/collections/4/mark-morente-three-piece-suit-04.png",
+        "/collections/4/mark-morente-three-piece-suit-05.png"
+      ],
+      "status": "In Stock",
+      "description": {
+        "compositions": {
+          "Body Fabric": "Premium Wool",
+          "Lining": "%100 Viscose"
+        },
+        "features": [
+          "Three-Piece Set: Jacket, Waistcoat, Trousers",
+          "Peak Lapel",
+          "Modern Fit Silhouette",
+          "Double-Breasted Waistcoat",
+          "Available in Navy, Black, Grey, and more",
+          "Ideal for formal events, business, and weddings",
+          "Perfect for wholesale and OEM clients"
+        ],
+        "lot": {
+          "sizes": ["46", "48", "50", "52", "54", "56"],
+          "quantities": [1, 1, 1, 1, 1, 1],
+          "total": "6 SET SUIT IN A LOT"
+        }
+      },
+      "content": "Premium three-piece men's suit with matching waistcoat and peak lapel. Mannequin-shot presentation. Ideal for wholesale buyers and private label brands."
+    }
+  ]
+}

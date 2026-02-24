@@ -1,0 +1,40 @@
+{
+  "title": "Contact Us",
+  "hero_description": "Interested in private label or wholesale suit production? Contact us via WhatsApp, Telegram, or Instagram. We respond within 24 hours.",
+  "contact_channels": [
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/905321711494",
+      "logo": "/whatsapplogo.svg",
+      "description": "Quick replies within 1 business day",
+      "color": "green"
+    },
+    {
+      "platform": "Telegram",
+      "url": "https://t.me/markmorente",
+      "logo": "/telegramlogo.svg",
+      "description": "Live support and sample requests",
+      "color": "blue"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/mark.morente/",
+      "logo": "icon",
+      "description": "Portfolio and client updates",
+      "color": "pink"
+    }
+  ],
+  "about_snippet": {
+    "title": "About Us",
+    "text": "Based in Istanbul, Turkey, MarkMorente is a leading men's suit manufacturer specializing in private label and wholesale production. We offer high-quality suits and trousers for brands and businesses worldwide, with a focus on craftsmanship, flexibility, and global shipping."
+  },
+  "highlights": [
+    "1000+ Suits / Day",
+    "Ships Worldwide",
+    "OEM / Private Label",
+    "ERP-Managed Production",
+    "MOQ 100+ Units",
+    "Made in Turkey"
+  ],
+  "footer": "Based in Istanbul, Turkey \u2013 worldwide private label suit manufacturer & exporter"
+}

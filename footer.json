@@ -1,0 +1,70 @@
+{
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Collections",
+      "url": "/collections"
+    },
+    {
+      "label": "Manufacturing",
+      "url": "/mens-suit-manufacturing"
+    },
+    {
+      "label": "About Us",
+      "url": "/about-us"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "product_categories": [
+    {
+      "label": "3-Piece Suits",
+      "url": "/mens-suit-manufacturing/3-piece-suits"
+    },
+    {
+      "label": "2-Piece Suits",
+      "url": "/mens-suit-manufacturing/2-piece-suits"
+    },
+    {
+      "label": "Tuxedos",
+      "url": "/mens-suit-manufacturing/tuxedos"
+    },
+    {
+      "label": "Wedding Suits",
+      "url": "/mens-suit-manufacturing/wedding-suits"
+    },
+    {
+      "label": "Ceremony Suits",
+      "url": "/mens-suit-manufacturing/ceremony-suits"
+    },
+    {
+      "label": "Big & Tall Suits",
+      "url": "/mens-suit-manufacturing/big-tall-suits"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "Instagram",
+      "icon": "/instagramlogo.png",
+      "url": "https://instagram.com/mark.morente"
+    },
+    {
+      "platform": "WhatsApp",
+      "icon": "/whatsapplogo.svg",
+      "url": "https://wa.me/905321711494"
+    },
+
+    {
+      "platform": "Telegram",
+      "icon": "/telegramlogo.svg",
+      "url": "https://t.me/markmorente"
+    }
+  ],
+  "footer_note": "Your Source for Private Label & Custom Suit Manufacturing \u2013 Based in Istanbul, Turkey",
+  "copyright": "\u00a9 2025 MarkMorente. All rights reserved."
+}

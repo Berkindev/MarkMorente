@@ -1,0 +1,58 @@
+{
+  "title": "Men\u2019s Suit Manufacturing Services \u2013 Private Label, OEM & Wholesale Production",
+  "hero_description": "We produce premium-quality private label and wholesale men\u2019s suits with high daily capacity, modern fits, and fast global delivery \u2014 combining precision tailoring with exceptional craftsmanship.",
+  "intro_paragraph": "As a leading men\u2019s suit manufacturer, we offer full-scale OEM, private label, and wholesale suit production for global brands, retailers, and distributors. With a high daily capacity and modern production technologies, we deliver scalable, premium-quality suits made from top-grade fabrics. From 3-piece suits and tuxedos to blazers and wedding suits, we manufacture to your brand\u2019s exact specifications at scale.",
+  "story": "Founded in Istanbul, our factory has been producing premium men\u2019s suits for over 20 years. Our mission is to combine Turkish textile excellence with modern tailoring, helping fashion brands bring their vision to life.",
+  "specs": {
+    "production_capacity": "1000+ suits/day",
+    "moq": "Starting from 100 units per style",
+    "delivery": "Ships worldwide (Europe in 3-5 days, USA in 5-7 days)",
+    "customization": "Fabrics, labels, lining, buttons, fits",
+    "technology": "CAD design, ERP-controlled production, 3D prototyping"
+  },
+  "target_clients": [
+    "Fashion Brands",
+    "Online Retailers",
+    "Private Labels",
+    "Suit Retailers & Distributors",
+    "Wholesalers"
+  ],
+  "why_us": [
+    "Full OEM & Private Label Support",
+    "In-house Pattern Making & Sampling",
+    "Fast Turnaround Time",
+    "Quality Control at Every Step",
+    "Competitive Pricing",
+    "Trusted by Global Brands",
+    "\"Made in Turkey\" Quality"
+  ],
+  "certifications": [
+    "ISO 9001 Certified Production",
+    "OEKO-TEX Standard 100 Fabrics",
+    "ERP-Controlled Quality Tracking"
+  ],
+  "factory_images": ["/about/factory-1.jpg", "/about/factory-2.jpg"],
+  "clients": ["LondonTailors", "Berlin Suits Co.", "Dubai Customwear"],
+  "faq": [
+    {
+      "q": "What is your minimum order quantity for suits?",
+      "a": "Our MOQ starts at 100 units per style."
+    },
+    {
+      "q": "Do you offer private label suit production?",
+      "a": "Yes, we fully support private label suit manufacturing with custom branding, labels, and packaging."
+    },
+    {
+      "q": "Can I choose my own fabrics and lining?",
+      "a": "Absolutely. We offer a wide range of fabrics, linings, and trims to choose from."
+    },
+    {
+      "q": "How fast can you deliver to the USA / UK?",
+      "a": "Typical lead time is 5-7 days to the USA, and 3-5 days to Europe/UK."
+    },
+    {
+      "q": "Do you produce wedding and ceremony tuxedos for wholesale?",
+      "a": "Yes, we produce tuxedos and wedding suits for private label and wholesale clients at scale."
+    }
+  ]
+}
