@@ -627,7 +627,7 @@ function ContactSection() {
               <div className="text-white/60 text-sm mb-2">Headquarters</div>
               <div className="text-white">Istanbul</div>
               <div className="text-white/60 text-sm mt-1">
-                Shipping worldwide • Europe 3-5 days • USA 5-7 days
+                Shipping worldwide • Europe 5-7 days • USA 12-15 days
               </div>
             </div>
           </div>
