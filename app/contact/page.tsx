@@ -97,9 +97,9 @@ export default function ContactPage() {
             {contactData.about_snippet.text}
           </p>
         </div>
-        <footer className="mt-12 text-center text-sm text-muted-foreground">
+        <p className="mt-12 text-center text-sm text-muted-foreground">
           {contactData.footer}
-        </footer>
+        </p>
       </section>
     </main>
   );

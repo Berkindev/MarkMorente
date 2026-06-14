@@ -48,6 +48,7 @@ function Navigation() {
                 isScrolled ? "h-16 w-auto" : "h-20 w-auto"
               }`}
               priority
+              unoptimized
             />
           </Link>
 
@@ -214,7 +215,10 @@ function HeroSection() {
 // COLLECTIONS SECTION
 // ============================================
 function CollectionsSection() {
-  const products = [...collectionsData.products.slice(-4), ...collectionsData.products.slice(-8, -4)];
+  // Feature newly added, in-stock model-shot suits first
+  const products = collectionsData.products
+    .filter((p) => p.status === "In Stock")
+    .slice(0, 8);
 
   return (
     <section id="collections" className="section-padding bg-[#faf9f6]">
@@ -246,10 +250,11 @@ function CollectionsSection() {
                 <div className="image-hover aspect-[3/4] relative">
                   <Image
                     src={product.images[0]}
-                    alt={product.title}
+                    alt={`${product.title} – ${product.model} by Mark Morente`}
                     fill
                     className="object-cover object-top"
                     loading="lazy"
+                    unoptimized
                   />
                   <div className="absolute inset-0 bg-[#1a1f3c]/0 group-hover:bg-[#1a1f3c]/20 transition-colors duration-500" />
                 </div>
@@ -285,22 +290,22 @@ function FabricsSection() {
     {
       name: "Italian Wool",
       description: "Super 120s-180s premium wool",
-      image: "/collections/4/mark-morente-three-piece-suit-01.png",
+      image: "/collections/S05/navy-blue-three-piece-mens-suit-01.webp",
     },
     {
       name: "Wool Blend",
       description: "Durable & comfortable blends",
-      image: "/collections/4/mark-morente-three-piece-suit-02.png",
+      image: "/collections/S06/charcoal-grey-three-piece-mens-suit-01.webp",
     },
     {
       name: "Jacquard",
       description: "Textured luxury patterns",
-      image: "/collections/1/mark-morente-double-breasted-suit-01.jpeg",
+      image: "/collections/T03/black-jacquard-shawl-lapel-mens-tuxedo-01.webp",
     },
     {
       name: "Cotton Blend",
       description: "Breathable summer suits",
-      image: "/collections/3/mark-morente-formal-suit-01.png",
+      image: "/collections/S03/ivory-linen-two-piece-mens-summer-suit-01.webp",
     },
   ];
 
@@ -329,10 +334,11 @@ function FabricsSection() {
               <div className="aspect-square relative">
                 <Image
                   src={fabric.image}
-                  alt={fabric.name}
+                  alt={`${fabric.name} – ${fabric.description}`}
                   fill
                   className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
                   loading="lazy"
+                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/90 via-[#0a0a0a]/30 to-transparent" />
               </div>
@@ -489,11 +495,12 @@ function AboutSection() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="/collections/4/mark-morente-three-piece-suit-04.png"
-                alt="Mark Morente Manufacturing"
+                src="/collections/S05/navy-blue-three-piece-mens-suit-02.webp"
+                alt="Mark Morente premium men's three-piece suit manufacturing"
                 fill
                 className="object-cover object-top"
                 loading="lazy"
+                unoptimized
               />
             </div>
             {/* Floating Card */}
@@ -663,106 +670,6 @@ function ContactSection() {
 }
 
 // ============================================
-// FOOTER
-// ============================================
-function Footer() {
-  return (
-    <footer className="bg-[#0a0a0a] border-t border-white/10 py-12 px-4 md:px-8 lg:px-16 xl:px-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
-          {/* Brand */}
-          <div className="md:col-span-2">
-            <div className="mb-4">
-              <Image
-                src="/logo.png"
-                alt="Mark Morente"
-                width={180}
-                height={60}
-                className="h-14 w-auto brightness-0 invert"
-              />
-            </div>
-            <p className="text-white/60 text-sm leading-relaxed max-w-md">
-              Premium men&apos;s suit manufacturer specializing in Private Label, OEM
-              & Wholesale production. 1000+ suits daily capacity with
-              modern tailoring since 2003.
-            </p>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-white font-medium mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              {[
-                { href: "#collections", label: "Collections" },
-                { href: "#fabrics", label: "Fabrics" },
-                { href: "#manufacturing", label: "Manufacturing" },
-                { href: "#about", label: "About Us" },
-                { href: "#contact", label: "Contact" },
-              ].map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="text-white/60 text-sm hover:text-[#c9a962] transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="text-white font-medium mb-4">Contact</h4>
-            <ul className="space-y-2 text-white/60 text-sm">
-              <li>Istanbul</li>
-              <li>+90 532 171 14 94</li>
-              <li>info@markmorente.com</li>
-            </ul>
-            <div className="flex gap-4 mt-4">
-              <a
-                href="https://wa.me/905321711494?text=Hi Mark Morente team, I'm contacting you from your website."
-                target="_blank"
-                rel="noopener"
-                className="text-white/60 hover:text-[#c9a962] transition-colors"
-              >
-                <Image src="/whatsapplogo.svg" alt="WhatsApp" width={24} height={24} />
-              </a>
-              <a
-                href="https://t.me/markmorente"
-                target="_blank"
-                rel="noopener"
-                className="text-white/60 hover:text-[#c9a962] transition-colors"
-              >
-                <Image src="/telegramlogo.svg" alt="Telegram" width={24} height={24} />
-              </a>
-              <a
-                href="https://www.instagram.com/mark.morente/"
-                target="_blank"
-                rel="noopener"
-                className="text-white/60 hover:text-[#c9a962] transition-colors"
-              >
-                <Image src="/instagramlogo.png" alt="Instagram" width={24} height={24} />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white/40 text-sm">
-            © 2026 Mark Morente. All rights reserved.
-          </p>
-          <p className="text-white/40 text-sm">
-            Premium Men&apos;s Suit Manufacturer
-          </p>
-        </div>
-      </div>
-    </footer>
-  );
-}
-
-// ============================================
 // MAIN PAGE
 // ============================================
 export default function Home() {
@@ -775,7 +682,6 @@ export default function Home() {
       <ManufacturingSection />
       <AboutSection />
       <ContactSection />
-      <Footer />
     </main>
   );
 }

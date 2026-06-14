@@ -3,6 +3,8 @@ import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import SiteFooter from "@/components/SiteFooter";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -144,6 +146,8 @@ export default function RootLayout({
       </head>
       <body className="antialiased bg-[#faf9f6] text-[#2d2d2d]" suppressHydrationWarning>
         {children}
+        <SiteFooter />
+        <FloatingWhatsApp />
         <SpeedInsights />
         <Analytics />
       </body>

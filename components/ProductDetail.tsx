@@ -33,6 +33,12 @@ export interface Product {
 export default function ProductDetail({ product }: { product: Product }) {
   const [mainImg, setMainImg] = useState(product.images[0] || "");
 
+  const whatsappHref =
+    "https://wa.me/905321711494?text=" +
+    encodeURIComponent(
+      `Hello Mark Morente, I'm interested in the "${product.title}" (Code: ${product.code}). Could you please share pricing, MOQ and availability?`
+    );
+
   return (
     <main className="max-w-4xl mx-auto py-10 px-2 sm:px-4">
       <div className="flex flex-col md:flex-row gap-10 items-start md:items-start">
@@ -145,6 +151,22 @@ export default function ProductDetail({ product }: { product: Product }) {
                 {product.description.lot.total}
               </div>
             </div>
+          </div>
+
+          {/* WhatsApp CTA */}
+          <div className="w-full flex flex-col items-center mt-2">
+            <a
+              href={whatsappHref}
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1da851] text-white font-semibold px-7 py-4 rounded-full text-base shadow-md transition-all hover:scale-105 w-full sm:w-auto justify-center"
+            >
+              <Image src="/whatsapplogo.svg" alt="WhatsApp" width={24} height={24} unoptimized />
+              I&apos;m interested in this product
+            </a>
+            <p className="text-xs text-gray-500 mt-3 text-center">
+              Message us on WhatsApp for pricing, MOQ and availability — typically replies within 1 hour.
+            </p>
           </div>
         </div>
       </div>

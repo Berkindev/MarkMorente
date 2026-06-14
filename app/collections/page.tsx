@@ -62,9 +62,15 @@ export default function CollectionPage() {
   const products: Product[] = collectionsData.products;
 
   // Remove duplicate products by slug
-  const uniqueProducts = products.filter(
+  const deduped = products.filter(
     (prod, idx, arr) => arr.findIndex((p) => p.slug === prod.slug) === idx
   );
+
+  // In-stock (newest models) first, out-of-stock last — stable order preserved
+  const uniqueProducts = [
+    ...deduped.filter((p) => p.status === "In Stock"),
+    ...deduped.filter((p) => p.status !== "In Stock"),
+  ];
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
