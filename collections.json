@@ -846,7 +846,7 @@
         "/collections/3/mark-morente-formal-suit-11.webp",
         "/collections/3/mark-morente-formal-suit-12.webp"
       ],
-      "status": "Out of Stock",
+      "status": "In Stock",
       "description": {
         "compositions": {
           "Body Fabric": "Premium Wool",
@@ -1390,56 +1390,6 @@
         }
       },
       "content": "Brown three-piece men's suit with peak lapel and matching waistcoat. Tailored slim-fit design for weddings, grooms, and formal business wear. Produced in Turkey for wholesale, OEM, and private label buyers."
-    },
-    {
-      "slug": "burgundy-three-piece-mens-suit-s10",
-      "title": "Burgundy Three-Piece Men's Suit with Peak Lapel",
-      "model": "Three Piece Suit",
-      "fit": "Slim Fit",
-      "lapel": "Peak Lapel",
-      "fabric": "Wool Blend",
-      "lining": "%100 Viscose",
-      "color": "Burgundy",
-      "code": "S10",
-      "images": [
-        "/collections/S10/burgundy-three-piece-mens-suit-01.webp"
-      ],
-      "status": "In Stock",
-      "description": {
-        "compositions": {
-          "Body Fabric": "Wool Blend",
-          "Lining": "%100 Viscose"
-        },
-        "features": [
-          "Burgundy Wool Blend Fabric",
-          "Peak Lapel",
-          "Three-Piece Set with Matching Waistcoat",
-          "Single-Breasted Slim Fit Silhouette",
-          "Set includes: Jacket - Waistcoat - Trousers",
-          "Fully Lined",
-          "Ideal for weddings, business meetings, and formal occasions"
-        ],
-        "lot": {
-          "sizes": [
-            "46",
-            "48",
-            "50",
-            "52",
-            "54",
-            "56"
-          ],
-          "quantities": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-          ],
-          "total": "6 SET SUIT IN A LOT"
-        }
-      },
-      "content": "Burgundy three-piece men's suit with peak lapel and matching waistcoat. Tailored slim-fit design for weddings, grooms, and formal business wear. Produced in Turkey for wholesale, OEM, and private label buyers."
     },
     {
       "slug": "navy-blue-paisley-jacquard-shawl-lapel-mens-tuxedo-t01",
