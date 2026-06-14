@@ -18,6 +18,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.markmorente.com"),
   title: "Mark Morente | Premium Men's Suit Manufacturer, Private Label & OEM Suits",
   description:
     "Premium quality men's suits manufacturer. Private label, OEM, and wholesale suit production for brands, retailers, and wholesalers. 1000+ suits daily capacity with fast global shipping.",
@@ -62,6 +63,9 @@ export const metadata: Metadata = {
       "Premium quality men's suits manufacturer. Private label, OEM, and wholesale production. 1000+ suits daily.",
     images: ["/mmlogo.png"],
   },
+  alternates: {
+    canonical: "/",
+  },
   robots: {
     index: true,
     follow: true,
@@ -84,8 +88,6 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
       <head>
         <link rel="icon" href="/logo.png" type="image/png" />
-        <link rel="canonical" href="https://www.markmorente.com/" />
-        <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#1a1f3c" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>

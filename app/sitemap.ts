@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import collectionsData from '@/collections.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://markmorente.com' // Replace with your actual domain
+  const baseUrl = 'https://www.markmorente.com' // matches canonical in layout.tsx
 
   // Base routes
   const routes = [
