@@ -74,7 +74,7 @@ export default function ManufacturingPage() {
                     src={cat.image}
                     alt={cat.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform"
+                    className="object-cover object-top group-hover:scale-105 transition-transform"
                     sizes="(max-width: 768px) 100vw, 400px"
                     unoptimized
                   />

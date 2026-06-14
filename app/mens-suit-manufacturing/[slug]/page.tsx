@@ -125,7 +125,7 @@ export default async function CategoryPage({
               src={category.image}
               alt={`${category.title} – Mark Morente men's suit manufacturer`}
               fill
-              className="object-cover"
+              className="object-cover object-top"
               sizes="(max-width: 768px) 100vw, 400px"
               priority
               unoptimized
