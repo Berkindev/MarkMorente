@@ -18,8 +18,9 @@ const contactData = contactDataJson as {
 };
 
 export const metadata = {
-  title: "Contact - MarkMorente Suits",
+  title: "Contact | Mark Morente Suit Manufacturer (Istanbul, Turkey)",
   description: contactData.hero_description,
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

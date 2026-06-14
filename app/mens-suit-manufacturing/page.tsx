@@ -39,6 +39,7 @@ export const metadata = {
       ...(categories || []).flatMap((cat: Category) => cat.keywords || [])
     )
     .join(", "),
+  alternates: { canonical: "/mens-suit-manufacturing" },
 };
 
 export default function ManufacturingPage() {

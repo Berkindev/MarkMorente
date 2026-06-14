@@ -1,31 +1,36 @@
 import { MetadataRoute } from 'next'
 import collectionsData from '@/collections.json'
+import categoriesData from '@/categories.json'
+
+const SITE_URL = 'https://www.markmorente.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.markmorente.com' // matches canonical in layout.tsx
+  const now = new Date().toISOString()
 
-  // Base routes
-  const routes = [
-    '',
-    '/#collections',
-    '/#fabrics',
-    '/#manufacturing',
-    '/#about',
-    '/#contact',
-  ].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1 : 0.8,
-  }))
+  // Primary static routes (real pages, not hash anchors)
+  const staticRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}`, lastModified: now, changeFrequency: 'weekly', priority: 1 },
+    { url: `${SITE_URL}/collections`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${SITE_URL}/mens-suit-manufacturing`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/about-us`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
+  ]
 
-  // Product routes
-  const products = collectionsData.products.map((product) => ({
-    url: `${baseUrl}/collections/${product.slug}`,
-    lastModified: new Date().toISOString(),
+  // Manufacturing category pages
+  const categories = (categoriesData.page?.categories ?? []).map((c) => ({
+    url: `${SITE_URL}/mens-suit-manufacturing/${c.slug}`,
+    lastModified: now,
     changeFrequency: 'monthly' as const,
-    priority: 0.6,
+    priority: 0.7,
   }))
 
-  return [...routes, ...products]
+  // Product detail pages — in-stock prioritised slightly higher
+  const products = collectionsData.products.map((product) => ({
+    url: `${SITE_URL}/collections/${product.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: product.status === 'In Stock' ? 0.7 : 0.5,
+  }))
+
+  return [...staticRoutes, ...categories, ...products]
 }

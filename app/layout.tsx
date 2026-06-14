@@ -79,6 +79,49 @@ export const metadata: Metadata = {
   },
 };
 
+const SITE_URL = "https://www.markmorente.com";
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
+  name: "Mark Morente",
+  alternateName: "MarkMorente",
+  url: SITE_URL,
+  logo: `${SITE_URL}/mmlogo.png`,
+  image: `${SITE_URL}/mmlogo.png`,
+  description:
+    "Premium men's suit manufacturer based in Istanbul, Turkey. Private label, OEM and wholesale production of suits, tuxedos and ceremony wear with worldwide shipping.",
+  foundingLocation: "Istanbul, Turkey",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Istanbul",
+    addressCountry: "TR",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+90-532-171-1494",
+    contactType: "sales",
+    areaServed: ["US", "GB", "EU", "AE", "Worldwide"],
+    availableLanguage: ["English", "Turkish"],
+  },
+  sameAs: [
+    "https://www.instagram.com/mark.morente/",
+    "https://wa.me/905321711494",
+    "https://t.me/markmorente",
+  ],
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  url: SITE_URL,
+  name: "Mark Morente",
+  publisher: { "@id": `${SITE_URL}/#organization` },
+  inLanguage: "en",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -90,6 +133,14 @@ export default function RootLayout({
         <link rel="icon" href="/logo.png" type="image/png" />
         <meta name="theme-color" content="#1a1f3c" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
       </head>
       <body className="antialiased bg-[#faf9f6] text-[#2d2d2d]" suppressHydrationWarning>
         {children}

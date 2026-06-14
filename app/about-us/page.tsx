@@ -2,8 +2,9 @@ import Navbar from "@/components/Navbar";
 import aboutData from "@/aboutus.json";
 
 export const metadata = {
-  title: "About Us - MarkMorente Suits",
+  title: "About Us | Mark Morente Men's Suit Manufacturer",
   description: aboutData.hero_description,
+  alternates: { canonical: "/about-us" },
 };
 
 export default function AboutUsPage() {

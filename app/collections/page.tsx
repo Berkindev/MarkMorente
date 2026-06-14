@@ -1,7 +1,33 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import collectionsData from "@/collections.json";
 import Link from "next/link";
 import Image from "next/image";
+
+const SITE_URL = "https://www.markmorente.com";
+
+export const metadata: Metadata = {
+  title: "Men's Suit & Tuxedo Collections | Mark Morente Manufacturer",
+  description:
+    "Browse Mark Morente's full collection of men's suits, tuxedos, and ceremony wear. Wholesale, OEM and private label production from Istanbul, Turkey with worldwide shipping.",
+  keywords: [
+    "men's suit collection",
+    "tuxedo collection",
+    "wholesale suits",
+    "private label tuxedos",
+    "ceremony suits manufacturer",
+    "men's suits Turkey",
+  ],
+  alternates: { canonical: "/collections" },
+  openGraph: {
+    title: "Men's Suit & Tuxedo Collections | Mark Morente",
+    description:
+      "Browse Mark Morente's full collection of men's suits, tuxedos, and ceremony wear. Wholesale, OEM & private label from Turkey.",
+    url: `${SITE_URL}/collections`,
+    siteName: "Mark Morente",
+    type: "website",
+  },
+};
 
 // Define ProductDescription type based on collections.json structure
 interface ProductDescription {
@@ -40,8 +66,30 @@ export default function CollectionPage() {
     (prod, idx, arr) => arr.findIndex((p) => p.slug === prod.slug) === idx
   );
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Men's Suit & Tuxedo Collections",
+    url: `${SITE_URL}/collections`,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: uniqueProducts.length,
+      itemListElement: uniqueProducts.map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE_URL}/collections/${p.slug}`,
+        name: p.title,
+      })),
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <Navbar />
       <main className="max-w-7xl mx-auto py-8 px-4">
         <div className="text-center mb-8">
