@@ -599,7 +599,7 @@ function ContactSection() {
               </a>
 
               <a
-                href="https://t.me/markmorente"
+                href="https://t.me/markmorentesuits"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center gap-4 text-white hover:text-[#c9a962] transition-colors group"
@@ -609,7 +609,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <div className="text-sm text-white/60">Telegram</div>
-                  <div className="font-medium">@markmorente</div>
+                  <div className="font-medium">@markmorentesuits</div>
                 </div>
               </a>
 

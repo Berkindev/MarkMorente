@@ -110,7 +110,7 @@ const organizationJsonLd = {
   sameAs: [
     "https://www.instagram.com/mark.morente/",
     "https://wa.me/905321711494",
-    "https://t.me/markmorente",
+    "https://t.me/markmorentesuits",
   ],
 };
 

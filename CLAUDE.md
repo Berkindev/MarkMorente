@@ -12,7 +12,7 @@ suit/tuxedo manufacturing based in Istanbul, Turkey. This is its marketing + cat
 - **Repo:** https://github.com/Berkindev/MarkMorente
 - **Deploy:** Vercel, auto-deploys on push to **`main`**. So pushing = going live. Confirm with owner before pushing.
 - **Owner:** Berkin (berkindev55@gmail.com). **Talk to the owner in Turkish; keep all site content in English.**
-- **No e-commerce/checkout.** Conversion = contacting via **WhatsApp** (number `905321711494`), Telegram (`@markmorente`), Instagram (`@mark.morente`).
+- **No e-commerce/checkout.** Conversion = contacting via **WhatsApp** (number `905321711494`), Telegram (`@markmorentesuits`), Instagram (`@mark.morente`).
 
 ## Tech stack
 - Next.js 15 (app router) + React 19 + Tailwind v4 + TypeScript.
