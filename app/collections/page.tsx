@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import collectionsData from "@/collections.json";
 import Link from "next/link";
 import Image from "next/image";
+import { cardSrc } from "@/lib/images";
 
 const SITE_URL = "https://www.markmorente.com";
 
@@ -115,11 +116,11 @@ export default function CollectionPage() {
             >
               <div className="border rounded-xl p-4 hover:shadow-xl transition flex flex-col items-center bg-white dark:bg-zinc-900">
                 <Image
-                  src={product.images[0]}
+                  src={cardSrc(product.images[0])}
                   alt={product.title}
                   className="object-cover object-top w-full h-72 rounded mb-2 transition-transform group-hover:scale-105"
-                  width={320}
-                  height={288}
+                  width={480}
+                  height={720}
                   loading="lazy"
                   unoptimized
                 />

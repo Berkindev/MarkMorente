@@ -3,6 +3,7 @@ import manufacturingData from "@/manufacturing.json";
 import categoriesDataRaw from "@/categories.json";
 import Link from "next/link";
 import Image from "next/image";
+import { cardSrc } from "@/lib/images";
 
 // Category type for TS
 interface Category {
@@ -50,7 +51,7 @@ export default function ManufacturingPage() {
       <main className="max-w-5xl mx-auto px-4 py-8">
         {/* HERO */}
         <section className="mb-8 md:mb-16 text-center">
-          <h1 className="text-3xl md:text-5xl font-bold font-belleza mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">
             {manufacturingData.title}
           </h1>
           <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
@@ -71,7 +72,7 @@ export default function ManufacturingPage() {
               >
                 <div className="relative aspect-[4/3] w-full">
                   <Image
-                    src={cat.image}
+                    src={cardSrc(cat.image)}
                     alt={cat.title}
                     fill
                     className="object-cover object-top group-hover:scale-105 transition-transform"

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { thumbSrc } from "@/lib/images";
 
 interface ProductDescription {
   compositions: {
@@ -68,11 +69,12 @@ export default function ProductDetail({ product }: { product: Product }) {
                 style={{ touchAction: "manipulation" }}
               >
                 <Image
-                  src={img}
+                  src={thumbSrc(img)}
                   alt={`${product.title} – view ${i + 1}`}
                   fill
                   style={{ objectFit: "cover" }}
                   sizes="80px"
+                  loading="lazy"
                   unoptimized
                 />
               </button>
@@ -81,7 +83,7 @@ export default function ProductDetail({ product }: { product: Product }) {
         </div>
         {/* Right: Product Info */}
         <div className="flex-1 flex flex-col items-center w-full space-y-8">
-          <h1 className="text-2xl md:text-3xl font-bold font-belleza mb-4 text-center max-w-xl">
+          <h1 className="text-2xl md:text-3xl font-bold mb-4 text-center max-w-xl">
             {product.title}
           </h1>
           <p className="text-base text-gray-700 mb-4 font-medium text-center max-w-lg">

@@ -23,11 +23,12 @@ export default function SiteFooter() {
           <div className="md:col-span-2">
             <div className="mb-4">
               <Image
-                src="/logo.png"
+                src="/logo-256.webp"
                 alt="Mark Morente"
-                width={180}
-                height={60}
+                width={256}
+                height={256}
                 className="h-14 w-auto brightness-0 invert"
+                loading="lazy"
                 unoptimized
               />
             </div>
@@ -82,7 +83,7 @@ export default function SiteFooter() {
                 <Image src="/whatsapplogo.svg" alt="WhatsApp" width={24} height={24} unoptimized />
               </a>
               <a
-                href="https://t.me/markmorente"
+                href="https://t.me/markmorentesuits"
                 target="_blank"
                 rel="noopener"
                 aria-label="Telegram"
@@ -97,7 +98,15 @@ export default function SiteFooter() {
                 aria-label="Instagram"
                 className="text-white/60 hover:text-[#c9a962] transition-colors"
               >
-                <Image src="/instagramlogo.png" alt="Instagram" width={24} height={24} unoptimized />
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5a5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5zm6 1.25a1 1 0 1 1-2 0a1 1 0 0 1 2 0z" />
+                </svg>
               </a>
             </div>
           </div>

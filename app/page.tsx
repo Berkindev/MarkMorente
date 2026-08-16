@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import collectionsData from "../collections.json";
+import { cardSrc } from "../lib/images";
 
 // ============================================
 // NAVIGATION COMPONENT
@@ -40,10 +41,10 @@ function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo.png"
+              src="/logo-256.webp"
               alt="Mark Morente Logo"
-              width={240}
-              height={100}
+              width={256}
+              height={256}
               className={`transition-all duration-500 drop-shadow-lg ${
                 isScrolled ? "h-16 w-auto" : "h-20 w-auto"
               }`}
@@ -196,7 +197,7 @@ function HeroSection() {
             { value: "50+", label: "Global Partners" },
             { value: "100+", label: "MOQ Per Style" },
           ].map((stat, index) => (
-            <div key={index} className="hero-subtitle" style={{ animationDelay: `${0.8 + index * 0.15}s` }}>
+            <div key={index} className="hero-subtitle" style={{ animationDelay: `${0.24 + index * 0.06}s` }}>
               <div className="font-serif text-2xl md:text-3xl lg:text-4xl text-[#c9a962] font-medium mb-1">
                 {stat.value}
               </div>
@@ -249,7 +250,7 @@ function CollectionsSection() {
               <article className="card-hover bg-white rounded-lg overflow-hidden shadow-sm h-full flex flex-col">
                 <div className="image-hover aspect-[3/4] relative">
                   <Image
-                    src={product.images[0]}
+                    src={cardSrc(product.images[0])}
                     alt={`${product.title} – ${product.model} by Mark Morente`}
                     fill
                     className="object-cover object-top"
@@ -333,7 +334,7 @@ function FabricsSection() {
             <div key={index} className="group relative overflow-hidden rounded-lg">
               <div className="aspect-square relative">
                 <Image
-                  src={fabric.image}
+                  src={cardSrc(fabric.image)}
                   alt={`${fabric.name} – ${fabric.description}`}
                   fill
                   className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
@@ -620,7 +621,15 @@ function ContactSection() {
                 className="flex items-center gap-4 text-white hover:text-[#c9a962] transition-colors group"
               >
                 <div className="w-12 h-12 rounded-full bg-[#1a1f3c] flex items-center justify-center group-hover:bg-[#c9a962] transition-colors">
-                  <Image src="/instagramlogo.png" alt="Instagram" width={24} height={24} />
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="#ffffff"
+                    aria-hidden="true"
+                  >
+                    <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5a5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5zm6 1.25a1 1 0 1 1-2 0a1 1 0 0 1 2 0z" />
+                  </svg>
                 </div>
                 <div>
                   <div className="text-sm text-white/60">Instagram</div>

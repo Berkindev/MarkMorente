@@ -5,6 +5,7 @@ import categoriesDataRaw from "@/categories.json";
 import { notFound } from "next/navigation";
 import manufacturingData from "@/manufacturing.json";
 import Link from "next/link";
+import { cardSrc } from "@/lib/images";
 
 const SITE_URL = "https://www.markmorente.com";
 
@@ -122,7 +123,7 @@ export default async function CategoryPage({
         <section className="mb-12 flex flex-col md:flex-row gap-8 items-center md:items-start">
           <div className="w-full md:w-1/2 aspect-[4/3] relative rounded-xl overflow-hidden shadow border mb-6 md:mb-0">
             <Image
-              src={category.image}
+              src={cardSrc(category.image)}
               alt={`${category.title} – Mark Morente men's suit manufacturer`}
               fill
               className="object-cover object-top"
@@ -132,7 +133,7 @@ export default async function CategoryPage({
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl font-bold font-belleza mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">
               {category.title}
             </h1>
             <p className="text-lg text-gray-700 mb-2">{category.content}</p>

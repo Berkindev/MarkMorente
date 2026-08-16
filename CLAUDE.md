@@ -51,11 +51,45 @@ content (one descriptive paragraph)
 ## Images — performance rules (don't break)
 - Every catalog image is a **pre-optimized static WebP** (max ~1200px long edge), served via
   `next/image` with the **`unoptimized`** prop. This bypasses Vercel's Image-Optimization quota
-  entirely and serves small CDN-cached files. `public/` is ~17MB (was 81MB of PNG/JPEG).
+  entirely and serves small CDN-cached files. `public/` is ~20MB (was 81MB of PNG/JPEG).
 - When adding images: convert to WebP + downscale first, drop under `public/collections/<code>/`,
   reference with `unoptimized`. **Do NOT** remove `unoptimized` or add remote image hosts
   (`next.config.ts` has no `remotePatterns`).
 - Portrait model shots in landscape/square cards use `object-cover object-top` so heads aren't cropped.
+
+### Size variants — run the script after touching any catalog image
+`unoptimized` means **no srcset**, so one file serves whatever slot it lands in. Every master
+therefore has pre-generated downscaled siblings, and `lib/images.ts` maps between them:
+
+| file | width | used by |
+|---|---|---|
+| `foo.webp` | 800px | product-detail main image (`ProductDetail.tsx`) |
+| `foo-card.webp` | 480px | all grid cards — `cardSrc()` |
+| `foo-thumb.webp` | 160px | product gallery strip — `thumbSrc()` |
+
+**After adding or replacing any catalog image, run:**
+```
+python3 scripts/generate-image-variants.py        # --force to rebuild all
+```
+A missing variant renders as a 404 image — the script prints anything it can't find. It also
+carries the homepage `FabricsSection` image list, which is hard-coded in `app/page.tsx`; keep
+the two in sync.
+
+### Brand assets
+- `public/logo-256.webp` (18KB) is the nav + footer logo, `app/icon.png` the favicon,
+  `public/logo-192.png` / `logo-512.png` the PWA icons, `public/og-image.jpg` (1200x630) the
+  social card. **`public/logo.png` and `public/mmlogo.png` are 1024px masters kept only to
+  regenerate those — nothing on the site links to them.** Don't point markup at the masters;
+  the footer renders on every page and used to pull 315KB there.
+- Social icons are inline SVG, not raster files.
+
+### Static-asset caching
+`next.config.ts` `headers()` gives images `max-age=86400, stale-while-revalidate=2592000`,
+because Vercel otherwise serves `public/` with `max-age=0, must-revalidate` (a conditional
+request per image on every revisit). The rules are **scoped by file extension on purpose** — a
+bare `/collections/:path*` would also match the product *pages* and start caching HTML.
+Consequence: overwriting a photo in place can take up to 24h to reach a returning visitor;
+rename the file if you need it to propagate immediately.
 
 ## SEO / GEO — working well, do NOT break
 SEO drives real traffic & inquiries. **Never delete or rename an existing product slug/URL**
@@ -92,8 +126,10 @@ SEO drives real traffic & inquiries. **Never delete or rename an existing produc
 - **Reorder listing:** `/collections` already shows In-Stock first, Out-of-Stock last
   (`app/collections/page.tsx`).
 - **Add a new product:** add an entry to `collections.json` (unique `slug` + `code`), drop its
-  WebP images under `public/collections/<code>/`, rebuild. Sitemap/metadata/JSON-LD auto-follow.
-- **Swap a product photo:** replace the WebP file (same path) or update the `images[]` paths.
+  WebP images under `public/collections/<code>/`, **run
+  `python3 scripts/generate-image-variants.py`**, rebuild. Sitemap/metadata/JSON-LD auto-follow.
+- **Swap a product photo:** replace the WebP file (same path) or update the `images[]` paths,
+  then re-run the variant script (it rebuilds any variant older than its master).
 - **Change a manufacturing category image:** edit `image` in `categories.json` (point at any
   `/collections/...webp`).
 - **Rename for SEO:** prefer changing `title`/`content`/alt text; do NOT change a live `slug`.
@@ -108,3 +144,22 @@ SEO drives real traffic & inquiries. **Never delete or rename an existing produc
    product WhatsApp CTA, sorted collections (in-stock first), pruned dead code/deps.
 4. Removed duplicate burgundy suit (S10), set FB-FRM In Stock, refreshed manufacturing category
    images to new photos, aligned category card images to top (`object-top`).
+5. Performance pass driven by Speed Insights (desktop `/collections/[slug]` was at RES 55,
+   mobile `/contact` at 56, Nigeria/South Africa "Poor"). Root causes were all payload, not
+   routing — every page is already SSG/CDN-served:
+   - The sitewide footer pulled `logo.png` (315KB) `unoptimized` on **every** page, plus a
+     36KB PNG for a 24px Instagram icon and `rel="icon"` pointed at the same 315KB file.
+     Now an 18KB WebP, inline SVG, and `app/icon.png`.
+   - Grid cards and 80px gallery thumbnails were loading the 800px master — added the
+     `-card`/`-thumb` variants above. Worst product page 1545KB -> 200KB; `/collections`
+     card payload 5.4MB -> 2.1MB.
+   - Cormorant loaded 5 weights; only 500/600/700 are ever rendered. Inter/Cormorant also
+     pinned to `style: ["normal"]`.
+   - The hero `<h1>` (homepage LCP element) sat at `opacity:0` behind a 0.3s animation delay,
+     which LCP cannot count; the staged fade now starts on the first frame and honours
+     `prefers-reduced-motion`.
+   - Added static-asset cache headers (see above).
+   - Fixed a stale `t.me/markmorente` link in the footer that the sitewide Telegram rename
+     missed, dropped the dead `font-belleza`/`--font-geist-mono` leftovers (the Navbar was
+     falling back to generic sans-serif), and deleted unused `footer.json`, the Next template
+     SVGs and committed `.DS_Store` files.

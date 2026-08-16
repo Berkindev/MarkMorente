@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -8,16 +8,29 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const inter = Inter({
   subsets: ["latin"],
+  style: ["normal"],
   variable: "--font-inter",
   display: "swap",
 });
 
+// Cormorant is the display face (h1-h6 + .font-serif). Headings across the app
+// resolve to exactly three weights: 500 (the globals.css default), 600 from
+// `font-semibold` and 700 from `font-bold`. 300 and 400 were never rendered.
+// Keeping 600/700 matters — dropping them makes the browser synthesise a fake
+// bold on /contact, /about-us and the product pages.
 const cormorant = Cormorant_Garamond({
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["500", "600", "700"],
+  style: ["normal"],
   subsets: ["latin"],
   variable: "--font-cormorant",
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1a1f3c",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.markmorente.com"),
@@ -51,9 +64,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/mmlogo.png",
-        width: 800,
-        height: 600,
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
         alt: "Mark Morente - Premium Suit Manufacturer",
       },
     ],
@@ -63,7 +76,7 @@ export const metadata: Metadata = {
     title: "Mark Morente | Premium Men's Suit Manufacturer",
     description:
       "Premium quality men's suits manufacturer. Private label, OEM, and wholesale production. 1000+ suits daily.",
-    images: ["/mmlogo.png"],
+    images: ["/og-image.jpg"],
   },
   alternates: {
     canonical: "/",
@@ -90,8 +103,8 @@ const organizationJsonLd = {
   name: "Mark Morente",
   alternateName: "MarkMorente",
   url: SITE_URL,
-  logo: `${SITE_URL}/mmlogo.png`,
-  image: `${SITE_URL}/mmlogo.png`,
+  logo: `${SITE_URL}/logo-512.png`,
+  image: `${SITE_URL}/og-image.jpg`,
   description:
     "Premium men's suit manufacturer based in Istanbul, Turkey. Private label, OEM and wholesale production of suits, tuxedos and ceremony wear with worldwide shipping.",
   foundingLocation: "Istanbul, Turkey",
@@ -132,9 +145,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
-        <meta name="theme-color" content="#1a1f3c" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Favicon comes from app/icon.png (48px, hashed + immutably cached).
+            The old <link rel="icon" href="/logo.png"> pulled a 315KB file.
+            Viewport + theme-color are declared via the `viewport` export. */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

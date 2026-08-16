@@ -17,16 +17,17 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   return (
     <nav className="w-full border-b bg-background sticky top-0 z-30">
-      <div className="container mx-auto flex items-center justify-between h-20 px-4 md:px-12 font-[Belleza,sans-serif]">
+      <div className="container mx-auto flex items-center justify-between h-20 px-4 md:px-12">
         <div className="flex items-center md:hidden">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo-256.webp"
               alt="Mark Morente Logo"
-              width={140}
-              height={50}
+              width={256}
+              height={256}
               className="h-12 w-auto"
               priority
+              unoptimized
             />
           </Link>
         </div>
