@@ -20,13 +20,23 @@ const STATIC_ASSET_CACHE =
 // Matches only real image files. Scoping by extension matters: a naive
 // "/collections/:path*" would also match the product *pages*
 // (/collections/<slug>) and start caching HTML.
+//
+// Note the pattern form. A repeated param cannot carry a literal suffix inside
+// the same segment — "/collections/:path*.webp" throws
+// `Can not repeat "path" without a prefix and suffix` at build time. A single
+// param with an explicit regex is the form that works, and `.*` still spans
+// slashes so it reaches into the per-code subdirectories.
 const IMAGE_SOURCES = [
-  "/collections/:path*.webp",
-  "/mens-suit-manufacturing/:path*.webp",
-  "/:file*.svg",
-  "/logo-:variant*.png",
+  "/collections/:path(.*\\.webp)",
+  "/mens-suit-manufacturing/:path(.*\\.webp)",
+  // Brand assets are listed individually rather than by extension so this
+  // never overrides the immutable header Next puts on app/icon.png.
   "/logo-256.webp",
+  "/logo-192.png",
+  "/logo-512.png",
   "/og-image.jpg",
+  "/whatsapplogo.svg",
+  "/telegramlogo.svg",
 ];
 
 const nextConfig: NextConfig = {
