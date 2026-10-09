@@ -39,7 +39,7 @@ Kadife yumuşak ve zengin bir yüzey verir; en çok akşam smokinlerinde ve smok
 
 ## Keten karışımları
 
-Keten karışımları yazlık kumaşımız. İyi nefes alırlar ve sahil düğünleri, bahçe törenleri ya da sıcak iklimde iş kıyafeti için alıcıların beklediği rahat dokuyu verirler. Gri, deve tüyü, fildişi ve kum beji renklerinde keten karışımı ikili takımları stokta tutuyoruz. Keten doğası gereği yünden fazla kırışır; müşterileriniz bunu genellikle bu görünümün bir parçası olarak görür.
+Keten karışımları yazlık kumaşımız. İyi nefes alırlar ve sahil düğünleri, bahçe törenleri ya da sıcak iklimde iş kıyafeti için alıcıların beklediği rahat dokuyu verirler. Gri, camel, fildişi ve kum beji renklerinde keten karışımı ikili takımları stokta tutuyoruz. Keten doğası gereği yünden fazla kırışır; müşterileriniz bunu genellikle bu görünümün bir parçası olarak görür.
 
 ## Payetli, taşlı ve süslemeli kumaşlar
 

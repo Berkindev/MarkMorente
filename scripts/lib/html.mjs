@@ -45,10 +45,23 @@ const NAV = [
   ['/contact', 'nav.contact', false, true],
 ]; // 4th flag: only in the mobile menu (desktop header has no room; footer links them)
 
+// Small inline flags (emoji flags don't render on Windows). Arabic uses the UAE flag (simple, one of the main Arabic-speaking markets).
+const star = (cx, cy, R, r) => Array.from({ length: 10 }, (_, i) => { const a = Math.PI / 5 * i + Math.PI; const d = i % 2 ? r : R; return `${(cx + d * Math.cos(a)).toFixed(2)},${(cy + d * Math.sin(a)).toFixed(2)}`; }).join(' ');
+const FLAGS = {
+  en: '<svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" stroke="#C8102E" stroke-width="2"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg>',
+  ar: '<svg viewBox="0 0 12 6"><rect width="12" height="2" fill="#00732F"/><rect y="2" width="12" height="2" fill="#fff"/><rect y="4" width="12" height="2" fill="#000"/><rect width="3" height="6" fill="#FF0000"/></svg>',
+  ru: '<svg viewBox="0 0 9 6"><rect width="9" height="2" fill="#fff"/><rect y="2" width="9" height="2" fill="#0039A6"/><rect y="4" width="9" height="2" fill="#D52B1E"/></svg>',
+  fr: '<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#002395"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ED2939"/></svg>',
+  de: '<svg viewBox="0 0 5 3"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#DD0000"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg>',
+  es: '<svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#AA151B"/><rect y=".5" width="3" height="1" fill="#F1BF00"/></svg>',
+  tr: `<svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#E30A17"/><circle cx="11" cy="10" r="5" fill="#fff"/><circle cx="12.25" cy="10" r="4" fill="#E30A17"/><polygon points="${star(17.3, 10, 2.2, 0.88)}" fill="#fff"/></svg>`,
+};
+const flag = (code) => `<span class="flag" aria-hidden="true">${FLAGS[code] || ''}</span>`;
+
 function langSwitch(L, alternates) {
   if (!alternates || alternates.length < 2) return '';
-  return `<details class="lang"><summary aria-label="${esc(L.t('language'))}">${icon.globe}<span>${L.code.toUpperCase()}</span></summary>
-    <ul>${alternates.map((a) => `<li><a href="${a.href}" hreflang="${a.code}" lang="${a.code}"${a.code === L.code ? ' aria-current="true"' : ''}>${esc(a.name)}</a></li>`).join('')}</ul></details>`;
+  return `<details class="lang"><summary aria-label="${esc(L.t('language'))}">${flag(L.code)}<span>${L.code.toUpperCase()}</span></summary>
+    <ul>${alternates.map((a) => `<li><a href="${a.href}" hreflang="${a.code}" lang="${a.code}"${a.code === L.code ? ' aria-current="true"' : ''}>${flag(a.code)}${esc(a.name)}</a></li>`).join('')}</ul></details>`;
 }
 
 function header(L, path, alternates) {
@@ -132,7 +145,7 @@ ${L.dir === 'rtl' ? '' : `<link rel="preload" href="/fonts/cormorant-garamond-${
 <link rel="stylesheet" href="/assets/site.css?v=${p.v}">
 ${(p.schema || []).filter(Boolean).map((s) => `<script type="application/ld+json">${JSON.stringify(s).replace(/</g, '\\u003c')}</script>`).join('\n')}
 </head>
-<body>
+<body${p.bodyClass ? ` class="${p.bodyClass}"` : ''}>
 ${header(L, p.path, alts)}
 <main id="main">
 ${p.body}

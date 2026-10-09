@@ -48,6 +48,11 @@ npm run deploy         # production
 - A language is built only when both its UI json and catalog json exist (`scripts/lib/i18n.mjs`). Missing page translations fall back to not building that page in that language.
 - When English copy changes, update the 6 translations too (or re-run translation agents with the same brief).
 
+## Design
+- Site-wide: ivory paper, charcoal ink, logo gold (`src/assets/site.css` tokens).
+- Home page only (`body.home`): the original Mark Morente classic palette, navy `#1A1F3C` + gold `#C9A962` + off-white `#FAF9F6`, square uppercase buttons, navy header/hero/footer. Owner liked this better ("more classic, suits the brand"); extend to other pages only if asked.
+- Language menu shows inline SVG flags (Arabic = UAE flag).
+
 ## Content markdown format
 Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), `h1`, `lead`, `updated`, `related: [slugs]`. The body supports `##`, `###`, paragraphs, lists, **bold**, links and pipe tables. The last section is `## FAQ`, with `### Question` entries that render as FAQPage schema.
 `related` accepts page, guide, market and category slugs (with or without a `guides/` or `mens-suit-manufacturing/` prefix) and `collections`.
@@ -72,7 +77,7 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
 ## Owner-confirmed (2026-10-09)
 - Israel stays off the site. Fully customizable production incl. US sizing. Factory/customer visits welcome. Photos/video from production and before shipping. Shipping air/sea/road as the buyer prefers (express air for urgent); don't single out hanging transport.
 - Stock photos are fine for factory/process images; owner will send real ones if available.
-- Catalog text was audited against the photos (2026-10-09). T19 and T27 share the same photo: check with the owner.
+- Catalog text was audited against the photos (2026-10-09). T27 was a duplicate of T19 (same photo) and was removed with a 301 to T19. Product codes are internal; owner allows removing duplicates.
 
 ## Status
 - [x] Static rebuild (119 EN URLs + 6 languages = 743 pages), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow in any language)

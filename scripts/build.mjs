@@ -236,10 +236,10 @@ for (const L of LS) {
       ${[1, 2, 3].map((i) => `<li><strong>${esc(L.t(`home.point${i}.k`))}</strong> ${esc(L.t(`home.point${i}.v`))}</li>`).join('\n      ')}
     </ul>
   </div>
-</div></section>
-<section class="wrap"><div class="stats reveal">
+</div>
+<div class="wrap hero__foot"><div class="stats">
   ${[1, 2, 3, 4].map((i) => `<div><strong>${esc(L.t(`stat${i}.n`))}</strong><span>${esc(L.t(`stat${i}.l`))}</span></div>`).join('\n  ')}
-</div></section>
+</div></div></section>
 <section class="section"><div class="wrap">
   <div class="section__head"><div><span class="eyebrow">${esc(L.t('home.ways.eyebrow'))}</span><h2>${esc(L.t('home.ways.h'))}</h2></div><p>${esc(L.t('home.ways.p'))}</p></div>
   <div class="paths">
@@ -271,7 +271,7 @@ ${prose.map((s, i) => `<section class="section${i % 2 ? '' : ' section--ivory'}"
 ${allFaq.length ? `<section class="section"><div class="wrap split split--top"><div><span class="eyebrow">FAQ</span><h2>${esc(L.t('home.faq.h'))}</h2><p class="muted">${esc(L.t('home.faq.more')).replace('{link}', `<a href="${href(L, '/faq')}">${esc(L.t('home.faq.link'))}</a>`)}</p></div>${faqBlock(allFaq)}</div></section>` : ''}
 ${ctaBand(L, L.t('home.band.title'), L.t('home.band.text'), L.t('msg.general'), 'home-band')}`;
     const md = `# ${home?.h1 || site.tagline}\n\n${home?.lead || site.description}\n\n${home?.body || ''}\n\n## Manufacturing categories\n${CATS.map((c) => `- [${catName(L, c)}](${abs(`${href(L, `/mens-suit-manufacturing/${c.slug}`)}`)}): ${c.items.length}`).join('\n')}\n${mdFooter}`;
-    return { title: cleanTitle(home?.title, "Men's Suit Manufacturer Turkey | Wholesale & Private Label"), description: clip(home?.description || site.description), og: '/og-image.jpg', body, md, schema: [orgSchema, websiteSchema, faqSchema(allFaq)] };
+    return { bodyClass: 'home', title: cleanTitle(home?.title, "Men's Suit Manufacturer Turkey | Wholesale & Private Label"), description: clip(home?.description || site.description), og: '/og-image.jpg', body, md, schema: [orgSchema, websiteSchema, faqSchema(allFaq)] };
   });
 
   // ── MANUFACTURING HUB ──
@@ -436,7 +436,7 @@ for (const j of jobs) {
   const path = L.P(j.key);
   const alternates = LS.filter((x) => has(x, j.key)).map((x) => ({ code: x.code, name: x.name, href: x.P(j.key) }));
   const r = j.render();
-  emit(path, layout({ L, path, v: V, categories: CATS, alternates, title: r.title, description: r.description, body: r.body, schema: r.schema, og: r.og, ogType: r.ogType }), r.md, { priority: j.priority, images: r.images || j.images, lang: L.code });
+  emit(path, layout({ L, path, v: V, categories: CATS, alternates, bodyClass: r.bodyClass, title: r.title, description: r.description, body: r.body, schema: r.schema, og: r.og, ogType: r.ogType }), r.md, { priority: j.priority, images: r.images || j.images, lang: L.code });
 }
 
 // ── 404 ──────────────────────────────────────────────────────
@@ -550,5 +550,7 @@ writeFileSync(join(DIST, '_redirects'), `/index /  301
 /manufacturing /mens-suit-manufacturing 301
 /about /about-us 301
 /contact-us /contact 301
+/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27 /collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19 301
+${LIVE.filter((L) => L.code !== 'en').map((L) => `/${L.code}/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27 /${L.code}/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19 301`).join('\n')}
 `);
 console.log(`✓ ${out.length} pages (${LIVE.map((L) => `${L.code}:${out.filter((p) => p.lang === L.code).length}`).join(' ')}), ${guides.length} guides, ${Object.keys(IMG).length} photos → ${DIST}/ (v${V})`);
