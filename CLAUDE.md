@@ -5,7 +5,7 @@
 
 - **Live:** https://www.markmorente.com. The canonical host is **www**, and URLs have **no trailing slash**.
 - **Repo:** https://github.com/Berkindev/MarkMorente (PUBLIC: no secrets, IPs, personal data or confidential lists).
-- **Owner:** Berkin. **Talk to the owner in Turkish. Site content is in English** (translations planned: AR, RU, FR, DE, ES, TR).
+- **Owner:** Berkin (the user works on it for his cousin's company). **Talk to the user in Turkish. Source content is English**, translated to AR, RU, FR, DE, ES, TR.
 - **Conversion:** WhatsApp `905321711494` with prefilled messages. Telegram `@markmorentesuits`, Instagram `@mark.morente`. No checkout and no published prices.
 
 ## Stack (since 2026-10-09, live on Cloudflare Pages)
@@ -18,13 +18,14 @@ npm run build          # → dist/
 npm run dev            # build + wrangler pages dev on :8789 (functions included)
 npm run audit          # build + seo-audit (titles, descriptions, H1, JSON-LD, broken links)
 npm run deploy:preview # preview.markmorente.pages.dev (noindex)
-npm run deploy         # production
+npm run deploy         # production + IndexNow ping (key in gitignored .indexnow-key, file src/public/<key>.txt)
+npm run indexnow       # re-submit sitemap URLs to IndexNow only
 ```
 
 ## File map
 | Path | What |
 |---|---|
-| `collections.json` | **All 79 products** (source of truth). Slugs are live URLs and must **never** be renamed. |
+| `collections.json` | **All 78 products** (source of truth). Slugs are live URLs and must **never** be renamed. |
 | `categories.json` | Legacy 6 manufacturing categories (images and fallback text). |
 | `content/BRIEF.md` | Verified company facts, audience and **voice rules**. Read before writing copy. |
 | `content/pages/*.md` | Home, hub, service, info and category pages (category files use bare slugs, e.g. `slug: tuxedos`). |
@@ -67,8 +68,9 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
   - Certifications: ISO 9001, OEKO-TEX 100. Founded 1994.
 - **Products without prices** use the `ItemPage` + `Service` schema. Never use `Product` (Product without offers or reviews is a critical GSC error).
 - **Category mapping** is in `build.mjs` (`CATS`):
-  - tuxedos: plain tuxedos and dinner jackets
-  - ceremony: embellished, sequin, velvet or jacquard pieces
+  - tuxedos: all tuxedos and dinner jackets
+  - wedding: three-piece suits, dinner jackets, tuxedos in white/ivory/burgundy/green/red
+  - ceremony: embellished tuxedos (rhinestone, sequin, crystal, beaded, studded, velvet, ombre…)
   - big & tall: models whose lot includes size 58
 - **Catalog images:** after adding or replacing one, run `python3 scripts/generate-image-variants.py`.
 - **Legacy URLs** (`/collections/<slug>`, `/mens-suit-manufacturing/<slug>`, `/about-us`, `/contact`) must keep working; `_redirects` covers old aliases.
@@ -82,4 +84,27 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
 ## Status
 - [x] Static rebuild (119 EN URLs + 6 languages = 743 pages), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow in any language)
 - [x] DNS cutover 2026-10-09 (www + apex → Pages custom domains, MX/SPF untouched), Vercel removed
-- [ ] GSC sitemap + IndexNow
+- [x] GSC sitemap submitted, IndexNow 736 URLs accepted (2026-10-09)
+- [x] 404 sweep 2026-10-09: all 332 legacy URLs (GSC export + old sitemap products, images, categories) return 200 or 301; all 736 sitemap URLs 200
+- [ ] GSC: user to click "Validate fix" on the old Product snippet error (old site had Product without price; new site has no Product schema). Watch Pages report for 404s for 1–2 weeks.
+
+## How to do common changes (read this before editing)
+After any change: `npm run build && npm run audit`, check locally with `npm run dev` (http://127.0.0.1:8789), then `npm run deploy`, then `git commit` + `git push` (push does not deploy).
+
+- **Swap / add a product photo:** put the WebP (≈800px wide master) under `public/collections/<CODE>/`, list it in that product's `images[]` in `collections.json`, run `python3 scripts/generate-image-variants.py` (creates `-card`/`-thumb`). Keep old file names if the URL was already indexed, or add a `_redirects` line in `build.mjs`.
+- **Add a product:** new entry in `collections.json` (unique `code` + new `slug`; copy an existing entry's shape). Then add its translated `title`/`content` to each `src/i18n/catalog/<code>.json` → `products` (and any new fabric/colour/feature string to `values`). Missing translations fall back to English text on the localized pages.
+- **Remove a product:** delete the entry, then add a 301 for its slug (and `/<lang>/collections/<slug>` + image folder) in the `_redirects` block of `build.mjs` (see the T27 example). Never leave a 404.
+- **Change stock status:** `status` = `"In Stock"` / `"Out of Stock"` in `collections.json` (in-stock sorts first, gets the lot CTA).
+- **Change a company fact** (MOQ, lead time, phone, capacity…): `src/data/site.mjs`, `content/BRIEF.md`, `src/i18n/*.json` (stats, notice, top bar), and grep the md content in all languages: `grep -rn "12–15\|12-15" content src`.
+- **Edit page copy:** `content/pages|markets|guides/*.md` (English), then the same file under `content/i18n/<code>/`. Keep front matter keys; `## FAQ` marker stays literal.
+- **Change UI text / buttons:** `src/i18n/en.json` + the 6 other language files (same keys). Mobile top bar text is `top.m` (keep ≤ ~42 chars).
+- **Stock photos (process/market pages):** `content/photos/*.jpg` + `credits.json`; mapping slug → photo is `PHOTOS` in `build.mjs`. Real factory photos from the owner should replace these (same file names = no code change).
+- **Home page sections/photos:** home markup is the `HOME` block in `build.mjs`; featured models are the code lists `featSuits` / `featTux`; category card images `CAT_IMG`.
+
+## History (2026-10-09, one long session)
+1. Audit of the old Next.js/Vercel site + GSC CSVs (≈181 clicks/6.7k impressions in 3 months; best pages /mens-suit-manufacturing and wedding-suits; Product-without-price GSC error; thin category pages).
+2. Rebuilt as static site with 14 guides, 5 market pages, B2B copy (wholesale only, stock lots vs private label), stock photos, full GEO layer (llms.txt, .md twins, MCP, API, WebMCP).
+3. Catalog audit against photos: most T-series titles/lapels/fabrics corrected; T27 (duplicate of T19) removed.
+4. Translations into 6 languages (pages, markets, UI, catalog) by agents; owner-confirmed facts applied.
+5. Mobile-first fixes (contact bar, header, top bar per language), flag language menu, classic navy/gold home (no hero photos: owner found them odd).
+6. Cutover: Cloudflare Pages custom domains for www + apex (user did it in the dashboard), Vercel project deleted, `static-site` merged into `main`, GSC sitemap submitted, IndexNow sent.

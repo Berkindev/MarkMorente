@@ -549,6 +549,7 @@ writeFileSync(join(DIST, '_redirects'), `/index /  301
 /about /about-us 301
 /contact-us /contact 301
 /collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27 /collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19 301
+/collections/T27/* /collections/T19/:splat 301
 ${LIVE.filter((L) => L.code !== 'en').map((L) => `/${L.code}/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27 /${L.code}/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19 301`).join('\n')}
 `);
 console.log(`✓ ${out.length} pages (${LIVE.map((L) => `${L.code}:${out.filter((p) => p.lang === L.code).length}`).join(' ')}), ${guides.length} guides, ${Object.keys(IMG).length} photos → ${DIST}/ (v${V})`);
