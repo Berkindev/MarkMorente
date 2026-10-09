@@ -1,5 +1,10 @@
 {
-  "_meta": { "code": "en", "name": "English", "locale": "en_US", "dir": "ltr" },
+  "_meta": {
+    "code": "en",
+    "name": "English",
+    "locale": "en_US",
+    "dir": "ltr"
+  },
   "waPrefix": "Hello Mark Morente, I'm contacting you from your website.",
   "skip": "Skip to content",
   "openMenu": "Open menu",
@@ -8,7 +13,6 @@
   "home": "Home",
   "logoAlt": "Mark Morente logo",
   "homeAria": "Mark Morente home",
-
   "nav.manufacturing": "Manufacturing",
   "nav.collections": "Collections",
   "nav.privateLabel": "Private Label",
@@ -18,11 +22,10 @@
   "nav.guides": "Guides",
   "nav.about": "About",
   "nav.contact": "Contact",
-
   "top.a": "Wholesale only",
   "top.b": "Stock lots from 6 suits · Private label from 100 units per style",
   "top.c": "Worldwide shipping",
-
+  "top.m": "Wholesale only · Worldwide shipping",
   "btn.getQuote": "Get a quote",
   "btn.requestQuote": "Request a wholesale quote",
   "btn.quoteOnWhatsApp": "Request a quote on WhatsApp",
@@ -31,7 +34,6 @@
   "btn.howOrdering": "How ordering works",
   "btn.askWhatsApp": "Ask on WhatsApp",
   "msg.general": "I would like a wholesale quote.",
-
   "footer.about": "Men's suit and tuxedo manufacturer in Istanbul, Turkey. Wholesale, private label and OEM production for businesses worldwide.",
   "footer.manufacturing": "Manufacturing",
   "footer.buying": "Buying",
@@ -52,17 +54,14 @@
   "footer.place": "Istanbul, Turkey",
   "footer.est": "Est.",
   "footer.b2b": "Business buyers only. We don't sell single suits.",
-
   "notice.strong": "Wholesale only.",
   "notice.text": "We supply businesses: the smallest order is one stock lot (6–7 suits in a size run) or 100 units per style for production under your label. We don't sell single suits.",
-
   "card.inStock": "In stock",
   "card.madeToOrder": "Made to order",
   "card.lotOf": "lot of {n}",
   "card.alt": "{title}, wholesale {model} by Mark Morente",
   "cat.meta": "{n} models · wholesale & private label",
   "cat.alt": "{name} manufactured by Mark Morente",
-
   "quote.h": "Wholesale quote",
   "quote.p": "Send model codes, quantities per size and your country. We reply within 24 hours on business days.",
   "toc": "On this page",
@@ -71,7 +70,6 @@
   "msg.page": "I read your page \"{h1}\" and would like a wholesale quote.",
   "band.title": "Tell us what you need",
   "band.text": "Model codes or reference photos, quantities per size, your label requirements and destination. We quote price and lead time per order.",
-
   "home.eyebrow": "Wholesale · Private label · OEM · Istanbul",
   "home.viewCollections": "View collections",
   "home.msgHero": "I would like a wholesale quote for suits/tuxedos.",
@@ -129,23 +127,19 @@
   "home.band.title": "Get a wholesale quote",
   "home.band.text": "Send model codes, quantities and destination. Prices and lead times are quoted per order.",
   "market": "Market",
-
   "market.africa": "Africa",
   "market.europe": "Europe",
   "market.central-asia": "Central Asia & Caucasus",
   "market.middle-east": "Middle East",
   "market.north-america": "North America",
-
   "crumb.manufacturing": "Manufacturing",
   "crumb.collections": "Collections",
   "crumb.markets": "Markets",
   "crumb.guides": "Guides",
-
   "hub.eyebrow": "Men's suit manufacturer · Turkey",
   "hub.imgAlt": "Suit production floor in a garment factory",
   "hub.cats.eyebrow": "Categories",
   "hub.cats.h": "What we manufacture",
-
   "cat.3-piece-suits": "3-Piece Suits",
   "cat.2-piece-suits": "2-Piece Suits",
   "cat.tuxedos": "Tuxedos",
@@ -158,7 +152,6 @@
   "cat.grid.p": "In-stock models ship as lots; any model can be produced to order under your label.",
   "cat.seeAll": "See all {n} models",
   "cat.msg": "I'm interested in wholesale {name}. Please send your catalog and prices.",
-
   "col.title": "Men's Suit & Tuxedo Collections | Wholesale Catalog",
   "col.description": "Wholesale catalog of {n} men's suits and tuxedos made in Istanbul: stock lots of 6–7 suits per model or private label production from 100 units.",
   "col.eyebrow": "Wholesale catalog",
@@ -172,7 +165,6 @@
   "col.band.title": "Want these under your label?",
   "col.band.text": "Any model can be produced in your fabric and colour with your labels, from 100 units per style.",
   "col.band.msg": "I would like to produce some of your models under my own label.",
-
   "p.code": "Code",
   "p.spec.code": "Model code",
   "p.spec.type": "Type",
@@ -210,7 +202,6 @@
   "p.description.lot": "Lots of {n}, {range}",
   "p.alt": "{title}, {model} by Mark Morente, front view",
   "p.viewImage": "View image {n}",
-
   "eyebrow.private-label-suits": "Private label",
   "eyebrow.oem-suit-manufacturing": "OEM production",
   "eyebrow.wholesale-suits": "Wholesale stock lots",
@@ -221,7 +212,6 @@
   "eyebrow.faq": "FAQ",
   "eyebrow.about-us": "About Mark Morente",
   "eyebrow.contact": "Contact",
-
   "mk.title": "Wholesale Suit Supplier for Africa, Europe, Asia & More",
   "mk.description": "Mark Morente supplies wholesale suits and tuxedos from Istanbul to Africa, Europe, Central Asia & Caucasus, the Middle East and North America.",
   "mk.h1": "Markets We Supply",

@@ -1,5 +1,10 @@
 {
-  "_meta": { "code": "fr", "name": "Français", "locale": "fr_FR", "dir": "ltr" },
+  "_meta": {
+    "code": "fr",
+    "name": "Français",
+    "locale": "fr_FR",
+    "dir": "ltr"
+  },
   "waPrefix": "Bonjour Mark Morente, je vous contacte depuis votre site web.",
   "skip": "Aller au contenu",
   "openMenu": "Ouvrir le menu",
@@ -8,7 +13,6 @@
   "home": "Accueil",
   "logoAlt": "Logo Mark Morente",
   "homeAria": "Accueil Mark Morente",
-
   "nav.manufacturing": "Fabrication",
   "nav.collections": "Collections",
   "nav.privateLabel": "Votre marque",
@@ -18,11 +22,10 @@
   "nav.guides": "Guides",
   "nav.about": "À propos",
   "nav.contact": "Contact",
-
   "top.a": "Vente aux professionnels uniquement",
   "top.b": "Lots en stock dès 6 costumes · Votre marque dès 100 pièces par modèle",
   "top.c": "Livraison dans le monde entier",
-
+  "top.m": "Vente en gros uniquement · Livraison mondiale",
   "btn.getQuote": "Demander un devis",
   "btn.requestQuote": "Demander un devis de gros",
   "btn.quoteOnWhatsApp": "Demander un devis sur WhatsApp",
@@ -31,7 +34,6 @@
   "btn.howOrdering": "Comment commander",
   "btn.askWhatsApp": "Nous écrire sur WhatsApp",
   "msg.general": "Je souhaiterais recevoir un devis de gros.",
-
   "footer.about": "Fabricant de costumes homme et de smokings à Istanbul, en Turquie. Vente en gros, production sous votre marque et OEM pour les professionnels du monde entier.",
   "footer.manufacturing": "Fabrication",
   "footer.buying": "Acheter",
@@ -52,17 +54,14 @@
   "footer.place": "Istanbul, Turquie",
   "footer.est": "Depuis",
   "footer.b2b": "Réservé aux professionnels. Nous ne vendons pas de costumes à l'unité.",
-
   "notice.strong": "Vente en gros uniquement.",
   "notice.text": "Nous travaillons avec les professionnels : la plus petite commande est un lot en stock (6 à 7 costumes en série de tailles) ou 100 pièces par modèle pour une production sous votre marque. Nous ne vendons pas de costumes à l'unité.",
-
   "card.inStock": "En stock",
   "card.madeToOrder": "Sur commande",
   "card.lotOf": "lot de {n}",
   "card.alt": "{title}, {model} en gros par Mark Morente",
   "cat.meta": "{n} modèles · gros et sous votre marque",
   "cat.alt": "{name} fabriqués par Mark Morente",
-
   "quote.h": "Devis de gros",
   "quote.p": "Envoyez-nous les références des modèles, les quantités par taille et votre pays. Nous répondons sous 24 heures les jours ouvrés.",
   "toc": "Sur cette page",
@@ -71,7 +70,6 @@
   "msg.page": "J'ai lu votre page « {h1} » et je souhaiterais recevoir un devis de gros.",
   "band.title": "Dites-nous ce dont vous avez besoin",
   "band.text": "Références des modèles ou photos, quantités par taille, exigences de marquage et destination. Nous établissons le prix et le délai pour chaque commande.",
-
   "home.eyebrow": "Vente en gros · Votre marque · OEM · Istanbul",
   "home.viewCollections": "Voir les collections",
   "home.msgHero": "Je souhaiterais recevoir un devis de gros pour des costumes et smokings.",
@@ -129,23 +127,19 @@
   "home.band.title": "Obtenir un devis de gros",
   "home.band.text": "Envoyez les références, les quantités et la destination. Les prix et les délais sont établis pour chaque commande.",
   "market": "Marché",
-
   "market.africa": "Afrique",
   "market.europe": "Europe",
   "market.central-asia": "Asie centrale et Caucase",
   "market.middle-east": "Moyen-Orient",
   "market.north-america": "Amérique du Nord",
-
   "crumb.manufacturing": "Fabrication",
   "crumb.collections": "Collections",
   "crumb.markets": "Marchés",
   "crumb.guides": "Guides",
-
   "hub.eyebrow": "Fabricant de costumes homme · Turquie",
   "hub.imgAlt": "Atelier de production de costumes dans une usine de confection",
   "hub.cats.eyebrow": "Catégories",
   "hub.cats.h": "Ce que nous fabriquons",
-
   "cat.3-piece-suits": "Costumes trois pièces",
   "cat.2-piece-suits": "Costumes deux pièces",
   "cat.tuxedos": "Smokings",
@@ -158,7 +152,6 @@
   "cat.grid.p": "Les modèles en stock sont vendus par lots ; chaque modèle peut aussi être fabriqué à la commande sous votre marque.",
   "cat.seeAll": "Voir les {n} modèles",
   "cat.msg": "Je souhaite acheter en gros des modèles de la catégorie {name}. Pouvez-vous m'envoyer votre catalogue et vos prix ?",
-
   "col.title": "Collections costumes et smokings homme | Catalogue de gros",
   "col.description": "Catalogue de gros de {n} costumes homme et smokings fabriqués à Istanbul : lots en stock de 6 à 7 costumes ou production sous votre marque dès 100 pièces.",
   "col.eyebrow": "Catalogue de gros",
@@ -172,7 +165,6 @@
   "col.band.title": "Ces modèles sous votre marque ?",
   "col.band.text": "Chaque modèle peut être fabriqué dans le tissu et la couleur de votre choix, avec vos étiquettes, dès 100 pièces par modèle.",
   "col.band.msg": "Je souhaiterais faire fabriquer certains de vos modèles sous ma propre marque.",
-
   "p.code": "Réf.",
   "p.spec.code": "Référence",
   "p.spec.type": "Type",
@@ -210,7 +202,6 @@
   "p.description.lot": "Lots de {n}, {range}",
   "p.alt": "{title}, {model} par Mark Morente, vue de face",
   "p.viewImage": "Voir l'image {n}",
-
   "eyebrow.private-label-suits": "Sous votre marque",
   "eyebrow.oem-suit-manufacturing": "Production OEM",
   "eyebrow.wholesale-suits": "Lots en stock en gros",
@@ -221,7 +212,6 @@
   "eyebrow.faq": "FAQ",
   "eyebrow.about-us": "À propos de Mark Morente",
   "eyebrow.contact": "Contact",
-
   "mk.title": "Fournisseur de costumes en gros : Afrique, Europe, Asie",
   "mk.description": "Mark Morente expédie ses costumes homme et smokings en gros depuis Istanbul vers l'Afrique, l'Europe, l'Asie centrale, le Moyen-Orient et l'Amérique du Nord.",
   "mk.h1": "Les marchés que nous livrons",

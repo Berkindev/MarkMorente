@@ -71,7 +71,7 @@ function header(L, path, alternates) {
     return `<li${mobileOnly ? ' class="nav__m"' : ''}><a href="${href}"${cur ? ' aria-current="page"' : ''}>${esc(L.t(k))}</a></li>`;
   }).join('');
   return `<a class="skip" href="#main">${esc(L.t('skip'))}</a>
-<div class="top"><div class="wrap">${esc(L.t('top.a'))}<span class="top__x"> · ${esc(L.t('top.b'))}</span> · ${esc(L.t('top.c'))}</div></div>
+<div class="top"><div class="wrap"><span class="top__d">${esc(L.t('top.a'))} · ${esc(L.t('top.b'))} · ${esc(L.t('top.c'))}</span><span class="top__m">${esc(L.t('top.m'))}</span></div></div>
 <header class="header"><div class="wrap">
   <a class="logo" href="${L.P('/')}" aria-label="${esc(L.t('homeAria'))}"><img src="/logo-256.webp" width="52" height="52" alt="${esc(L.t('logoAlt'))}"><span>Mark Morente</span></a>
   <nav class="nav" id="nav" aria-label="Main"><ul>${items}</ul>

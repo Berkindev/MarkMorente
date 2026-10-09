@@ -1,5 +1,10 @@
 {
-  "_meta": { "code": "es", "name": "Español", "locale": "es_ES", "dir": "ltr" },
+  "_meta": {
+    "code": "es",
+    "name": "Español",
+    "locale": "es_ES",
+    "dir": "ltr"
+  },
   "waPrefix": "Hola, Mark Morente. Les escribo desde su sitio web.",
   "skip": "Ir al contenido",
   "openMenu": "Abrir menú",
@@ -8,7 +13,6 @@
   "home": "Inicio",
   "logoAlt": "Logotipo de Mark Morente",
   "homeAria": "Inicio de Mark Morente",
-
   "nav.manufacturing": "Fabricación",
   "nav.collections": "Colecciones",
   "nav.privateLabel": "Marca propia",
@@ -18,11 +22,10 @@
   "nav.guides": "Guías",
   "nav.about": "Empresa",
   "nav.contact": "Contacto",
-
   "top.a": "Solo venta al por mayor",
   "top.b": "Lotes de stock desde 6 trajes · Marca propia desde 100 unidades por modelo",
   "top.c": "Envíos a todo el mundo",
-
+  "top.m": "Solo al por mayor · Envío a todo el mundo",
   "btn.getQuote": "Pedir cotización",
   "btn.requestQuote": "Solicitar cotización mayorista",
   "btn.quoteOnWhatsApp": "Pedir cotización por WhatsApp",
@@ -31,7 +34,6 @@
   "btn.howOrdering": "Cómo hacer un pedido",
   "btn.askWhatsApp": "Consultar por WhatsApp",
   "msg.general": "Me gustaría recibir una cotización mayorista.",
-
   "footer.about": "Fabricante de trajes de hombre y esmoquin en Estambul, Turquía. Venta al por mayor, marca propia y producción OEM para empresas de todo el mundo.",
   "footer.manufacturing": "Fabricación",
   "footer.buying": "Compras",
@@ -52,17 +54,14 @@
   "footer.place": "Estambul, Turquía",
   "footer.est": "Desde",
   "footer.b2b": "Solo para empresas. No vendemos trajes sueltos.",
-
   "notice.strong": "Solo venta al por mayor.",
   "notice.text": "Trabajamos con empresas: el pedido mínimo es un lote de stock (6-7 trajes con curva de tallas) o 100 unidades por modelo para producción con su marca. No vendemos trajes sueltos.",
-
   "card.inStock": "En stock",
   "card.madeToOrder": "Bajo pedido",
   "card.lotOf": "lote de {n}",
   "card.alt": "{title}, {model} al por mayor de Mark Morente",
   "cat.meta": "{n} modelos · al por mayor y marca propia",
   "cat.alt": "{name} fabricados por Mark Morente",
-
   "quote.h": "Cotización mayorista",
   "quote.p": "Envíenos los códigos de modelo, las cantidades por talla y su país. Respondemos en 24 horas en días laborables.",
   "toc": "En esta página",
@@ -71,7 +70,6 @@
   "msg.page": "He leído su página \"{h1}\" y me gustaría recibir una cotización mayorista.",
   "band.title": "Cuéntenos qué necesita",
   "band.text": "Códigos de modelo o fotos de referencia, cantidades por talla, requisitos de etiquetado y destino. Cotizamos precio y plazo para cada pedido.",
-
   "home.eyebrow": "Al por mayor · Marca propia · OEM · Estambul",
   "home.viewCollections": "Ver colecciones",
   "home.msgHero": "Me gustaría recibir una cotización mayorista de trajes y esmoquin.",
@@ -129,23 +127,19 @@
   "home.band.title": "Solicite una cotización mayorista",
   "home.band.text": "Envíenos códigos de modelo, cantidades y destino. Cotizamos precio y plazo para cada pedido.",
   "market": "Mercado",
-
   "market.africa": "África",
   "market.europe": "Europa",
   "market.central-asia": "Asia Central y Cáucaso",
   "market.middle-east": "Oriente Medio",
   "market.north-america": "Norteamérica",
-
   "crumb.manufacturing": "Fabricación",
   "crumb.collections": "Colecciones",
   "crumb.markets": "Mercados",
   "crumb.guides": "Guías",
-
   "hub.eyebrow": "Fabricante de trajes de hombre · Turquía",
   "hub.imgAlt": "Planta de producción de trajes en una fábrica de confección",
   "hub.cats.eyebrow": "Categorías",
   "hub.cats.h": "Qué fabricamos",
-
   "cat.3-piece-suits": "Trajes de tres piezas",
   "cat.2-piece-suits": "Trajes de dos piezas",
   "cat.tuxedos": "Esmoquin",
@@ -158,7 +152,6 @@
   "cat.grid.p": "Los modelos en stock se envían en lotes; cualquier modelo puede producirse bajo pedido con su marca.",
   "cat.seeAll": "Ver los {n} modelos",
   "cat.msg": "Me interesan sus {name} al por mayor. Por favor, envíenme su catálogo y precios.",
-
   "col.title": "Colecciones de trajes y esmoquin | Catálogo mayorista",
   "col.description": "Catálogo mayorista de {n} trajes de hombre y esmoquin fabricados en Estambul: lotes de stock de 6-7 trajes por modelo o marca propia desde 100 unidades.",
   "col.eyebrow": "Catálogo mayorista",
@@ -172,7 +165,6 @@
   "col.band.title": "¿Los quiere con su marca?",
   "col.band.text": "Cualquier modelo puede producirse en su tejido y color, con sus etiquetas, desde 100 unidades por modelo.",
   "col.band.msg": "Me gustaría producir algunos de sus modelos con mi propia marca.",
-
   "p.code": "Código",
   "p.spec.code": "Código de modelo",
   "p.spec.type": "Tipo",
@@ -210,7 +202,6 @@
   "p.description.lot": "Lotes de {n}, {range}",
   "p.alt": "{title}, {model} de Mark Morente, vista frontal",
   "p.viewImage": "Ver imagen {n}",
-
   "eyebrow.private-label-suits": "Marca propia",
   "eyebrow.oem-suit-manufacturing": "Producción OEM",
   "eyebrow.wholesale-suits": "Lotes de stock al por mayor",
@@ -221,7 +212,6 @@
   "eyebrow.faq": "Preguntas frecuentes",
   "eyebrow.about-us": "Sobre Mark Morente",
   "eyebrow.contact": "Contacto",
-
   "mk.title": "Proveedor de trajes al por mayor para África, Europa y Asia",
   "mk.description": "Mark Morente suministra trajes y esmoquin al por mayor desde Estambul a África, Europa, Asia Central y el Cáucaso, Oriente Medio y Norteamérica.",
   "mk.h1": "Mercados que abastecemos",

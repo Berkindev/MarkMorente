@@ -216,7 +216,6 @@ for (const L of LS) {
 
   // ── HOME ──
   plan(L, '/', '1.0', () => {
-    const heroImgs = ['S05', 'S03', 'S08'].map(byCode).filter(Boolean);
     const featSuits = ['S05', 'S08', 'S06', 'S02'].map(byCode).filter(Boolean);
     const featTux = ['T07', 'T20', 'T14', 'T09'].map(byCode).filter(Boolean);
     const homeSections = home ? splitFaq(locLinks(L, home.html)).main.split(/(?=<h2 )/).filter((s) => s.startsWith('<h2')) : [];
@@ -226,7 +225,6 @@ for (const L of LS) {
     const allFaq = [...(faqDoc?.faq || [])].slice(0, 6);
     const body = `
 <section class="hero"><div class="wrap">
-  <div class="hero__media">${heroImgs.map((p, i) => `<figure>${catalogPic(p.images[0], L.t('card.alt', { title: L.prod(p).title, model: L.prod(p).model.toLocaleLowerCase(L.code) }), { sizes: '(max-width: 860px) 33vw, 200px', eager: i < 2 })}</figure>`).join('')}</div>
   <div class="hero__text">
     <span class="eyebrow">${esc(L.t('home.eyebrow'))}</span>
     <h1>${esc(home?.h1 || "Men's suit and tuxedo manufacturer in Istanbul, Turkey")}</h1>

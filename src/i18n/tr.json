@@ -1,5 +1,10 @@
 {
-  "_meta": { "code": "tr", "name": "Türkçe", "locale": "tr_TR", "dir": "ltr" },
+  "_meta": {
+    "code": "tr",
+    "name": "Türkçe",
+    "locale": "tr_TR",
+    "dir": "ltr"
+  },
   "waPrefix": "Merhaba Mark Morente, web sitenizden ulaşıyorum.",
   "skip": "İçeriğe geç",
   "openMenu": "Menüyü aç",
@@ -8,7 +13,6 @@
   "home": "Ana sayfa",
   "logoAlt": "Mark Morente logosu",
   "homeAria": "Mark Morente ana sayfa",
-
   "nav.manufacturing": "Üretim",
   "nav.collections": "Koleksiyonlar",
   "nav.privateLabel": "Private Label",
@@ -18,11 +22,10 @@
   "nav.guides": "Rehberler",
   "nav.about": "Hakkımızda",
   "nav.contact": "İletişim",
-
   "top.a": "Sadece toptan satış",
   "top.b": "Stok lotlar 6 takımdan başlar · Private label model başına 100 adetten",
   "top.c": "Dünya geneline sevkiyat",
-
+  "top.m": "Sadece toptan · Dünya geneline sevkiyat",
   "btn.getQuote": "Teklif alın",
   "btn.requestQuote": "Toptan fiyat teklifi isteyin",
   "btn.quoteOnWhatsApp": "WhatsApp'tan teklif isteyin",
@@ -31,7 +34,6 @@
   "btn.howOrdering": "Sipariş süreci nasıl işler",
   "btn.askWhatsApp": "WhatsApp'tan sorun",
   "msg.general": "Toptan fiyat teklifi almak istiyorum.",
-
   "footer.about": "İstanbul'da erkek takım elbise ve smokin üreticisi. Dünyanın her yerindeki firmalara toptan satış, private label ve OEM üretim.",
   "footer.manufacturing": "Üretim",
   "footer.buying": "Satın alma",
@@ -52,17 +54,14 @@
   "footer.place": "İstanbul, Türkiye",
   "footer.est": "Kuruluş",
   "footer.b2b": "Sadece firmalara satış yapıyoruz. Tek takım satmıyoruz.",
-
   "notice.strong": "Sadece toptan satış.",
   "notice.text": "Firmalarla çalışıyoruz: en küçük sipariş bir stok lotu (beden serisi halinde 6–7 takım) ya da kendi markanızla üretimde model başına 100 adettir. Tek takım satmıyoruz.",
-
   "card.inStock": "Stokta",
   "card.madeToOrder": "Siparişe özel",
   "card.lotOf": "lot: {n} takım",
   "card.alt": "{title}, Mark Morente toptan {model}",
   "cat.meta": "{n} model · toptan ve private label",
   "cat.alt": "Mark Morente üretimi {name}",
-
   "quote.h": "Toptan fiyat teklifi",
   "quote.p": "Model kodlarını, beden başına adetleri ve ülkenizi gönderin. İş günlerinde 24 saat içinde dönüş yapıyoruz.",
   "toc": "Bu sayfada",
@@ -71,7 +70,6 @@
   "msg.page": "“{h1}” sayfanızı okudum, toptan fiyat teklifi almak istiyorum.",
   "band.title": "İhtiyacınızı bize yazın",
   "band.text": "Model kodları veya referans fotoğraflar, beden başına adetler, etiket talepleriniz ve teslim yeri. Her sipariş için ayrı fiyat ve termin veriyoruz.",
-
   "home.eyebrow": "Toptan · Private label · OEM · İstanbul",
   "home.viewCollections": "Koleksiyonları inceleyin",
   "home.msgHero": "Takım elbise/smokin için toptan fiyat teklifi almak istiyorum.",
@@ -129,23 +127,19 @@
   "home.band.title": "Toptan fiyat teklifi alın",
   "home.band.text": "Model kodlarını, adetleri ve teslim yerini gönderin. Fiyat ve termin her sipariş için ayrıca verilir.",
   "market": "Pazar",
-
   "market.africa": "Afrika",
   "market.europe": "Avrupa",
   "market.central-asia": "Orta Asya ve Kafkasya",
   "market.middle-east": "Orta Doğu",
   "market.north-america": "Kuzey Amerika",
-
   "crumb.manufacturing": "Üretim",
   "crumb.collections": "Koleksiyonlar",
   "crumb.markets": "Pazarlar",
   "crumb.guides": "Rehberler",
-
   "hub.eyebrow": "Erkek takım elbise üreticisi · Türkiye",
   "hub.imgAlt": "Konfeksiyon fabrikasında takım elbise üretim hattı",
   "hub.cats.eyebrow": "Kategoriler",
   "hub.cats.h": "Neler üretiyoruz",
-
   "cat.3-piece-suits": "Üçlü Takım Elbise",
   "cat.2-piece-suits": "İkili Takım Elbise",
   "cat.tuxedos": "Smokin",
@@ -158,7 +152,6 @@
   "cat.grid.p": "Stoktaki modeller lot halinde sevk edilir; her model kendi markanızla siparişe özel de üretilebilir.",
   "cat.seeAll": "Tüm modelleri görün ({n})",
   "cat.msg": "Toptan {name} ile ilgileniyorum. Kataloğunuzu ve fiyatlarınızı gönderebilir misiniz?",
-
   "col.title": "Erkek Takım Elbise ve Smokin Koleksiyonu | Toptan Katalog",
   "col.description": "İstanbul'da üretilen {n} model erkek takım elbise ve smokinden oluşan toptan katalog: model başına 6–7 takımlık stok lotlar ya da 100 adetten private label.",
   "col.eyebrow": "Toptan katalog",
@@ -172,7 +165,6 @@
   "col.band.title": "Bu modelleri kendi markanızla mı istiyorsunuz?",
   "col.band.text": "Her model sizin kumaşınız ve renginizle, sizin etiketlerinizle, model başına 100 adetten üretilebilir.",
   "col.band.msg": "Bazı modellerinizi kendi markamla ürettirmek istiyorum.",
-
   "p.code": "Kod",
   "p.spec.code": "Model kodu",
   "p.spec.type": "Tip",
@@ -210,7 +202,6 @@
   "p.description.lot": "{n} takımlık lotlar, {range}",
   "p.alt": "{title}, Mark Morente {model}, önden görünüm",
   "p.viewImage": "{n}. görseli göster",
-
   "eyebrow.private-label-suits": "Private label",
   "eyebrow.oem-suit-manufacturing": "OEM üretim",
   "eyebrow.wholesale-suits": "Toptan stok lotlar",
@@ -221,7 +212,6 @@
   "eyebrow.faq": "SSS",
   "eyebrow.about-us": "Mark Morente hakkında",
   "eyebrow.contact": "İletişim",
-
   "mk.title": "Afrika, Avrupa, Asya ve Ötesine Toptan Takım Elbise",
   "mk.description": "Mark Morente, İstanbul'dan Afrika, Avrupa, Orta Asya ve Kafkasya, Orta Doğu ve Kuzey Amerika'ya toptan takım elbise ve smokin tedarik ediyor.",
   "mk.h1": "Hizmet Verdiğimiz Pazarlar",
