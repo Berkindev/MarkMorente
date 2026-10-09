@@ -8,9 +8,9 @@
 - **Owner:** Berkin. **Talk to the owner in Turkish. Site content is in English** (translations planned: AR, RU, FR, DE, ES, TR).
 - **Conversion:** WhatsApp `905321711494` with prefilled messages. Telegram `@markmorentesuits`, Instagram `@mark.morente`. No checkout and no published prices.
 
-## Stack (since Oct 2026, branch `static-site`)
+## Stack (since 2026-10-09, live on Cloudflare Pages)
 - Zero-dependency static site generator in Node 22: `node scripts/build.mjs` writes to `dist/`, which is hosted on **Cloudflare Pages** (project `markmorente`).
-- The old Next.js/Vercel site lives on `main` until cutover. **Vercel auto-deploys `main`, so don't push or merge to main without the owner's OK.**
+- Vercel project and domains were deleted on 2026-10-09; `main` holds the static site. Deploys are manual (`npm run deploy`), pushing to GitHub does not deploy.
 - Pages are emitted as `<path>.html` (Pages serves them at `/path`, no slash) plus a `<path>.md` markdown twin. The home page is `index.html` / `index.md`.
 
 ```
@@ -81,5 +81,5 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
 
 ## Status
 - [x] Static rebuild (119 EN URLs + 6 languages = 743 pages), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow in any language)
-- [ ] Preview deploy → owner review → DNS cutover (www + apex to Pages, MX untouched) → disconnect Vercel
+- [x] DNS cutover 2026-10-09 (www + apex → Pages custom domains, MX/SPF untouched), Vercel removed
 - [ ] GSC sitemap + IndexNow
