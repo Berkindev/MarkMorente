@@ -1,165 +1,75 @@
-# Mark Morente — Project Guide (read this first)
-
-> Note to future-me (Claude) and to the owner. This is the single source of truth for
-> what this project is, how it's built, what we've already done, and how to make the
-> common changes safely. Read this before touching anything.
+# Mark Morente: Project Guide (read this first)
 
 ## What this is
-**Mark Morente** is a B2B men's suit (takım elbise) brand — wholesale, OEM & private-label
-suit/tuxedo manufacturing based in Istanbul, Turkey. This is its marketing + catalog website.
+**Mark Morente** is a B2B manufacturer of men's suits and tuxedos in Istanbul, Turkey. It does wholesale, private label and OEM production for business buyers worldwide (wholesalers, retailers, store chains, formalwear and wedding stores, brands). It does **not** sell single suits to individuals, and the site makes that distinction everywhere.
 
-- **Live:** https://www.markmorente.com (canonical domain is **www**)
-- **Repo:** https://github.com/Berkindev/MarkMorente
-- **Deploy:** Vercel, auto-deploys on push to **`main`**. So pushing = going live. Confirm with owner before pushing.
-- **Owner:** Berkin (berkindev55@gmail.com). **Talk to the owner in Turkish; keep all site content in English.**
-- **No e-commerce/checkout.** Conversion = contacting via **WhatsApp** (number `905321711494`), Telegram (`@markmorentesuits`), Instagram (`@mark.morente`).
+- **Live:** https://www.markmorente.com. The canonical host is **www**, and URLs have **no trailing slash**.
+- **Repo:** https://github.com/Berkindev/MarkMorente (PUBLIC: no secrets, IPs, personal data or confidential lists).
+- **Owner:** Berkin. **Talk to the owner in Turkish. Site content is in English** (translations planned: AR, RU, FR, DE, ES, TR).
+- **Conversion:** WhatsApp `905321711494` with prefilled messages. Telegram `@markmorentesuits`, Instagram `@mark.morente`. No checkout and no published prices.
 
-## Tech stack
-- Next.js 15 (app router) + React 19 + Tailwind v4 + TypeScript.
-- Minimal deps on purpose: `next`, `react`, `react-dom`, `@vercel/analytics`, `@vercel/speed-insights`.
-  Dead UI scaffolding was removed (embla, lucide, cva, radix-slot, clsx, tailwind-merge,
-  `components/ui/*`, `lib/utils`, `BrandLogoCarousel`, `CategoryProductsGrid`, old `Footer.tsx`).
-  **Don't reintroduce them** unless actually needed.
-- Build check: `npm install && npm run build` must pass (97 static pages as of last edit).
-  (There's a pre-existing harmless ESLint `FlatCompat` config warning — ignore it; build still succeeds.)
+## Stack (since Oct 2026, branch `static-site`)
+- Zero-dependency static site generator in Node 22: `node scripts/build.mjs` writes to `dist/`, which is hosted on **Cloudflare Pages** (project `markmorente`).
+- The old Next.js/Vercel site lives on `main` until cutover. **Vercel auto-deploys `main`, so don't push or merge to main without the owner's OK.**
+- Pages are emitted as `<path>.html` (Pages serves them at `/path`, no slash) plus a `<path>.md` markdown twin. The home page is `index.html` / `index.md`.
 
-## Data model — `collections.json` is the source of truth
-ALL products live in `collections.json` → `products[]`. Each product:
 ```
-slug, title, model, fit, lapel, fabric, lining, color, code,
-images[] (paths under /collections/<code>/...),
-status ("In Stock" | "Out of Stock"),
-description { compositions{}, features[], lot{ sizes[], quantities[], total } },
-content (one descriptive paragraph)
+npm run build          # → dist/
+npm run dev            # build + wrangler pages dev on :8789 (functions included)
+npm run audit          # build + seo-audit (titles, descriptions, H1, JSON-LD, broken links)
+npm run deploy:preview # preview.markmorente.pages.dev (noindex)
+npm run deploy         # production
 ```
-- `app/sitemap.ts` and the collections/product pages all derive from this file.
-- Other JSON: `categories.json` (6 manufacturing categories + their hero images),
-  `manufacturing.json` (manufacturing landing sections; the "categories" section image
-  field is unused — the landing grid reads category images from `categories.json`),
-  `aboutus.json`, `contactus.json`, `footer.json`.
-- `products.json` / `photolinks.json` were legacy/unused and have been **deleted**.
 
-### Product catalog state (codes)
-- **16 legacy products** (codes `500, 524, 666, 710, 165, 238, 312, 341, 366, 378, 403, 404,
-  DB-PRE, SF-CLS, FB-FRM, TP-PRE`) → set to **Out of Stock** but kept LIVE for SEO.
-  Exception: **`FB-FRM` (Formal Business Suit Collection) is In Stock** (owner's call).
-- **`S01`–`S09`** = new model-shot suits (linen summer 2-piece + classic 3-piece).
-  (`S10` Burgundy was a duplicate of `S09` Brown and was deleted.)
-- **`T01`–`T54`** = new mannequin tuxedos / dinner jackets (1 image each).
-- New images sourced from owner's WhatsApp photos, grouped by color/model, SEO-renamed.
+## File map
+| Path | What |
+|---|---|
+| `collections.json` | **All 79 products** (source of truth). Slugs are live URLs and must **never** be renamed. |
+| `categories.json` | Legacy 6 manufacturing categories (images and fallback text). |
+| `content/BRIEF.md` | Verified company facts, audience and **voice rules**. Read before writing copy. |
+| `content/pages/*.md` | Home, hub, service, info and category pages (category files use bare slugs, e.g. `slug: tuxedos`). |
+| `content/guides/*.md` | 14 buyer guides → `/guides/<slug>` |
+| `content/markets/*.md` | 5 market pages → `/markets/<slug>` (with `country_list`) |
+| `content/photos/` | Unsplash-licensed stock photos plus `credits.json` (alt text comes from `subject`). |
+| `src/data/site.mjs` | Company facts (MOQ, lead time, certifications, contacts) and `waLink()`. |
+| `src/assets/site.css`, `site.js` | Design system; burger menu, reveal, gallery, contact events, WebMCP tools. |
+| `src/public/` | Fonts (self-hosted subsets), icon.png, favicon.ico; copied to dist root. |
+| `public/` | Catalog images `/collections/<code>/*.webp` (+ `-card` 480w, `-thumb` 160w), logos, og-image. |
+| `scripts/build.mjs` | Generator: pages, schema, sitemap, robots, llms.txt, API, .well-known, _headers, _redirects. |
+| `scripts/lib/{html,md,images}.mjs` | Layout and components, markdown renderer, photo pipeline (sips + cwebp → `/img/*.webp?v=hash`). |
+| `functions/_middleware.js` | Apex → www 301, `*.pages.dev` noindex, `Accept: text/markdown` negotiation, catalog image caching. |
+| `functions/mcp.js` | MCP server (search_models, get_model, get_ordering_terms, create_quote_link). |
+| `docs/gsc-*/` | Search Console exports (gitignored, local only). |
 
-## Images — performance rules (don't break)
-- Every catalog image is a **pre-optimized static WebP** (max ~1200px long edge), served via
-  `next/image` with the **`unoptimized`** prop. This bypasses Vercel's Image-Optimization quota
-  entirely and serves small CDN-cached files. `public/` is ~20MB (was 81MB of PNG/JPEG).
-- When adding images: convert to WebP + downscale first, drop under `public/collections/<code>/`,
-  reference with `unoptimized`. **Do NOT** remove `unoptimized` or add remote image hosts
-  (`next.config.ts` has no `remotePatterns`).
-- Portrait model shots in landscape/square cards use `object-cover object-top` so heads aren't cropped.
+## Content markdown format
+Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), `h1`, `lead`, `updated`, `related: [slugs]`. The body supports `##`, `###`, paragraphs, lists, **bold**, links and pipe tables. The last section is `## FAQ`, with `### Question` entries that render as FAQPage schema.
+`related` accepts page, guide, market and category slugs (with or without a `guides/` or `mens-suit-manufacturing/` prefix) and `collections`.
 
-### Size variants — run the script after touching any catalog image
-`unoptimized` means **no srcset**, so one file serves whatever slot it lands in. Every master
-therefore has pre-generated downscaled siblings, and `lib/images.ts` maps between them:
+## Rules
+- **Voice:** natural export-sales English. No AI-slop words (elevate, seamless, unlock, delve…), no em dashes, no invented stats. Facts must come from BRIEF.md / site.mjs.
+- **Verified facts (owner):**
+  - Capacity: 1,000+ suits/day.
+  - Stock lot: one model in a size run, 6–7 suits (EU 46–56/58).
+  - Made to order: from 100 units per style.
+  - Lead time: typically 12–15 days, varies by order, quoted per order.
+  - Certifications: ISO 9001, OEKO-TEX 100. Founded 1994.
+- **Products without prices** use the `ItemPage` + `Service` schema. Never use `Product` (Product without offers or reviews is a critical GSC error).
+- **Category mapping** is in `build.mjs` (`CATS`):
+  - tuxedos: plain tuxedos and dinner jackets
+  - ceremony: embellished, sequin, velvet or jacquard pieces
+  - big & tall: models whose lot includes size 58
+- **Catalog images:** after adding or replacing one, run `python3 scripts/generate-image-variants.py`.
+- **Legacy URLs** (`/collections/<slug>`, `/mens-suit-manufacturing/<slug>`, `/about-us`, `/contact`) must keep working; `_redirects` covers old aliases.
+- **DNS** is on Cloudflare. **MX/SPF are Hostinger mail: never touch them.**
 
-| file | width | used by |
-|---|---|---|
-| `foo.webp` | 800px | product-detail main image (`ProductDetail.tsx`) |
-| `foo-card.webp` | 480px | all grid cards — `cardSrc()` |
-| `foo-thumb.webp` | 160px | product gallery strip — `thumbSrc()` |
+## Open items to confirm with the owner
+- Israel is left off the Middle East page because of the Turkish trade embargo.
+- US grading for private label (north-america page).
+- Factory visits and pre-shipment photos or video (how-to-order, faq, about).
+- Restock claim; road freight with hanging transport; big & tall up to 6XL.
+- Real factory photos to replace the stock ones; a Google Business Profile / street address.
 
-**After adding or replacing any catalog image, run:**
-```
-python3 scripts/generate-image-variants.py        # --force to rebuild all
-```
-A missing variant renders as a 404 image — the script prints anything it can't find. It also
-carries the homepage `FabricsSection` image list, which is hard-coded in `app/page.tsx`; keep
-the two in sync.
-
-### Brand assets
-- `public/logo-256.webp` (18KB) is the nav + footer logo, `app/icon.png` the favicon,
-  `public/logo-192.png` / `logo-512.png` the PWA icons, `public/og-image.jpg` (1200x630) the
-  social card. **`public/logo.png` and `public/mmlogo.png` are 1024px masters kept only to
-  regenerate those — nothing on the site links to them.** Don't point markup at the masters;
-  the footer renders on every page and used to pull 315KB there.
-- Social icons are inline SVG, not raster files.
-
-### Static-asset caching
-`next.config.ts` `headers()` gives images `max-age=86400, stale-while-revalidate=2592000`,
-because Vercel otherwise serves `public/` with `max-age=0, must-revalidate` (a conditional
-request per image on every revisit). The rules are **scoped by file extension on purpose** — a
-bare `/collections/:path*` would also match the product *pages* and start caching HTML.
-Consequence: overwriting a photo in place can take up to 24h to reach a returning visitor;
-rename the file if you need it to propagate immediately.
-
-## SEO / GEO — working well, do NOT break
-SEO drives real traffic & inquiries. **Never delete or rename an existing product slug/URL**
-(404 = lost ranking + lost leads). Add new products as new slugs to grow indexed surface.
-- `app/sitemap.ts` + `app/robots.ts` are **dynamic** Next metadata routes. **Never** add static
-  `public/sitemap.xml` / `public/robots.txt` again — they override the dynamic ones and once
-  served a stale non-www sitemap.
-- Canonical domain `https://www.markmorente.com` everywhere (sitemap, robots host, `metadataBase`).
-- JSON-LD: Organization+WebSite sitewide (`app/layout.tsx`); Product+BreadcrumbList per product;
-  Service+BreadcrumbList per manufacturing category; CollectionPage+ItemList on `/collections`.
-- Product detail (`app/collections/[slug]/page.tsx`) and manufacturing category
-  (`app/mens-suit-manufacturing/[slug]/page.tsx`) are **server components** (SSG via
-  `generateStaticParams` + `generateMetadata`). The interactive image gallery lives in the
-  client component `components/ProductDetail.tsx`. **Don't turn these pages back into
-  `"use client"`** or per-page metadata + JSON-LD break.
-
-## Shared chrome
-- `components/SiteFooter.tsx` + `components/FloatingWhatsApp.tsx` render in `app/layout.tsx`,
-  so they appear on **every** page. Don't add per-page footers (homepage's old inline footer
-  was removed). All WhatsApp links should carry a prefilled `?text=` message.
-- Sub-pages use `components/Navbar.tsx`. The homepage (`app/page.tsx`, `"use client"`) keeps its
-  own inline scroll-nav + section anchors (#collections, #fabrics, etc.).
-- Product detail has a per-product WhatsApp CTA ("I'm interested in this product") prefilled with title + code.
-
-## Helper scripts (live OUTSIDE the repo, in the parent folder `/Users/k/Desktop/Fatih/`)
-- `build_products.py` — generated the S/T products + SEO-renamed/copied images into the repo.
-- `optimize_images.py` — converts catalog images to downscaled WebP and rewrites JSON paths.
-- Owner's new photo drops arrive as folders like `new1/`, `new2/` next to these scripts.
-- These are NOT committed; they're scratch tooling on the owner's machine. The repo is cloned
-  fresh per session — re-clone with `git clone https://github.com/Berkindev/MarkMorente.git`.
-
-## How to do common future tasks
-- **Mark a product in/out of stock:** edit its `status` in `collections.json`.
-- **Reorder listing:** `/collections` already shows In-Stock first, Out-of-Stock last
-  (`app/collections/page.tsx`).
-- **Add a new product:** add an entry to `collections.json` (unique `slug` + `code`), drop its
-  WebP images under `public/collections/<code>/`, **run
-  `python3 scripts/generate-image-variants.py`**, rebuild. Sitemap/metadata/JSON-LD auto-follow.
-- **Swap a product photo:** replace the WebP file (same path) or update the `images[]` paths,
-  then re-run the variant script (it rebuilds any variant older than its master).
-- **Change a manufacturing category image:** edit `image` in `categories.json` (point at any
-  `/collections/...webp`).
-- **Rename for SEO:** prefer changing `title`/`content`/alt text; do NOT change a live `slug`.
-- Always `npm run build` before committing; commit messages end with the Co-Authored-By trailer.
-
-## Change log (high level)
-1. Added 64 new products (10 suits + 54 tuxedos), set 16 legacy to Out of Stock (kept live),
-   per-product metadata + Product/Breadcrumb JSON-LD, SSG product pages.
-2. Completed SEO infra: dynamic sitemap/robots (www), Organization/WebSite JSON-LD, manifest,
-   canonicals, improved 404, fixed a bug where every page canonicalized to the homepage.
-3. Optimized all images to WebP (81MB→17MB), added sitewide footer + floating WhatsApp + per-
-   product WhatsApp CTA, sorted collections (in-stock first), pruned dead code/deps.
-4. Removed duplicate burgundy suit (S10), set FB-FRM In Stock, refreshed manufacturing category
-   images to new photos, aligned category card images to top (`object-top`).
-5. Performance pass driven by Speed Insights (desktop `/collections/[slug]` was at RES 55,
-   mobile `/contact` at 56, Nigeria/South Africa "Poor"). Root causes were all payload, not
-   routing — every page is already SSG/CDN-served:
-   - The sitewide footer pulled `logo.png` (315KB) `unoptimized` on **every** page, plus a
-     36KB PNG for a 24px Instagram icon and `rel="icon"` pointed at the same 315KB file.
-     Now an 18KB WebP, inline SVG, and `app/icon.png`.
-   - Grid cards and 80px gallery thumbnails were loading the 800px master — added the
-     `-card`/`-thumb` variants above. Worst product page 1545KB -> 200KB; `/collections`
-     card payload 5.4MB -> 2.1MB.
-   - Cormorant loaded 5 weights; only 500/600/700 are ever rendered. Inter/Cormorant also
-     pinned to `style: ["normal"]`.
-   - The hero `<h1>` (homepage LCP element) sat at `opacity:0` behind a 0.3s animation delay,
-     which LCP cannot count; the staged fade now starts on the first frame and honours
-     `prefers-reduced-motion`.
-   - Added static-asset cache headers (see above).
-   - Fixed a stale `t.me/markmorente` link in the footer that the sitewide Telegram rename
-     missed, dropped the dead `font-belleza`/`--font-geist-mono` leftovers (the Navbar was
-     falling back to generic sans-serif), and deleted unused `footer.json`, the Next template
-     SVGs and committed `.DS_Store` files.
+## Status
+- [x] Static rebuild (119 URLs), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow)
+- [ ] Preview deploy → owner review → DNS cutover (www + apex to Pages, MX untouched) → disconnect Vercel
+- [ ] GSC sitemap + IndexNow, then translations with hreflang

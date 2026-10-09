@@ -19,6 +19,8 @@
 
 # production
 /build
+/dist
+.wrangler/
 
 # misc
 .DS_Store
@@ -39,3 +41,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Yerel analiz verisi (public repo)
+docs/gsc-*/
+.cache/

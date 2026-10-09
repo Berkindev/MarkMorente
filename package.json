@@ -1,30 +1,15 @@
 {
-  "name": "mmm",
-  "version": "0.1.0",
+  "name": "markmorente",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
+  "description": "Mark Morente static site (Cloudflare Pages). Zero dependencies: node scripts/build.mjs → dist/",
+  "engines": { "node": ">=22" },
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@vercel/analytics": "^1.5.0",
-    "@vercel/speed-insights": "^1.2.0",
-    "next": "^15.5.12",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^0.1.0",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^10.0.2",
-    "eslint-config-next": "^0.2.4",
-    "tailwindcss": "^4",
-    "tw-animate-css": "^1.3.4",
-    "typescript": "^5"
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && npx -y wrangler@4 pages dev dist --port 8789",
+    "audit": "node scripts/build.mjs && node ~/.claude/skills/seo-geo/scripts/seo-audit.mjs dist",
+    "deploy:preview": "node scripts/build.mjs && npx -y wrangler@4 pages deploy dist --project-name markmorente --branch preview",
+    "deploy": "node scripts/build.mjs && npx -y wrangler@4 pages deploy dist --project-name markmorente --branch main"
   }
 }
