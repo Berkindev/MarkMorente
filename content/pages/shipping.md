@@ -10,11 +10,11 @@ related: [how-to-order, wholesale-suits, private-label-suits, faq]
 
 ## How we ship
 
-We ship every order by the method that fits its size, budget and deadline: air for speed, sea for volume, road for Europe and Central Asia. We quote shipping per destination, because the cost depends on weight, volume, route and the terms you choose.
+We ship by air, sea or road, whichever you prefer. Fast air cargo and express courier for urgent orders, sea freight for volume, trucks to Europe and Central Asia. We quote shipping per destination, because the cost depends on weight, volume, route and the terms you choose.
 
 | Method | Best for | Speed | Cost per suit |
 |---|---|---|---|
-| Air freight or courier | Samples, first orders, a few lots, urgent restocks | Fastest | Highest |
+| Express courier / fast air cargo | Samples, first orders, a few lots, urgent restocks | Fastest | Highest |
 | Sea freight | Large orders, container loads, regular programmes | Slowest | Lowest for big volumes |
 | Road (truck) | Europe, Balkans, Caucasus, Central Asia | Between air and sea | Good value for mid-size orders |
 
@@ -22,7 +22,7 @@ These are general comparisons. We give you real prices and options when we quote
 
 ## Air freight
 
-Air is the right choice for samples, small first orders and stock lots you need quickly. For a few lots, express courier service delivers door to door. For larger air shipments we work with air cargo to your nearest airport, and you or your customs broker clear the goods there.
+Air is the right choice for samples, small first orders and stock lots you need quickly. For a few lots, express courier delivers door to door in a few days to most countries. For larger air shipments we work with air cargo to your nearest airport, and you or your customs broker clear the goods there.
 
 ## Sea freight
 
@@ -30,7 +30,7 @@ Sea freight makes sense once your order fills a good part of a container, or whe
 
 ## Road freight
 
-Trucks run regularly from Istanbul to most of Europe, the Balkans, the Caucasus and Central Asia. Road is often a good balance between price and speed for buyers in Germany, the Netherlands, Romania, Serbia, Georgia, Azerbaijan, Kazakhstan and Uzbekistan. It also allows hanging transport, so suits arrive ready for the rail.
+Trucks run regularly from Istanbul to most of Europe, the Balkans, the Caucasus and Central Asia. Road is often a good balance between price and speed for buyers in Germany, the Netherlands, Romania, Serbia, Georgia, Azerbaijan, Kazakhstan and Uzbekistan.
 
 ## Your forwarder or ours
 
@@ -57,7 +57,7 @@ Some destinations ask for extra documents, for example specific origin certifica
 How suits are packed affects both how they arrive and what shipping costs. The options are:
 
 - **Folded in garment bags:** each suit in its own garment bag, folded into strong export cartons. This is the most compact option and the standard for air and sea.
-- **Hanging:** suits on hangers in garment bags, shipped in hanging cartons or on rails in a truck. They arrive with fewer creases and go straight to the shop floor, but take more space.
+- **On hangers:** if you want suits ready for the shop floor, we can pack them on hangers. Tell us when you order.
 - **Your branding:** for private label orders, suits are packed in your printed garment bags with your hangtags.
 
 Cartons are marked with model codes, sizes, quantities and your order reference. Wholesale lots are packed together so each lot can be received and checked as one unit.
@@ -69,7 +69,7 @@ We ship worldwide. These are the regions where most of our buyers are:
 - **Africa:** Nigeria, Ghana, Kenya, South Africa, DR Congo, Côte d'Ivoire, Senegal, Cameroon, Algeria, Morocco, Egypt, Libya, Tunisia. [More on Africa](/markets/africa)
 - **Europe:** UK, Germany, Netherlands, Belgium, France, Austria, Sweden, Romania, Greece, Moldova and the Balkans. [More on Europe](/markets/europe)
 - **Central Asia and Caucasus:** Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Georgia and CIS buyers. [More on Central Asia](/markets/central-asia)
-- **Middle East:** UAE, Saudi Arabia, Iraq, Lebanon, Jordan, Kuwait, Qatar, Israel. [More on the Middle East](/markets/middle-east)
+- **Middle East:** UAE, Saudi Arabia, Iraq, Lebanon, Jordan, Kuwait, Qatar. [More on the Middle East](/markets/middle-east)
 - **North America:** USA and Canada. [More on North America](/markets/north-america)
 
 If your country is not listed, ask us. We can usually arrange it.
@@ -78,7 +78,7 @@ If your country is not listed, ask us. We can usually arrange it.
 
 ### Do you ship worldwide?
 
-Yes. We ship by air, sea and road from Istanbul and quote each destination separately.
+Yes. We ship by air, sea and road from Istanbul, whichever you prefer, and quote each destination separately.
 
 ### How long does shipping take?
 
@@ -92,6 +92,6 @@ Yes. We hand the goods and export documents to your forwarder in Istanbul.
 
 Import duties and taxes in your country are normally paid by the buyer. We supply the documents your broker needs.
 
-### Can suits be shipped on hangers?
+### Can you send photos before shipping?
 
-Yes. Hanging transport is an option, mainly by road. Folded packing in garment bags is more compact for air and sea.
+Yes. We send photos or video of your goods during production and before dispatch, so you can check them before they leave Istanbul. Buyers are also welcome to visit the factory.

@@ -62,7 +62,7 @@ Every suit goes through the same production steps, whether it is for our stock o
 3. **Sewing.** Jackets, trousers and waistcoats are sewn in our own production. Each order is tracked in our ERP system from cutting to packing.
 4. **Pressing.** Seams, lapels and finished garments are pressed so the suit holds its shape on the hanger.
 5. **Quality control.** Suits are checked during sewing and again at the end: measurements, seams, lining, buttons, pressing and labels.
-6. **Packing.** Each suit goes into a garment bag with its hangtag, then into cartons marked with model, sizes and order reference. Hanging packing is an option.
+6. **Packing.** Each suit goes into a garment bag with its hangtag, then into cartons marked with model, sizes and order reference.
 
 ## Capacity and certifications
 

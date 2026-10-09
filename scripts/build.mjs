@@ -1,12 +1,14 @@
 // Mark Morente static site generator → dist/ (Cloudflare Pages). Zero dependencies.
 // URLs keep the old Next.js shape: www host, no trailing slash → we emit <path>.html files.
+// English at the root; other languages under /<code> (see scripts/lib/i18n.mjs). Guides are English-only.
 import { rmSync, mkdirSync, writeFileSync, readFileSync, cpSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
-import { site, waLink } from '../src/data/site.mjs';
+import { site } from '../src/data/site.mjs';
 import { loadDir, splitFaq } from './lib/md.mjs';
 import { processImage } from './lib/images.mjs';
-import { layout, esc, waBtn, tgBtn, pic, catalogPic, thumbSrc, crumbs, faqBlock, b2bNotice } from './lib/html.mjs';
+import { LANGS, makeLang } from './lib/i18n.mjs';
+import { layout, esc, waBtn, waHref, tgBtn, pic, catalogPic, thumbSrc, crumbs, faqBlock, b2bNotice } from './lib/html.mjs';
 
 const DIST = 'dist';
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -28,29 +30,43 @@ rmSync(join(DIST, 'fonts/fonts.css'), { force: true });
 // ── Data ─────────────────────────────────────────────────────
 const products = JSON.parse(readFileSync('collections.json', 'utf8')).products;
 const legacyCats = JSON.parse(readFileSync('categories.json', 'utf8')).page.categories;
-const pages = Object.fromEntries(loadDir('content/pages').map((p) => [p.slug, p]));
+const byCode = (c) => products.find((p) => p.code === c);
 const guides = loadDir('content/guides');
-const markets = loadDir('content/markets');
 const abs = (p) => site.url + (p === '/' ? '' : p);
+const LS = LANGS.map(makeLang).filter(Boolean);
+const EN = LS[0];
+
+// Content per language: { pages: {slug: doc}, markets: [doc] }
+const keyed = (list) => Object.fromEntries(list.map((p) => [p.slug, p]));
+const CONTENT = Object.fromEntries(LS.map((L) => {
+  const base = L.code === 'en' ? 'content' : `content/i18n/${L.code}`;
+  const pg = existsSync(`${base}/pages`) ? loadDir(`${base}/pages`) : [];
+  const mk = existsSync(`${base}/markets`) ? loadDir(`${base}/markets`) : [];
+  return [L.code, { pages: keyed(pg), markets: mk }];
+}));
+const pages = CONTENT.en.pages;
+const markets = CONTENT.en.markets;
 
 const sizesOf = (p) => p.description?.lot?.sizes || [];
 const lotCount = (p) => (p.description?.lot?.quantities || []).reduce((a, b) => a + b, 0) || sizesOf(p).length;
 const sizeRange = (p) => (sizesOf(p).length ? `EU ${sizesOf(p)[0]}–${sizesOf(p).at(-1)}` : '');
 const isTux = (p) => /tuxedo|dinner jacket/i.test(p.model);
-const isCeremony = (p) => isTux(p) && /embellish|sequin|rhinestone|crystal|glitter|gold|velvet|studded|shimmer|sparkle|ombre|colour block|embroider/i.test(`${p.fabric} ${p.title}`);
+const isCeremony = (p) => isTux(p) && /embellish|sequin|rhinestone|crystal|beaded|glitter|gold|velvet|studded|shimmer|sparkle|ombre|colour block|embroider/i.test(`${p.fabric} ${p.title}`);
+const CAT_IMG = { tuxedos: 'T44', 'wedding-suits': 'S08', 'ceremony-suits': 'T12' }; // single mannequin shots (T05 is a two-up collage with text)
 const CATS = [
-  { slug: '3-piece-suits', short: '3-Piece Suits', test: (p) => /three piece/i.test(p.model) },
-  { slug: '2-piece-suits', short: '2-Piece Suits', test: (p) => /two piece|double-breasted/i.test(p.model) || (/suit/i.test(p.model) && !/three/i.test(p.model) && !isTux(p)) },
-  { slug: 'tuxedos', short: 'Tuxedos', test: (p) => isTux(p) && !isCeremony(p) },
-  { slug: 'wedding-suits', short: 'Wedding Suits', test: (p) => /three piece/i.test(p.model) || (isTux(p) && !isCeremony(p) && /navy|burgundy|emerald|green|ivory|white|black/i.test(p.color + p.title)) },
-  { slug: 'ceremony-suits', short: 'Ceremony Suits', test: (p) => isCeremony(p) },
-  { slug: 'big-tall-suits', short: 'Big & Tall Suits', test: (p) => sizesOf(p).includes('58') },
+  { slug: '3-piece-suits', test: (p) => /three piece/i.test(p.model) },
+  { slug: '2-piece-suits', test: (p) => /two piece|double-breasted/i.test(p.model) || (/suit/i.test(p.model) && !/three/i.test(p.model) && !isTux(p)) },
+  { slug: 'tuxedos', test: (p) => isTux(p) },
+  { slug: 'wedding-suits', test: (p) => /three piece/i.test(p.model) || /dinner jacket/i.test(p.model) || (isTux(p) && /white|ivory|burgundy|emerald|green|red/i.test(p.color)) },
+  { slug: 'ceremony-suits', test: (p) => isCeremony(p) },
+  { slug: 'big-tall-suits', test: (p) => sizesOf(p).includes('58') },
 ].map((c) => {
   const legacy = legacyCats.find((x) => x.slug === c.slug) || {};
-  const page = pages[c.slug] || pages[`category-${c.slug}`];
   const items = products.filter(c.test).sort((a, b) => (a.status === b.status ? 0 : a.status === 'In Stock' ? -1 : 1));
-  return { ...c, legacy, page, items, image: legacy.image, title: page?.title || legacy.title, h1: page?.h1 || legacy.title };
+  return { ...c, legacy, items, image: CAT_IMG[c.slug] ? byCode(CAT_IMG[c.slug])?.images[0] || legacy.image : legacy.image };
 });
+const catDoc = (code, slug) => CONTENT[code].pages[slug] || CONTENT[code].pages[`category-${slug}`];
+const sorted = [...products].sort((a, b) => (a.status === b.status ? 0 : a.status === 'In Stock' ? -1 : 1));
 
 // ── Images (stock photography for process/market pages) ─────
 const IMG = {};
@@ -95,6 +111,18 @@ const PHOTOS = {
 const credits = Object.fromEntries((existsSync('content/photos/credits.json') ? JSON.parse(readFileSync('content/photos/credits.json', 'utf8')) : []).map((c) => [c.file, c.subject.split(' - ').pop()]));
 const photoFor = (slug) => (PHOTOS[slug] ? photo(...PHOTOS[slug]) : null);
 
+// ── Page plan: collect every (language, page) first so we know the alternates and which links can be localized ──
+const jobs = [];       // { key (English path), L, priority, images, render: (ctx) => { title, description, body, schema, md, og, ogType } }
+const AVAIL = {};      // English path → Set(lang codes)
+function plan(L, key, priority, render, extra = {}) {
+  jobs.push({ key, L, priority, render, ...extra });
+  (AVAIL[key] ??= new Set()).add(L.code);
+}
+const has = (L, key) => AVAIL[key]?.has(L.code);
+const href = (L, key) => (has(L, key) ? L.P(key) : key); // localized when that page exists in L, else English
+// Rewrite internal links inside rendered markdown to the localized version where it exists.
+const locLinks = (L, html) => (L.code === 'en' ? html : html.replace(/href="(\/[^"#?]*)([^"]*)"/g, (m, path, rest) => `href="${href(L, path.replace(/\/$/, '') || '/')}${rest}"`));
+
 // ── Output helpers ───────────────────────────────────────────
 const out = []; // { path, md, priority, images[] }
 function emit(path, html, md, extra = {}) {
@@ -104,7 +132,7 @@ function emit(path, html, md, extra = {}) {
   if (md) writeFileSync(path === '/' ? join(DIST, 'index.md') : join(DIST, `${path}.md`), md);
   out.push({ path, md, ...extra });
 }
-const clip = (s, n = 158) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:\s]+$/, '') + '…');
+const clip = (s, n = 158) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:\s،]+$/, '') + '…');
 const cleanTitle = (t, fallback) => (t && t.length <= 62 ? t : fallback || t);
 const mdFooter = `\n---\nWholesale quotes: WhatsApp ${site.phoneDisplay} (https://wa.me/${site.whatsapp}) · Telegram ${site.telegramHandle} (${site.telegram}) · Instagram ${site.instagramHandle}\nMark Morente, men's suit & tuxedo manufacturer, Istanbul, Turkey. Business buyers only: stock lots of 6–7 suits per model or made to order from 100 units per style. Typical production lead time 12–15 days depending on the order.\n`;
 
@@ -121,263 +149,309 @@ const orgSchema = {
   hasCredential: site.facts.certifications.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c })),
   contactPoint: { '@type': 'ContactPoint', telephone: `+${site.whatsapp}`, contactType: 'sales', availableLanguage: ['English', 'Turkish'] },
 };
-const websiteSchema = { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${site.url}/#website`, url: site.url, name: site.name, inLanguage: 'en', publisher: { '@id': ORG } };
+const websiteSchema = { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${site.url}/#website`, url: site.url, name: site.name, inLanguage: LS.map((l) => l.code), publisher: { '@id': ORG } };
 const bcSchema = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([h, n], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: abs(h) })) });
 const faqSchema = (list) => (list?.length ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: list.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } : null);
 const serviceSchema = (name, path, extra = {}) => ({ '@context': 'https://schema.org', '@type': 'Service', name, url: abs(path), provider: { '@id': ORG }, serviceType: "Men's suit manufacturing and wholesale", areaServed: ['Worldwide'], audience: { '@type': 'BusinessAudience', audienceType: 'Wholesalers, retailers and clothing brands' }, ...extra });
 
 // ── Components ───────────────────────────────────────────────
-const pcard = (p) => `<a class="pcard reveal" href="/collections/${p.slug}">
-  <div class="pcard__img">${catalogPic(p.images[0], `${p.title}, wholesale ${p.model.toLowerCase()} by Mark Morente`)}<span class="badge${p.status === 'In Stock' ? ' badge--stock' : ''}">${p.status === 'In Stock' ? 'In stock' : 'Made to order'}</span></div>
-  <div class="pcard__body"><h3>${esc(p.title)}</h3><p>${esc(p.code)} · ${esc(p.fabric)} · lot of ${lotCount(p)}</p></div>
+const catName = (L, c) => L.t(`cat.${c.slug}`);
+const pcard = (L, p) => {
+  const x = L.prod(p);
+  return `<a class="pcard reveal" href="${href(L, `/collections/${p.slug}`)}">
+  <div class="pcard__img">${catalogPic(p.images[0], L.t('card.alt', { title: x.title, model: x.model.toLocaleLowerCase(L.code) }))}<span class="badge${p.status === 'In Stock' ? ' badge--stock' : ''}">${esc(L.t(p.status === 'In Stock' ? 'card.inStock' : 'card.madeToOrder'))}</span></div>
+  <div class="pcard__body"><h3>${esc(x.title)}</h3><p>${esc(p.code)} · ${esc(x.fabric)} · ${esc(L.t('card.lotOf', { n: lotCount(p) }))}</p></div>
 </a>`;
-const catCard = (c) => `<a class="cat reveal" href="/mens-suit-manufacturing/${c.slug}">${catalogPic(c.image, `${c.short} manufactured by Mark Morente`, { sizes: '(max-width: 860px) 50vw, 400px' })}<div class="cat__body"><h3>${esc(c.short)}</h3><p>${c.items.length} models · wholesale & private label</p></div></a>`;
-const ctaBand = (title, text, msg, ev) => `<section class="section" style="padding-top:20px"><div class="wrap"><div class="cta-band reveal"><div><h2>${esc(title)}</h2><p>${esc(text)}</p></div><div class="btn-row">${waBtn('Request a quote on WhatsApp', msg, ev)}${tgBtn('Telegram', 'btn--ghost')}</div></div></div></section>`;
-const quoteBox = (msg, ev) => `<div class="quote-box"><h2>Wholesale quote</h2><p>Send model codes, quantities per size and your country. We reply within 24 hours on business days.</p>${waBtn('WhatsApp', msg, ev)}<div style="height:8px"></div>${tgBtn('Telegram', 'btn--ghost')}</div>`;
-const tocBox = (toc) => (toc?.length > 2 ? `<nav class="toc" aria-label="On this page"><h2>On this page</h2><ol>${toc.filter((t) => !/^faq/i.test(t.text)).map((t) => `<li><a href="#${t.id}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '');
-const relatedLinks = (rel = []) => {
+};
+const catCard = (L, c) => `<a class="cat reveal" href="${href(L, `/mens-suit-manufacturing/${c.slug}`)}">${catalogPic(c.image, L.t('cat.alt', { name: catName(L, c) }), { sizes: '(max-width: 860px) 50vw, 400px' })}<div class="cat__body"><h3>${esc(catName(L, c))}</h3><p>${esc(L.t('cat.meta', { n: c.items.length }))}</p></div></a>`;
+const ctaBand = (L, title, text, msg, ev) => `<section class="section" style="padding-top:20px"><div class="wrap"><div class="cta-band reveal"><div><h2>${esc(title)}</h2><p>${esc(text)}</p></div><div class="btn-row">${waBtn(L, L.t('btn.quoteOnWhatsApp'), msg, ev)}${tgBtn(L.t('btn.telegram'), 'btn--ghost')}</div></div></div></section>`;
+const quoteBox = (L, msg, ev) => `<div class="quote-box"><h2>${esc(L.t('quote.h'))}</h2><p>${esc(L.t('quote.p'))}</p>${waBtn(L, L.t('btn.whatsapp'), msg, ev)}<div style="height:8px"></div>${tgBtn(L.t('btn.telegram'), 'btn--ghost')}</div>`;
+const tocBox = (L, toc) => (toc?.length > 2 ? `<nav class="toc" aria-label="${esc(L.t('toc'))}"><h2>${esc(L.t('toc'))}</h2><ol>${toc.filter((t) => !/^faq/i.test(t.text)).map((t) => `<li><a href="#${t.id}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '');
+function relatedLinks(L, rel = []) {
+  const C = CONTENT[L.code];
   const lookup = (raw) => {
     const s = raw.replace(/^\/+/, '').replace(/^(guides|markets|mens-suit-manufacturing)\//, '');
-    if (s === 'collections') return ['/collections', "Men's suit & tuxedo collections"];
-    const c0 = CATS.find((x) => x.slug === s); if (c0) return [`/mens-suit-manufacturing/${s}`, c0.h1];
-    if (pages[s]) return [`/${s}`, pages[s].h1];
+    if (s === 'collections') return [href(L, '/collections'), L.t('col.h1')];
+    const c0 = CATS.find((x) => x.slug === s); if (c0) return [href(L, `/mens-suit-manufacturing/${s}`), (catDoc(L.code, s) || catDoc('en', s))?.h1 || catName(L, c0)];
+    if (pages[s]) return [href(L, `/${s}`), (C.pages[s] || pages[s]).h1];
     const g = guides.find((x) => x.slug === s); if (g) return [`/guides/${s}`, g.h1];
-    const m = markets.find((x) => x.slug === s); if (m) return [`/markets/${s}`, m.h1];
-    const c = CATS.find((x) => x.slug === s); if (c) return [`/mens-suit-manufacturing/${s}`, c.short];
+    const m = markets.find((x) => x.slug === s); if (m) return [href(L, `/markets/${s}`), (C.markets.find((x) => x.slug === s) || m).h1];
     return null;
   };
   const items = rel.map(lookup).filter(Boolean);
-  return items.length ? `<div class="mini-grid" style="margin-top:28px">${items.map(([h, t]) => `<a class="mini" href="${h}"><span class="eyebrow">Read next</span><h3>${esc(t)}</h3></a>`).join('')}</div>` : '';
-};
+  return items.length ? `<div class="mini-grid" style="margin-top:28px">${items.map(([h, t]) => `<a class="mini" href="${h}"><span class="eyebrow">${esc(L.t('readNext'))}</span><h3>${esc(t)}</h3></a>`).join('')}</div>` : '';
+}
 
 /** Article-style page from a content md file. */
-function articlePage({ doc, path, bc, eyebrow, image, imageAlt, schemaExtra = [], ogType, afterArticle = '', msg }) {
-  const { main, faqHtml } = splitFaq(doc.html);
-  const qmsg = msg || `I read your page "${doc.h1}" and would like a wholesale quote.`;
+function articlePage(L, { doc, path, bc, eyebrow, image, imageAlt, schemaExtra = [], afterArticle = '', msg }) {
+  const { main, faqHtml } = splitFaq(locLinks(L, doc.html));
+  const qmsg = msg || L.t('msg.page', { h1: doc.h1 });
   const body = `${crumbs(bc)}
 <section class="phead${image ? ' phead--split' : ''}"><div class="wrap">
   <div><span class="eyebrow">${esc(eyebrow)}</span><h1>${esc(doc.h1 || doc.title)}</h1>${doc.lead ? `<p class="lead">${esc(doc.lead)}</p>` : ''}
-  <div class="btn-row" style="margin-top:20px">${waBtn('Request a wholesale quote', qmsg, path)}<a class="btn btn--ghost" href="/how-to-order">How ordering works</a></div></div>
+  <div class="btn-row" style="margin-top:20px">${waBtn(L, L.t('btn.requestQuote'), qmsg, path)}<a class="btn btn--ghost" href="${href(L, '/how-to-order')}">${esc(L.t('btn.howOrdering'))}</a></div></div>
   ${image ? `<figure>${pic(image, imageAlt || doc.h1, { sizes: '(max-width: 860px) 100vw, 480px', eager: true })}</figure>` : ''}
 </div></section>
 <div class="wrap article">
-  <article class="prose">${main}${faqHtml && doc.faq?.length ? `<h2 id="faq">Frequently asked questions</h2>${faqBlock(doc.faq)}` : ''}${relatedLinks(doc.related)}</article>
-  <aside class="aside">${tocBox(doc.toc)}${quoteBox(qmsg, path + '-aside')}${b2bNotice()}</aside>
+  <article class="prose">${main}${faqHtml && doc.faq?.length ? `<h2 id="faq">${esc(L.t('faqHeading'))}</h2>${faqBlock(doc.faq)}` : ''}${relatedLinks(L, doc.related)}</article>
+  <aside class="aside">${tocBox(L, doc.toc)}${quoteBox(L, qmsg, path + '-aside')}${b2bNotice(L)}</aside>
 </div>
 ${afterArticle}
-${ctaBand('Tell us what you need', 'Model codes or reference photos, quantities per size, your label requirements and destination. We quote price and lead time per order.', qmsg, path + '-band')}`;
+${ctaBand(L, L.t('band.title'), L.t('band.text'), qmsg, path + '-band')}`;
   const md = `# ${doc.h1 || doc.title}\n\n${doc.lead || ''}\n\n${doc.body}\n${mdFooter}`;
   const schema = [bcSchema(bc), faqSchema(doc.faq), ...schemaExtra];
-  return { body, md, schema, ogType };
+  return { body, md, schema };
 }
 
 // ════════════════════════════════════════════════════════════
-// HOME
+// PLAN PAGES PER LANGUAGE
 // ════════════════════════════════════════════════════════════
-{
-  const home = pages.home;
-  const inStock = products.filter((p) => p.status === 'In Stock');
-  const featured = ['S05', 'T05', 'S08', 'T20', 'S01', 'T14', 'S06', 'T03'].map((c) => products.find((p) => p.code === c)).filter(Boolean);
-  const heroImgs = [products.find((p) => p.code === 'S05'), products.find((p) => p.code === 'T12')].filter(Boolean);
-  const homeSections = home ? splitFaq(home.html).main.split(/(?=<h2 )/).filter((s) => s.startsWith('<h2')) : [];
-  const skip = /^<h2[^>]*>(two ways|what we manufacture)/i;
-  const allFaq = [...(pages['faq']?.faq || [])].slice(0, 6);
-  const body = `
+const PAGE_ORDER = ['private-label-suits', 'oem-suit-manufacturing', 'wholesale-suits', 'how-to-order', 'fabrics', 'size-guide', 'shipping', 'faq', 'about-us', 'contact'];
+
+for (const L of LS) {
+  const C = CONTENT[L.code];
+  const home = C.pages.home;
+  const crumbHome = [L.P('/'), L.t('home')];
+  if (L.code !== 'en' && !home) continue; // a language goes live with its home page
+
+  // ── HOME ──
+  plan(L, '/', '1.0', () => {
+    const heroImgs = ['S05', 'S03', 'S08'].map(byCode).filter(Boolean);
+    const featSuits = ['S05', 'S08', 'S06', 'S02'].map(byCode).filter(Boolean);
+    const featTux = ['T07', 'T20', 'T14', 'T09'].map(byCode).filter(Boolean);
+    const homeSections = home ? splitFaq(locLinks(L, home.html)).main.split(/(?=<h2 )/).filter((s) => s.startsWith('<h2')) : [];
+    const firstAfterHero = 1; // home.md sections 2 and 3 ("two ways", "what we manufacture") are rendered as components below
+    const prose = homeSections.filter((_, i) => i !== firstAfterHero && i !== firstAfterHero + 1);
+    const faqDoc = C.pages.faq || pages.faq;
+    const allFaq = [...(faqDoc?.faq || [])].slice(0, 6);
+    const body = `
 <section class="hero"><div class="wrap">
-  <div>
-    <span class="eyebrow">Wholesale · Private label · OEM · Istanbul</span>
-    <h1>${home?.h1 ? esc(home.h1) : "Men's Suit &amp; Tuxedo Manufacturer in Turkey"}</h1>
-    <p class="lead">${esc(home?.lead || "We manufacture suits and tuxedos in Istanbul for wholesalers, retailers and brands worldwide. Buy ready-stock models in lots or produce under your own label.")}</p>
-    <div class="btn-row">${waBtn('Request a wholesale quote', 'I would like a wholesale quote for suits/tuxedos.', 'hero')}<a class="btn btn--ghost" href="/collections">View collections</a></div>
+  <div class="hero__media">${heroImgs.map((p, i) => `<figure>${catalogPic(p.images[0], L.t('card.alt', { title: L.prod(p).title, model: L.prod(p).model.toLocaleLowerCase(L.code) }), { sizes: '(max-width: 860px) 33vw, 200px', eager: i < 2 })}</figure>`).join('')}</div>
+  <div class="hero__text">
+    <span class="eyebrow">${esc(L.t('home.eyebrow'))}</span>
+    <h1>${esc(home?.h1 || "Men's suit and tuxedo manufacturer in Istanbul, Turkey")}</h1>
+    <p class="lead">${esc(home?.lead || '')}</p>
+    <div class="btn-row">${waBtn(L, L.t('btn.requestQuote'), L.t('home.msgHero'), 'hero')}<a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('home.viewCollections'))}</a></div>
     <ul class="points">
-      <li><strong>Stock lots:</strong> one model in a size run, 6–7 suits per lot</li>
-      <li><strong>Your label:</strong> made to order from 100 units per style</li>
-      <li><strong>Lead time:</strong> typically 12–15 days, quoted per order</li>
+      ${[1, 2, 3].map((i) => `<li><strong>${esc(L.t(`home.point${i}.k`))}</strong> ${esc(L.t(`home.point${i}.v`))}</li>`).join('\n      ')}
     </ul>
   </div>
-  <div class="hero__media">${heroImgs.map((p, i) => `<figure>${catalogPic(p.images[0], `${p.title} manufactured by Mark Morente`, { sizes: '(max-width: 860px) 50vw, 300px', eager: i === 0 })}</figure>`).join('')}</div>
 </div></section>
 <section class="wrap"><div class="stats reveal">
-  <div><strong>1,000+</strong><span>suits produced per day</span></div>
-  <div><strong>${products.length}</strong><span>catalog models, ${inStock.length} in stock</span></div>
-  <div><strong>12–15 days</strong><span>typical production lead time</span></div>
-  <div><strong>Since ${site.founded}</strong><span>suit manufacturing in Istanbul</span></div>
+  ${[1, 2, 3, 4].map((i) => `<div><strong>${esc(L.t(`stat${i}.n`))}</strong><span>${esc(L.t(`stat${i}.l`))}</span></div>`).join('\n  ')}
 </div></section>
 <section class="section"><div class="wrap">
-  <div class="section__head"><div><span class="eyebrow">Two ways to buy</span><h2>From our stock or under your label</h2></div><p>Every order is wholesale. Pick the route that fits your business, or combine both.</p></div>
+  <div class="section__head"><div><span class="eyebrow">${esc(L.t('home.ways.eyebrow'))}</span><h2>${esc(L.t('home.ways.h'))}</h2></div><p>${esc(L.t('home.ways.p'))}</p></div>
   <div class="paths">
-    <div class="path reveal"><span class="path__tag">Ready stock</span><h3>Wholesale stock lots</h3><p class="muted">Choose in-stock models from the catalog. Each lot is one model in a full size run.</p>
-      <dl><dt>Minimum</dt><dd>1 lot (6–7 suits)</dd><dt>Sizes</dt><dd>EU 46–56 / 58</dd><dt>Dispatch</dt><dd>Fast, from stock</dd></dl>
-      <div class="btn-row"><a class="btn btn--dark" href="/wholesale-suits">Wholesale details</a><a class="btn btn--ghost" href="/collections">See stock</a></div></div>
-    <div class="path reveal"><span class="path__tag">Made to order</span><h3>Private label &amp; OEM</h3><p class="muted">Your fabric, fit, lining, buttons, labels and packaging. Produced in our Istanbul factory.</p>
-      <dl><dt>Minimum</dt><dd>100 units per style</dd><dt>Lead time</dt><dd>Typically 12–15 days</dd><dt>Branding</dt><dd>Labels, hangtags, garment bags</dd></dl>
-      <div class="btn-row"><a class="btn btn--dark" href="/private-label-suits">Private label</a><a class="btn btn--ghost" href="/oem-suit-manufacturing">OEM</a></div></div>
+    <div class="path reveal"><span class="path__tag">${esc(L.t('home.stock.tag'))}</span><h3>${esc(L.t('home.stock.h'))}</h3><p class="muted">${esc(L.t('home.stock.p'))}</p>
+      <dl><dt>${esc(L.t('home.min'))}</dt><dd>${esc(L.t('home.stock.min'))}</dd><dt>${esc(L.t('home.sizes'))}</dt><dd>EU 46–56 / 58</dd><dt>${esc(L.t('home.dispatch'))}</dt><dd>${esc(L.t('home.stock.dispatch'))}</dd></dl>
+      <div class="btn-row"><a class="btn btn--dark" href="${href(L, '/wholesale-suits')}">${esc(L.t('home.stock.btn1'))}</a><a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('home.stock.btn2'))}</a></div></div>
+    <div class="path reveal"><span class="path__tag">${esc(L.t('home.mto.tag'))}</span><h3>${esc(L.t('home.mto.h'))}</h3><p class="muted">${esc(L.t('home.mto.p'))}</p>
+      <dl><dt>${esc(L.t('home.min'))}</dt><dd>${esc(L.t('home.mto.min'))}</dd><dt>${esc(L.t('home.leadTime'))}</dt><dd>${esc(L.t('home.mto.lead'))}</dd><dt>${esc(L.t('home.branding'))}</dt><dd>${esc(L.t('home.mto.branding'))}</dd></dl>
+      <div class="btn-row"><a class="btn btn--dark" href="${href(L, '/private-label-suits')}">${esc(L.t('home.mto.btn1'))}</a><a class="btn btn--ghost" href="${href(L, '/oem-suit-manufacturing')}">${esc(L.t('home.mto.btn2'))}</a></div></div>
   </div>
-  <div style="margin-top:18px">${b2bNotice()}</div>
+  <div style="margin-top:18px">${b2bNotice(L)}</div>
 </div></section>
 <section class="section section--ivory"><div class="wrap">
-  <div class="section__head"><div><span class="eyebrow">What we manufacture</span><h2>Suits, tuxedos and ceremonywear</h2></div><a class="btn btn--ghost" href="/mens-suit-manufacturing">All manufacturing</a></div>
-  <div class="cats">${CATS.map(catCard).join('')}</div>
+  <div class="section__head"><div><span class="eyebrow">${esc(L.t('home.make.eyebrow'))}</span><h2>${esc(L.t('home.make.h'))}</h2></div><a class="btn btn--ghost" href="${href(L, '/mens-suit-manufacturing')}">${esc(L.t('home.make.btn'))}</a></div>
+  <div class="cats">${CATS.map((c) => catCard(L, c)).join('')}</div>
 </div></section>
 <section class="section"><div class="wrap">
-  <div class="section__head"><div><span class="eyebrow">Catalog</span><h2>Models buyers order most</h2></div><a class="btn btn--ghost" href="/collections">All ${products.length} models</a></div>
-  <div class="products">${featured.map(pcard).join('')}</div>
+  <div class="section__head"><div><span class="eyebrow">${esc(L.t('home.cat.eyebrow'))}</span><h2>${esc(L.t('home.cat.h'))}</h2></div><a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('home.cat.all', { n: products.length }))}</a></div>
+  <h3 class="row-title">${esc(L.t('home.cat.suits'))}</h3>
+  <div class="products">${featSuits.map((p) => pcard(L, p)).join('')}</div>
+  <h3 class="row-title">${esc(L.t('home.cat.tux'))}</h3>
+  <div class="products">${featTux.map((p) => pcard(L, p)).join('')}</div>
 </div></section>
-${homeSections.filter((s) => !skip.test(s)).map((s, i) => `<section class="section${i % 2 ? ' section--ivory' : ''}"><div class="wrap"><div class="prose reveal">${s}</div></div></section>`).join('')}
+${prose.map((s, i) => `<section class="section${i % 2 ? '' : ' section--ivory'}"><div class="wrap"><div class="prose reveal">${s}</div></div></section>`).join('')}
 <section class="section section--dark"><div class="wrap">
-  <div class="section__head"><div><span class="eyebrow">Markets</span><h2>Shipping to buyers on five continents</h2></div><p>Africa, Europe, Central Asia and the Caucasus, the Middle East and North America.</p></div>
-  <div class="mini-grid">${site.markets.map((m) => { const d = markets.find((x) => x.slug === m.slug); return `<a class="mini" href="/markets/${m.slug}"><span class="eyebrow">Market</span><h3>${esc(m.name)}</h3><p>${esc(d?.lead || '')}</p></a>`; }).join('')}</div>
+  <div class="section__head"><div><span class="eyebrow">${esc(L.t('home.mk.eyebrow'))}</span><h2>${esc(L.t('home.mk.h'))}</h2></div><p>${esc(L.t('home.mk.p'))}</p></div>
+  <div class="mini-grid">${site.markets.map((m) => { const d = C.markets.find((x) => x.slug === m.slug) || markets.find((x) => x.slug === m.slug); return `<a class="mini" href="${href(L, `/markets/${m.slug}`)}"><span class="eyebrow">${esc(L.t('market'))}</span><h3>${esc(L.t(`market.${m.slug}`))}</h3><p>${esc(d?.lead || '')}</p></a>`; }).join('')}</div>
 </div></section>
-${allFaq.length ? `<section class="section"><div class="wrap split split--top"><div><span class="eyebrow">FAQ</span><h2>Questions buyers ask first</h2><p class="muted">More answers on the <a href="/faq">FAQ page</a>.</p></div>${faqBlock(allFaq)}</div></section>` : ''}
-${ctaBand('Get a wholesale quote', 'Send model codes, quantities and destination. Prices and lead times are quoted per order.', 'I would like a wholesale quote.', 'home-band')}`;
-  const md = `# ${home?.h1 || site.tagline}\n\n${site.description}\n\n${home?.body || ''}\n\n## Manufacturing categories\n${CATS.map((c) => `- [${c.short}](${abs(`/mens-suit-manufacturing/${c.slug}`)}): ${c.items.length} models`).join('\n')}\n${mdFooter}`;
-  emit('/', layout({ path: '/', v: V, categories: CATS, title: cleanTitle(home?.title, "Men's Suit Manufacturer Turkey | Wholesale & Private Label"), description: clip(home?.description || site.description), og: '/og-image.jpg', body, schema: [orgSchema, websiteSchema, faqSchema(allFaq)] }), md, { priority: '1.0' });
+${allFaq.length ? `<section class="section"><div class="wrap split split--top"><div><span class="eyebrow">FAQ</span><h2>${esc(L.t('home.faq.h'))}</h2><p class="muted">${esc(L.t('home.faq.more')).replace('{link}', `<a href="${href(L, '/faq')}">${esc(L.t('home.faq.link'))}</a>`)}</p></div>${faqBlock(allFaq)}</div></section>` : ''}
+${ctaBand(L, L.t('home.band.title'), L.t('home.band.text'), L.t('msg.general'), 'home-band')}`;
+    const md = `# ${home?.h1 || site.tagline}\n\n${home?.lead || site.description}\n\n${home?.body || ''}\n\n## Manufacturing categories\n${CATS.map((c) => `- [${catName(L, c)}](${abs(`${href(L, `/mens-suit-manufacturing/${c.slug}`)}`)}): ${c.items.length}`).join('\n')}\n${mdFooter}`;
+    return { title: cleanTitle(home?.title, "Men's Suit Manufacturer Turkey | Wholesale & Private Label"), description: clip(home?.description || site.description), og: '/og-image.jpg', body, md, schema: [orgSchema, websiteSchema, faqSchema(allFaq)] };
+  });
+
+  // ── MANUFACTURING HUB ──
+  const hub = C.pages['mens-suit-manufacturing'];
+  if (hub) plan(L, '/mens-suit-manufacturing', '0.95', () => {
+    const path = L.P('/mens-suit-manufacturing');
+    const bc = [crumbHome, [path, L.t('crumb.manufacturing')]];
+    const img = photoFor('mens-suit-manufacturing');
+    const r = articlePage(L, { doc: hub, path, bc, eyebrow: L.t('hub.eyebrow'), image: img, imageAlt: L.t('hub.imgAlt'),
+      afterArticle: `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('hub.cats.eyebrow'))}</span><h2>${esc(L.t('hub.cats.h'))}</h2></div></div><div class="cats">${CATS.map((c) => catCard(L, c)).join('')}</div></div></section>`,
+      schemaExtra: [serviceSchema(hub.h1, path)] });
+    return { ...r, title: cleanTitle(hub.title, hub.h1), description: clip(hub.description || hub.lead || ''), og: img?.og };
+  });
+
+  // ── CATEGORIES ──
+  for (const c of CATS) {
+    const doc = catDoc(L.code, c.slug) || (L.code === 'en' ? { h1: c.legacy.title, lead: '', html: `<p>${esc(c.legacy.content || '')}</p>`, body: c.legacy.content || '', faq: [], toc: [], description: c.legacy.content } : null);
+    if (!doc) continue;
+    const key = `/mens-suit-manufacturing/${c.slug}`;
+    plan(L, key, '0.9', () => {
+      const path = L.P(key);
+      const name = catName(L, c);
+      const bc = [crumbHome, [L.P('/mens-suit-manufacturing'), L.t('crumb.manufacturing')], [path, name]];
+      const grid = `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('cat.grid.eyebrow', { n: c.items.length }))}</span><h2>${esc(L.t('cat.grid.h', { name }))}</h2></div><p>${esc(L.t('cat.grid.p'))}</p></div><div class="products">${c.items.slice(0, 24).map((p) => pcard(L, p)).join('')}</div>${c.items.length > 24 ? `<div style="margin-top:24px"><a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('cat.seeAll', { n: c.items.length }))}</a></div>` : ''}</div></section>`;
+      const r = articlePage(L, { doc, path, bc, eyebrow: L.t('cat.eyebrow', { name }), image: null, afterArticle: grid,
+        msg: L.t('cat.msg', { name: name.toLocaleLowerCase(L.code) }),
+        schemaExtra: [serviceSchema(doc.h1, path, { image: abs(c.image) }), { '@context': 'https://schema.org', '@type': 'ItemList', name, itemListElement: c.items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(href(L, `/collections/${p.slug}`)), name: L.prod(p).title })) }] });
+      return { ...r, title: cleanTitle(doc.title, `${name} | Mark Morente`), description: clip(doc.description || doc.lead || ''), images: c.items.slice(0, 10).map((p) => p.images[0]) };
+    });
+  }
+
+  // ── COLLECTIONS + PRODUCTS (only when the catalog text exists in this language) ──
+  if (L.translated) {
+    plan(L, '/collections', '0.9', () => {
+      const path = L.P('/collections');
+      const bc = [crumbHome, [path, L.t('crumb.collections')]];
+      const groups = [['col.tux', (p) => isTux(p)], ['col.suits', (p) => !isTux(p)]];
+      const body = `${crumbs(bc)}
+<section class="phead"><div class="wrap"><span class="eyebrow">${esc(L.t('col.eyebrow'))}</span><h1>${esc(L.t('col.h1'))}</h1><p class="lead">${esc(L.t('col.lead', { n: products.length }))}</p>
+<div class="btn-row" style="margin-top:18px">${waBtn(L, L.t('col.btn'), L.t('col.msg'), 'collections')}</div><div style="margin-top:18px">${b2bNotice(L)}</div></div></section>
+${groups.map(([k, f]) => { const list = sorted.filter(f); return `<section class="section" style="padding-top:24px"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('col.models', { n: list.length }))}</span><h2>${esc(L.t(k))}</h2></div></div><div class="products">${list.map((p) => pcard(L, p)).join('')}</div></div></section>`; }).join('')}
+${ctaBand(L, L.t('col.band.title'), L.t('col.band.text'), L.t('col.band.msg'), 'collections-band')}`;
+      const md = `# ${L.t('col.h1')}\n\n${L.t('col.lead', { n: products.length })}\n\n${sorted.map((p) => { const x = L.prod(p); return `- [${x.title} (${p.code})](${abs(href(L, `/collections/${p.slug}`))}): ${x.model}, ${x.fabric}, ${p.status}, ${L.t('card.lotOf', { n: lotCount(p) })} (${sizeRange(p)})`; }).join('\n')}\n${mdFooter}`;
+      return { title: L.t('col.title'), description: clip(L.t('col.description', { n: products.length })), body, md, schema: [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'CollectionPage', name: L.t('col.h1'), url: abs(path), inLanguage: L.code, isPartOf: { '@id': `${site.url}/#website` }, mainEntity: { '@type': 'ItemList', itemListElement: sorted.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(href(L, `/collections/${p.slug}`)), name: L.prod(p).title })) } }] };
+    });
+    for (const p of products) {
+      const key = `/collections/${p.slug}`;
+      plan(L, key, p.status === 'In Stock' ? '0.8' : '0.6', () => productPage(L, p, key), { images: p.images });
+    }
+  }
+
+  // ── CONTENT PAGES ──
+  for (const slug of PAGE_ORDER) {
+    const doc = C.pages[slug]; if (!doc) continue;
+    const key = `/${slug}`;
+    plan(L, key, '0.8', () => {
+      const path = L.P(key);
+      const bc = [crumbHome, [path, doc.h1 || doc.title]];
+      const img = photoFor(slug);
+      const extra = slug === 'about-us' ? [{ '@context': 'https://schema.org', '@type': 'AboutPage', url: abs(path), about: { '@id': ORG } }, orgSchema]
+        : slug === 'contact' ? [{ '@context': 'https://schema.org', '@type': 'ContactPage', url: abs(path), about: { '@id': ORG } }]
+          : ['private-label-suits', 'oem-suit-manufacturing', 'wholesale-suits'].includes(slug) ? [serviceSchema(doc.h1, path)] : [];
+      const r = articlePage(L, { doc, path, bc, eyebrow: L.t(`eyebrow.${slug}`), image: img, imageAlt: doc.imageAlt || (L.code === 'en' ? credits[PHOTOS[slug]?.[0]] : doc.h1), schemaExtra: extra });
+      return { ...r, title: cleanTitle(doc.title, doc.h1), description: clip(doc.description || doc.lead || ''), og: img?.og };
+    });
+  }
+
+  // ── MARKETS ──
+  if (C.markets.length) {
+    plan(L, '/markets', '0.7', () => indexPage(L, { path: L.P('/markets'), h1: L.t('mk.h1'), lead: L.t('mk.lead'), eyebrow: L.t('market'), items: C.markets.map((m) => ({ ...m, href: L.P(`/markets/${m.slug}`) })), title: L.t('mk.title'), description: L.t('mk.description') }));
+    for (const m of C.markets) {
+      const key = `/markets/${m.slug}`;
+      plan(L, key, '0.75', () => {
+        const path = L.P(key);
+        const bc = [crumbHome, [L.P('/markets'), L.t('crumb.markets')], [path, m.h1 || m.title]];
+        const img = photoFor(m.slug);
+        const countries = Array.isArray(m.country_list) ? m.country_list : [];
+        const r = articlePage(L, { doc: m, path, bc, eyebrow: L.t('market'), image: img, imageAlt: L.code === 'en' ? credits[PHOTOS[m.slug]?.[0]] : m.h1,
+          msg: L.t('mk.msg', { country: countries[0] || m.h1 }),
+          schemaExtra: [serviceSchema(m.h1, path, { areaServed: countries.length ? countries.map((c) => ({ '@type': 'Country', name: c })) : [m.h1] })] });
+        return { ...r, title: cleanTitle(m.title, m.h1), description: clip(m.description || m.lead || ''), og: img?.og };
+      });
+    }
+  }
 }
 
-// ════════════════════════════════════════════════════════════
-// MANUFACTURING HUB + CATEGORIES
-// ════════════════════════════════════════════════════════════
-{
-  const path = '/mens-suit-manufacturing';
-  const doc = pages['mens-suit-manufacturing'] || { h1: "Men's Suit Manufacturing", lead: "Private label, OEM and wholesale suit production in Istanbul, Turkey.", html: '', body: '', faq: [], toc: [], title: "Men's Suit Manufacturer Turkey | Private Label, OEM & Wholesale", description: 'Premium suits with high production capacity. Private label, OEM and wholesale manufacturing from Turkey with global B2B shipping.' };
-  const bc = [['/', 'Home'], [path, 'Manufacturing']];
-  const r = articlePage({ doc, path, bc, eyebrow: "Men's suit manufacturer · Turkey", image: photoFor('mens-suit-manufacturing'), imageAlt: 'Suit production floor in a garment factory',
-    afterArticle: `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">Categories</span><h2>What we manufacture</h2></div></div><div class="cats">${CATS.map(catCard).join('')}</div></div></section>`,
-    schemaExtra: [serviceSchema("Men's suit manufacturing (wholesale, private label, OEM)", path)] });
-  emit(path, layout({ path, v: V, categories: CATS, title: cleanTitle(doc.title, "Men's Suit Manufacturer in Turkey | Wholesale & Private Label"), description: clip(doc.description), body: r.body, schema: r.schema, og: photoFor('mens-suit-manufacturing')?.og }), r.md, { priority: '0.95' });
-}
-for (const c of CATS) {
-  const path = `/mens-suit-manufacturing/${c.slug}`;
-  const doc = c.page || { h1: c.legacy.title, lead: '', html: `<p>${esc(c.legacy.content || '')}</p>`, body: c.legacy.content || '', faq: [], toc: [], description: c.legacy.content };
-  const bc = [['/', 'Home'], ['/mens-suit-manufacturing', 'Manufacturing'], [path, c.short]];
-  const grid = `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${c.items.length} models</span><h2>${esc(c.short)} in our catalog</h2></div><p>In-stock models ship as lots; any model can be produced to order under your label.</p></div><div class="products">${c.items.slice(0, 24).map(pcard).join('')}</div>${c.items.length > 24 ? `<div style="margin-top:24px"><a class="btn btn--ghost" href="/collections">See all ${c.items.length} models</a></div>` : ''}</div></section>`;
-  const r = articlePage({ doc, path, bc, eyebrow: `${c.short} · wholesale & private label`, image: null, afterArticle: grid,
-    msg: `I'm interested in wholesale ${c.short.toLowerCase()}. Please send your catalog and prices.`,
-    schemaExtra: [serviceSchema(c.h1, path, { image: abs(c.image) }), { '@context': 'https://schema.org', '@type': 'ItemList', name: c.short, itemListElement: c.items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/collections/${p.slug}`), name: p.title })) }] });
-  emit(path, layout({ path, v: V, categories: CATS, title: cleanTitle(doc.title, `${c.short} Manufacturer Turkey | Wholesale`), description: clip(doc.description || `${c.short} manufacturing in Istanbul for wholesale and private label buyers.`), body: r.body, schema: r.schema, og: null }), r.md, { priority: '0.9', images: c.items.slice(0, 10).map((p) => p.images[0]) });
+// ── GUIDES (English only) ──
+if (guides.length) plan(EN, '/guides', '0.7', () => indexPage(EN, { path: '/guides', h1: 'Guides for Wholesale Suit Buyers', eyebrow: 'Guide', items: guides.map((g) => ({ ...g, href: `/guides/${g.slug}` })), title: 'Suit Sourcing Guides for Wholesale Buyers', lead: 'Practical guides on sourcing suits and tuxedos from Turkey: private label, costs, fabrics, sizing, quality control and importing.', description: 'Guides for wholesale buyers sourcing men’s suits and tuxedos from Turkey: private label, costs, fabrics, size runs, quality control, shipping and import.' }));
+for (const g of guides) {
+  const path = `/guides/${g.slug}`;
+  plan(EN, path, '0.7', () => {
+    const bc = [['/', 'Home'], ['/guides', 'Guides'], [path, g.h1 || g.title]];
+    const gi = photoFor(g.slug);
+    const r = articlePage(EN, { doc: g, path, bc, eyebrow: `Guide · updated ${g.updated || TODAY}`, image: gi, imageAlt: credits[PHOTOS[g.slug]?.[0]],
+      schemaExtra: [{ '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description, inLanguage: 'en', datePublished: g.updated || TODAY, dateModified: g.updated || TODAY, author: { '@id': ORG }, publisher: { '@id': ORG }, mainEntityOfPage: abs(path), image: abs(gi?.og || '/og-image.jpg') }] });
+    return { ...r, ogType: 'article', title: cleanTitle(g.title, g.h1), description: clip(g.description || g.lead || ''), og: gi?.og };
+  });
 }
 
-// ════════════════════════════════════════════════════════════
-// COLLECTIONS + PRODUCTS
-// ════════════════════════════════════════════════════════════
-const sorted = [...products].sort((a, b) => (a.status === b.status ? 0 : a.status === 'In Stock' ? -1 : 1));
-{
-  const path = '/collections';
-  const bc = [['/', 'Home'], [path, 'Collections']];
-  const groups = [['Tuxedos & dinner jackets', (p) => isTux(p)], ['Suits', (p) => !isTux(p)]];
-  const body = `${crumbs(bc)}
-<section class="phead"><div class="wrap"><span class="eyebrow">Wholesale catalog</span><h1>Men's Suit &amp; Tuxedo Collections</h1><p class="lead">${products.length} models. In-stock models are sold in lots of 6–7 suits (one per size); every model can also be produced to order under your label from 100 units.</p>
-<div class="btn-row" style="margin-top:18px">${waBtn('Request the full catalog & prices', 'Please send your full wholesale catalog and price list.', 'collections')}</div><div style="margin-top:18px">${b2bNotice()}</div></div></section>
-${groups.map(([name, f]) => { const list = sorted.filter(f); return `<section class="section" style="padding-top:24px"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${list.length} models</span><h2>${name}</h2></div></div><div class="products">${list.map(pcard).join('')}</div></div></section>`; }).join('')}
-${ctaBand('Want these under your label?', 'Any model can be produced in your fabric and colour with your labels, from 100 units per style.', 'I would like to produce some of your models under my own label.', 'collections-band')}`;
-  const md = `# Men's Suit & Tuxedo Collections\n\n${products.length} wholesale models.\n\n${sorted.map((p) => `- [${p.title} (${p.code})](${abs(`/collections/${p.slug}`)}): ${p.model}, ${p.fabric}, ${p.status}, lot of ${lotCount(p)} (${sizeRange(p)})`).join('\n')}\n${mdFooter}`;
-  emit(path, layout({ path, v: V, categories: CATS, title: "Men's Suit & Tuxedo Collections | Wholesale Catalog", description: clip(`Wholesale catalog of ${products.length} men's suits and tuxedos made in Istanbul: stock lots of 6–7 suits per model or private label production from 100 units.`), body, schema: [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'CollectionPage', name: "Men's Suit & Tuxedo Collections", url: abs(path), isPartOf: { '@id': `${site.url}/#website` }, mainEntity: { '@type': 'ItemList', itemListElement: sorted.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/collections/${p.slug}`), name: p.title })) } }] }), md, { priority: '0.9' });
+function indexPage(L, { path, h1, lead, eyebrow, items, title, description }) {
+  const bc = [[L.P('/'), L.t('home')], [path, h1]];
+  const body = `${crumbs(bc)}<section class="phead"><div class="wrap"><span class="eyebrow">${esc(eyebrow)}</span><h1>${esc(h1)}</h1><p class="lead">${esc(lead)}</p></div></section>
+<section class="section" style="padding-top:0"><div class="wrap"><div class="mini-grid">${items.map((g) => `<a class="mini reveal" href="${g.href}"><span class="eyebrow">${esc(eyebrow)}</span><h3>${esc(g.h1 || g.title)}</h3><p>${esc(g.description || g.lead || '')}</p></a>`).join('')}</div></div></section>
+${ctaBand(L, L.t('idx.band.title'), L.t('idx.band.text'), L.t('msg.general'), path + '-band')}`;
+  const md = `# ${h1}\n\n${lead}\n\n${items.map((g) => `- [${g.h1 || g.title}](${abs(g.href)}): ${g.description || ''}`).join('\n')}\n${mdFooter}`;
+  return { title, description: clip(description), body, md, schema: [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(path), inLanguage: L.code }] };
 }
-for (const p of products) {
-  const path = `/collections/${p.slug}`;
+
+function productPage(L, p, key) {
+  const path = L.P(key);
+  const x = L.prod(p);
   const cat = CATS.find((c) => c.test(p)) || CATS[0];
-  const bc = [['/', 'Home'], ['/collections', 'Collections'], [path, p.title]];
+  const bc = [[L.P('/'), L.t('home')], [L.P('/collections'), L.t('crumb.collections')], [path, x.title]];
   const stock = p.status === 'In Stock';
-  const feats = p.description?.features || [];
   const comps = Object.entries(p.description?.compositions || {});
-  const related = sorted.filter((x) => x.slug !== p.slug && x.model === p.model).slice(0, 4);
-  const msgStock = `I'm interested in ${p.title} (code ${p.code}). Please send the wholesale lot price and availability.`;
-  const msgPL = `I'd like to produce ${p.title} (code ${p.code}) under my own label. Please send MOQ, price and lead time.`;
-  const specs = [['Model code', p.code], ['Type', p.model], ['Fit', p.fit], ['Lapel', p.lapel], ['Fabric', p.fabric], ['Lining', p.lining.replace(/^%100/, '100%')], ['Colour', p.color], ['Availability', stock ? 'In stock (sold in lots)' : 'Made to order'], ['Lot', `${lotCount(p)} suits, ${sizeRange(p)}`]];
+  const related = sorted.filter((y) => y.slug !== p.slug && y.model === p.model).slice(0, 4);
+  const range = sizeRange(p);
+  const msgStock = L.t('p.msg.stock', { title: x.title, code: p.code });
+  const msgPL = L.t('p.msg.pl', { title: x.title, code: p.code });
+  const specs = [['p.spec.code', p.code], ['p.spec.type', x.model], ['p.spec.fit', x.fit], ['p.spec.lapel', x.lapel], ['p.spec.fabric', x.fabric], ['p.spec.lining', x.lining], ['p.spec.colour', x.color], ['p.spec.availability', L.t(stock ? 'p.avail.stock' : 'p.avail.mto')], ['p.spec.lot', L.t('p.lot', { n: lotCount(p), range })]].map(([k, v]) => [L.t(k), v]);
+  const link = (k, h) => `<a href="${href(L, h)}">${esc(L.t(k))}</a>`;
   const body = `${crumbs(bc)}
 <div class="wrap"><div class="product">
   <div class="gallery">
-    <figure class="gallery__main">${catalogPic(p.images[0], `${p.title}, ${p.model.toLowerCase()} by Mark Morente, front view`, { sizes: '(max-width: 860px) 100vw, 600px', eager: true, dims: [800, 1200] })}</figure>
-    ${p.images.length > 1 ? `<div class="gallery__thumbs">${p.images.map((src, i) => `<button type="button" data-src="${src}" aria-current="${i === 0}" aria-label="View image ${i + 1}"><img src="${thumbSrc(src)}" width="70" height="92" alt="" loading="lazy"></button>`).join('')}</div>` : ''}
+    <figure class="gallery__main">${catalogPic(p.images[0], L.t('p.alt', { title: x.title, model: x.model.toLocaleLowerCase(L.code) }), { sizes: '(max-width: 860px) 100vw, 600px', eager: true, dims: [800, 1200] })}</figure>
+    ${p.images.length > 1 ? `<div class="gallery__thumbs">${p.images.map((src, i) => `<button type="button" data-src="${src}" aria-current="${i === 0}" aria-label="${esc(L.t('p.viewImage', { n: i + 1 }))}"><img src="${thumbSrc(src)}" width="70" height="92" alt="" loading="lazy"></button>`).join('')}</div>` : ''}
   </div>
   <div>
-    <span class="code">Code ${esc(p.code)} · ${esc(p.model)}</span>
-    <h1>${esc(p.title)}</h1>
-    <p class="lead">${esc(p.content)}</p>
+    <span class="code">${esc(L.t('p.code'))} ${esc(p.code)} · ${esc(x.model)}</span>
+    <h1>${esc(x.title)}</h1>
+    <p class="lead">${esc(x.content)}</p>
     <div class="order-box">
-      <p>${stock ? `In stock. Sold wholesale as a lot of ${lotCount(p)} suits (${sizeRange(p)}, one per size). Also available made to order under your label from 100 units.` : `Currently not in stock as a ready lot. We can produce this model to order from 100 units, in your fabric and colour, with your labels.`}</p>
-      ${stock ? waBtn('Ask lot price & availability', msgStock, `product-${p.code}`) : ''}
-      ${waBtn(stock ? 'Produce under my label' : 'Request production quote', msgPL, `product-pl-${p.code}`, stock ? 'btn--ghost' : '')}
-      ${tgBtn('Ask on Telegram', 'btn--ghost')}
+      <p>${esc(stock ? L.t('p.box.stock', { n: lotCount(p), range }) : L.t('p.box.mto'))}</p>
+      ${stock ? waBtn(L, L.t('p.btn.stock'), msgStock, `product-${p.code}`) : ''}
+      ${waBtn(L, L.t(stock ? 'p.btn.pl' : 'p.btn.mto'), msgPL, `product-pl-${p.code}`, stock ? 'btn--ghost' : '')}
+      ${tgBtn(L.t('p.btn.tg'), 'btn--ghost')}
     </div>
-    <table class="specs"><tbody>${specs.map(([k, v]) => `<tr><th scope="row">${k}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table>
-    <h2 style="font-size:1.5rem">Sizes in one lot</h2>
+    <table class="specs"><tbody>${specs.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table>
+    <h2 style="font-size:1.5rem">${esc(L.t('p.sizes'))}</h2>
     <div class="lot">${sizesOf(p).map((s) => `<span>${s}</span>`).join('')}</div>
-    ${feats.length ? `<h2 style="font-size:1.5rem">Details</h2><ul class="chips">${feats.map((f) => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
-    ${comps.length ? `<p class="muted" style="font-size:.92rem">${comps.map(([k, v]) => `${esc(k)}: ${esc(v.replace(/^%100/, '100%'))}`).join(' · ')}</p>` : ''}
-    <h2 style="font-size:1.5rem">Ordering this model</h2>
-    <p>${stock ? `Order one or more lots from stock; each lot covers ${sizeRange(p)}. If you need more of certain sizes or a different size ratio for your market, we can produce it to order.` : `This style is available made to order.`} For production under your brand you choose fabric, colour, lining, buttons and labels; minimum 100 units per style, typical lead time 12–15 days depending on the order. See <a href="/how-to-order">how ordering works</a> and <a href="/${stock ? 'wholesale-suits' : 'private-label-suits'}">${stock ? 'wholesale stock lots' : 'private label production'}</a>.</p>
-    ${b2bNotice()}
+    ${x.features.length ? `<h2 style="font-size:1.5rem">${esc(L.t('p.details'))}</h2><ul class="chips">${x.features.map((f) => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
+    ${comps.length ? `<p class="muted" style="font-size:.92rem">${comps.map(([k, v]) => `${esc(L.v(k))}: ${esc(L.v(v.replace(/^%100/, '100%')))}`).join(' · ')}</p>` : ''}
+    <h2 style="font-size:1.5rem">${esc(L.t('p.ordering'))}</h2>
+    <p>${esc(stock ? L.t('p.ordering.stock', { range }) : L.t('p.ordering.mto'))} ${esc(L.t('p.ordering.tail')).replace('{how}', link('p.link.how', '/how-to-order')).replace('{more}', stock ? link('p.link.wholesale', '/wholesale-suits') : link('p.link.pl', '/private-label-suits'))}</p>
+    ${b2bNotice(L)}
   </div>
 </div></div>
-${related.length ? `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">Similar models</span><h2>More ${esc(p.model.toLowerCase())}s</h2></div><a class="btn btn--ghost" href="/mens-suit-manufacturing/${cat.slug}">${esc(cat.short)}</a></div><div class="products">${related.map(pcard).join('')}</div></div></section>` : ''}`;
-  const schema = [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'ItemPage', '@id': abs(path) + '#page', url: abs(path), name: p.title, inLanguage: 'en', isPartOf: { '@id': `${site.url}/#website` }, primaryImageOfPage: { '@type': 'ImageObject', url: abs(p.images[0]) },
-    mainEntity: serviceSchema(`Wholesale ${p.title} (${p.code})`, path, { description: `${p.content} ${stock ? `Sold in lots of ${lotCount(p)} (${sizeRange(p)}).` : 'Made to order.'} Private label from 100 units.`, image: p.images.map(abs), category: p.model }) }];
-  const md = `# ${p.title} (code ${p.code})\n\n${p.content}\n\n| Spec | Value |\n|---|---|\n${specs.map(([k, v]) => `| ${k} | ${v} |`).join('\n')}\n\nSizes in one lot: ${sizesOf(p).join(', ')}\n\nDetails: ${feats.join('; ')}\n\nOrder from stock: ${waLink(msgStock)}\nProduce under your label (MOQ 100): ${waLink(msgPL)}\n${mdFooter}`;
-  const t = `Wholesale ${p.title} ${p.code}`;
-  emit(path, layout({ path, v: V, categories: CATS, ogType: 'product', title: t.length <= 60 ? t : p.title, description: clip(`${p.title} (${p.code}) for wholesale buyers: ${p.fabric.toLowerCase()}, ${p.lapel.toLowerCase()}, ${p.fit.toLowerCase()}. ${stock ? `Lots of ${lotCount(p)}, ${sizeRange(p)}` : 'Made to order'}; private label from 100 units.`), og: p.images[0], body, schema }), md, { priority: stock ? '0.8' : '0.6', images: p.images });
+${related.length ? `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('p.similar.eyebrow'))}</span><h2>${esc(L.t('p.similar.h'))}</h2></div><a class="btn btn--ghost" href="${href(L, `/mens-suit-manufacturing/${cat.slug}`)}">${esc(catName(L, cat))}</a></div><div class="products">${related.map((y) => pcard(L, y)).join('')}</div></div></section>` : ''}`;
+  const schema = [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'ItemPage', '@id': abs(path) + '#page', url: abs(path), name: x.title, inLanguage: L.code, isPartOf: { '@id': `${site.url}/#website` }, primaryImageOfPage: { '@type': 'ImageObject', url: abs(p.images[0]) },
+    mainEntity: serviceSchema(`${x.title} (${p.code})`, path, { description: `${x.content} ${stock ? L.t('p.description.lot', { n: lotCount(p), range }) + '.' : ''}`.trim(), image: p.images.map(abs), category: x.model }) }];
+  const md = `# ${x.title} (${p.code})\n\n${x.content}\n\n| | |\n|---|---|\n${specs.map(([k, v]) => `| ${k} | ${v} |`).join('\n')}\n\n${L.t('p.sizes')}: ${sizesOf(p).join(', ')}\n\n${x.features.length ? `${L.t('p.details')}: ${x.features.join('; ')}\n\n` : ''}WhatsApp: ${waHref(L, stock ? msgStock : msgPL)}\n${mdFooter}`;
+  const t = L.t('p.title', { title: x.title, code: p.code });
+  const description = clip(L.t('p.description', { title: x.title, code: p.code, fabric: x.fabric.toLocaleLowerCase(L.code), lapel: x.lapel.toLocaleLowerCase(L.code), fit: x.fit.toLocaleLowerCase(L.code), lot: stock ? L.t('p.description.lot', { n: lotCount(p), range }) : L.t('p.avail.mto') }));
+  return { title: t.length <= 60 ? t : x.title, description, body, md, schema, og: p.images[0], ogType: 'product' };
 }
 
 // ════════════════════════════════════════════════════════════
-// CONTENT PAGES
+// RENDER
 // ════════════════════════════════════════════════════════════
-const PAGE_ORDER = ['private-label-suits', 'oem-suit-manufacturing', 'wholesale-suits', 'how-to-order', 'fabrics', 'size-guide', 'shipping', 'faq', 'about-us', 'contact'];
-const EYEBROW = { 'private-label-suits': 'Private label', 'oem-suit-manufacturing': 'OEM production', 'wholesale-suits': 'Wholesale stock lots', 'how-to-order': 'Ordering', fabrics: 'Fabrics', 'size-guide': 'Sizing', shipping: 'Shipping & export', faq: 'FAQ', 'about-us': 'About Mark Morente', contact: 'Contact' };
-for (const slug of PAGE_ORDER) {
-  const doc = pages[slug]; if (!doc) continue;
-  const path = `/${slug}`;
-  const bc = [['/', 'Home'], [path, doc.h1 || doc.title]];
-  const img = photoFor(slug);
-  const extra = slug === 'about-us' ? [{ '@context': 'https://schema.org', '@type': 'AboutPage', url: abs(path), about: { '@id': ORG } }, orgSchema]
-    : slug === 'contact' ? [{ '@context': 'https://schema.org', '@type': 'ContactPage', url: abs(path), about: { '@id': ORG } }]
-      : ['private-label-suits', 'oem-suit-manufacturing', 'wholesale-suits'].includes(slug) ? [serviceSchema(doc.h1, path)] : [];
-  const r = articlePage({ doc, path, bc, eyebrow: EYEBROW[slug] || 'Mark Morente', image: img, imageAlt: doc.imageAlt || credits[PHOTOS[slug]?.[0]], schemaExtra: extra });
-  emit(path, layout({ path, v: V, categories: CATS, title: cleanTitle(doc.title, doc.h1), description: clip(doc.description || doc.lead || ''), body: r.body, schema: r.schema, og: img?.og }), r.md, { priority: '0.8' });
-}
-
-// ════════════════════════════════════════════════════════════
-// GUIDES + MARKETS
-// ════════════════════════════════════════════════════════════
-function indexPage({ path, h1, lead, eyebrow, items, base, title, description }) {
-  const bc = [['/', 'Home'], [path, h1]];
-  const body = `${crumbs(bc)}<section class="phead"><div class="wrap"><span class="eyebrow">${esc(eyebrow)}</span><h1>${esc(h1)}</h1><p class="lead">${esc(lead)}</p></div></section>
-<section class="section" style="padding-top:0"><div class="wrap"><div class="mini-grid">${items.map((g) => `<a class="mini reveal" href="${base}/${g.slug}"><span class="eyebrow">${esc(eyebrow)}</span><h3>${esc(g.h1 || g.title)}</h3><p>${esc(g.description || g.lead || '')}</p></a>`).join('')}</div></div></section>
-${ctaBand('Ready to talk numbers?', 'Send quantities, sizes and destination for a wholesale quote.', 'I would like a wholesale quote.', path + '-band')}`;
-  const md = `# ${h1}\n\n${lead}\n\n${items.map((g) => `- [${g.h1 || g.title}](${abs(`${base}/${g.slug}`)}): ${g.description || ''}`).join('\n')}\n${mdFooter}`;
-  emit(path, layout({ path, v: V, categories: CATS, title, description: clip(description), body, schema: [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(path) }] }), md, { priority: '0.7' });
-}
-if (guides.length) indexPage({ path: '/guides', h1: 'Guides for Wholesale Suit Buyers', eyebrow: 'Guide', base: '/guides', items: guides, title: 'Suit Sourcing Guides for Wholesale Buyers', lead: 'Practical guides on sourcing suits and tuxedos from Turkey: private label, costs, fabrics, sizing, quality control and importing.', description: 'Guides for wholesale buyers sourcing men’s suits and tuxedos from Turkey: private label, costs, fabrics, size runs, quality control, shipping and import.' });
-for (const g of guides) {
-  const path = `/guides/${g.slug}`;
-  const bc = [['/', 'Home'], ['/guides', 'Guides'], [path, g.h1 || g.title]];
-  const gi = photoFor(g.slug);
-  const r = articlePage({ doc: g, path, bc, eyebrow: `Guide · updated ${g.updated || TODAY}`, image: gi, imageAlt: credits[PHOTOS[g.slug]?.[0]], ogType: 'article',
-    schemaExtra: [{ '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description, inLanguage: 'en', datePublished: g.updated || TODAY, dateModified: g.updated || TODAY, author: { '@id': ORG }, publisher: { '@id': ORG }, mainEntityOfPage: abs(path), image: abs(gi?.og || '/og-image.jpg') }] });
-  emit(path, layout({ path, v: V, categories: CATS, ogType: 'article', title: cleanTitle(g.title, g.h1), description: clip(g.description || g.lead || ''), body: r.body, schema: r.schema, og: gi?.og }), r.md, { priority: '0.7' });
-}
-if (markets.length) indexPage({ path: '/markets', h1: 'Markets We Supply', eyebrow: 'Market', base: '/markets', items: markets, title: 'Wholesale Suit Supplier for Africa, Europe, Asia & More', lead: 'We ship wholesale suits and tuxedos from Istanbul to buyers in Africa, Europe, Central Asia and the Caucasus, the Middle East and North America.', description: 'Mark Morente supplies wholesale suits and tuxedos from Istanbul to Africa, Europe, Central Asia & Caucasus, the Middle East and North America.' });
-for (const m of markets) {
-  const path = `/markets/${m.slug}`;
-  const bc = [['/', 'Home'], ['/markets', 'Markets'], [path, m.h1 || m.title]];
-  const img = photoFor(m.slug);
-  const countries = Array.isArray(m.country_list) ? m.country_list : [];
-  const r = articlePage({ doc: m, path, bc, eyebrow: 'Market', image: img, imageAlt: credits[PHOTOS[m.slug]?.[0]],
-    msg: `I'm a buyer from ${countries[0] || m.h1} and would like a wholesale quote.`,
-    schemaExtra: [serviceSchema(`Wholesale suit supply: ${m.h1}`, path, { areaServed: countries.length ? countries.map((c) => ({ '@type': 'Country', name: c })) : [m.h1] })] });
-  emit(path, layout({ path, v: V, categories: CATS, title: cleanTitle(m.title, m.h1), description: clip(m.description || m.lead || ''), body: r.body, schema: r.schema, og: img?.og }), r.md, { priority: '0.75' });
+for (const j of jobs) {
+  const L = j.L;
+  const path = L.P(j.key);
+  const alternates = LS.filter((x) => has(x, j.key)).map((x) => ({ code: x.code, name: x.name, href: x.P(j.key) }));
+  const r = j.render();
+  emit(path, layout({ L, path, v: V, categories: CATS, alternates, title: r.title, description: r.description, body: r.body, schema: r.schema, og: r.og, ogType: r.ogType }), r.md, { priority: j.priority, images: r.images || j.images, lang: L.code });
 }
 
 // ── 404 ──────────────────────────────────────────────────────
-writeFileSync(join(DIST, '404.html'), layout({ path: '/404', v: V, categories: CATS, noindex: true, md: false, title: 'Page not found', description: 'This page has moved.', body: `<section class="phead"><div class="wrap"><span class="eyebrow">404</span><h1>This page has moved</h1><p class="lead">Browse the catalog or ask us directly on WhatsApp.</p><div class="btn-row"><a class="btn btn--dark" href="/collections">Collections</a>${waBtn('Ask on WhatsApp', 'I was looking for a page on your website.', '404')}</div></div></section>` }));
+writeFileSync(join(DIST, '404.html'), layout({ L: EN, path: '/404', v: V, categories: CATS, noindex: true, md: false, title: 'Page not found', description: 'This page has moved.', body: `<section class="phead"><div class="wrap"><span class="eyebrow">404</span><h1>This page has moved</h1><p class="lead">Browse the catalog or ask us directly on WhatsApp.</p><div class="btn-row"><a class="btn btn--dark" href="/collections">Collections</a>${waBtn(EN, 'Ask on WhatsApp', 'I was looking for a page on your website.', '404')}</div></div></section>` }));
 
 // ════════════════════════════════════════════════════════════
 // SEO / GEO FILES
 // ════════════════════════════════════════════════════════════
+const LIVE = LS.filter((L) => has(L, '/'));
 writeFileSync(join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${out.map((p) => `  <url><loc>${abs(p.path)}</loc><lastmod>${TODAY}</lastmod><priority>${p.priority}</priority>${(p.images || []).slice(0, 10).map((i) => `<image:image><image:loc>${abs(i)}</image:loc></image:image>`).join('')}</url>`).join('\n')}
+${out.map((p) => `  <url><loc>${abs(p.path)}</loc><lastmod>${TODAY}</lastmod><priority>${p.lang === 'en' ? p.priority : (Number(p.priority) - 0.1).toFixed(1)}</priority>${(p.lang === 'en' ? p.images || [] : []).slice(0, 10).map((i) => `<image:image><image:loc>${abs(i)}</image:loc></image:image>`).join('')}</url>`).join('\n')}
 </urlset>
 `);
+const enOut = out.filter((p) => p.lang === 'en');
 const llms = `# Mark Morente
 
 > ${site.description}
@@ -385,17 +459,18 @@ const llms = `# Mark Morente
 Key facts:
 - Business type: manufacturer and wholesaler of men's suits and tuxedos (B2B). Istanbul, Turkey. Since ${site.founded}.
 - Buyers: ${site.audience.join(', ')}. No single-suit or bespoke retail orders.
-- Ordering: ready-stock models in lots (one model, one suit per size, 6–7 suits, EU 46–56/58) or made to order under the buyer's label from 100 units per style (private label / OEM).
+- Ordering: ready-stock models in lots (one model, one suit per size, 6–7 suits, EU 46–56/58) or made to order under the buyer's label from 100 units per style (private label / OEM). Fully customizable, including US sizing.
 - Lead time: typically 12–15 days production, depending on quantity, model and fabric; quoted per order. Prices quoted per order, not published.
 - Capacity: ${site.facts.capacity}. Certifications: ${site.facts.certifications.join('; ')}.
-- Markets: Africa, Europe, Central Asia & Caucasus, Middle East, North America. Worldwide shipping by air, sea or road.
+- Markets: Africa, Europe, Central Asia & Caucasus, Middle East, North America. Worldwide shipping by air, sea or road, as the buyer prefers (express air for urgent orders). Factory visits welcome; photos/video from production and before shipping.
 - Contact: WhatsApp ${site.phoneDisplay} (https://wa.me/${site.whatsapp}), Telegram ${site.telegramHandle}, Instagram ${site.instagramHandle}.
+- Languages: ${LIVE.map((L) => `${L.name} ${abs(L.P('/'))}`).join(' · ')}
 
 Every page has a Markdown version at the same URL + ".md" (home: /index.md) or via \`Accept: text/markdown\`.
 
 ## Manufacturing
 - [Men's suit manufacturing (hub)](${abs('/mens-suit-manufacturing.md')})
-${CATS.map((c) => `- [${c.short}](${abs(`/mens-suit-manufacturing/${c.slug}.md`)}): ${c.items.length} models`).join('\n')}
+${CATS.map((c) => `- [${catName(EN, c)}](${abs(`/mens-suit-manufacturing/${c.slug}.md`)}): ${c.items.length} models`).join('\n')}
 
 ## Buying
 ${PAGE_ORDER.filter((s) => pages[s]).map((s) => `- [${pages[s].h1}](${abs(`/${s}.md`)}): ${pages[s].description || ''}`).join('\n')}
@@ -410,10 +485,10 @@ ${guides.map((g) => `- [${g.h1}](${abs(`/guides/${g.slug}.md`)}): ${g.descriptio
 - [All collections](${abs('/collections.md')}) · [JSON catalog](${abs('/api/catalog.json')}) · [MCP server](${abs('/mcp')})
 
 ## Optional
-- [Full site content](${abs('/llms-full.txt')})
+- [Full site content (English)](${abs('/llms-full.txt')})
 `;
 writeFileSync(join(DIST, 'llms.txt'), llms);
-writeFileSync(join(DIST, 'llms-full.txt'), `# Mark Morente — full content\n\n` + out.filter((p) => p.md).map((p) => `<!-- ${abs(p.path)} -->\n${p.md}`).join('\n\n---\n\n'));
+writeFileSync(join(DIST, 'llms-full.txt'), `# Mark Morente — full content\n\n` + enOut.filter((p) => p.md).map((p) => `<!-- ${abs(p.path)} -->\n${p.md}`).join('\n\n---\n\n'));
 const BOTS = ['Googlebot', 'Bingbot', 'OAI-SearchBot', 'ChatGPT-User', 'GPTBot', 'Claude-SearchBot', 'Claude-User', 'ClaudeBot', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'Applebot', 'Applebot-Extended', 'DuckAssistBot', 'meta-externalagent', 'MistralAI-User', 'YandexBot', 'Amazonbot', 'CCBot'];
 writeFileSync(join(DIST, 'robots.txt'), `# Mark Morente — ${site.url}
 # Content Signals (contentsignals.org): we want to be found in search and AI answers.
@@ -431,10 +506,10 @@ Sitemap: ${site.url}/sitemap.xml
 mkdirSync(join(DIST, 'api'), { recursive: true });
 writeFileSync(join(DIST, 'api/catalog.json'), JSON.stringify({
   updated: TODAY,
-  company: { name: site.name, url: site.url, city: 'Istanbul', country: 'Turkey', founded: site.founded, whatsapp: `https://wa.me/${site.whatsapp}`, telegram: site.telegram, instagram: site.instagram, facts: site.facts, buyers: site.audience, b2bOnly: true },
-  ordering: { stockLot: site.facts.stockLot, madeToOrderMOQ: site.facts.moq, leadTime: site.facts.leadTime, pricing: 'Quoted per order; not published.' },
-  categories: CATS.map((c) => ({ slug: c.slug, name: c.short, url: abs(`/mens-suit-manufacturing/${c.slug}`), models: c.items.length })),
-  products: sorted.map((p) => ({ code: p.code, title: p.title, model: p.model, fit: p.fit, lapel: p.lapel, fabric: p.fabric, lining: p.lining.replace(/^%100/, '100%'), color: p.color, status: p.status, lot: { sizes: sizesOf(p), suits: lotCount(p) }, categories: CATS.filter((c) => c.test(p)).map((c) => c.slug), url: abs(`/collections/${p.slug}`), markdown: abs(`/collections/${p.slug}.md`), image: abs(p.images[0]), quoteUrl: waLink(`I'm interested in ${p.title} (code ${p.code}). Please send the wholesale price.`) })),
+  company: { name: site.name, url: site.url, city: 'Istanbul', country: 'Turkey', founded: site.founded, whatsapp: `https://wa.me/${site.whatsapp}`, telegram: site.telegram, instagram: site.instagram, facts: site.facts, buyers: site.audience, b2bOnly: true, languages: LIVE.map((L) => ({ code: L.code, url: abs(L.P('/')) })) },
+  ordering: { stockLot: site.facts.stockLot, madeToOrderMOQ: site.facts.moq, leadTime: site.facts.leadTime, customization: 'Fully customizable for made-to-order (fabric, colour, fit, sizes incl. US sizing, lining, buttons, labels, packaging)', shipping: 'Air, sea or road as the buyer prefers; express air for urgent orders', pricing: 'Quoted per order; not published.' },
+  categories: CATS.map((c) => ({ slug: c.slug, name: catName(EN, c), url: abs(`/mens-suit-manufacturing/${c.slug}`), models: c.items.length })),
+  products: sorted.map((p) => ({ code: p.code, title: p.title, model: p.model, fit: p.fit, lapel: p.lapel, fabric: p.fabric, lining: p.lining.replace(/^%100/, '100%'), color: p.color, status: p.status, lot: { sizes: sizesOf(p), suits: lotCount(p) }, categories: CATS.filter((c) => c.test(p)).map((c) => c.slug), url: abs(`/collections/${p.slug}`), markdown: abs(`/collections/${p.slug}.md`), image: abs(p.images[0]), quoteUrl: waHref(EN, `I'm interested in ${p.title} (code ${p.code}). Please send the wholesale price.`) })),
 }, null, 2));
 writeFileSync(join(DIST, 'openapi.json'), JSON.stringify({ openapi: '3.1.0', info: { title: 'Mark Morente wholesale catalog', version: '1.0.0', description: 'Read-only catalog of wholesale suit and tuxedo models. Quotes via WhatsApp (quoteUrl per product).' }, servers: [{ url: site.url }], paths: { '/api/catalog.json': { get: { operationId: 'getCatalog', summary: 'All models, categories and ordering terms', responses: { 200: { description: 'Catalog' } } } }, '/mcp': { post: { operationId: 'mcp', summary: 'MCP endpoint (Streamable HTTP, JSON-RPC 2.0)', responses: { 200: { description: 'JSON-RPC response' } } } } } }, null, 2));
 const WK = join(DIST, '.well-known');
@@ -476,4 +551,4 @@ writeFileSync(join(DIST, '_redirects'), `/index /  301
 /about /about-us 301
 /contact-us /contact 301
 `);
-console.log(`✓ ${out.length} pages, ${guides.length} guides, ${markets.length} markets, ${Object.keys(IMG).length} photos → ${DIST}/ (v${V})`);
+console.log(`✓ ${out.length} pages (${LIVE.map((L) => `${L.code}:${out.filter((p) => p.lang === L.code).length}`).join(' ')}), ${guides.length} guides, ${Object.keys(IMG).length} photos → ${DIST}/ (v${V})`);

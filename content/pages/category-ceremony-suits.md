@@ -85,4 +85,4 @@ Yes, as a made-to-order run from 100 units per style. Send a reference photo or 
 
 ### How should sequin suits be packed?
 
-Each suit goes in its own garment bag. Hanging packing is available if you want them to arrive ready for display.
+Each suit goes in its own garment bag.

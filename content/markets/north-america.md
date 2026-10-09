@@ -46,7 +46,7 @@ Rental companies often ask about our [tuxedos](/mens-suit-manufacturing/tuxedos)
 
 ## US and Canadian sizing
 
-For made-to-order and private label production, we can grade suits to US sizing. Stock lots come in EU sizes, which our size guide converts. Jackets are sized by chest in inches, usually from 36 to 54 and larger for big and tall, with short, regular and long lengths. Trousers are usually cut with a 6-inch drop, so a 40R jacket pairs with a 34 waist, unless you ask for a different drop.
+For made-to-order and private label production, everything is customizable, including US sizing. Stock lots come in EU sizes, which our size guide converts. Jackets are sized by chest in inches, usually from 36 to 54 and larger for big and tall, with short, regular and long lengths. Trousers are usually cut with a 6-inch drop, so a 40R jacket pairs with a 34 waist, unless you ask for a different drop.
 
 Tell us your size curve and we build the size run around it. Our [size guide](/size-guide) shows conversions between US and EU sizes, and the [big and tall](/mens-suit-manufacturing/big-tall-suits) range covers larger chest and waist sizes.
 

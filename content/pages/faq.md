@@ -72,7 +72,7 @@ Suits are checked during cutting and sewing and again before packing: measuremen
 
 ### Can I visit the factory?
 
-Yes. Message us to arrange a visit to Istanbul.
+Yes. Buyers are welcome to visit the factory in Istanbul. Message us to arrange a date. If you can't travel, we send photos and video from production and before shipping.
 
 ## Shipping and payment
 

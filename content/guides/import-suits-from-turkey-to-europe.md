@@ -50,11 +50,11 @@ Road freight is the standard route from Istanbul to most of Europe.
 
 | Mode | When it makes sense |
 |---|---|
-| Road (full or groupage truck) | Most orders to EU, UK and the Balkans; hanging garment trucks available |
-| Air | Urgent orders, samples, small top-ups |
+| Road (full or groupage truck) | Most orders to EU, UK and the Balkans |
+| Air (fast air cargo or express courier) | Urgent orders, samples, small top-ups |
 | Sea | Large volumes to ports, less common for suits to Europe |
 
-Groupage (part-load) trucks are useful for mid-size orders. Hanging transport keeps suits ready for the shop floor but takes more space than folded cartons. We quote freight per destination, or hand the goods to your own forwarder. See our [shipping page](/shipping).
+Groupage (part-load) trucks are useful for mid-size orders. You choose the mode; we ship by road, air or sea, whichever fits your deadline and budget. We quote freight per destination, or hand the goods to your own forwarder. See our [shipping page](/shipping).
 
 ## Sizes for the European market
 

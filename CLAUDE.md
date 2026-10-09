@@ -41,6 +41,13 @@ npm run deploy         # production
 | `functions/mcp.js` | MCP server (search_models, get_model, get_ordering_terms, create_quote_link). |
 | `docs/gsc-*/` | Search Console exports (gitignored, local only). |
 
+## Languages (since 2026-10-09)
+- English at the root; `ar` (RTL), `ru`, `fr`, `de`, `es`, `tr` under `/<code>/…` with the same English slugs (e.g. `/fr/collections/<slug>`). hreflang + x-default (en) on every page; the globe menu in the header switches language.
+- UI strings: `src/i18n/<code>.json` (keys from `en.json`; `{placeholders}`). Catalog text: `src/i18n/catalog/<code>.json` (`values` for fabric/lapel/colour/feature strings, `products` per code: title, content). `src/i18n/catalog/_source-en.json` is the extraction to translate from.
+- Pages: `content/i18n/<code>/{pages,markets}/*.md` (same front matter; English link targets, the build localizes them). Guides are English-only.
+- A language is built only when both its UI json and catalog json exist (`scripts/lib/i18n.mjs`). Missing page translations fall back to not building that page in that language.
+- When English copy changes, update the 6 translations too (or re-run translation agents with the same brief).
+
 ## Content markdown format
 Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), `h1`, `lead`, `updated`, `related: [slugs]`. The body supports `##`, `###`, paragraphs, lists, **bold**, links and pipe tables. The last section is `## FAQ`, with `### Question` entries that render as FAQPage schema.
 `related` accepts page, guide, market and category slugs (with or without a `guides/` or `mens-suit-manufacturing/` prefix) and `collections`.
@@ -62,14 +69,12 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
 - **Legacy URLs** (`/collections/<slug>`, `/mens-suit-manufacturing/<slug>`, `/about-us`, `/contact`) must keep working; `_redirects` covers old aliases.
 - **DNS** is on Cloudflare. **MX/SPF are Hostinger mail: never touch them.**
 
-## Open items to confirm with the owner
-- Israel is left off the Middle East page because of the Turkish trade embargo.
-- US grading for private label (north-america page).
-- Factory visits and pre-shipment photos or video (how-to-order, faq, about).
-- Restock claim; road freight with hanging transport; big & tall up to 6XL.
-- Real factory photos to replace the stock ones; a Google Business Profile / street address.
+## Owner-confirmed (2026-10-09)
+- Israel stays off the site. Fully customizable production incl. US sizing. Factory/customer visits welcome. Photos/video from production and before shipping. Shipping air/sea/road as the buyer prefers (express air for urgent); don't single out hanging transport.
+- Stock photos are fine for factory/process images; owner will send real ones if available.
+- Catalog text was audited against the photos (2026-10-09). T19 and T27 share the same photo: check with the owner.
 
 ## Status
-- [x] Static rebuild (119 URLs), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow)
+- [x] Static rebuild (119 EN URLs + 6 languages = 743 pages), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow in any language)
 - [ ] Preview deploy → owner review → DNS cutover (www + apex to Pages, MX untouched) → disconnect Vercel
-- [ ] GSC sitemap + IndexNow, then translations with hreflang
+- [ ] GSC sitemap + IndexNow

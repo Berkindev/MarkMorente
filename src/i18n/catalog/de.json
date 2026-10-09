@@ -1,0 +1,521 @@
+{
+  "values": {
+    "100% Viscose": "100 % Viskose",
+    "Abstract Patterned Fabric": "Stoff mit abstraktem Muster",
+    "Asymmetric Front Closure with Decorative Metal Loops": "Asymmetrischer Verschluss mit dekorativen Metallschlaufen",
+    "Available in Multiple Colors": "In mehreren Farben erhältlich",
+    "Available in Multiple Colors and Textures": "In mehreren Farben und Strukturen erhältlich",
+    "Available in Navy, Black, Grey, and more": "In Marineblau, Schwarz, Grau und weiteren Farben",
+    "Black": "Schwarz",
+    "Black Base with Crystal Ombre Toward the Hem": "Schwarzer Grund mit Kristall-Ombré zum Saum hin",
+    "Black Base with Gold Beaded Diamond Lattice": "Schwarzer Grund mit goldenem Rautengitter aus Perlen",
+    "Black Base with Gold Crystal Chevron Panels": "Schwarzer Grund mit goldenen Kristall-Chevrons",
+    "Black Base with Gold Crystal Grid Front Panels and Cuffs": "Schwarzer Grund mit goldenem Kristallgitter an Vorderteilen und Ärmelsaum",
+    "Black Base with Gold Crystal Ombre": "Schwarzer Grund mit goldenem Kristall-Ombré",
+    "Black Base with Gold Rhinestone Dots on Front Panels and Cuffs": "Schwarzer Grund mit goldenen Strasspunkten an Vorderteilen und Ärmelsaum",
+    "Black Base with Gold Rhinestone Drip Lines": "Schwarzer Grund mit goldenen Strass-Tropfenlinien",
+    "Black Base with Gold Rhinestone Ombre": "Schwarzer Grund mit goldenem Strass-Ombré",
+    "Black Base with Gold Studs on Jacket and Trousers": "Schwarzer Grund mit goldenen Nieten an Sakko und Hose",
+    "Black Base with Jet Black Rhinestone Drip Lines": "Schwarzer Grund mit tiefschwarzen Strass-Tropfenlinien",
+    "Black Base with Jet Crystal Chevron Panels": "Schwarzer Grund mit Chevrons aus schwarzen Kristallen",
+    "Black Base with Jet Crystal Grid Front Panels and Cuffs": "Schwarzer Grund mit schwarzem Kristallgitter an Vorderteilen und Ärmelsaum",
+    "Black Base with Silver Beaded Diamond Lattice": "Schwarzer Grund mit silbernem Rautengitter aus Perlen",
+    "Black Base with Silver Beaded Shoulder and Sleeve Appliqué": "Schwarzer Grund mit silberner Perlenapplikation an Schultern und Ärmeln",
+    "Black Base with Silver Crystal Chevron Panels": "Schwarzer Grund mit silbernen Kristall-Chevrons",
+    "Black Base with Silver Crystal Grid Front Panels and Cuffs": "Schwarzer Grund mit silbernem Kristallgitter an Vorderteilen und Ärmelsaum",
+    "Black Base with Silver Rhinestone Dots on Front Panels and Cuffs": "Schwarzer Grund mit silbernen Strasspunkten an Vorderteilen und Ärmelsaum",
+    "Black Base with Silver Rhinestone Drip Lines": "Schwarzer Grund mit silbernen Strass-Tropfenlinien",
+    "Black Base with Silver Rhinestone Ombre": "Schwarzer Grund mit silbernem Strass-Ombré",
+    "Black Base with Silver Rhinestone Starburst Shoulders": "Schwarzer Grund mit silbernen Strass-Strahlen an den Schultern",
+    "Black Base with Tonal Beaded Diamond Lattice": "Schwarzer Grund mit Rautengitter aus Perlen Ton in Ton",
+    "Black Base with Tonal Beaded Shoulder Appliqué": "Schwarzer Grund mit Perlenapplikation an den Schultern, Ton in Ton",
+    "Black Rhinestone Peak Lapel": "Spitzes Revers aus schwarzem Strass",
+    "Black Satin Peak Lapel": "Spitzes Revers aus schwarzem Satin",
+    "Black Satin Peak Lapel with Gold Rhinestone Edging": "Spitzes Revers aus schwarzem Satin mit goldener Strasskante",
+    "Black Satin Peak Lapel with Rhinestone Edging": "Spitzes Revers aus schwarzem Satin mit Strasskante",
+    "Black Satin Peak Lapel with Silver Rhinestone Edging": "Spitzes Revers aus schwarzem Satin mit silberner Strasskante",
+    "Black Satin Shawl Lapel": "Schalkragen aus schwarzem Satin",
+    "Black Satin Shawl Lapel with One Crystal Studded Side": "Schalkragen aus schwarzem Satin, eine Seite mit Kristallen besetzt",
+    "Black Wool Blend Fabric": "Wollmischung in Schwarz",
+    "Blue Crystal Studded Shawl Lapel": "Schalkragen mit blauen Kristallen besetzt",
+    "Body Fabric": "Oberstoff",
+    "Breathable linen-blend ideal for spring-summer weddings and resort events": "Atmungsaktive Leinenmischung für Hochzeiten im Frühjahr und Sommer sowie Events im Urlaubsort",
+    "Brown": "Braun",
+    "Brown Wool Blend Fabric": "Wollmischung in Braun",
+    "Burgundy": "Bordeaux",
+    "Burgundy Base with Rhinestone Paisley Shoulders and Ombre Hem": "Bordeaux-Grund mit Strass-Paisley an den Schultern und Ombré zum Saum",
+    "Burgundy Satin Shawl Lapel": "Schalkragen aus bordeauxrotem Satin",
+    "Camel": "Camel",
+    "Camel Linen Blend Fabric": "Leinenmischung in Camel",
+    "Charcoal Grey": "Anthrazit",
+    "Charcoal Grey Wool Blend Fabric": "Wollmischung in Anthrazit",
+    "Crystal Beaded Lower Jacket and Cuffs": "Kristallbesatz am unteren Sakko und Ärmelsaum",
+    "Crystal Peak Lapel with Gold Stud Border": "Spitzes Revers mit Kristallen und goldener Nietenkante",
+    "Dark Green Satin Shawl Lapel": "Schalkragen aus dunkelgrünem Satin",
+    "Decorative Waist Belt Detail": "Dekorativer Taillengürtel",
+    "Designed for weddings, gala events and special ceremonies": "Für Hochzeiten, Galas und festliche Zeremonien",
+    "Designed for weddings, galas, receptions, and special ceremonies": "Für Hochzeiten, Galas, Empfänge und festliche Zeremonien",
+    "Designed for weddings, special events and receptions": "Für Hochzeiten, besondere Anlässe und Empfänge",
+    "Dinner Jacket": "Dinnerjackett",
+    "Double Breasted Closure": "Zweireihiger Verschluss",
+    "Double Breasted Design": "Zweireihiges Design",
+    "Double Breasted Jacket": "Zweireihiges Sakko",
+    "Double-Breasted Closure": "Zweireihiger Verschluss",
+    "Double-Breasted Front Closure": "Zweireihiger Frontverschluss",
+    "Double-Breasted Jacket": "Zweireihiges Sakko",
+    "Double-Breasted Suit": "Zweireiher",
+    "Double-Breasted Waistcoat": "Zweireihige Weste",
+    "Embellished": "Verziert",
+    "Emerald Green": "Smaragdgrün",
+    "Emerald Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Smaragdgrüner Grund mit Strass-Paisley an den Schultern und Ombré zum Saum",
+    "Emerald Green Wool Blend Fabric": "Wollmischung in Smaragdgrün",
+    "Flap Pockets and Chest Pocket": "Pattentaschen und Brusttasche",
+    "Flap Pockets and Chest Pocket with Patterned Pocket Square": "Pattentaschen und Brusttasche mit gemustertem Einstecktuch",
+    "Flap Pockets and Chest Pocket with Pocket Square": "Pattentaschen und Brusttasche mit Einstecktuch",
+    "Flap Pockets with Chest Pocket": "Pattentaschen mit Brusttasche",
+    "Floral and Paisley Jacquard Body Fabric": "Oberstoff: Jacquard mit Blumen- und Paisleymuster",
+    "Forest Green": "Waldgrün",
+    "Forest Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Waldgrüner Grund mit Strass-Paisley an den Schultern und Ombré zum Saum",
+    "Fully Lined": "Voll gefüttert",
+    "Gold Abstract Patterned Fabric": "Stoff mit goldenem abstraktem Muster",
+    "Gold Crystal Studded Shawl Lapel": "Schalkragen mit goldenen Kristallen besetzt",
+    "Gold Glitter Peak Lapel": "Spitzes Revers mit goldenem Glitzer",
+    "Gold Metal Buttons": "Goldene Metallknöpfe",
+    "Gold Rhinestone Peak Lapel": "Spitzes Revers aus goldenem Strass",
+    "Gold Rhinestone Studded Shawl Lapel": "Schalkragen mit goldenem Strass besetzt",
+    "Gold Sequin Upper Body Fading into Navy Drip Lines": "Goldene Pailletten oben, übergehend in marineblaue Tropfenlinien",
+    "Gold Vertical Line Embroidery": "Goldene Stickerei in vertikalen Linien",
+    "Gold or Silver Studs on Sleeves and Lower Body": "Goldene oder silberne Nieten an Ärmeln und unterem Sakko",
+    "Grey": "Grau",
+    "Grey Linen Blend Fabric": "Leinenmischung in Grau",
+    "Grey-Green Satin Shawl Lapel": "Schalkragen aus graugrünem Satin",
+    "Ideal for business meetings, evening events and formal occasions": "Ideal für Geschäftstermine, Abendveranstaltungen und formelle Anlässe",
+    "Ideal for business, evening receptions and formal gatherings": "Ideal für Business, Abendempfänge und formelle Anlässe",
+    "Ideal for formal events, business, and weddings": "Ideal für formelle Anlässe, Business und Hochzeiten",
+    "Ideal for modern weddings, special appearances, or fashion events": "Ideal für moderne Hochzeiten, besondere Auftritte und Modeevents",
+    "Ideal for retail chains and fashion brands": "Ideal für Handelsketten und Modemarken",
+    "Ideal for spring-summer formal events and stylish ceremonies": "Ideal für festliche Anlässe und Zeremonien im Frühjahr und Sommer",
+    "Ideal for weddings, business meetings, and formal occasions": "Ideal für Hochzeiten, Geschäftstermine und formelle Anlässe",
+    "Ideal for weddings, receptions, and special events": "Ideal für Hochzeiten, Empfänge und besondere Anlässe",
+    "Ideal for weddings, special events, and receptions": "Ideal für Hochzeiten, besondere Anlässe und Empfänge",
+    "Ideal for wholesale and private label B2B clients": "Ideal für B2B-Kunden in Großhandel und Private Label",
+    "Ivory": "Elfenbein",
+    "Ivory Linen Blend Fabric": "Leinenmischung in Elfenbein",
+    "Jacquard Wool Blend": "Jacquard aus Wollmischung",
+    "Linen Blend": "Leinenmischung",
+    "Lining": "Futter",
+    "Minimalist Design with Clean Lines": "Minimalistisches Design mit klaren Linien",
+    "Model-shot professional imagery": "Professionelle Aufnahmen am Model",
+    "Modern Fit": "Modern Fit",
+    "Modern Fit Cut": "Modern-Fit-Schnitt",
+    "Modern Fit Silhouette": "Modern-Fit-Silhouette",
+    "Modern Slim Fit": "Modern Slim Fit",
+    "Navy Blue": "Marineblau",
+    "Navy Blue Base with Beaded Diamond Lattice": "Marineblauer Grund mit Rautengitter aus Perlen",
+    "Navy Blue Base with Blue Crystal Ombre": "Marineblauer Grund mit blauem Kristall-Ombré",
+    "Navy Blue Base with Crystal Chevron Panels and Plain Cuffs": "Marineblauer Grund mit Kristall-Chevrons und schlichtem Ärmelsaum",
+    "Navy Blue Base with Crystal Grid Front Panels and Cuffs": "Marineblauer Grund mit Kristallgitter an Vorderteilen und Ärmelsaum",
+    "Navy Blue Base with Gold Glitter Ombre Hem and Cuffs": "Marineblauer Grund mit goldenem Glitzer-Ombré an Saum und Ärmeln",
+    "Navy Blue Base with Gold Rhinestone Dots on Front Panels and Cuffs": "Marineblauer Grund mit goldenen Strasspunkten an Vorderteilen und Ärmelsaum",
+    "Navy Blue Base with Gold Rhinestone Drip Lines": "Marineblauer Grund mit goldenen Strass-Tropfenlinien",
+    "Navy Blue Base with Gold Rhinestone Pinstripes": "Marineblauer Grund mit goldenen Strass-Nadelstreifen",
+    "Navy Blue Base with Gold Rhinestone Starburst Shoulders": "Marineblauer Grund mit goldenen Strass-Strahlen an den Schultern",
+    "Navy Blue Base with Gold Studs on Jacket and Trousers": "Marineblauer Grund mit goldenen Nieten an Sakko und Hose",
+    "Navy Blue Base with Gold and Blue Rhinestone Ombre": "Marineblauer Grund mit Ombré aus goldenem und blauem Strass",
+    "Navy Blue Color": "Marineblau",
+    "Navy Blue Wool Blend Fabric": "Wollmischung in Marineblau",
+    "Navy Satin Peak Lapel": "Spitzes Revers aus marineblauem Satin",
+    "Navy Satin Peak Lapel with Gold Rhinestone Edging": "Spitzes Revers aus marineblauem Satin mit goldener Strasskante",
+    "Navy Satin Shawl Lapel": "Schalkragen aus marineblauem Satin",
+    "Notch Lapel": "Stegrevers (Notch)",
+    "Notch Lapel with Patch Pockets": "Stegrevers mit aufgesetzten Taschen",
+    "Patterned Wool Blend": "Gemusterte Wollmischung",
+    "Peak Lapel": "Spitzes Revers (Peak)",
+    "Peak Lapel / Notch Lapel options": "Spitzes Revers oder Stegrevers",
+    "Perfect for weddings, receptions, and gala nights": "Perfekt für Hochzeiten, Empfänge und Galaabende",
+    "Perfect for weddings, receptions, and special occasions": "Perfekt für Hochzeiten, Empfänge und besondere Anlässe",
+    "Perfect for wholesale and OEM clients": "Perfekt für Großhandels- und OEM-Kunden",
+    "Perfect for wholesale and retail distribution": "Perfekt für Groß- und Einzelhandel",
+    "Premium Cotton Blend": "Hochwertige Baumwollmischung",
+    "Premium Wool": "Hochwertige Wolle",
+    "Red": "Rot",
+    "Red Base with Rhinestone Paisley Shoulders and Ombre Hem": "Roter Grund mit Strass-Paisley an den Schultern und Ombré zum Saum",
+    "Red Satin Shawl Lapel": "Schalkragen aus rotem Satin",
+    "Relaxed Slim Fit Cut": "Bequemer Slim-Fit-Schnitt",
+    "Rhinestone Studded Black Shawl Lapel": "Schwarzer Schalkragen mit Strassbesatz",
+    "Sage Green": "Salbeigrün",
+    "Sage Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Salbeigrüner Grund mit Strass-Paisley an den Schultern und Ombré zum Saum",
+    "Sage Satin Shawl Lapel": "Schalkragen aus salbeigrünem Satin",
+    "Sand Beige": "Sandbeige",
+    "Sand Beige Linen Blend Fabric": "Leinenmischung in Sandbeige",
+    "Satin Peak Lapel with One Studded Side": "Spitzes Satinrevers, eine Seite mit Nieten besetzt",
+    "Satin Shawl Lapel": "Schalkragen aus Satin",
+    "Satin Shawl Lapel with One Crystal Studded Side": "Schalkragen aus Satin, eine Seite mit Kristallen besetzt",
+    "Sequin": "Pailletten",
+    "Set include: Jacket - Trousers": "Set: Sakko, Hose",
+    "Set include: Jacket - Trousers - Bowtie": "Set: Sakko, Hose, Fliege",
+    "Set include: Jacket - Trousers - Optional Tie": "Set: Sakko, Hose, Krawatte optional",
+    "Set includes: Jacket - Trousers": "Set: Sakko, Hose",
+    "Set includes: Jacket - Trousers - Bowtie": "Set: Sakko, Hose, Fliege",
+    "Set includes: Jacket - Waistcoat - Trousers": "Set: Sakko, Weste, Hose",
+    "Set includes: Jacket - Waistcoat - Trousers - Bowtie": "Set: Sakko, Weste, Hose, Fliege",
+    "Shawl Lapel": "Schalkragen",
+    "Shawl Lapel with Black Satin Finish": "Schalkragen mit schwarzem Satinbesatz",
+    "Silver": "Silber",
+    "Silver Rhinestone Peak Lapel": "Spitzes Revers aus silbernem Strass",
+    "Silver Rhinestone Studded Shawl Lapel": "Schalkragen mit silbernem Strass besetzt",
+    "Silver Sequin Body Fading into Black Drip Lines": "Silberne Pailletten, übergehend in schwarze Tropfenlinien",
+    "Silver and White Sequin Body with Black Drip Lines": "Silberne und weiße Pailletten mit schwarzen Tropfenlinien",
+    "Single & Double-Breasted variations": "Einreihige und zweireihige Varianten",
+    "Single-Breasted Closure": "Einreihiger Verschluss",
+    "Single-Breasted Slim Fit Silhouette": "Einreihige Slim-Fit-Silhouette",
+    "Single-Breasted Two-Button Closure": "Einreihig mit zwei Knöpfen",
+    "Single-Button Closure": "Ein-Knopf-Verschluss",
+    "Slim Fit": "Slim Fit",
+    "Slim Fit Cut": "Slim-Fit-Schnitt",
+    "Slim Fit Design": "Slim-Fit-Design",
+    "Slim Fit Silhouette": "Slim-Fit-Silhouette",
+    "Statement design for exclusive occasions": "Auffälliges Design für exklusive Anlässe",
+    "Three Piece Suit": "Dreiteiler",
+    "Three-Piece Set with Matching Waistcoat": "Dreiteiler mit passender Weste",
+    "Three-Piece Set: Jacket, Waistcoat, Trousers": "Dreiteiler: Sakko, Weste, Hose",
+    "Tuxedo": "Smoking",
+    "Two Piece Suit": "Zweiteiler",
+    "Various Options": "Verschiedene Optionen",
+    "White": "Weiß",
+    "White Base with Black Beaded Diamond Lattice": "Weißer Grund mit schwarzem Rautengitter aus Perlen",
+    "White Base with Black Beaded Shoulder Appliqué": "Weißer Grund mit schwarzer Perlenapplikation an den Schultern",
+    "White Base with Black Beaded Shoulder and Sleeve Appliqué": "Weißer Grund mit schwarzer Perlenapplikation an Schultern und Ärmeln",
+    "White Base with Black Crystal Grid Front Panels and Cuffs": "Weißer Grund mit schwarzem Kristallgitter an Vorderteilen und Ärmelsaum",
+    "White Base with Black Rhinestone Dots on Front Panels and Cuffs": "Weißer Grund mit schwarzen Strasspunkten an Vorderteilen und Ärmelsaum",
+    "White Base with Black Rhinestone Drip Lines": "Weißer Grund mit schwarzen Strass-Tropfenlinien",
+    "White Base with Black Rhinestone Starburst Shoulders": "Weißer Grund mit schwarzen Strass-Strahlen an den Schultern",
+    "White Base with Black-to-Silver Rhinestone Ombre": "Weißer Grund mit Strass-Ombré von Schwarz zu Silber",
+    "White Base with Red-to-Black Rhinestone Ombre": "Weißer Grund mit Strass-Ombré von Rot zu Schwarz",
+    "White Base with Scattered Black Rhinestones": "Weißer Grund mit verstreuten schwarzen Strasssteinen",
+    "White Satin Peak Lapel": "Spitzes Revers aus weißem Satin",
+    "White Shawl Lapel with Rhinestones": "Weißer Schalkragen mit Strass",
+    "Wide Peak Lapel": "Breites spitzes Revers",
+    "Wide Peak Lapel with Velvet Texture": "Breites spitzes Revers in Samtoptik",
+    "Wide range of colors and patterns": "Große Auswahl an Farben und Mustern",
+    "Wool Blend": "Wollmischung"
+  },
+  "products": {
+    "165": {
+      "title": "Zweireihiger Smoking mit Kristall-Schalkragen",
+      "content": "Zweireihiger Herrensmoking mit Schalkragen aus schwarzem Satin, eine Seite komplett mit Kristallen besetzt, und Kristallbesatz, der zum Saum und zu den Ärmeln hin dichter wird. Erhältlich in Grau, Anthrazit, Grün, Royalblau und Marineblau. Set mit Sakko, Hose und Fliege für Hochzeiten, Empfänge und formelle Anlässe."
+    },
+    "238": {
+      "title": "Zweireihiger Smoking mit Nieten und spitzem Revers",
+      "content": "Zweireihiger Herrensmoking mit spitzem Satinrevers, eine Seite mit goldenen oder silbernen Nieten besetzt, und Nietenbesatz, der zum Saum und zu den Ärmeln hin dichter wird. Erhältlich in Weiß und Schwarz. Set mit Sakko, passender Hose und Fliege für Hochzeiten und formelle Anlässe."
+    },
+    "312": {
+      "title": "Gemusterter Smoking mit spitzem Revers und Gürtel",
+      "content": "Herrensmoking aus gemustertem Stoff mit breitem spitzem Revers. Eine elegante und mutige Wahl für Hochzeiten und formelle Anlässe. Mit Fliege und dekorativem Gürteldetail."
+    },
+    "341": {
+      "title": "Zweiteiler mit asymmetrischem Hakenverschluss, Peak-Revers",
+      "content": "Moderner Herrenanzug mit asymmetrischem Design und Metallhakenverschluss. Zeitgemäßes spitzes Revers und Slim-Fit-Schnitt. Eine starke Wahl für Hochzeiten, Partys und modische Events."
+    },
+    "366": {
+      "title": "Schwarzer zweireihiger Smoking mit Kristall-Schalkragen",
+      "content": "Schwarzer zweireihiger Herrensmoking mit Schalkragen aus Satin, eine Seite mit Kristallen besetzt, und Kristallbesatz, der sich zum Saum und zu den Ärmeln hin verdichtet. Erhältlich mit silbernen, grünen oder goldenen Kristallen. Set mit Sakko, Hose und Fliege für Hochzeiten, Empfänge und formelle Anlässe."
+    },
+    "378": {
+      "title": "Smoking mit Goldmuster und Schalkragen",
+      "content": "Herrensmoking aus Stoff mit goldenem abstraktem Muster und Schalkragen aus Satin. Festanzug für Hochzeiten und formelle Anlässe. Mit Hose und Fliege."
+    },
+    "403": {
+      "title": "Smoking mit Goldstickerei und Schalkragen",
+      "content": "Herrensmoking mit Schalkragen aus Satin und Stickerei in goldenen Linien. Moderner Festanzug für Hochzeiten, Empfänge und formelle Anlässe. Mit Hose und optionaler Krawatte."
+    },
+    "404": {
+      "title": "Zweireihiger Jacquard-Smoking mit Blumenmuster, Schalkragen",
+      "content": "Zweireihiger Herrensmoking aus Jacquard mit Blumen- und Paisleymuster, Schalkragen aus schwarzem Satin und schwarzer Hose. Erhältlich in Silber, Marineblau, Schwarz-Silber, Bordeaux, Grün und Goldtönen. Set mit Sakko, Hose und Fliege für Hochzeiten, Empfänge und Galaabende."
+    },
+    "500": {
+      "title": "Zweireiher in Modern Fit",
+      "content": "Eleganter zweireihiger Herrenanzug mit spitzem Revers und goldenen Knöpfen. Für formelle Anlässe und modebewusste Männer."
+    },
+    "524": {
+      "title": "Zweireiher mit Metallknöpfen",
+      "content": "Eleganter zweireihiger Herrenanzug mit spitzem Revers und goldenen Knopfakzenten. Eine zeitlose Wahl für Business und formelle Anlässe."
+    },
+    "666": {
+      "title": "Zweireiher mit spitzem Revers",
+      "content": "Anspruchsvoller zweireihiger Herrenanzug mit spitzem Revers und goldenen Knöpfen. Passend für Büro und festliche Anlässe."
+    },
+    "710": {
+      "title": "Zweireiher mit spitzem Revers und Goldknöpfen",
+      "content": "Moderner zweireihiger Herrenanzug mit breitem spitzem Revers und eleganten goldenen Knöpfen. Für gehobene Veranstaltungen und stilvolle Auftritte."
+    },
+    "DB-PRE": {
+      "title": "Premium-Kollektion Zweireiher",
+      "content": "Hochwertiger zweireihiger Herrenanzug mit spitzem Revers und Modern Fit. Ein vielseitiges Modell für Großhändler und Private-Label-Marken, die klassische Eleganz suchen."
+    },
+    "SF-CLS": {
+      "title": "Kollektion klassischer Slim-Fit-Anzüge",
+      "content": "Klassischer Slim-Fit-Herrenanzug mit Stegrevers. Zeitloses Design für Großhändler, die vielseitige Businessanzüge für jeden Tag suchen."
+    },
+    "FB-FRM": {
+      "title": "Kollektion formeller Businessanzüge",
+      "content": "Hochwertige Kollektion formeller Businessanzüge mit Aufnahmen am Model. Große Auswahl an Slim-Fit- und Zweireiher-Modellen für Großhandel und Private Label Fertigung."
+    },
+    "TP-PRE": {
+      "title": "Premium-Kollektion Dreiteiler",
+      "content": "Hochwertiger dreiteiliger Herrenanzug mit passender Weste und spitzem Revers. Präsentation an der Schaufensterpuppe. Ideal für Großhändler und Private-Label-Marken."
+    },
+    "S01": {
+      "title": "Grauer Leinen-Sommeranzug, zweiteilig",
+      "content": "Grauer zweiteiliger Herrenanzug aus Leinenmischung mit Stegrevers und aufgesetzten Taschen. Leichter, atmungsaktiver Sommeranzug für Strandhochzeiten, Trauzeugen und Zeremonien bei warmem Wetter. Erhältlich im Großhandel und als Private Label."
+    },
+    "S02": {
+      "title": "Camelfarbener Leinen-Sommeranzug, zweiteilig",
+      "content": "Camelfarbener zweiteiliger Herrenanzug aus Leinenmischung mit Stegrevers und aufgesetzten Taschen. Leichter, atmungsaktiver Sommeranzug für Strandhochzeiten, Trauzeugen und Zeremonien bei warmem Wetter. Erhältlich im Großhandel und als Private Label."
+    },
+    "S03": {
+      "title": "Elfenbeinfarbener Leinen-Sommeranzug, zweiteilig",
+      "content": "Elfenbeinfarbener zweiteiliger Herrenanzug aus Leinenmischung mit Stegrevers und aufgesetzten Taschen. Leichter, atmungsaktiver Sommeranzug für Strandhochzeiten, Trauzeugen und Zeremonien bei warmem Wetter. Erhältlich im Großhandel und als Private Label."
+    },
+    "S04": {
+      "title": "Sandbeiger Leinen-Sommeranzug, zweiteilig",
+      "content": "Sandbeiger zweiteiliger Herrenanzug aus Leinenmischung mit Stegrevers und aufgesetzten Taschen. Leichter, atmungsaktiver Sommeranzug für Strandhochzeiten, Trauzeugen und Zeremonien bei warmem Wetter. Erhältlich im Großhandel und als Private Label."
+    },
+    "S05": {
+      "title": "Marineblauer Dreiteiler mit spitzem Revers",
+      "content": "Marineblauer dreiteiliger Herrenanzug mit spitzem Revers und passender Weste. Taillierter Slim-Fit-Schnitt für Hochzeiten, Bräutigame und formelle Businesskleidung. Gefertigt in der Türkei für Großhandel, OEM und Private Label."
+    },
+    "S06": {
+      "title": "Anthrazitfarbener Dreiteiler mit spitzem Revers",
+      "content": "Anthrazitfarbener dreiteiliger Herrenanzug mit spitzem Revers und passender Weste. Taillierter Slim-Fit-Schnitt für Hochzeiten, Bräutigame und formelle Businesskleidung. Gefertigt in der Türkei für Großhandel, OEM und Private Label."
+    },
+    "S07": {
+      "title": "Schwarzer Dreiteiler mit spitzem Revers",
+      "content": "Schwarzer dreiteiliger Herrenanzug mit spitzem Revers und passender Weste. Taillierter Slim-Fit-Schnitt für Hochzeiten, Bräutigame und formelle Businesskleidung. Gefertigt in der Türkei für Großhandel, OEM und Private Label."
+    },
+    "S08": {
+      "title": "Smaragdgrüner Dreiteiler mit spitzem Revers",
+      "content": "Smaragdgrüner dreiteiliger Herrenanzug mit spitzem Revers und passender Weste. Taillierter Slim-Fit-Schnitt für Hochzeiten, Bräutigame und formelle Businesskleidung. Gefertigt in der Türkei für Großhandel, OEM und Private Label."
+    },
+    "S09": {
+      "title": "Brauner Dreiteiler mit spitzem Revers",
+      "content": "Brauner dreiteiliger Herrenanzug mit spitzem Revers und passender Weste. Taillierter Slim-Fit-Schnitt für Hochzeiten, Bräutigame und formelle Businesskleidung. Gefertigt in der Türkei für Großhandel, OEM und Private Label."
+    },
+    "T01": {
+      "title": "Marineblauer Smoking mit Perlenrauten, spitzes Revers",
+      "content": "Marineblauer Herrensmoking, komplett mit einem Rautengitter aus Perlen bedeckt, mit spitzem Revers aus marineblauem Satin sowie perlenbesetzten aufgesetzten Taschen und Saum. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T02": {
+      "title": "Weißer Smoking mit schwarzen Perlenrauten, spitzes Revers",
+      "content": "Weißes Smokingsakko mit schwarzem Rautengitter aus Perlen, spitzem Revers aus schwarzem Satin und perlenbesetzten aufgesetzten Taschen, getragen mit weißer Weste mit schwarzer Kante und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T03": {
+      "title": "Schwarzer Smoking, Perlenrauten Ton in Ton, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit einem Rautengitter aus schwarzen Perlen Ton in Ton über das ganze Sakko, spitzem Revers aus schwarzem Satin und Perlenbesatz an den aufgesetzten Taschen für dezenten Glanz am Abend. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T04": {
+      "title": "Schwarzer Smoking mit goldenen Perlenrauten, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit goldenem Rautengitter aus Perlen, goldenen Nieten an aufgesetzten Taschen, Saum und Ärmeln und spitzem Revers aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T05": {
+      "title": "Marineblauer Smoking mit Perlenrauten und schwarzem Revers",
+      "content": "Marineblauer Herrensmoking mit Rautengitter aus Perlen und perlenbesetzten aufgesetzten Taschen, abgesetzt mit spitzem Revers aus schwarzem Satin und schwarzer Weste. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T06": {
+      "title": "Roter Smoking mit Strass-Paisley und Schalkragen",
+      "content": "Roter Herrensmoking mit Schalkragen aus rotem Satin, Paisleymotiven aus Strass an den Schultern und einem Strass-Ombré, das zum Saum und zu den Ärmeln hin dichter wird. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T07": {
+      "title": "Smaragdgrüner Smoking mit Strass-Paisley und Schalkragen",
+      "content": "Smaragdgrüner Herrensmoking mit Schalkragen aus graugrünem Satin, Paisleymotiven aus Strass über den Schultern und einem Strass-Ombré zum Saum hin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T08": {
+      "title": "Bordeauxroter Smoking mit Strass-Paisley und Schalkragen",
+      "content": "Bordeauxroter Herrensmoking mit Schalkragen aus bordeauxrotem Satin, Paisleymotiven aus Strass an den Schultern und einem Strass-Ombré, das sich zum Saum und zu den Ärmeln hin verdichtet. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T09": {
+      "title": "Waldgrüner Smoking mit Strass-Paisley und Schalkragen",
+      "content": "Waldgrüner Herrensmoking mit Schalkragen aus dunkelgrünem Satin, Paisleymotiven aus Strass an den Schultern und einem Strass-Ombré bis zum Saum. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T10": {
+      "title": "Schwarzer Smoking mit silbernen Perlenrauten, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit silbernem Rautengitter aus Perlen, Perlmuttperlen an aufgesetzten Taschen, Saum und Ärmeln und spitzem Revers aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T11": {
+      "title": "Marineblauer Zweireiher-Smoking mit Gold-Ombré",
+      "content": "Zweireihiger marineblauer Herrensmoking mit spitzem Revers in Goldglitzer und einem Gold-Ombré, das sich von der Taille bis zu Saum und Ärmeln ausbreitet. Geliefert mit passender Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T12": {
+      "title": "Schwarzer Smoking mit Gold-Strass-Tropfen, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit spitzem Revers komplett aus goldenem Strass und goldenen Strass-Tropfenlinien über Brust, Schultern und Ärmel. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T13": {
+      "title": "Schwarzer Smoking mit Silber-Strass-Tropfen, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit spitzem Revers aus silbernem Strass und silbernen Strass-Tropfenlinien, die von den Schultern über Brust und Ärmel fallen. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T14": {
+      "title": "Schwarzer Smoking, schwarze Strass-Tropfen, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit spitzem Revers aus tiefschwarzem Strass und Strass-Tropfenlinien Ton in Ton über Brust und Ärmel für dezenten Glanz. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T15": {
+      "title": "Weißer Smoking mit schwarzen Strass-Tropfen, spitzes Revers",
+      "content": "Weißer Herrensmoking mit spitzem Revers aus schwarzem Strass und schwarzen Strass-Tropfenlinien über Schultern und Brust, getragen mit weißer Weste und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T16": {
+      "title": "Marineblauer Smoking mit Gold-Strass-Tropfen, spitzes Revers",
+      "content": "Marineblauer Herrensmoking mit spitzem Revers aus goldenem Strass und goldenen Strass-Tropfenlinien von den Schultern über Brust und Ärmel. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T17": {
+      "title": "Schwarzer Smoking mit Silber-Strass-Ombré und Schalkragen",
+      "content": "Schwarzer Herrensmoking mit Schalkragen aus silbernem Strass und einem silbernen Strassmuster, das von der Brust an dichter wird und an Saum und Ärmeln in ein geschlossenes Band übergeht. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T18": {
+      "title": "Schwarzer Smoking mit Gold-Strass-Ombré und Schalkragen",
+      "content": "Schwarzer Herrensmoking mit Schalkragen aus goldenem Strass und einem goldenen Strassmuster, das von der Brust zu Saum und Ärmeln hin dichter wird. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T19": {
+      "title": "Marineblauer Smoking mit Gold-Strass-Ombré und Schalkragen",
+      "content": "Marineblauer Herrensmoking mit schwarzem, strassbesetztem Schalkragen und einer Mischung aus goldenem und blauem Strass, die zum Saum und zu den Ärmeln hin ein Ombré bildet. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T20": {
+      "title": "Salbeigrüner Smoking mit Strass-Paisley und Schalkragen",
+      "content": "Salbeigrüner Herrensmoking mit Schalkragen aus salbeigrünem Satin, Paisleymotiven aus Strass Ton in Ton an den Schultern und einem Strass-Ombré zum Saum hin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T21": {
+      "title": "Schwarzer Smoking mit Kristall-Ombré und Gold-Nietenkante",
+      "content": "Schwarzer Herrensmoking mit kristallbesetztem spitzem Revers mit goldener Nietenkante und einem silbernen Kristall-Ombré, das sich zum Saum und zu den Ärmeln hin verdichtet. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T22": {
+      "title": "Marineblauer Smoking mit Gold-Strasspunkten, spitzes Revers",
+      "content": "Marineblauer Herrensmoking mit goldenen Strasspunkten an den Vorderteilen und unteren Ärmeln und spitzem Revers aus marineblauem Satin mit goldener Strasskante. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T23": {
+      "title": "Weißer Smoking mit schwarzen Strasspunkten, spitzes Revers",
+      "content": "Weißer Herrensmoking mit schwarzen Strasspunkten an den Vorderteilen und unteren Ärmeln, spitzem Revers aus schwarzem Satin, weißer Weste und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T24": {
+      "title": "Schwarzer Smoking mit Silber-Strasspunkten, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit silbernen Strasspunkten an den Vorderteilen und unteren Ärmeln und spitzem Revers aus schwarzem Satin mit silberner Strasskante. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T25": {
+      "title": "Schwarzer Smoking mit Gold-Strasspunkten, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit goldenen Strasspunkten an den Vorderteilen und unteren Ärmeln und spitzem Revers aus schwarzem Satin mit goldener Strasskante. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T26": {
+      "title": "Marineblauer Smoking mit blauen Kristallen und Schalkragen",
+      "content": "Marineblauer Herrensmoking mit Schalkragen aus blauen Kristallen und verstreuten blauen Kristallen, die zum Saum und zu den Ärmeln hin dichter werden. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T27": {
+      "title": "Marineblauer Smoking mit Strass-Ombré und Schalkragen",
+      "content": "Marineblauer Herrensmoking mit schwarzem, strassbesetztem Schalkragen und goldenem und blauem Strass, der zum Saum und zu den Ärmeln hin ein Ombré bildet. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T28": {
+      "title": "Marineblauer Smoking mit Kristall-Chevrons und Schalkragen",
+      "content": "Marineblauer Herrensmoking mit Kristall-Chevrons über Körper und Ärmel, schlichten, abgesetzten Ärmelenden und Saum und breitem Schalkragen aus Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T29": {
+      "title": "Schwarzer Smoking mit Silber-Kristall-Chevrons, Schalkragen",
+      "content": "Schwarzer Herrensmoking mit markanten Chevrons aus silbernen Kristallen über Körper und Ärmel, schlichten schwarzen Ärmelenden und Saum und breitem Schalkragen aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T30": {
+      "title": "Schwarzer Smoking, Kristall-Chevrons Ton in Ton, Schalkragen",
+      "content": "Schwarzer Herrensmoking mit Chevrons aus schwarzen Kristallen Ton in Ton über Körper und Ärmel, schlichten schwarzen Ärmelenden und Saum und breitem Schalkragen aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T31": {
+      "title": "Schwarzer Smoking mit Gold-Kristall-Chevrons und Schalkragen",
+      "content": "Schwarzer Herrensmoking mit Chevrons aus goldenen Kristallen über Körper und Ärmel, schlichten schwarzen Ärmelenden und Saum und breitem Schalkragen aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T32": {
+      "title": "Silber-weißer Paillettensmoking mit Tropfen und Schalkragen",
+      "content": "Herrensmoking aus silbernen und weißen Pailletten mit schwarzen Paillettentropfen zum Saum hin, Schalkragen aus schwarzem Satin, weißer Weste und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T33": {
+      "title": "Marineblau-goldener Paillettensmoking mit Schalkragen",
+      "content": "Herrensmoking aus marineblauen und goldenen Pailletten: Goldene Pailletten an Schultern und Brust laufen zum Saum hin in marineblaue Tropfenlinien aus, abgerundet durch einen Schalkragen aus marineblauem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T34": {
+      "title": "Silberner Paillettensmoking mit Schwarz-Ombré, Schalkragen",
+      "content": "Herrensmoking aus silbernen Pailletten, die zu Saum und Ärmeln hin in schwarze Paillettentropfen übergehen, mit Schalkragen aus schwarzem Satin und schwarzer Weste. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T35": {
+      "title": "Marineblauer Smoking mit Goldnieten, spitzes Revers",
+      "content": "Marineblauer Herrensmoking mit verstreuten goldenen Nieten auf dem Sakko und passend besetzter Hose, abgerundet durch spitzes Revers aus marineblauem Satin und marineblaue Weste. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T36": {
+      "title": "Schwarzer Smoking mit Goldkristallen und Schalkragen",
+      "content": "Schwarzer Herrensmoking mit Schalkragen aus goldenen Kristallen und verstreuten goldenen Kristallen, die zum Saum und zu den Ärmeln hin dichter werden. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T37": {
+      "title": "Schwarzer Smoking mit Goldnieten, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit verstreuten goldenen Nieten auf dem Sakko und passend besetzter Hose, abgerundet durch spitzes Revers aus schwarzem Satin und schwarze Weste. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T38": {
+      "title": "Marineblauer Smoking mit Kristallgitter, spitzes Revers",
+      "content": "Marineblauer Herrensmoking mit Kristallgitter Ton in Ton an den Vorderteilen und breiten Kristallbändern an den Ärmeln, abgerundet durch spitzes Revers aus marineblauem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T39": {
+      "title": "Weißer Smoking mit schwarzem Kristallgitter, spitzes Revers",
+      "content": "Weißer Herrensmoking mit schwarzem Kristallgitter an den Vorderteilen, schwarzen Kristallbändern an den Ärmeln und spitzem Revers aus schwarzem Satin, getragen mit weißer Weste und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T40": {
+      "title": "Schwarzer Smoking, Kristallgitter Ton in Ton, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit Gitter aus schwarzen Kristallen Ton in Ton an den Vorderteilen und Kristallbändern an den Ärmeln, abgerundet durch spitzes Revers aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T41": {
+      "title": "Schwarzer Smoking mit Gold-Kristallgitter, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit goldenem Kristallgitter an den Vorderteilen und goldenen Kristallbändern an den Ärmeln, abgerundet durch spitzes Revers aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T42": {
+      "title": "Schwarzer Smoking mit Silber-Kristallgitter, spitzes Revers",
+      "content": "Schwarzer Herrensmoking mit silbernem Kristallgitter an den Vorderteilen und silbernen Kristallbändern an den Ärmeln, abgerundet durch spitzes Revers aus schwarzem Satin. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T43": {
+      "title": "Marineblauer Smoking mit Gold-Strass-Nadelstreifen",
+      "content": "Marineblauer Herrensmoking mit goldenen Strass-Nadelstreifen über die ganze Länge des Sakkos und spitzem Revers aus marineblauem Satin mit goldener Strasskante. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T44": {
+      "title": "Schwarzer Smoking mit Silber-Strahlen an den Schultern",
+      "content": "Schwarzer Herrensmoking mit feinen Strahlenlinien aus silbernem Strass über beide Schultern und Schalkragen aus schwarzem Satin; der Rest des Sakkos bleibt schlicht. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T45": {
+      "title": "Weißer Smoking mit schwarzem Strass, spitzes Revers",
+      "content": "Weißer Herrensmoking mit verstreutem schwarzem Strass auf dem Sakko, spitzem Revers aus weißem Satin und weißer Weste, getragen mit strassbesetzter schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T46": {
+      "title": "Marineblauer Smoking mit Gold-Strahlen an den Schultern",
+      "content": "Marineblauer Herrensmoking mit Strahlenlinien aus goldenem Strass über beide Schultern und Schalkragen aus marineblauem Satin; der Rest des Sakkos bleibt schlicht. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T47": {
+      "title": "Schwarzer Smoking mit Silberdetails an Schultern und Ärmeln",
+      "content": "Schwarzer Herrensmoking mit markanten Strahlenlinien aus silbernem Strass über Schultern und Oberärmel und Schalkragen aus schwarzem Satin; die Vorderseite des Sakkos bleibt schlicht. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T48": {
+      "title": "Schwarzer Smoking mit Perlenschultern und Schalkragen",
+      "content": "Schwarzer Herrensmoking mit Perlenapplikation Ton in Ton an Schultern und Oberärmeln, Schalkragen aus schwarzem Satin und satinpaspelierten Taschen. Geliefert mit passender Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T49": {
+      "title": "Schwarzer Smoking mit Silberstickerei an den Schultern",
+      "content": "Schwarzer Herrensmoking mit silberner Perlenapplikation über Schultern und Oberärmel, Schalkragen aus schwarzem Satin und satinpaspelierten Taschen. Geliefert mit passender Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T50": {
+      "title": "Weißes Dinnerjackett mit verzierten Schultern und Ärmeln",
+      "content": "Weißes Herren-Dinnerjackett mit schwarzer Perlenapplikation über Schultern und Oberärmel, Schalkragen aus schwarzem Satin und schwarz paspelierten Taschen. Kombiniert mit schwarzer Hose für Hochzeiten, Empfänge und Black-Tie-Abende. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T51": {
+      "title": "Weißes Dinnerjackett mit Perlenschultern und Schalkragen",
+      "content": "Weißes Herren-Dinnerjackett mit schwarzer Perlenapplikation an den Schultern, Schalkragen aus schwarzem Satin und schwarz paspelierten Taschen. Kombiniert mit schwarzer Hose für Hochzeiten, Empfänge und Black-Tie-Abende. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T52": {
+      "title": "Weißer Smoking mit Rot-Schwarz-Strass-Ombré, Schalkragen",
+      "content": "Weißer Herrensmoking mit rotem Strass an den Schultern, der zur Taille hin in schwarzen Strass übergeht, weißem Schalkragen mit Strass, weißer Weste und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T53": {
+      "title": "Weißer Smoking mit Silber-Strass-Ombré und Schalkragen",
+      "content": "Weißer Herrensmoking mit schwarzem Strass an den Schultern, der zur Taille hin in Silber übergeht, weißem Schalkragen mit Strass, weißer Weste und schwarzer Hose. Geliefert als dreiteiliges Set mit Weste, Hose und Fliege für Hochzeiten, Galas, Abschlussbälle und Bühnenauftritte. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    },
+    "T54": {
+      "title": "Weißes Dinnerjackett mit Strass-Strahlen und Schalkragen",
+      "content": "Weißes Herren-Dinnerjackett mit Strahlenlinien aus schwarzem Strass über den Schultern und Schalkragen aus schwarzem Satin, getragen mit weißer Weste. Geliefert mit passender Weste und schwarzer Hose für Hochzeiten, Empfänge und Black-Tie-Abende. Gefertigt in Istanbul, Türkei, für Großhandel, OEM und Private Label."
+    }
+  }
+}

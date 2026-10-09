@@ -222,7 +222,7 @@
     },
     {
       "slug": "crystal-shawl-ceremony-tuxedo-165",
-      "title": "Crystal Detailed Shawl Lapel Men's Tuxedo",
+      "title": "Crystal Studded Double-Breasted Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
@@ -249,10 +249,10 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Satin Shawl Lapel with Crystal Detailing",
+          "Satin Shawl Lapel with One Crystal Studded Side",
+          "Double-Breasted Closure",
+          "Crystal Beaded Lower Jacket and Cuffs",
           "Slim Fit Design",
-          "Crystal Beaded Lower Jacket and Sleeves",
-          "Double Breasted Closure",
           "Set include: Jacket - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, gala events and special ceremonies"
@@ -277,14 +277,14 @@
           "total": "6 SET SUIT IN A LOT"
         }
       },
-      "content": "Men's tuxedo with satin shawl lapel and crystal detailing. Ceremony tuxedo ideal for weddings, evening receptions, and formal events. Includes jacket, trousers, and bowtie."
+      "content": "Double-breasted men's tuxedo with a black satin shawl lapel, one side fully crystal studded, and crystal beading that builds toward the hem and cuffs. Offered in grey, charcoal, green, royal blue and navy. Includes jacket, trousers and bowtie for weddings, receptions and formal events."
     },
     {
       "slug": "gold-studded-ceremony-tuxedo-238",
-      "title": "Gold Studded Shawl Lapel Men's Tuxedo",
+      "title": "Studded Peak Lapel Double-Breasted Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
+      "lapel": "Peak Lapel",
       "fabric": "Wool Blend",
       "lining": "%100 Viscose",
       "color": "Various Options",
@@ -306,9 +306,9 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Satin Shawl Lapel with Gold Studs",
-          "Double Breasted Jacket",
-          "Gold Beading on Sleeves and Lower Body",
+          "Satin Peak Lapel with One Studded Side",
+          "Double-Breasted Jacket",
+          "Gold or Silver Studs on Sleeves and Lower Body",
           "Slim Fit",
           "Set include: Jacket - Trousers - Bowtie",
           "Fully Lined",
@@ -334,7 +334,7 @@
           "total": "6 SET SUIT IN A LOT"
         }
       },
-      "content": "Men's tuxedo with gold studs and satin shawl lapel. Ceremony suit for weddings and formal occasions. Includes bowtie and matching trousers."
+      "content": "Double-breasted men's tuxedo with a satin peak lapel, one side covered in gold or silver studs, and stud work that builds toward the hem and cuffs. Offered in white and black colourways. Includes jacket, matching trousers and bowtie for weddings and formal occasions."
     },
     {
       "slug": "patterned-peak-tuxedo-312",
@@ -398,7 +398,7 @@
     },
     {
       "slug": "asymmetric-modern-suit-341",
-      "title": "Asymmetric Front Men's Modern Two Piece Suit with Hook Detail",
+      "title": "Asymmetric Hook Detail Peak Lapel Men's Two Piece Suit",
       "model": "Two Piece Suit",
       "fit": "Slim Fit",
       "lapel": "Peak Lapel",
@@ -453,13 +453,13 @@
     },
     {
       "slug": "crystal-detailed-ceremony-tuxedo-366",
-      "title": "Crystal Detailed Shawl Lapel Men's Tuxedo",
+      "title": "Black Crystal Double-Breasted Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
       "fabric": "Wool Blend",
       "lining": "%100 Viscose",
-      "color": "Various Options",
+      "color": "Black",
       "code": "366",
       "images": [
         "/collections/366/366-09-01.webp",
@@ -476,14 +476,13 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Shawl Lapel with Full Crystal Embellishment",
-          "Satin Lapel Finish",
-          "Double Breasted Closure",
-          "Crystal Beaded Jacket and Sleeves",
-          "Slim Fit",
+          "Black Satin Shawl Lapel with One Crystal Studded Side",
+          "Double-Breasted Closure",
+          "Crystal Beaded Lower Jacket and Cuffs",
+          "Slim Fit Design",
           "Set include: Jacket - Trousers - Bowtie",
           "Fully Lined",
-          "Ideal for weddings, receptions, and gala events"
+          "Designed for weddings, gala events and special ceremonies"
         ],
         "lot": {
           "sizes": [
@@ -505,7 +504,7 @@
           "total": "6 SET SUIT IN A LOT"
         }
       },
-      "content": "Men's tuxedo with satin shawl lapel and full crystal beading. Ceremony suit perfect for weddings, black tie events, and receptions. Includes trousers and bowtie."
+      "content": "Black double-breasted men's tuxedo with a satin shawl lapel, one side covered in crystals, and crystal beading that gathers toward the hem and cuffs. Available with silver, green or gold crystals. Includes jacket, trousers and bowtie for weddings, receptions and formal events."
     },
     {
       "slug": "gold-patterned-ceremony-tuxedo-378",
@@ -636,11 +635,11 @@
     },
     {
       "slug": "floral-pattern-shawl-ceremony-tuxedo-404",
-      "title": "Floral Pattern Shawl Lapel Men's Tuxedo",
+      "title": "Floral Jacquard Double-Breasted Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Embroidered Wool Blend",
+      "fabric": "Jacquard Wool Blend",
       "lining": "%100 Viscose",
       "color": "Various Options",
       "code": "404",
@@ -660,12 +659,12 @@
       "status": "Out of Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Embroidered Wool Blend",
+          "Body Fabric": "Jacquard Wool Blend",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Satin Shawl Lapel",
-          "Black Base with Silver Embroidered Floral Motifs",
+          "Black Satin Shawl Lapel",
+          "Floral and Paisley Jacquard Body Fabric",
           "Double Breasted Design",
           "Slim Fit Cut",
           "Set include: Jacket - Trousers - Bowtie",
@@ -692,7 +691,7 @@
           "total": "6 SET SUIT IN A LOT"
         }
       },
-      "content": "Men's tuxedo with satin shawl lapel and silver floral embroidery. Designed for weddings, special events and stage-ready elegance. Includes bowtie and trousers."
+      "content": "Double-breasted men's tuxedo in a floral and paisley jacquard with a black satin shawl lapel and black trousers. Offered in silver, navy, black and silver, burgundy, green and gold-toned colourways. Includes jacket, trousers and bowtie for weddings, receptions and gala nights."
     },
     {
       "slug": "premium-double-breasted-suit-collection",
@@ -1393,11 +1392,11 @@
     },
     {
       "slug": "navy-blue-paisley-jacquard-shawl-lapel-mens-tuxedo-t01",
-      "title": "Navy Blue Paisley Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Beaded Diamond Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T01",
@@ -1407,15 +1406,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Paisley Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Beaded Diamond Lattice",
+          "Navy Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1441,17 +1440,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue Paisley Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo covered in a beaded diamond lattice, with a navy satin peak lapel and bead-trimmed patch pockets and hem. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "ivory-shawl-lapel-mens-dinner-jacket-t02",
-      "title": "Ivory Shawl Lapel Men's Dinner Jacket",
-      "model": "Dinner Jacket",
+      "title": "White Black Beaded Diamond Peak Lapel Men's Tuxedo",
+      "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Ivory",
+      "color": "White",
       "code": "T02",
       "images": [
         "/collections/T02/ivory-shawl-lapel-mens-dinner-jacket-01.webp"
@@ -1459,15 +1458,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Ivory Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
+          "White Base with Black Beaded Diamond Lattice",
+          "Black Satin Peak Lapel",
           "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1493,15 +1492,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Ivory men's dinner jacket with shawl lapel and satin finish. Luxury dinner jacket for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo jacket with a black beaded diamond lattice, black satin peak lapel and bead-trimmed patch pockets, worn with a black-trimmed white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t03",
-      "title": "Black Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Beaded Diamond Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T03",
@@ -1511,15 +1510,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Tonal Beaded Diamond Lattice",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1545,17 +1544,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a tonal black beaded diamond lattice across the jacket, black satin peak lapel and beaded patch pocket trims for a subtle evening sparkle. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "bronze-diamond-jacquard-shawl-lapel-mens-tuxedo-t04",
-      "title": "Bronze Diamond Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Beaded Diamond Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Bronze",
+      "color": "Black",
       "code": "T04",
       "images": [
         "/collections/T04/bronze-diamond-jacquard-shawl-lapel-mens-tuxedo-01.webp"
@@ -1563,15 +1562,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Bronze Diamond Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Beaded Diamond Lattice",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1597,15 +1596,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Bronze Diamond Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a gold beaded diamond lattice, gold stud trims along the patch pockets, hem and cuffs, and a black satin peak lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "navy-blue-jacquard-shawl-lapel-mens-tuxedo-t05",
-      "title": "Navy Blue Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Navy Beaded Diamond Black Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T05",
@@ -1615,15 +1614,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Beaded Diamond Lattice",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1649,15 +1648,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with a beaded diamond lattice and bead-trimmed patch pockets, finished with a contrast black satin peak lapel and black waistcoat. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "red-shawl-lapel-mens-tuxedo-t06",
-      "title": "Red Shawl Lapel Men's Tuxedo",
+      "title": "Red Rhinestone Paisley Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Velvet",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Red",
       "code": "T06",
@@ -1667,15 +1666,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Velvet",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Red Velvet Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Red Base with Rhinestone Paisley Shoulders and Ombre Hem",
+          "Red Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1701,15 +1700,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Red men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Red men's tuxedo with a red satin shawl lapel, rhinestone paisley motifs on the shoulders and a rhinestone ombre that builds toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "emerald-green-shawl-lapel-mens-tuxedo-t07",
-      "title": "Emerald Green Shawl Lapel Men's Tuxedo",
+      "title": "Emerald Green Rhinestone Paisley Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Velvet",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Emerald Green",
       "code": "T07",
@@ -1719,15 +1718,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Velvet",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Emerald Green Velvet Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Emerald Green Base with Rhinestone Paisley Shoulders and Ombre Hem",
+          "Grey-Green Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1753,15 +1752,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Emerald Green men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Emerald green men's tuxedo with a grey-green satin shawl lapel, rhinestone paisley motifs across the shoulders and a rhinestone ombre toward the hem. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "burgundy-shawl-lapel-mens-tuxedo-t08",
-      "title": "Burgundy Shawl Lapel Men's Tuxedo",
+      "title": "Burgundy Rhinestone Paisley Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Velvet",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Burgundy",
       "code": "T08",
@@ -1771,15 +1770,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Velvet",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Burgundy Velvet Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Burgundy Base with Rhinestone Paisley Shoulders and Ombre Hem",
+          "Burgundy Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1805,15 +1804,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Burgundy men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Burgundy men's tuxedo with a burgundy satin shawl lapel, rhinestone paisley motifs on the shoulders and a rhinestone ombre that gathers toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "forest-green-jacquard-shawl-lapel-mens-tuxedo-t09",
-      "title": "Forest Green Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Forest Green Rhinestone Paisley Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Forest Green",
       "code": "T09",
@@ -1823,15 +1822,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Forest Green Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Forest Green Base with Rhinestone Paisley Shoulders and Ombre Hem",
+          "Dark Green Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1857,15 +1856,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Forest Green Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Forest green men's tuxedo with a dark green satin shawl lapel, rhinestone paisley motifs on the shoulders and a rhinestone ombre down to the hem. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-silver-dotted-shawl-lapel-mens-tuxedo-t10",
-      "title": "Black Silver Dotted Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Beaded Diamond Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T10",
@@ -1875,15 +1874,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Silver Dotted Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Beaded Diamond Lattice",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -1909,17 +1908,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Silver Dotted men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a silver beaded diamond lattice, pearl-bead trims on the patch pockets, hem and cuffs, and a black satin peak lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "bronze-jacquard-peak-lapel-mens-tuxedo-t11",
-      "title": "Bronze Jacquard Peak Lapel Men's Tuxedo",
+      "title": "Navy Gold Ombre Double-Breasted Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Peak Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Bronze",
+      "color": "Navy Blue",
       "code": "T11",
       "images": [
         "/collections/T11/bronze-jacquard-peak-lapel-mens-tuxedo-01.webp"
@@ -1927,12 +1926,12 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Bronze Jacquard Fabric",
-          "Peak Lapel with Satin Finish",
+          "Navy Blue Base with Gold Glitter Ombre Hem and Cuffs",
+          "Gold Glitter Peak Lapel",
           "Double-Breasted Closure",
           "Slim Fit Silhouette",
           "Set includes: Jacket - Trousers - Bowtie",
@@ -1961,15 +1960,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Bronze Jacquard men's tuxedo with peak lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Double-breasted navy men's tuxedo with a gold glitter peak lapel and a gold ombre that spreads from the waist down to the hem and cuffs. Supplied with matching trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-shawl-lapel-mens-tuxedo-t12",
-      "title": "Black Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Rhinestone Drip Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Satin Trimmed Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T12",
@@ -1979,15 +1978,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Satin Trimmed Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Satin Trimmed Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Rhinestone Drip Lines",
+          "Gold Rhinestone Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2013,15 +2012,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a fully gold rhinestone peak lapel and gold rhinestone drip lines running down the chest, shoulders and sleeves. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-shawl-lapel-mens-tuxedo-t13",
-      "title": "Black Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Rhinestone Drip Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T13",
@@ -2031,15 +2030,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Rhinestone Drip Lines",
+          "Silver Rhinestone Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2065,17 +2064,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a silver rhinestone peak lapel and silver rhinestone drip lines falling from the shoulders across the chest and sleeves. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "ivory-shawl-lapel-mens-tuxedo-t14",
-      "title": "Ivory Shawl Lapel Men's Tuxedo",
+      "title": "Black Jet Rhinestone Drip Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Ivory",
+      "color": "Black",
       "code": "T14",
       "images": [
         "/collections/T14/ivory-shawl-lapel-mens-tuxedo-01.webp"
@@ -2083,15 +2082,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Ivory Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Jet Black Rhinestone Drip Lines",
+          "Black Rhinestone Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2117,17 +2116,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Ivory men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a jet black rhinestone peak lapel and tonal rhinestone drip lines down the chest and sleeves for a low-key sparkle. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-rhinestone-ombre-shawl-lapel-mens-tuxedo-t15",
-      "title": "Black Rhinestone Ombre Shawl Lapel Men's Tuxedo",
+      "title": "White Black Rhinestone Drip Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
+      "lapel": "Peak Lapel",
       "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Black",
+      "color": "White",
       "code": "T15",
       "images": [
         "/collections/T15/black-rhinestone-ombre-shawl-lapel-mens-tuxedo-01.webp"
@@ -2139,11 +2138,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Rhinestone Ombre Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "White Base with Black Rhinestone Drip Lines",
+          "Black Rhinestone Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2169,17 +2168,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Rhinestone Ombre men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo with a black rhinestone peak lapel and black rhinestone drip lines over the shoulders and chest, worn with a white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "copper-sequin-shawl-lapel-mens-tuxedo-t16",
-      "title": "Copper Sequin Shawl Lapel Men's Tuxedo",
+      "title": "Navy Gold Rhinestone Drip Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Sequin",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Copper",
+      "color": "Navy Blue",
       "code": "T16",
       "images": [
         "/collections/T16/copper-sequin-shawl-lapel-mens-tuxedo-01.webp"
@@ -2187,15 +2186,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Sequin",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Copper Sequin Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold Rhinestone Drip Lines",
+          "Gold Rhinestone Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2221,17 +2220,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Copper Sequin men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with a gold rhinestone peak lapel and gold rhinestone drip lines running from the shoulders down the chest and sleeves. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "champagne-gold-glitter-jacquard-shawl-lapel-mens-tuxedo-t17",
-      "title": "Champagne Gold Glitter Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Rhinestone Ombre Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Sequin",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Champagne Gold",
+      "color": "Black",
       "code": "T17",
       "images": [
         "/collections/T17/champagne-gold-glitter-jacquard-shawl-lapel-mens-tuxedo-01.webp"
@@ -2239,15 +2238,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Sequin",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Champagne Gold Glitter Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Rhinestone Ombre",
+          "Silver Rhinestone Studded Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2273,15 +2272,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Champagne Gold Glitter Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a silver rhinestone studded shawl lapel and a silver rhinestone pattern that grows denser from the chest to a solid band at the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-gold-floral-shawl-lapel-mens-tuxedo-t18",
-      "title": "Black Gold Floral Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Rhinestone Ombre Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Embroidered Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T18",
@@ -2291,15 +2290,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Embroidered Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Gold Floral Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Rhinestone Ombre",
+          "Gold Rhinestone Studded Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2325,15 +2324,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Gold Floral men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a gold rhinestone studded shawl lapel and a gold rhinestone pattern that grows denser from the chest down to the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19",
-      "title": "Navy Blue Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Gold Rhinestone Ombre Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T19",
@@ -2343,15 +2342,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold and Blue Rhinestone Ombre",
+          "Rhinestone Studded Black Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2377,15 +2376,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with a black rhinestone studded shawl lapel and a mix of gold and blue rhinestones that build into an ombre toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "sage-green-shawl-lapel-mens-tuxedo-t20",
-      "title": "Sage Green Shawl Lapel Men's Tuxedo",
+      "title": "Sage Green Rhinestone Paisley Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Velvet",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Sage Green",
       "code": "T20",
@@ -2395,15 +2394,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Velvet",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Sage Green Velvet Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Sage Green Base with Rhinestone Paisley Shoulders and Ombre Hem",
+          "Sage Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2429,15 +2428,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Sage Green men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Sage green men's tuxedo with a sage satin shawl lapel, tonal rhinestone paisley motifs on the shoulders and a rhinestone ombre toward the hem. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t21",
-      "title": "Black Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Trim Crystal Ombre Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T21",
@@ -2447,15 +2446,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Crystal Ombre Toward the Hem",
+          "Crystal Peak Lapel with Gold Stud Border",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2481,15 +2480,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a crystal-covered peak lapel edged in gold studs and a silver crystal ombre that gathers toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "navy-blue-dotted-shawl-lapel-mens-tuxedo-t22",
-      "title": "Navy Blue Dotted Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Gold Rhinestone Dotted Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T22",
@@ -2499,15 +2498,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Dotted Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold Rhinestone Dots on Front Panels and Cuffs",
+          "Navy Satin Peak Lapel with Gold Rhinestone Edging",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2533,17 +2532,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue Dotted men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with gold rhinestone dots on the front panels and lower sleeves, and a navy satin peak lapel edged in gold rhinestones. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "silver-dotted-shawl-lapel-mens-tuxedo-t23",
-      "title": "Silver Dotted Shawl Lapel Men's Tuxedo",
+      "title": "White Black Rhinestone Dotted Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Silver",
+      "color": "White",
       "code": "T23",
       "images": [
         "/collections/T23/silver-dotted-shawl-lapel-mens-tuxedo-01.webp"
@@ -2551,15 +2550,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Silver Dotted Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "White Base with Black Rhinestone Dots on Front Panels and Cuffs",
+          "Black Satin Peak Lapel with Rhinestone Edging",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2585,17 +2584,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Silver Dotted men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo with black rhinestone dots on the front panels and lower sleeves, a black satin peak lapel, white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "charcoal-jacquard-shawl-lapel-mens-tuxedo-t24",
-      "title": "Charcoal Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Rhinestone Dotted Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Charcoal",
+      "color": "Black",
       "code": "T24",
       "images": [
         "/collections/T24/charcoal-jacquard-shawl-lapel-mens-tuxedo-01.webp"
@@ -2603,15 +2602,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Charcoal Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Rhinestone Dots on Front Panels and Cuffs",
+          "Black Satin Peak Lapel with Silver Rhinestone Edging",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2637,15 +2636,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Charcoal Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with silver rhinestone dots on the front panels and lower sleeves and a black satin peak lapel edged in silver rhinestones. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t25",
-      "title": "Black Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Rhinestone Dotted Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T25",
@@ -2655,15 +2654,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Rhinestone Dots on Front Panels and Cuffs",
+          "Black Satin Peak Lapel with Gold Rhinestone Edging",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2689,15 +2688,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with gold rhinestone dots on the front panels and lower sleeves and a black satin peak lapel edged in gold rhinestones. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "navy-blue-shawl-lapel-mens-tuxedo-t26",
-      "title": "Navy Blue Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Crystal Studded Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Velvet",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T26",
@@ -2707,15 +2706,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Velvet",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Velvet Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Blue Crystal Ombre",
+          "Blue Crystal Studded Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2741,15 +2740,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with a blue crystal studded shawl lapel and scattered blue crystals that build toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27",
-      "title": "Navy Blue Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Rhinestone Ombre Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T27",
@@ -2759,15 +2758,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold and Blue Rhinestone Ombre",
+          "Rhinestone Studded Black Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2793,17 +2792,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with a rhinestone studded black shawl lapel and gold and blue rhinestones that build into an ombre toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "silver-glitter-shawl-lapel-mens-tuxedo-t28",
-      "title": "Silver Glitter Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Crystal Chevron Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Sequin",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Silver",
+      "color": "Navy Blue",
       "code": "T28",
       "images": [
         "/collections/T28/silver-glitter-shawl-lapel-mens-tuxedo-01.webp"
@@ -2811,15 +2810,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Sequin",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Silver Glitter Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Crystal Chevron Panels and Plain Cuffs",
+          "Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2845,17 +2844,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Silver Glitter men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with crystal chevron panels across the body and sleeves, plain contrast cuffs and hem, and a wide satin shawl lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "silver-sequin-shawl-lapel-mens-tuxedo-t29",
-      "title": "Silver Sequin Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Crystal Chevron Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Sequin",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Silver",
+      "color": "Black",
       "code": "T29",
       "images": [
         "/collections/T29/silver-sequin-shawl-lapel-mens-tuxedo-01.webp"
@@ -2863,15 +2862,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Sequin",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Silver Sequin Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Crystal Chevron Panels",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2897,15 +2896,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Silver Sequin men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with bold silver crystal chevron panels across the body and sleeves, plain black cuffs and hem, and a wide black satin shawl lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t30",
-      "title": "Black Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Jet Crystal Chevron Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T30",
@@ -2915,15 +2914,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Jet Crystal Chevron Panels",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -2949,17 +2948,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with tonal jet crystal chevron panels across the body and sleeves, plain black cuffs and hem, and a wide black satin shawl lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "bronze-jacquard-shawl-lapel-mens-tuxedo-t31",
-      "title": "Bronze Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Crystal Chevron Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Bronze",
+      "color": "Black",
       "code": "T31",
       "images": [
         "/collections/T31/bronze-jacquard-shawl-lapel-mens-tuxedo-01.webp"
@@ -2967,15 +2966,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Bronze Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Crystal Chevron Panels",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3001,17 +3000,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Bronze Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with gold crystal chevron panels across the body and sleeves, plain black cuffs and hem, and a wide black satin shawl lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-shimmer-shawl-lapel-mens-tuxedo-t32",
-      "title": "Black Shimmer Shawl Lapel Men's Tuxedo",
+      "title": "Silver White Sequin Drip Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "fabric": "Sequin",
       "lining": "%100 Viscose",
-      "color": "Black",
+      "color": "Silver",
       "code": "T32",
       "images": [
         "/collections/T32/black-shimmer-shawl-lapel-mens-tuxedo-01.webp"
@@ -3019,15 +3018,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Sequin",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Shimmer Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Silver and White Sequin Body with Black Drip Lines",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3053,17 +3052,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Shimmer men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Silver and white sequin men's tuxedo with black sequin drip lines toward the hem, a black satin shawl lapel, white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "ivory-shawl-lapel-mens-dinner-jacket-t33",
-      "title": "Ivory Shawl Lapel Men's Dinner Jacket",
-      "model": "Dinner Jacket",
+      "title": "Navy Gold Sequin Drip Shawl Lapel Men's Tuxedo",
+      "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Satin Trimmed Wool Blend",
+      "fabric": "Sequin",
       "lining": "%100 Viscose",
-      "color": "Ivory",
+      "color": "Navy Blue",
       "code": "T33",
       "images": [
         "/collections/T33/ivory-shawl-lapel-mens-dinner-jacket-01.webp"
@@ -3071,15 +3070,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Satin Trimmed Wool Blend",
+          "Body Fabric": "Sequin",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Ivory Satin Trimmed Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
+          "Gold Sequin Upper Body Fading into Navy Drip Lines",
+          "Navy Satin Shawl Lapel",
           "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3105,11 +3104,11 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Ivory men's dinner jacket with shawl lapel and satin finish. Luxury dinner jacket for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy and gold sequin men's tuxedo where gold sequins on the shoulders and chest break into navy drip lines toward the hem, finished with a navy satin shawl lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "silver-sequin-shawl-lapel-mens-tuxedo-t34",
-      "title": "Silver Sequin Shawl Lapel Men's Tuxedo",
+      "title": "Silver Black Ombre Sequin Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
@@ -3127,11 +3126,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Silver Sequin Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Silver Sequin Body Fading into Black Drip Lines",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3157,17 +3156,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Silver Sequin men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Silver sequin men's tuxedo that fades into black sequin drip lines toward the hem and cuffs, with a black satin shawl lapel and black waistcoat. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t35",
-      "title": "Black Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Navy Gold Studded Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Black",
+      "color": "Navy Blue",
       "code": "T35",
       "images": [
         "/collections/T35/black-jacquard-shawl-lapel-mens-tuxedo-01.webp"
@@ -3175,15 +3174,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold Studs on Jacket and Trousers",
+          "Navy Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3209,11 +3208,11 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with gold studs scattered over the jacket and matching studded trousers, finished with a navy satin peak lapel and navy waistcoat. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-gold-shoulder-detail-shawl-lapel-mens-tuxedo-t36",
-      "title": "Black Gold Shoulder Detail Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Crystal Studded Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
@@ -3231,11 +3230,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Gold Shoulder Detail Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Crystal Ombre",
+          "Gold Crystal Studded Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3261,14 +3260,14 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Gold Shoulder Detail men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a gold crystal studded shawl lapel and scattered gold crystals that grow denser toward the hem and cuffs. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-gold-rhinestone-shawl-lapel-mens-tuxedo-t37",
-      "title": "Black Gold Rhinestone Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Studded Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
+      "lapel": "Peak Lapel",
       "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
@@ -3283,11 +3282,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Gold Rhinestone Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Studs on Jacket and Trousers",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3313,15 +3312,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Gold Rhinestone men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with gold studs scattered over the jacket and matching studded trousers, finished with a black satin peak lapel and black waistcoat. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "navy-blue-shawl-lapel-mens-tuxedo-t38",
-      "title": "Navy Blue Shawl Lapel Men's Tuxedo",
+      "title": "Navy Blue Crystal Grid Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Navy Blue",
       "code": "T38",
@@ -3331,15 +3330,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Navy Blue Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Crystal Grid Front Panels and Cuffs",
+          "Navy Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3365,17 +3364,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Navy Blue men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with a tonal crystal grid on the front panels and wide crystal cuff bands, finished with a navy satin peak lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "silver-colour-block-shawl-lapel-mens-tuxedo-t39",
-      "title": "Silver Colour Block Shawl Lapel Men's Tuxedo",
+      "title": "White Black Crystal Grid Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Silver",
+      "color": "White",
       "code": "T39",
       "images": [
         "/collections/T39/silver-colour-block-shawl-lapel-mens-tuxedo-01.webp"
@@ -3383,15 +3382,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Silver Colour Block Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "White Base with Black Crystal Grid Front Panels and Cuffs",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3417,15 +3416,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Silver Colour Block men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo with a black crystal grid on the front panels, black crystal cuff bands and a black satin peak lapel, worn with a white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-sparkle-shawl-lapel-mens-tuxedo-t40",
-      "title": "Black Sparkle Shawl Lapel Men's Tuxedo",
+      "title": "Black Jet Crystal Grid Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Sequin",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T40",
@@ -3435,15 +3434,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Sequin",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Sparkle Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Jet Crystal Grid Front Panels and Cuffs",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3469,17 +3468,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Sparkle men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a tonal jet crystal grid on the front panels and crystal cuff bands, finished with a black satin peak lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "bronze-colour-block-jacquard-shawl-lapel-mens-tuxedo-t41",
-      "title": "Bronze Colour Block Jacquard Shawl Lapel Men's Tuxedo",
+      "title": "Black Gold Crystal Grid Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Bronze",
+      "color": "Black",
       "code": "T41",
       "images": [
         "/collections/T41/bronze-colour-block-jacquard-shawl-lapel-mens-tuxedo-01.webp"
@@ -3487,15 +3486,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Bronze Colour Block Jacquard Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Gold Crystal Grid Front Panels and Cuffs",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3521,17 +3520,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Bronze Colour Block Jacquard men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a gold crystal grid on the front panels and gold crystal cuff bands, finished with a black satin peak lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "charcoal-colour-block-shawl-lapel-mens-tuxedo-t42",
-      "title": "Charcoal Colour Block Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Crystal Grid Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Charcoal",
+      "color": "Black",
       "code": "T42",
       "images": [
         "/collections/T42/charcoal-colour-block-shawl-lapel-mens-tuxedo-01.webp"
@@ -3539,15 +3538,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Charcoal Colour Block Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Crystal Grid Front Panels and Cuffs",
+          "Black Satin Peak Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3573,17 +3572,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Charcoal Colour Block men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with a silver crystal grid on the front panels and silver crystal cuff bands, finished with a black satin peak lapel. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-gold-pinstripe-shawl-lapel-mens-tuxedo-t43",
-      "title": "Black Gold Pinstripe Shawl Lapel Men's Tuxedo",
+      "title": "Navy Gold Rhinestone Pinstripe Peak Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
-      "fabric": "Jacquard Wool Blend",
+      "lapel": "Peak Lapel",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Black",
+      "color": "Navy Blue",
       "code": "T43",
       "images": [
         "/collections/T43/black-gold-pinstripe-shawl-lapel-mens-tuxedo-01.webp"
@@ -3591,15 +3590,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Jacquard Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Gold Pinstripe Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold Rhinestone Pinstripes",
+          "Navy Satin Peak Lapel with Gold Rhinestone Edging",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3625,15 +3624,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Gold Pinstripe men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with gold rhinestone pinstripes running the length of the jacket and a navy satin peak lapel edged in gold rhinestones. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-shawl-lapel-mens-tuxedo-t44",
-      "title": "Black Shawl Lapel Men's Tuxedo",
+      "title": "Black Silver Rhinestone Starburst Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Satin Trimmed Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T44",
@@ -3643,15 +3642,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Satin Trimmed Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Satin Trimmed Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Rhinestone Starburst Shoulders",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3677,17 +3676,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with fine silver rhinestone starburst lines across both shoulders and a black satin shawl lapel, keeping the rest of the jacket clean. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "ivory-rhinestone-shawl-lapel-mens-dinner-jacket-t45",
-      "title": "Ivory Rhinestone Shawl Lapel Men's Dinner Jacket",
-      "model": "Dinner Jacket",
+      "title": "White Black Rhinestone Peak Lapel Men's Tuxedo",
+      "model": "Tuxedo",
       "fit": "Slim Fit",
-      "lapel": "Shawl Lapel",
+      "lapel": "Peak Lapel",
       "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Ivory",
+      "color": "White",
       "code": "T45",
       "images": [
         "/collections/T45/ivory-rhinestone-shawl-lapel-mens-dinner-jacket-01.webp"
@@ -3699,11 +3698,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Ivory Rhinestone Fabric",
-          "Shawl Lapel with Satin Finish",
+          "White Base with Scattered Black Rhinestones",
+          "White Satin Peak Lapel",
           "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3729,17 +3728,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Ivory Rhinestone men's dinner jacket with shawl lapel and satin finish. Luxury dinner jacket for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo with scattered black rhinestones over the jacket, a white satin peak lapel and white waistcoat, worn with rhinestone-studded black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-silver-shoulder-rhinestone-shawl-lapel-mens-tuxedo-t46",
-      "title": "Black Silver Shoulder Rhinestone Shawl Lapel Men's Tuxedo",
+      "title": "Navy Gold Rhinestone Shoulder Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
       "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Black",
+      "color": "Navy Blue",
       "code": "T46",
       "images": [
         "/collections/T46/black-silver-shoulder-rhinestone-shawl-lapel-mens-tuxedo-01.webp"
@@ -3751,11 +3750,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Silver Shoulder Rhinestone Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Navy Blue Base with Gold Rhinestone Starburst Shoulders",
+          "Navy Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3781,7 +3780,7 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Silver Shoulder Rhinestone men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Navy blue men's tuxedo with gold rhinestone starburst lines across both shoulders and a navy satin shawl lapel, keeping the rest of the jacket clean. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-silver-shoulder-detail-shawl-lapel-mens-tuxedo-t47",
@@ -3803,11 +3802,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Silver Shoulder Detail Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Rhinestone Starburst Shoulders",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -3833,15 +3832,15 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Silver Shoulder Detail men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with bold silver rhinestone starburst lines over the shoulders and upper sleeves and a black satin shawl lapel, keeping the front of the jacket clean. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-shawl-lapel-mens-tuxedo-t48",
-      "title": "Black Shawl Lapel Men's Tuxedo",
+      "title": "Black Beaded Shoulder Shawl Lapel Men's Tuxedo",
       "model": "Tuxedo",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Satin Trimmed Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
       "color": "Black",
       "code": "T48",
@@ -3851,13 +3850,13 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Satin Trimmed Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Satin Trimmed Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Tonal Beaded Shoulder Appliqué",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
           "Set includes: Jacket - Trousers - Bowtie",
           "Fully Lined",
@@ -3885,7 +3884,7 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with tonal black beaded appliqué on the shoulders and upper sleeves, a black satin shawl lapel and satin-piped pockets. Supplied with matching trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "black-silver-embroidered-shoulder-shawl-lapel-mens-tuxedo-t49",
@@ -3907,9 +3906,9 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Black Silver Embroidered Shoulder Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "Black Base with Silver Beaded Shoulder and Sleeve Appliqué",
+          "Black Satin Shawl Lapel",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
           "Set includes: Jacket - Trousers - Bowtie",
           "Fully Lined",
@@ -3937,7 +3936,7 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Black Silver Embroidered Shoulder men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "Black men's tuxedo with silver beaded appliqué running over the shoulders and down the upper sleeves, a black satin shawl lapel and satin-piped pockets. Supplied with matching trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "white-embellished-shoulder-shawl-lapel-mens-dinner-jacket-t50",
@@ -3959,8 +3958,8 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "White Embellished Shoulder Fabric",
-          "Shawl Lapel with Satin Finish",
+          "White Base with Black Beaded Shoulder and Sleeve Appliqué",
+          "Black Satin Shawl Lapel",
           "Single-Button Closure",
           "Slim Fit Silhouette",
           "Set includes: Jacket - Trousers",
@@ -3989,17 +3988,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "White Embellished Shoulder men's dinner jacket with shawl lapel and satin finish. Luxury dinner jacket for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's dinner jacket with black beaded appliqué over the shoulders and down the upper sleeves, a black satin shawl lapel and black-piped pockets. Paired with black trousers for weddings, receptions and black-tie evenings. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "ivory-shoulder-detail-shawl-lapel-mens-dinner-jacket-t51",
-      "title": "Ivory Shoulder Detail Shawl Lapel Men's Dinner Jacket",
+      "title": "White Beaded Shoulder Shawl Lapel Men's Dinner Jacket",
       "model": "Dinner Jacket",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Satin Trimmed Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Ivory",
+      "color": "White",
       "code": "T51",
       "images": [
         "/collections/T51/ivory-shoulder-detail-shawl-lapel-mens-dinner-jacket-01.webp"
@@ -4007,12 +4006,12 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Satin Trimmed Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Ivory Shoulder Detail Fabric",
-          "Shawl Lapel with Satin Finish",
+          "White Base with Black Beaded Shoulder Appliqué",
+          "Black Satin Shawl Lapel",
           "Single-Button Closure",
           "Slim Fit Silhouette",
           "Set includes: Jacket - Trousers",
@@ -4041,7 +4040,7 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Ivory Shoulder Detail men's dinner jacket with shawl lapel and satin finish. Luxury dinner jacket for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's dinner jacket with black beaded appliqué on the shoulders, a black satin shawl lapel and black-piped pockets. Paired with black trousers for weddings, receptions and black-tie evenings. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "white-red-rhinestone-ombre-shawl-lapel-mens-tuxedo-t52",
@@ -4063,11 +4062,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "White Red Rhinestone Ombre Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "White Base with Red-to-Black Rhinestone Ombre",
+          "White Shawl Lapel with Rhinestones",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -4093,7 +4092,7 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "White Red Rhinestone Ombre men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo with red rhinestones across the shoulders fading into black rhinestones toward the waist, a rhinestone white shawl lapel, white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "white-silver-rhinestone-ombre-shawl-lapel-mens-tuxedo-t53",
@@ -4115,11 +4114,11 @@
           "Lining": "%100 Viscose"
         },
         "features": [
-          "White Silver Rhinestone Ombre Fabric",
-          "Shawl Lapel with Satin Finish",
-          "Double-Breasted Closure",
+          "White Base with Black-to-Silver Rhinestone Ombre",
+          "White Shawl Lapel with Rhinestones",
+          "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers - Bowtie",
+          "Set includes: Jacket - Waistcoat - Trousers - Bowtie",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -4145,17 +4144,17 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "White Silver Rhinestone Ombre men's tuxedo with shawl lapel and satin finish. Luxury tuxedo for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's tuxedo with black rhinestones across the shoulders fading into silver toward the waist, a rhinestone white shawl lapel, white waistcoat and black trousers. Supplied as a three-piece set with waistcoat, trousers and bowtie for weddings, galas, proms and stage events. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     },
     {
       "slug": "ivory-shawl-lapel-mens-dinner-jacket-t54",
-      "title": "Ivory Shawl Lapel Men's Dinner Jacket",
+      "title": "White Rhinestone Starburst Shawl Lapel Men's Dinner Jacket",
       "model": "Dinner Jacket",
       "fit": "Slim Fit",
       "lapel": "Shawl Lapel",
-      "fabric": "Satin Trimmed Wool Blend",
+      "fabric": "Embellished",
       "lining": "%100 Viscose",
-      "color": "Ivory",
+      "color": "White",
       "code": "T54",
       "images": [
         "/collections/T54/ivory-shawl-lapel-mens-dinner-jacket-01.webp"
@@ -4163,15 +4162,15 @@
       "status": "In Stock",
       "description": {
         "compositions": {
-          "Body Fabric": "Satin Trimmed Wool Blend",
+          "Body Fabric": "Embellished",
           "Lining": "%100 Viscose"
         },
         "features": [
-          "Ivory Satin Trimmed Wool Blend Fabric",
-          "Shawl Lapel with Satin Finish",
+          "White Base with Black Rhinestone Starburst Shoulders",
+          "Black Satin Shawl Lapel",
           "Single-Button Closure",
           "Slim Fit Silhouette",
-          "Set includes: Jacket - Trousers",
+          "Set includes: Jacket - Waistcoat - Trousers",
           "Fully Lined",
           "Designed for weddings, galas, receptions, and special ceremonies"
         ],
@@ -4197,7 +4196,7 @@
           "total": "7 SET SUIT IN A LOT"
         }
       },
-      "content": "Ivory men's dinner jacket with shawl lapel and satin finish. Luxury dinner jacket for weddings, black-tie events, galas and formal ceremonies. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
+      "content": "White men's dinner jacket with black rhinestone starburst lines across the shoulders and a black satin shawl lapel, worn with a white waistcoat. Supplied with a matching waistcoat and black trousers for weddings, receptions and black-tie evenings. Produced in Istanbul, Turkey for wholesale, OEM and private label buyers."
     }
   ]
 }

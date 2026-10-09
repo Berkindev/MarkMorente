@@ -75,14 +75,14 @@ Every suit is checked before it leaves. For production orders, checks also happe
 - Buttons, buttonholes and zips
 - Labels, hangtags and correct sizes in each lot
 
-Our production is ISO 9001 certified. If you want photos or a video of your goods before shipping, ask and we will send them.
+Our production is ISO 9001 certified. We send photos or video from production and before shipping, so you see your goods before they leave Istanbul.
 
 ## Step 7: Packing
 
 Suits are packed according to the order. Common options are:
 
 - Each suit in its own garment bag, folded into export cartons
-- Hanging packing on hangers, for buyers who want suits ready for the rail
+- Suits on hangers, if you want them ready for the shop floor
 - Cartons marked with model codes, sizes and your order reference
 
 Tell us your preference when you order. See [shipping](/shipping) for packing details.
@@ -115,7 +115,7 @@ Payment terms are agreed per order. We discuss them with you before the order co
 
 ### Can I visit the factory before ordering?
 
-Yes. Buyers are welcome to visit us in Istanbul. Message us to arrange a date.
+Yes. Factory and customer visits are welcome. Message us to arrange a date in Istanbul.
 
 ### Can I use my own freight forwarder?
 

@@ -9,7 +9,8 @@
   1. **From stock, in lots.** Many catalog models are in stock and sold as size-run lots (example lot: one model in EU sizes 46-48-50-52-54-56, 6 suits per lot; lots vary by model). 
   2. **Made to order under your brand.** MOQ starts at **100 units per style**. Fabric, colour, fit, lining, buttons, labels, packaging customizable.
 - **Lead time:** typically **12–15 days** for production; it depends on quantity, model and fabric availability. We quote every order individually (price and lead time per model and quantity).
-- Shipping worldwide (air and sea; door-to-door or to the buyer's forwarder). Do not promise exact transit days per country; say "we quote shipping per destination" and give only qualitative guidance (air is faster, sea for large volumes).
+- Shipping worldwide by air, sea or road, whichever the buyer prefers; fast air cargo / express courier for urgent orders; door-to-door or to the buyer's forwarder.
+- Owner-confirmed (2026-10-09): fully customizable production including US sizing (chest sizes, short/regular/long, drops); factory and customer visits welcome; photos/video from production and before shipping on request. Don't mention hanging transport specifically. Do not promise exact transit days per country; say "we quote shipping per destination" and give only qualitative guidance (air is faster, sea for large volumes).
 - Product range: 2-piece suits, 3-piece suits (with waistcoat), tuxedos and dinner jackets (shawl/peak lapel, jacquard, sequin, rhinestone, velvet-look ceremony styles), double-breasted suits, wedding suits (groom, groomsmen, guests), ceremony suits, big & tall suits, linen summer suits. Fits: slim, modern, classic.
 - Contact (the only conversion): WhatsApp +90 532 171 14 94, Telegram @markmorentesuits, Instagram @mark.morente. Replies within 24 hours on business days.
 - Prices are not published: quotes depend on model, fabric, quantity, branding.
@@ -22,7 +23,7 @@
 - **Africa:** Nigeria, Ghana, Kenya, South Africa, DR Congo, Côte d'Ivoire, Senegal, Cameroon, Algeria, Morocco, Egypt, Libya, Tunisia.
 - **Europe:** UK, Germany, Netherlands, Belgium, France, Austria, Sweden, Romania, Balkans (Serbia, Bosnia, Albania, Kosovo, North Macedonia), Moldova, Greece.
 - **Turkic republics & Central Asia / Caucasus:** Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan; also Georgia, Russia & CIS buyers.
-- **Middle East:** UAE, Saudi Arabia, Iraq, Lebanon, Jordan, Kuwait, Qatar, Israel.
+- **Middle East:** UAE, Saudi Arabia, Iraq, Lebanon, Jordan, Kuwait, Qatar. (Not Israel: Turkish trade embargo. Never mention Israel.)
 - **Americas:** USA, Canada.
 Search Console shows real demand from US, Canada, UK, Germany, Israel, Algeria, Iraq, UAE, Egypt, South Africa, France, DR Congo.
 

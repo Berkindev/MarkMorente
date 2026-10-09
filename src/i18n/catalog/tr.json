@@ -1,0 +1,521 @@
+{
+  "values": {
+    "100% Viscose": "%100 Viskon",
+    "Abstract Patterned Fabric": "Soyut Desenli Kumaş",
+    "Asymmetric Front Closure with Decorative Metal Loops": "Dekoratif Metal Halkalı Asimetrik Ön Kapama",
+    "Available in Multiple Colors": "Farklı Renk Seçenekleri",
+    "Available in Multiple Colors and Textures": "Farklı Renk ve Doku Seçenekleri",
+    "Available in Navy, Black, Grey, and more": "Lacivert, Siyah, Gri ve Diğer Renkler",
+    "Black": "Siyah",
+    "Black Base with Crystal Ombre Toward the Hem": "Siyah Zemin, Eteğe Doğru Kristal Degrade",
+    "Black Base with Gold Beaded Diamond Lattice": "Siyah Zemin, Altın Boncuklu Baklava Desen",
+    "Black Base with Gold Crystal Chevron Panels": "Siyah Zemin, Altın Kristal Şevron Paneller",
+    "Black Base with Gold Crystal Grid Front Panels and Cuffs": "Siyah Zemin, Ön Panellerde ve Kol Ağızlarında Altın Kristal Kare Desen",
+    "Black Base with Gold Crystal Ombre": "Siyah Zemin, Altın Kristal Degrade",
+    "Black Base with Gold Rhinestone Dots on Front Panels and Cuffs": "Siyah Zemin, Ön Panellerde ve Kol Ağızlarında Altın Taş Noktalar",
+    "Black Base with Gold Rhinestone Drip Lines": "Siyah Zemin, Altın Taşlı Damla Çizgiler",
+    "Black Base with Gold Rhinestone Ombre": "Siyah Zemin, Altın Taşlı Degrade",
+    "Black Base with Gold Studs on Jacket and Trousers": "Siyah Zemin, Ceket ve Pantolonda Altın Trok",
+    "Black Base with Jet Black Rhinestone Drip Lines": "Siyah Zemin, Simsiyah Taşlı Damla Çizgiler",
+    "Black Base with Jet Crystal Chevron Panels": "Siyah Zemin, Siyah Kristal Şevron Paneller",
+    "Black Base with Jet Crystal Grid Front Panels and Cuffs": "Siyah Zemin, Ön Panellerde ve Kol Ağızlarında Siyah Kristal Kare Desen",
+    "Black Base with Silver Beaded Diamond Lattice": "Siyah Zemin, Gümüş Boncuklu Baklava Desen",
+    "Black Base with Silver Beaded Shoulder and Sleeve Appliqué": "Siyah Zemin, Omuz ve Kollarda Gümüş Boncuklu Aplike",
+    "Black Base with Silver Crystal Chevron Panels": "Siyah Zemin, Gümüş Kristal Şevron Paneller",
+    "Black Base with Silver Crystal Grid Front Panels and Cuffs": "Siyah Zemin, Ön Panellerde ve Kol Ağızlarında Gümüş Kristal Kare Desen",
+    "Black Base with Silver Rhinestone Dots on Front Panels and Cuffs": "Siyah Zemin, Ön Panellerde ve Kol Ağızlarında Gümüş Taş Noktalar",
+    "Black Base with Silver Rhinestone Drip Lines": "Siyah Zemin, Gümüş Taşlı Damla Çizgiler",
+    "Black Base with Silver Rhinestone Ombre": "Siyah Zemin, Gümüş Taşlı Degrade",
+    "Black Base with Silver Rhinestone Starburst Shoulders": "Siyah Zemin, Omuzlarda Gümüş Taşlı Işın Desen",
+    "Black Base with Tonal Beaded Diamond Lattice": "Siyah Zemin, Ton Sür Ton Boncuklu Baklava Desen",
+    "Black Base with Tonal Beaded Shoulder Appliqué": "Siyah Zemin, Omuzlarda Ton Sür Ton Boncuklu Aplike",
+    "Black Rhinestone Peak Lapel": "Siyah Taşlı Sivri Yaka",
+    "Black Satin Peak Lapel": "Siyah Saten Sivri Yaka",
+    "Black Satin Peak Lapel with Gold Rhinestone Edging": "Altın Taş Kenarlı Siyah Saten Sivri Yaka",
+    "Black Satin Peak Lapel with Rhinestone Edging": "Taş Kenarlı Siyah Saten Sivri Yaka",
+    "Black Satin Peak Lapel with Silver Rhinestone Edging": "Gümüş Taş Kenarlı Siyah Saten Sivri Yaka",
+    "Black Satin Shawl Lapel": "Siyah Saten Şal Yaka",
+    "Black Satin Shawl Lapel with One Crystal Studded Side": "Tek Tarafı Kristal Taşlı Siyah Saten Şal Yaka",
+    "Black Wool Blend Fabric": "Siyah Yün Karışımlı Kumaş",
+    "Blue Crystal Studded Shawl Lapel": "Mavi Kristal Taşlı Şal Yaka",
+    "Body Fabric": "Ana Kumaş",
+    "Breathable linen-blend ideal for spring-summer weddings and resort events": "İlkbahar-yaz düğünleri ve tatil bölgesi davetleri için nefes alan keten karışımlı kumaş",
+    "Brown": "Kahverengi",
+    "Brown Wool Blend Fabric": "Kahverengi Yün Karışımlı Kumaş",
+    "Burgundy": "Bordo",
+    "Burgundy Base with Rhinestone Paisley Shoulders and Ombre Hem": "Bordo Zemin, Omuzlarda Taşlı Paisley Motif ve Etekte Degrade",
+    "Burgundy Satin Shawl Lapel": "Bordo Saten Şal Yaka",
+    "Camel": "Deve Tüyü",
+    "Camel Linen Blend Fabric": "Deve Tüyü Keten Karışımlı Kumaş",
+    "Charcoal Grey": "Antrasit",
+    "Charcoal Grey Wool Blend Fabric": "Antrasit Yün Karışımlı Kumaş",
+    "Crystal Beaded Lower Jacket and Cuffs": "Ceket Alt Kısmı ve Kol Ağızlarında Kristal Boncuk İşleme",
+    "Crystal Peak Lapel with Gold Stud Border": "Altın Trok Kenarlı Kristal Sivri Yaka",
+    "Dark Green Satin Shawl Lapel": "Koyu Yeşil Saten Şal Yaka",
+    "Decorative Waist Belt Detail": "Dekoratif Bel Kemeri Detayı",
+    "Designed for weddings, gala events and special ceremonies": "Düğün, gala ve özel törenler için tasarlandı",
+    "Designed for weddings, galas, receptions, and special ceremonies": "Düğün, gala, resepsiyon ve özel törenler için tasarlandı",
+    "Designed for weddings, special events and receptions": "Düğün, özel davet ve resepsiyonlar için tasarlandı",
+    "Dinner Jacket": "Smokin Ceket",
+    "Double Breasted Closure": "Kruvaze Kapama",
+    "Double Breasted Design": "Kruvaze Model",
+    "Double Breasted Jacket": "Kruvaze Ceket",
+    "Double-Breasted Closure": "Kruvaze Kapama",
+    "Double-Breasted Front Closure": "Kruvaze Ön Kapama",
+    "Double-Breasted Jacket": "Kruvaze Ceket",
+    "Double-Breasted Suit": "Kruvaze Takım Elbise",
+    "Double-Breasted Waistcoat": "Kruvaze Yelek",
+    "Embellished": "Süslemeli",
+    "Emerald Green": "Zümrüt Yeşili",
+    "Emerald Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Zümrüt Yeşili Zemin, Omuzlarda Taşlı Paisley Motif ve Etekte Degrade",
+    "Emerald Green Wool Blend Fabric": "Zümrüt Yeşili Yün Karışımlı Kumaş",
+    "Flap Pockets and Chest Pocket": "Kapaklı Cepler ve Göğüs Cebi",
+    "Flap Pockets and Chest Pocket with Patterned Pocket Square": "Kapaklı Cepler, Göğüs Cebi ve Desenli Cep Mendili",
+    "Flap Pockets and Chest Pocket with Pocket Square": "Kapaklı Cepler, Göğüs Cebi ve Cep Mendili",
+    "Flap Pockets with Chest Pocket": "Kapaklı Cepler ve Göğüs Cebi",
+    "Floral and Paisley Jacquard Body Fabric": "Çiçek ve Paisley Desenli Jakar Ana Kumaş",
+    "Forest Green": "Çam Yeşili",
+    "Forest Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Çam Yeşili Zemin, Omuzlarda Taşlı Paisley Motif ve Etekte Degrade",
+    "Fully Lined": "Tam Astarlı",
+    "Gold Abstract Patterned Fabric": "Altın Soyut Desenli Kumaş",
+    "Gold Crystal Studded Shawl Lapel": "Altın Kristal Taşlı Şal Yaka",
+    "Gold Glitter Peak Lapel": "Altın Simli Sivri Yaka",
+    "Gold Metal Buttons": "Altın Metal Düğmeler",
+    "Gold Rhinestone Peak Lapel": "Altın Taşlı Sivri Yaka",
+    "Gold Rhinestone Studded Shawl Lapel": "Altın Taş İşlemeli Şal Yaka",
+    "Gold Sequin Upper Body Fading into Navy Drip Lines": "Altın Payetli Üst Beden, Eteğe Doğru Lacivert Damla Çizgiler",
+    "Gold Vertical Line Embroidery": "Altın Dikey Çizgi Nakış",
+    "Gold or Silver Studs on Sleeves and Lower Body": "Kollarda ve Ceket Altında Altın veya Gümüş Trok",
+    "Grey": "Gri",
+    "Grey Linen Blend Fabric": "Gri Keten Karışımlı Kumaş",
+    "Grey-Green Satin Shawl Lapel": "Gri-Yeşil Saten Şal Yaka",
+    "Ideal for business meetings, evening events and formal occasions": "İş toplantıları, akşam davetleri ve resmi etkinlikler için ideal",
+    "Ideal for business, evening receptions and formal gatherings": "İş hayatı, akşam resepsiyonları ve resmi davetler için ideal",
+    "Ideal for formal events, business, and weddings": "Resmi davetler, iş hayatı ve düğünler için ideal",
+    "Ideal for modern weddings, special appearances, or fashion events": "Modern düğünler, özel davetler ve moda etkinlikleri için ideal",
+    "Ideal for retail chains and fashion brands": "Mağaza zincirleri ve moda markaları için ideal",
+    "Ideal for spring-summer formal events and stylish ceremonies": "İlkbahar-yaz davetleri ve şık törenler için ideal",
+    "Ideal for weddings, business meetings, and formal occasions": "Düğünler, iş toplantıları ve resmi davetler için ideal",
+    "Ideal for weddings, receptions, and special events": "Düğün, resepsiyon ve özel davetler için ideal",
+    "Ideal for weddings, special events, and receptions": "Düğün, özel davet ve resepsiyonlar için ideal",
+    "Ideal for wholesale and private label B2B clients": "Toptan ve private label çalışan firmalar için ideal",
+    "Ivory": "Fildişi",
+    "Ivory Linen Blend Fabric": "Fildişi Keten Karışımlı Kumaş",
+    "Jacquard Wool Blend": "Jakarlı Yün Karışımlı",
+    "Linen Blend": "Keten Karışımlı",
+    "Lining": "Astar",
+    "Minimalist Design with Clean Lines": "Sade Hatlı Minimalist Tasarım",
+    "Model-shot professional imagery": "Profesyonel manken çekimi fotoğraflar",
+    "Modern Fit": "Modern Kesim",
+    "Modern Fit Cut": "Modern Kesim",
+    "Modern Fit Silhouette": "Modern Kesim Silüet",
+    "Modern Slim Fit": "Modern Slim Fit",
+    "Navy Blue": "Lacivert",
+    "Navy Blue Base with Beaded Diamond Lattice": "Lacivert Zemin, Boncuklu Baklava Desen",
+    "Navy Blue Base with Blue Crystal Ombre": "Lacivert Zemin, Mavi Kristal Degrade",
+    "Navy Blue Base with Crystal Chevron Panels and Plain Cuffs": "Lacivert Zemin, Kristal Şevron Paneller ve Düz Kol Ağızları",
+    "Navy Blue Base with Crystal Grid Front Panels and Cuffs": "Lacivert Zemin, Ön Panellerde ve Kol Ağızlarında Kristal Kare Desen",
+    "Navy Blue Base with Gold Glitter Ombre Hem and Cuffs": "Lacivert Zemin, Etek ve Kol Ağızlarında Altın Simli Degrade",
+    "Navy Blue Base with Gold Rhinestone Dots on Front Panels and Cuffs": "Lacivert Zemin, Ön Panellerde ve Kol Ağızlarında Altın Taş Noktalar",
+    "Navy Blue Base with Gold Rhinestone Drip Lines": "Lacivert Zemin, Altın Taşlı Damla Çizgiler",
+    "Navy Blue Base with Gold Rhinestone Pinstripes": "Lacivert Zemin, Altın Taşlı İnce Çizgiler",
+    "Navy Blue Base with Gold Rhinestone Starburst Shoulders": "Lacivert Zemin, Omuzlarda Altın Taşlı Işın Desen",
+    "Navy Blue Base with Gold Studs on Jacket and Trousers": "Lacivert Zemin, Ceket ve Pantolonda Altın Trok",
+    "Navy Blue Base with Gold and Blue Rhinestone Ombre": "Lacivert Zemin, Altın ve Mavi Taşlı Degrade",
+    "Navy Blue Color": "Lacivert Renk",
+    "Navy Blue Wool Blend Fabric": "Lacivert Yün Karışımlı Kumaş",
+    "Navy Satin Peak Lapel": "Lacivert Saten Sivri Yaka",
+    "Navy Satin Peak Lapel with Gold Rhinestone Edging": "Altın Taş Kenarlı Lacivert Saten Sivri Yaka",
+    "Navy Satin Shawl Lapel": "Lacivert Saten Şal Yaka",
+    "Notch Lapel": "Çentik Yaka",
+    "Notch Lapel with Patch Pockets": "Çentik Yaka, Aplike Cepler",
+    "Patterned Wool Blend": "Desenli Yün Karışımlı",
+    "Peak Lapel": "Sivri Yaka",
+    "Peak Lapel / Notch Lapel options": "Sivri Yaka / Çentik Yaka Seçenekleri",
+    "Perfect for weddings, receptions, and gala nights": "Düğün, resepsiyon ve gala geceleri için birebir",
+    "Perfect for weddings, receptions, and special occasions": "Düğün, resepsiyon ve özel günler için birebir",
+    "Perfect for wholesale and OEM clients": "Toptan ve OEM müşterileri için uygun",
+    "Perfect for wholesale and retail distribution": "Toptan ve perakende dağıtım için uygun",
+    "Premium Cotton Blend": "Premium Pamuk Karışımlı",
+    "Premium Wool": "Premium Yün",
+    "Red": "Kırmızı",
+    "Red Base with Rhinestone Paisley Shoulders and Ombre Hem": "Kırmızı Zemin, Omuzlarda Taşlı Paisley Motif ve Etekte Degrade",
+    "Red Satin Shawl Lapel": "Kırmızı Saten Şal Yaka",
+    "Relaxed Slim Fit Cut": "Rahat Slim Fit Kesim",
+    "Rhinestone Studded Black Shawl Lapel": "Taş İşlemeli Siyah Şal Yaka",
+    "Sage Green": "Adaçayı Yeşili",
+    "Sage Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Adaçayı Yeşili Zemin, Omuzlarda Taşlı Paisley Motif ve Etekte Degrade",
+    "Sage Satin Shawl Lapel": "Adaçayı Yeşili Saten Şal Yaka",
+    "Sand Beige": "Kum Beji",
+    "Sand Beige Linen Blend Fabric": "Kum Beji Keten Karışımlı Kumaş",
+    "Satin Peak Lapel with One Studded Side": "Tek Tarafı Troklu Saten Sivri Yaka",
+    "Satin Shawl Lapel": "Saten Şal Yaka",
+    "Satin Shawl Lapel with One Crystal Studded Side": "Tek Tarafı Kristal Taşlı Saten Şal Yaka",
+    "Sequin": "Payetli",
+    "Set include: Jacket - Trousers": "Takım İçeriği: Ceket - Pantolon",
+    "Set include: Jacket - Trousers - Bowtie": "Takım İçeriği: Ceket - Pantolon - Papyon",
+    "Set include: Jacket - Trousers - Optional Tie": "Takım İçeriği: Ceket - Pantolon - İsteğe Bağlı Kravat",
+    "Set includes: Jacket - Trousers": "Takım İçeriği: Ceket - Pantolon",
+    "Set includes: Jacket - Trousers - Bowtie": "Takım İçeriği: Ceket - Pantolon - Papyon",
+    "Set includes: Jacket - Waistcoat - Trousers": "Takım İçeriği: Ceket - Yelek - Pantolon",
+    "Set includes: Jacket - Waistcoat - Trousers - Bowtie": "Takım İçeriği: Ceket - Yelek - Pantolon - Papyon",
+    "Shawl Lapel": "Şal Yaka",
+    "Shawl Lapel with Black Satin Finish": "Siyah Saten Kaplı Şal Yaka",
+    "Silver": "Gümüş",
+    "Silver Rhinestone Peak Lapel": "Gümüş Taşlı Sivri Yaka",
+    "Silver Rhinestone Studded Shawl Lapel": "Gümüş Taş İşlemeli Şal Yaka",
+    "Silver Sequin Body Fading into Black Drip Lines": "Gümüş Payetli Beden, Eteğe Doğru Siyah Damla Çizgiler",
+    "Silver and White Sequin Body with Black Drip Lines": "Gümüş ve Beyaz Payetli Beden, Siyah Damla Çizgiler",
+    "Single & Double-Breasted variations": "Tek Sıra Düğmeli ve Kruvaze Seçenekler",
+    "Single-Breasted Closure": "Tek Sıra Düğmeli Kapama",
+    "Single-Breasted Slim Fit Silhouette": "Tek Sıra Düğmeli Slim Fit Silüet",
+    "Single-Breasted Two-Button Closure": "Tek Sıra İki Düğmeli Kapama",
+    "Single-Button Closure": "Tek Düğmeli Kapama",
+    "Slim Fit": "Slim Fit",
+    "Slim Fit Cut": "Slim Fit Kesim",
+    "Slim Fit Design": "Slim Fit Tasarım",
+    "Slim Fit Silhouette": "Slim Fit Silüet",
+    "Statement design for exclusive occasions": "Özel davetler için iddialı tasarım",
+    "Three Piece Suit": "Üçlü Takım Elbise",
+    "Three-Piece Set with Matching Waistcoat": "Aynı Kumaştan Yelekli Üçlü Takım",
+    "Three-Piece Set: Jacket, Waistcoat, Trousers": "Üçlü Takım: Ceket, Yelek, Pantolon",
+    "Tuxedo": "Smokin",
+    "Two Piece Suit": "İkili Takım Elbise",
+    "Various Options": "Farklı Seçenekler",
+    "White": "Beyaz",
+    "White Base with Black Beaded Diamond Lattice": "Beyaz Zemin, Siyah Boncuklu Baklava Desen",
+    "White Base with Black Beaded Shoulder Appliqué": "Beyaz Zemin, Omuzlarda Siyah Boncuklu Aplike",
+    "White Base with Black Beaded Shoulder and Sleeve Appliqué": "Beyaz Zemin, Omuz ve Kollarda Siyah Boncuklu Aplike",
+    "White Base with Black Crystal Grid Front Panels and Cuffs": "Beyaz Zemin, Ön Panellerde ve Kol Ağızlarında Siyah Kristal Kare Desen",
+    "White Base with Black Rhinestone Dots on Front Panels and Cuffs": "Beyaz Zemin, Ön Panellerde ve Kol Ağızlarında Siyah Taş Noktalar",
+    "White Base with Black Rhinestone Drip Lines": "Beyaz Zemin, Siyah Taşlı Damla Çizgiler",
+    "White Base with Black Rhinestone Starburst Shoulders": "Beyaz Zemin, Omuzlarda Siyah Taşlı Işın Desen",
+    "White Base with Black-to-Silver Rhinestone Ombre": "Beyaz Zemin, Siyahtan Gümüşe Taşlı Degrade",
+    "White Base with Red-to-Black Rhinestone Ombre": "Beyaz Zemin, Kırmızıdan Siyaha Taşlı Degrade",
+    "White Base with Scattered Black Rhinestones": "Beyaz Zemin, Dağınık Siyah Taşlar",
+    "White Satin Peak Lapel": "Beyaz Saten Sivri Yaka",
+    "White Shawl Lapel with Rhinestones": "Taşlı Beyaz Şal Yaka",
+    "Wide Peak Lapel": "Geniş Sivri Yaka",
+    "Wide Peak Lapel with Velvet Texture": "Kadife Dokulu Geniş Sivri Yaka",
+    "Wide range of colors and patterns": "Geniş renk ve desen seçeneği",
+    "Wool Blend": "Yün Karışımlı"
+  },
+  "products": {
+    "165": {
+      "title": "Kristal Taşlı Kruvaze Şal Yaka Smokin",
+      "content": "Siyah saten şal yakalı kruvaze erkek smokini; yakanın bir tarafı tamamen kristal taşlı, kristal boncuk işleme eteğe ve kol ağızlarına doğru yoğunlaşıyor. Gri, antrasit, yeşil, saks mavisi ve lacivert renk seçenekleri var. Ceket, pantolon ve papyondan oluşan takım düğün, resepsiyon ve resmi davetler için uygundur."
+    },
+    "238": {
+      "title": "Troklu Sivri Yaka Kruvaze Smokin",
+      "content": "Saten sivri yakalı kruvaze erkek smokini; yakanın bir tarafı altın veya gümüş trokla kaplı, trok işleme eteğe ve kol ağızlarına doğru yoğunlaşıyor. Beyaz ve siyah renk seçenekleriyle sunulur. Ceket, aynı kumaştan pantolon ve papyondan oluşan takım düğünler ve resmi davetler için uygundur."
+    },
+    "312": {
+      "title": "Kemer Detaylı Desenli Sivri Yaka Smokin",
+      "content": "Desenli kumaştan, geniş sivri yakalı erkek smokini. Düğünler ve resmi davetler için şık ve iddialı bir seçim. Papyon ve dekoratif kemer detayıyla birlikte gelir."
+    },
+    "341": {
+      "title": "Asimetrik Kapamalı Sivri Yaka İkili Takım Elbise",
+      "content": "Asimetrik tasarımlı, metal kanca kapamalı modern erkek takım elbise. Çağdaş sivri yaka ve slim fit kesim. Düğün, parti ve moda etkinlikleri için ideal bir seçim."
+    },
+    "366": {
+      "title": "Siyah Kristal Taşlı Kruvaze Şal Yaka Smokin",
+      "content": "Saten şal yakalı siyah kruvaze erkek smokini; yakanın bir tarafı kristallerle kaplı, kristal boncuk işleme eteğe ve kol ağızlarına doğru toplanıyor. Gümüş, yeşil veya altın kristal seçenekleriyle sunulur. Ceket, pantolon ve papyondan oluşan takım düğün, resepsiyon ve resmi davetler için uygundur."
+    },
+    "378": {
+      "title": "Altın Desenli Şal Yaka Smokin",
+      "content": "Altın soyut desenli kumaştan, saten şal yakalı erkek smokini. Düğünler ve resmi davetler için ideal bir tören takımı. Pantolon ve papyonla birlikte gelir."
+    },
+    "403": {
+      "title": "Altın Çizgi Detaylı Şal Yaka Smokin",
+      "content": "Saten şal yakalı, altın çizgi nakışlı erkek smokini. Düğün, resepsiyon ve resmi davetler için modern bir tören takımı. Pantolon ve isteğe bağlı kravatla birlikte gelir."
+    },
+    "404": {
+      "title": "Çiçek Desenli Jakar Kruvaze Şal Yaka Smokin",
+      "content": "Çiçek ve paisley desenli jakar kumaştan, siyah saten şal yakalı kruvaze erkek smokini; siyah pantolonla tamamlanır. Gümüş, lacivert, siyah-gümüş, bordo, yeşil ve altın tonlu renk seçenekleri var. Ceket, pantolon ve papyondan oluşan takım düğün, resepsiyon ve gala geceleri için uygundur."
+    },
+    "500": {
+      "title": "Modern Kesim Kruvaze Takım Elbise",
+      "content": "Sivri yakalı, altın düğme detaylı şık kruvaze erkek takım elbise. Resmi davetler ve modayı takip eden erkekler için ideal."
+    },
+    "524": {
+      "title": "Metal Düğmeli Kruvaze Takım Elbise",
+      "content": "Sivri yakalı, altın düğme detaylı şık kruvaze erkek takım elbise. İş hayatı ve resmi davetler için zamansız bir seçenek."
+    },
+    "666": {
+      "title": "Sivri Yaka Kruvaze Takım Elbise",
+      "content": "Sivri yakalı, altın düğme detaylı sofistike kruvaze erkek takım elbise. Hem kurumsal ortamlara hem resmi davetlere uygun."
+    },
+    "710": {
+      "title": "Altın Düğmeli Sivri Yaka Kruvaze Takım Elbise",
+      "content": "Geniş sivri yakalı, şık altın düğmeli modern kruvaze erkek takım elbise. Seçkin davetler ve şık bir görünüm için ideal."
+    },
+    "DB-PRE": {
+      "title": "Premium Kruvaze Takım Elbise Koleksiyonu",
+      "content": "Sivri yakalı, modern kesim premium kruvaze erkek takım elbise. Klasik şıklık arayan toptan alıcılar ve private label markalar için çok yönlü bir seçenek."
+    },
+    "SF-CLS": {
+      "title": "Klasik Slim Fit Takım Elbise Koleksiyonu",
+      "content": "Çentik yakalı klasik slim fit erkek takım elbise. Her gün giyilebilecek çok yönlü iş takımları arayan toptan alıcılar için zamansız bir tasarım."
+    },
+    "FB-FRM": {
+      "title": "Resmi İş Takımı Koleksiyonu",
+      "content": "Manken çekimli fotoğraflarla sunulan premium resmi iş takımı koleksiyonu. Toptan satış ve private label üretim için geniş slim fit ve kruvaze model seçeneği."
+    },
+    "TP-PRE": {
+      "title": "Premium Üçlü Takım Elbise Koleksiyonu",
+      "content": "Aynı kumaştan yelekli, sivri yakalı premium üçlü erkek takım elbise. Cansız manken üzerinde çekilmiştir. Toptan alıcılar ve private label markalar için ideal."
+    },
+    "S01": {
+      "title": "Gri Keten İkili Yazlık Takım Elbise",
+      "content": "Gri keten karışımlı, çentik yakalı ve aplike cepli ikili erkek takım elbise. Plaj düğünleri, sağdıçlar ve sıcak havada yapılan törenler için hafif ve nefes alan bir yazlık takım. Toptan satış ve private label üretim için sunulur."
+    },
+    "S02": {
+      "title": "Deve Tüyü Keten İkili Yazlık Takım Elbise",
+      "content": "Deve tüyü rengi keten karışımlı, çentik yakalı ve aplike cepli ikili erkek takım elbise. Plaj düğünleri, sağdıçlar ve sıcak havada yapılan törenler için hafif ve nefes alan bir yazlık takım. Toptan satış ve private label üretim için sunulur."
+    },
+    "S03": {
+      "title": "Fildişi Keten İkili Yazlık Takım Elbise",
+      "content": "Fildişi rengi keten karışımlı, çentik yakalı ve aplike cepli ikili erkek takım elbise. Plaj düğünleri, sağdıçlar ve sıcak havada yapılan törenler için hafif ve nefes alan bir yazlık takım. Toptan satış ve private label üretim için sunulur."
+    },
+    "S04": {
+      "title": "Kum Beji Keten İkili Yazlık Takım Elbise",
+      "content": "Kum beji keten karışımlı, çentik yakalı ve aplike cepli ikili erkek takım elbise. Plaj düğünleri, sağdıçlar ve sıcak havada yapılan törenler için hafif ve nefes alan bir yazlık takım. Toptan satış ve private label üretim için sunulur."
+    },
+    "S05": {
+      "title": "Lacivert Sivri Yaka Üçlü Takım Elbise",
+      "content": "Lacivert sivri yakalı, aynı kumaştan yelekli üçlü erkek takım elbise. Düğünler, damatlar ve resmi iş giyimi için slim fit kesim. Türkiye'de toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "S06": {
+      "title": "Antrasit Sivri Yaka Üçlü Takım Elbise",
+      "content": "Antrasit sivri yakalı, aynı kumaştan yelekli üçlü erkek takım elbise. Düğünler, damatlar ve resmi iş giyimi için slim fit kesim. Türkiye'de toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "S07": {
+      "title": "Siyah Sivri Yaka Üçlü Takım Elbise",
+      "content": "Siyah sivri yakalı, aynı kumaştan yelekli üçlü erkek takım elbise. Düğünler, damatlar ve resmi iş giyimi için slim fit kesim. Türkiye'de toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "S08": {
+      "title": "Zümrüt Yeşili Sivri Yaka Üçlü Takım Elbise",
+      "content": "Zümrüt yeşili sivri yakalı, aynı kumaştan yelekli üçlü erkek takım elbise. Düğünler, damatlar ve resmi iş giyimi için slim fit kesim. Türkiye'de toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "S09": {
+      "title": "Kahverengi Sivri Yaka Üçlü Takım Elbise",
+      "content": "Kahverengi sivri yakalı, aynı kumaştan yelekli üçlü erkek takım elbise. Düğünler, damatlar ve resmi iş giyimi için slim fit kesim. Türkiye'de toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T01": {
+      "title": "Lacivert Boncuklu Baklava Desen Sivri Yaka Smokin",
+      "content": "Baştan sona boncuklu baklava desenle kaplı lacivert erkek smokini; lacivert saten sivri yaka, boncuk şeritli aplike cepler ve etek ucu. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T02": {
+      "title": "Beyaz Siyah Boncuklu Baklava Desen Sivri Yaka Smokin",
+      "content": "Siyah boncuklu baklava desenli beyaz smokin ceket; siyah saten sivri yaka ve boncuk şeritli aplike cepler, siyah biyeli beyaz yelek ve siyah pantolonla. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T03": {
+      "title": "Siyah Ton Sür Ton Boncuklu Sivri Yaka Smokin",
+      "content": "Ceketin tamamında ton sür ton siyah boncuklu baklava desen, siyah saten sivri yaka ve boncuklu cep şeritleriyle akşamlara zarif bir ışıltı katan siyah erkek smokini. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T04": {
+      "title": "Siyah Altın Boncuklu Baklava Desen Sivri Yaka Smokin",
+      "content": "Altın boncuklu baklava desenli siyah erkek smokini; aplike ceplerde, etekte ve kol ağızlarında altın trok şeritler, siyah saten sivri yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T05": {
+      "title": "Lacivert Boncuklu Siyah Sivri Yaka Smokin",
+      "content": "Boncuklu baklava desenli ve boncuk şeritli aplike cepli lacivert erkek smokini; kontrast siyah saten sivri yaka ve siyah yelekle tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T06": {
+      "title": "Kırmızı Taşlı Paisley Şal Yaka Smokin",
+      "content": "Kırmızı saten şal yakalı kırmızı erkek smokini; omuzlarda taşlı paisley motifler, eteğe ve kol ağızlarına doğru yoğunlaşan taşlı degrade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T07": {
+      "title": "Zümrüt Yeşili Taşlı Paisley Şal Yaka Smokin",
+      "content": "Gri-yeşil saten şal yakalı zümrüt yeşili erkek smokini; omuzlar boyunca taşlı paisley motifler ve eteğe doğru taşlı degrade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T08": {
+      "title": "Bordo Taşlı Paisley Şal Yaka Smokin",
+      "content": "Bordo saten şal yakalı bordo erkek smokini; omuzlarda taşlı paisley motifler, eteğe ve kol ağızlarına doğru toplanan taşlı degrade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T09": {
+      "title": "Çam Yeşili Taşlı Paisley Şal Yaka Smokin",
+      "content": "Koyu yeşil saten şal yakalı çam yeşili erkek smokini; omuzlarda taşlı paisley motifler ve eteğe kadar inen taşlı degrade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T10": {
+      "title": "Siyah Gümüş Boncuklu Baklava Desen Sivri Yaka Smokin",
+      "content": "Gümüş boncuklu baklava desenli siyah erkek smokini; aplike ceplerde, etekte ve kol ağızlarında inci boncuk şeritler, siyah saten sivri yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T11": {
+      "title": "Lacivert Altın Degrade Kruvaze Sivri Yaka Smokin",
+      "content": "Altın simli sivri yakalı lacivert kruvaze erkek smokini; altın degrade belden eteğe ve kol ağızlarına doğru yayılıyor. Aynı kumaştan pantolon ve papyonla sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T12": {
+      "title": "Siyah Altın Taşlı Damla Desen Sivri Yaka Smokin",
+      "content": "Sivri yakası tamamen altın taşlı siyah erkek smokini; göğüs, omuz ve kollardan aşağı inen altın taşlı damla çizgiler. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T13": {
+      "title": "Siyah Gümüş Taşlı Damla Desen Sivri Yaka Smokin",
+      "content": "Gümüş taşlı sivri yakalı siyah erkek smokini; omuzlardan göğse ve kollara dökülen gümüş taşlı damla çizgiler. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T14": {
+      "title": "Siyah Ton Sür Ton Taşlı Damla Desen Sivri Yaka Smokin",
+      "content": "Simsiyah taşlı sivri yakalı siyah erkek smokini; göğüs ve kollarda ton sür ton taşlı damla çizgilerle göze batmayan bir ışıltı. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T15": {
+      "title": "Beyaz Siyah Taşlı Damla Desen Sivri Yaka Smokin",
+      "content": "Siyah taşlı sivri yakalı beyaz erkek smokini; omuz ve göğüste siyah taşlı damla çizgiler, beyaz yelek ve siyah pantolonla. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T16": {
+      "title": "Lacivert Altın Taşlı Damla Desen Sivri Yaka Smokin",
+      "content": "Altın taşlı sivri yakalı lacivert erkek smokini; omuzlardan göğse ve kollara inen altın taşlı damla çizgiler. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T17": {
+      "title": "Siyah Gümüş Taşlı Degrade Şal Yaka Smokin",
+      "content": "Gümüş taş işlemeli şal yakalı siyah erkek smokini; gümüş taş deseni göğüsten aşağı doğru sıklaşarak etekte ve kol ağızlarında tam bir banda dönüşüyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T18": {
+      "title": "Siyah Altın Taşlı Degrade Şal Yaka Smokin",
+      "content": "Altın taş işlemeli şal yakalı siyah erkek smokini; altın taş deseni göğüsten eteğe ve kol ağızlarına doğru sıklaşıyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T19": {
+      "title": "Lacivert Altın Taşlı Degrade Şal Yaka Smokin",
+      "content": "Siyah taş işlemeli şal yakalı lacivert erkek smokini; altın ve mavi taşlar eteğe ve kol ağızlarına doğru degrade oluşturuyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T20": {
+      "title": "Adaçayı Yeşili Taşlı Paisley Şal Yaka Smokin",
+      "content": "Adaçayı yeşili erkek smokini; aynı renkte saten şal yaka, omuzlarda ton sür ton taşlı paisley motifler ve eteğe doğru taşlı degrade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T21": {
+      "title": "Siyah Altın Troklu Kristal Degrade Sivri Yaka Smokin",
+      "content": "Kenarı altın troklu, kristal kaplı sivri yakalı siyah erkek smokini; gümüş kristal degrade eteğe ve kol ağızlarına doğru yoğunlaşıyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T22": {
+      "title": "Lacivert Altın Taş Noktalı Sivri Yaka Smokin",
+      "content": "Ön panellerde ve kolların alt kısmında altın taş noktalar bulunan lacivert erkek smokini; kenarları altın taşlı lacivert saten sivri yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T23": {
+      "title": "Beyaz Siyah Taş Noktalı Sivri Yaka Smokin",
+      "content": "Ön panellerde ve kolların alt kısmında siyah taş noktalar bulunan beyaz erkek smokini; siyah saten sivri yaka, beyaz yelek ve siyah pantolon. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T24": {
+      "title": "Siyah Gümüş Taş Noktalı Sivri Yaka Smokin",
+      "content": "Ön panellerde ve kolların alt kısmında gümüş taş noktalar bulunan siyah erkek smokini; kenarları gümüş taşlı siyah saten sivri yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T25": {
+      "title": "Siyah Altın Taş Noktalı Sivri Yaka Smokin",
+      "content": "Ön panellerde ve kolların alt kısmında altın taş noktalar bulunan siyah erkek smokini; kenarları altın taşlı siyah saten sivri yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T26": {
+      "title": "Lacivert Kristal Taşlı Şal Yaka Smokin",
+      "content": "Mavi kristal taşlı şal yakalı lacivert erkek smokini; serpiştirilmiş mavi kristaller eteğe ve kol ağızlarına doğru yoğunlaşıyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T27": {
+      "title": "Lacivert Taşlı Degrade Şal Yaka Smokin",
+      "content": "Taş işlemeli siyah şal yakalı lacivert erkek smokini; altın ve mavi taşlar eteğe ve kol ağızlarına doğru degrade oluşturuyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T28": {
+      "title": "Lacivert Kristal Şevron Şal Yaka Smokin",
+      "content": "Beden ve kollarda kristal şevron panelli lacivert erkek smokini; kontrast düz kol ağızları ve etek, geniş saten şal yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T29": {
+      "title": "Siyah Gümüş Kristal Şevron Şal Yaka Smokin",
+      "content": "Beden ve kollarda iddialı gümüş kristal şevron panelli siyah erkek smokini; düz siyah kol ağızları ve etek, geniş siyah saten şal yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T30": {
+      "title": "Siyah Ton Sür Ton Kristal Şevron Şal Yaka Smokin",
+      "content": "Beden ve kollarda ton sür ton siyah kristal şevron panelli siyah erkek smokini; düz siyah kol ağızları ve etek, geniş siyah saten şal yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T31": {
+      "title": "Siyah Altın Kristal Şevron Şal Yaka Smokin",
+      "content": "Beden ve kollarda altın kristal şevron panelli siyah erkek smokini; düz siyah kol ağızları ve etek, geniş siyah saten şal yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T32": {
+      "title": "Gümüş Beyaz Payetli Damla Desen Şal Yaka Smokin",
+      "content": "Eteğe doğru siyah payet damla çizgileri olan gümüş ve beyaz payetli erkek smokini; siyah saten şal yaka, beyaz yelek ve siyah pantolon. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T33": {
+      "title": "Lacivert Altın Payetli Damla Desen Şal Yaka Smokin",
+      "content": "Lacivert ve altın payetli erkek smokini; omuz ve göğüsteki altın payetler eteğe doğru lacivert damla çizgilere dönüşüyor, lacivert saten şal yakayla tamamlanıyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T34": {
+      "title": "Gümüş Siyah Degrade Payetli Şal Yaka Smokin",
+      "content": "Eteğe ve kol ağızlarına doğru siyah payet damla çizgilere dönüşen gümüş payetli erkek smokini; siyah saten şal yaka ve siyah yelek. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T35": {
+      "title": "Lacivert Altın Troklu Sivri Yaka Smokin",
+      "content": "Ceketin üzerine serpiştirilmiş altın troklar ve aynı şekilde troklu pantolonla lacivert erkek smokini; lacivert saten sivri yaka ve lacivert yelekle tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T36": {
+      "title": "Siyah Altın Kristal Taşlı Şal Yaka Smokin",
+      "content": "Altın kristal taşlı şal yakalı siyah erkek smokini; serpiştirilmiş altın kristaller eteğe ve kol ağızlarına doğru sıklaşıyor. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T37": {
+      "title": "Siyah Altın Troklu Sivri Yaka Smokin",
+      "content": "Ceketin üzerine serpiştirilmiş altın troklar ve aynı şekilde troklu pantolonla siyah erkek smokini; siyah saten sivri yaka ve siyah yelekle tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T38": {
+      "title": "Lacivert Kristal Kare Desen Sivri Yaka Smokin",
+      "content": "Ön panellerde ton sür ton kristal kare desen ve geniş kristal kol ağzı bantları olan lacivert erkek smokini; lacivert saten sivri yakayla tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T39": {
+      "title": "Beyaz Siyah Kristal Kare Desen Sivri Yaka Smokin",
+      "content": "Ön panellerde siyah kristal kare desen, siyah kristal kol ağzı bantları ve siyah saten sivri yakalı beyaz erkek smokini; beyaz yelek ve siyah pantolonla. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T40": {
+      "title": "Siyah Ton Sür Ton Kristal Kare Desen Sivri Yaka Smokin",
+      "content": "Ön panellerde ton sür ton siyah kristal kare desen ve kristal kol ağzı bantları olan siyah erkek smokini; siyah saten sivri yakayla tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T41": {
+      "title": "Siyah Altın Kristal Kare Desen Sivri Yaka Smokin",
+      "content": "Ön panellerde altın kristal kare desen ve altın kristal kol ağzı bantları olan siyah erkek smokini; siyah saten sivri yakayla tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T42": {
+      "title": "Siyah Gümüş Kristal Kare Desen Sivri Yaka Smokin",
+      "content": "Ön panellerde gümüş kristal kare desen ve gümüş kristal kol ağzı bantları olan siyah erkek smokini; siyah saten sivri yakayla tamamlanır. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T43": {
+      "title": "Lacivert Altın Taşlı İnce Çizgili Sivri Yaka Smokin",
+      "content": "Ceket boyunca altın taşlı ince çizgiler uzanan lacivert erkek smokini; kenarları altın taşlı lacivert saten sivri yaka. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T44": {
+      "title": "Siyah Gümüş Taşlı Işın Desen Şal Yaka Smokin",
+      "content": "İki omuzda ince gümüş taşlı ışın çizgileri olan siyah erkek smokini; siyah saten şal yaka, ceketin geri kalanı sade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T45": {
+      "title": "Beyaz Siyah Taşlı Sivri Yaka Smokin",
+      "content": "Ceketin üzerine serpiştirilmiş siyah taşlar, beyaz saten sivri yaka ve beyaz yelekli beyaz erkek smokini; taş işlemeli siyah pantolonla. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T46": {
+      "title": "Lacivert Altın Taşlı Omuz Detaylı Şal Yaka Smokin",
+      "content": "İki omuzda altın taşlı ışın çizgileri olan lacivert erkek smokini; lacivert saten şal yaka, ceketin geri kalanı sade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T47": {
+      "title": "Siyah Gümüş Omuz Detaylı Şal Yaka Smokin",
+      "content": "Omuzlarda ve kolların üst kısmında iddialı gümüş taşlı ışın çizgileri olan siyah erkek smokini; siyah saten şal yaka, ceketin önü sade. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T48": {
+      "title": "Siyah Boncuklu Omuz Detaylı Şal Yaka Smokin",
+      "content": "Omuzlarda ve kolların üst kısmında ton sür ton siyah boncuklu aplike bulunan siyah erkek smokini; siyah saten şal yaka ve saten biyeli cepler. Aynı kumaştan pantolon ve papyonla sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T49": {
+      "title": "Siyah Gümüş İşlemeli Omuz Detaylı Şal Yaka Smokin",
+      "content": "Omuzlardan kolların üst kısmına inen gümüş boncuklu aplikeli siyah erkek smokini; siyah saten şal yaka ve saten biyeli cepler. Aynı kumaştan pantolon ve papyonla sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T50": {
+      "title": "Beyaz İşlemeli Omuz Detaylı Şal Yaka Smokin Ceket",
+      "content": "Omuzlardan kolların üst kısmına inen siyah boncuklu aplikeli beyaz smokin ceket; siyah saten şal yaka ve siyah biyeli cepler. Siyah pantolonla kombinlenir; düğün, resepsiyon ve black tie gece davetleri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T51": {
+      "title": "Beyaz Boncuklu Omuz Detaylı Şal Yaka Smokin Ceket",
+      "content": "Omuzlarda siyah boncuklu aplike, siyah saten şal yaka ve siyah biyeli ceplerle beyaz smokin ceket. Siyah pantolonla kombinlenir; düğün, resepsiyon ve black tie gece davetleri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T52": {
+      "title": "Beyaz Kırmızı Taşlı Degrade Şal Yaka Smokin",
+      "content": "Omuzlardaki kırmızı taşların bele doğru siyah taşlara dönüştüğü beyaz erkek smokini; taşlı beyaz şal yaka, beyaz yelek ve siyah pantolon. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T53": {
+      "title": "Beyaz Gümüş Taşlı Degrade Şal Yaka Smokin",
+      "content": "Omuzlardaki siyah taşların bele doğru gümüşe dönüştüğü beyaz erkek smokini; taşlı beyaz şal yaka, beyaz yelek ve siyah pantolon. Ceket, yelek ve pantolondan oluşan üçlü takım papyonla birlikte sunulur; düğün, gala, mezuniyet balosu ve sahne gösterileri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    },
+    "T54": {
+      "title": "Beyaz Taşlı Işın Desen Şal Yaka Smokin Ceket",
+      "content": "Omuzlarda siyah taşlı ışın çizgileri olan, siyah saten şal yakalı beyaz smokin ceket. Aynı kumaştan beyaz yelek ve siyah pantolonla sunulur; düğün, resepsiyon ve black tie gece davetleri için uygundur. İstanbul'da toptan, OEM ve private label alıcılar için üretilir."
+    }
+  }
+}

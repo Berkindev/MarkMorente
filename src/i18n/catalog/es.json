@@ -1,0 +1,521 @@
+{
+  "values": {
+    "100% Viscose": "100 % viscosa",
+    "Abstract Patterned Fabric": "Tejido con estampado abstracto",
+    "Asymmetric Front Closure with Decorative Metal Loops": "Cierre frontal asimétrico con trabillas metálicas decorativas",
+    "Available in Multiple Colors": "Disponible en varios colores",
+    "Available in Multiple Colors and Textures": "Disponible en varios colores y texturas",
+    "Available in Navy, Black, Grey, and more": "Disponible en azul marino, negro, gris y más",
+    "Black": "Negro",
+    "Black Base with Crystal Ombre Toward the Hem": "Base negra con degradado de cristales hacia el bajo",
+    "Black Base with Gold Beaded Diamond Lattice": "Base negra con celosía de rombos en abalorios dorados",
+    "Black Base with Gold Crystal Chevron Panels": "Base negra con paneles en chevrón de cristales dorados",
+    "Black Base with Gold Crystal Grid Front Panels and Cuffs": "Base negra con cuadrícula de cristales dorados en delanteros y puños",
+    "Black Base with Gold Crystal Ombre": "Base negra con degradado de cristales dorados",
+    "Black Base with Gold Rhinestone Dots on Front Panels and Cuffs": "Base negra con puntos de pedrería dorada en delanteros y puños",
+    "Black Base with Gold Rhinestone Drip Lines": "Base negra con líneas en cascada de pedrería dorada",
+    "Black Base with Gold Rhinestone Ombre": "Base negra con degradado de pedrería dorada",
+    "Black Base with Gold Studs on Jacket and Trousers": "Base negra con tachuelas doradas en chaqueta y pantalón",
+    "Black Base with Jet Black Rhinestone Drip Lines": "Base negra con líneas en cascada de pedrería negro azabache",
+    "Black Base with Jet Crystal Chevron Panels": "Base negra con paneles en chevrón de cristales azabache",
+    "Black Base with Jet Crystal Grid Front Panels and Cuffs": "Base negra con cuadrícula de cristales azabache en delanteros y puños",
+    "Black Base with Silver Beaded Diamond Lattice": "Base negra con celosía de rombos en abalorios plateados",
+    "Black Base with Silver Beaded Shoulder and Sleeve Appliqué": "Base negra con aplique de abalorios plateados en hombros y mangas",
+    "Black Base with Silver Crystal Chevron Panels": "Base negra con paneles en chevrón de cristales plateados",
+    "Black Base with Silver Crystal Grid Front Panels and Cuffs": "Base negra con cuadrícula de cristales plateados en delanteros y puños",
+    "Black Base with Silver Rhinestone Dots on Front Panels and Cuffs": "Base negra con puntos de pedrería plateada en delanteros y puños",
+    "Black Base with Silver Rhinestone Drip Lines": "Base negra con líneas en cascada de pedrería plateada",
+    "Black Base with Silver Rhinestone Ombre": "Base negra con degradado de pedrería plateada",
+    "Black Base with Silver Rhinestone Starburst Shoulders": "Base negra con hombros con destellos de pedrería plateada",
+    "Black Base with Tonal Beaded Diamond Lattice": "Base negra con celosía de rombos en abalorios tono sobre tono",
+    "Black Base with Tonal Beaded Shoulder Appliqué": "Base negra con aplique de abalorios tono sobre tono en los hombros",
+    "Black Rhinestone Peak Lapel": "Solapa de pico con pedrería negra",
+    "Black Satin Peak Lapel": "Solapa de pico de raso negro",
+    "Black Satin Peak Lapel with Gold Rhinestone Edging": "Solapa de pico de raso negro con ribete de pedrería dorada",
+    "Black Satin Peak Lapel with Rhinestone Edging": "Solapa de pico de raso negro con ribete de pedrería",
+    "Black Satin Peak Lapel with Silver Rhinestone Edging": "Solapa de pico de raso negro con ribete de pedrería plateada",
+    "Black Satin Shawl Lapel": "Solapa chal de raso negro",
+    "Black Satin Shawl Lapel with One Crystal Studded Side": "Solapa chal de raso negro con un lado cubierto de cristales",
+    "Black Wool Blend Fabric": "Tejido de mezcla de lana negro",
+    "Blue Crystal Studded Shawl Lapel": "Solapa chal con cristales azules",
+    "Body Fabric": "Tejido principal",
+    "Breathable linen-blend ideal for spring-summer weddings and resort events": "Mezcla de lino transpirable, ideal para bodas de primavera-verano y eventos en destinos de playa",
+    "Brown": "Marrón",
+    "Brown Wool Blend Fabric": "Tejido de mezcla de lana marrón",
+    "Burgundy": "Burdeos",
+    "Burgundy Base with Rhinestone Paisley Shoulders and Ombre Hem": "Base burdeos con hombros de paisley en pedrería y degradado en el bajo",
+    "Burgundy Satin Shawl Lapel": "Solapa chal de raso burdeos",
+    "Camel": "Camel",
+    "Camel Linen Blend Fabric": "Tejido de mezcla de lino camel",
+    "Charcoal Grey": "Gris marengo",
+    "Charcoal Grey Wool Blend Fabric": "Tejido de mezcla de lana gris marengo",
+    "Crystal Beaded Lower Jacket and Cuffs": "Parte inferior de la chaqueta y puños con abalorios de cristal",
+    "Crystal Peak Lapel with Gold Stud Border": "Solapa de pico de cristales con borde de tachuelas doradas",
+    "Dark Green Satin Shawl Lapel": "Solapa chal de raso verde oscuro",
+    "Decorative Waist Belt Detail": "Detalle de cinturón decorativo",
+    "Designed for weddings, gala events and special ceremonies": "Diseñado para bodas, galas y ceremonias especiales",
+    "Designed for weddings, galas, receptions, and special ceremonies": "Diseñado para bodas, galas, recepciones y ceremonias especiales",
+    "Designed for weddings, special events and receptions": "Diseñado para bodas, eventos especiales y recepciones",
+    "Dinner Jacket": "Chaqueta de esmoquin",
+    "Double Breasted Closure": "Cierre cruzado",
+    "Double Breasted Design": "Diseño cruzado",
+    "Double Breasted Jacket": "Chaqueta cruzada",
+    "Double-Breasted Closure": "Abotonadura cruzada",
+    "Double-Breasted Front Closure": "Cierre delantero cruzado",
+    "Double-Breasted Jacket": "Americana cruzada",
+    "Double-Breasted Suit": "Traje cruzado",
+    "Double-Breasted Waistcoat": "Chaleco cruzado",
+    "Embellished": "Ornamentado",
+    "Emerald Green": "Verde esmeralda",
+    "Emerald Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Base verde esmeralda con hombros de paisley en pedrería y degradado en el bajo",
+    "Emerald Green Wool Blend Fabric": "Tejido de mezcla de lana verde esmeralda",
+    "Flap Pockets and Chest Pocket": "Bolsillos con cartera y bolsillo de pecho",
+    "Flap Pockets and Chest Pocket with Patterned Pocket Square": "Bolsillos con cartera y bolsillo de pecho con pañuelo estampado",
+    "Flap Pockets and Chest Pocket with Pocket Square": "Bolsillos con cartera y bolsillo de pecho con pañuelo",
+    "Flap Pockets with Chest Pocket": "Bolsillos con cartera y bolsillo de pecho",
+    "Floral and Paisley Jacquard Body Fabric": "Tejido principal jacquard floral y paisley",
+    "Forest Green": "Verde bosque",
+    "Forest Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Base verde bosque con hombros de paisley en pedrería y degradado en el bajo",
+    "Fully Lined": "Totalmente forrado",
+    "Gold Abstract Patterned Fabric": "Tejido dorado con estampado abstracto",
+    "Gold Crystal Studded Shawl Lapel": "Solapa chal con cristales dorados",
+    "Gold Glitter Peak Lapel": "Solapa de pico con brillo dorado",
+    "Gold Metal Buttons": "Botones metálicos dorados",
+    "Gold Rhinestone Peak Lapel": "Solapa de pico con pedrería dorada",
+    "Gold Rhinestone Studded Shawl Lapel": "Solapa chal con pedrería dorada",
+    "Gold Sequin Upper Body Fading into Navy Drip Lines": "Parte superior con lentejuelas doradas que se funde en líneas en cascada azul marino",
+    "Gold Vertical Line Embroidery": "Bordado de líneas verticales doradas",
+    "Gold or Silver Studs on Sleeves and Lower Body": "Tachuelas doradas o plateadas en mangas y parte inferior",
+    "Grey": "Gris",
+    "Grey Linen Blend Fabric": "Tejido de mezcla de lino gris",
+    "Grey-Green Satin Shawl Lapel": "Solapa chal de raso gris verdoso",
+    "Ideal for business meetings, evening events and formal occasions": "Ideal para reuniones de negocios, eventos de noche y ocasiones formales",
+    "Ideal for business, evening receptions and formal gatherings": "Ideal para negocios, recepciones de noche y reuniones formales",
+    "Ideal for formal events, business, and weddings": "Ideal para eventos formales, negocios y bodas",
+    "Ideal for modern weddings, special appearances, or fashion events": "Ideal para bodas modernas, apariciones especiales o eventos de moda",
+    "Ideal for retail chains and fashion brands": "Ideal para cadenas de tiendas y marcas de moda",
+    "Ideal for spring-summer formal events and stylish ceremonies": "Ideal para eventos formales de primavera-verano y ceremonias con estilo",
+    "Ideal for weddings, business meetings, and formal occasions": "Ideal para bodas, reuniones de negocios y ocasiones formales",
+    "Ideal for weddings, receptions, and special events": "Ideal para bodas, recepciones y eventos especiales",
+    "Ideal for weddings, special events, and receptions": "Ideal para bodas, eventos especiales y recepciones",
+    "Ideal for wholesale and private label B2B clients": "Ideal para clientes B2B mayoristas y de marca propia",
+    "Ivory": "Marfil",
+    "Ivory Linen Blend Fabric": "Tejido de mezcla de lino marfil",
+    "Jacquard Wool Blend": "Mezcla de lana jacquard",
+    "Linen Blend": "Mezcla de lino",
+    "Lining": "Forro",
+    "Minimalist Design with Clean Lines": "Diseño minimalista de líneas limpias",
+    "Model-shot professional imagery": "Fotografía profesional con modelo",
+    "Modern Fit": "Corte moderno",
+    "Modern Fit Cut": "Corte moderno",
+    "Modern Fit Silhouette": "Silueta de corte moderno",
+    "Modern Slim Fit": "Slim fit moderno",
+    "Navy Blue": "Azul marino",
+    "Navy Blue Base with Beaded Diamond Lattice": "Base azul marino con celosía de rombos en abalorios",
+    "Navy Blue Base with Blue Crystal Ombre": "Base azul marino con degradado de cristales azules",
+    "Navy Blue Base with Crystal Chevron Panels and Plain Cuffs": "Base azul marino con paneles en chevrón de cristales y puños lisos",
+    "Navy Blue Base with Crystal Grid Front Panels and Cuffs": "Base azul marino con cuadrícula de cristales en delanteros y puños",
+    "Navy Blue Base with Gold Glitter Ombre Hem and Cuffs": "Base azul marino con degradado de brillo dorado en bajo y puños",
+    "Navy Blue Base with Gold Rhinestone Dots on Front Panels and Cuffs": "Base azul marino con puntos de pedrería dorada en delanteros y puños",
+    "Navy Blue Base with Gold Rhinestone Drip Lines": "Base azul marino con líneas en cascada de pedrería dorada",
+    "Navy Blue Base with Gold Rhinestone Pinstripes": "Base azul marino con raya diplomática de pedrería dorada",
+    "Navy Blue Base with Gold Rhinestone Starburst Shoulders": "Base azul marino con hombros con destellos de pedrería dorada",
+    "Navy Blue Base with Gold Studs on Jacket and Trousers": "Base azul marino con tachuelas doradas en chaqueta y pantalón",
+    "Navy Blue Base with Gold and Blue Rhinestone Ombre": "Base azul marino con degradado de pedrería dorada y azul",
+    "Navy Blue Color": "Color azul marino",
+    "Navy Blue Wool Blend Fabric": "Tejido de mezcla de lana azul marino",
+    "Navy Satin Peak Lapel": "Solapa de pico de raso azul marino",
+    "Navy Satin Peak Lapel with Gold Rhinestone Edging": "Solapa de pico de raso azul marino con ribete de pedrería dorada",
+    "Navy Satin Shawl Lapel": "Solapa chal de raso azul marino",
+    "Notch Lapel": "Solapa de muesca",
+    "Notch Lapel with Patch Pockets": "Solapa de muesca con bolsillos de parche",
+    "Patterned Wool Blend": "Mezcla de lana estampada",
+    "Peak Lapel": "Solapa de pico",
+    "Peak Lapel / Notch Lapel options": "Opciones de solapa de pico o de muesca",
+    "Perfect for weddings, receptions, and gala nights": "Perfecto para bodas, recepciones y noches de gala",
+    "Perfect for weddings, receptions, and special occasions": "Perfecto para bodas, recepciones y ocasiones especiales",
+    "Perfect for wholesale and OEM clients": "Perfecto para clientes mayoristas y OEM",
+    "Perfect for wholesale and retail distribution": "Perfecto para distribución mayorista y minorista",
+    "Premium Cotton Blend": "Mezcla de algodón premium",
+    "Premium Wool": "Lana premium",
+    "Red": "Rojo",
+    "Red Base with Rhinestone Paisley Shoulders and Ombre Hem": "Base roja con hombros de paisley en pedrería y degradado en el bajo",
+    "Red Satin Shawl Lapel": "Solapa chal de raso rojo",
+    "Relaxed Slim Fit Cut": "Corte slim holgado",
+    "Rhinestone Studded Black Shawl Lapel": "Solapa chal negra con pedrería",
+    "Sage Green": "Verde salvia",
+    "Sage Green Base with Rhinestone Paisley Shoulders and Ombre Hem": "Base verde salvia con hombros de paisley en pedrería y degradado en el bajo",
+    "Sage Satin Shawl Lapel": "Solapa chal de raso verde salvia",
+    "Sand Beige": "Beige arena",
+    "Sand Beige Linen Blend Fabric": "Tejido de mezcla de lino beige arena",
+    "Satin Peak Lapel with One Studded Side": "Solapa de pico de raso con un lado cubierto de tachuelas",
+    "Satin Shawl Lapel": "Solapa chal de raso",
+    "Satin Shawl Lapel with One Crystal Studded Side": "Solapa chal de raso con un lado cubierto de cristales",
+    "Sequin": "Lentejuelas",
+    "Set include: Jacket - Trousers": "El conjunto incluye: chaqueta y pantalón",
+    "Set include: Jacket - Trousers - Bowtie": "El conjunto incluye: chaqueta, pantalón y pajarita",
+    "Set include: Jacket - Trousers - Optional Tie": "El conjunto incluye: chaqueta, pantalón y corbata opcional",
+    "Set includes: Jacket - Trousers": "Incluye: chaqueta y pantalón",
+    "Set includes: Jacket - Trousers - Bowtie": "Incluye: chaqueta, pantalón y pajarita",
+    "Set includes: Jacket - Waistcoat - Trousers": "Incluye: chaqueta, chaleco y pantalón",
+    "Set includes: Jacket - Waistcoat - Trousers - Bowtie": "Incluye: chaqueta, chaleco, pantalón y pajarita",
+    "Shawl Lapel": "Solapa chal",
+    "Shawl Lapel with Black Satin Finish": "Solapa chal con acabado de raso negro",
+    "Silver": "Plateado",
+    "Silver Rhinestone Peak Lapel": "Solapa de pico con pedrería plateada",
+    "Silver Rhinestone Studded Shawl Lapel": "Solapa chal con pedrería plateada",
+    "Silver Sequin Body Fading into Black Drip Lines": "Cuerpo de lentejuelas plateadas que se funde en líneas en cascada negras",
+    "Silver and White Sequin Body with Black Drip Lines": "Cuerpo de lentejuelas plateadas y blancas con líneas en cascada negras",
+    "Single & Double-Breasted variations": "Versiones de botonadura sencilla y cruzada",
+    "Single-Breasted Closure": "Cierre de botonadura sencilla",
+    "Single-Breasted Slim Fit Silhouette": "Silueta slim fit de botonadura sencilla",
+    "Single-Breasted Two-Button Closure": "Cierre de botonadura sencilla con dos botones",
+    "Single-Button Closure": "Cierre de un botón",
+    "Slim Fit": "Slim fit",
+    "Slim Fit Cut": "Corte slim fit",
+    "Slim Fit Design": "Diseño slim fit",
+    "Slim Fit Silhouette": "Silueta slim fit",
+    "Statement design for exclusive occasions": "Diseño llamativo para ocasiones exclusivas",
+    "Three Piece Suit": "Traje de tres piezas",
+    "Three-Piece Set with Matching Waistcoat": "Conjunto de tres piezas con chaleco a juego",
+    "Three-Piece Set: Jacket, Waistcoat, Trousers": "Conjunto de tres piezas: chaqueta, chaleco y pantalón",
+    "Tuxedo": "Esmoquin",
+    "Two Piece Suit": "Traje de dos piezas",
+    "Various Options": "Varias opciones",
+    "White": "Blanco",
+    "White Base with Black Beaded Diamond Lattice": "Base blanca con celosía de rombos en abalorios negros",
+    "White Base with Black Beaded Shoulder Appliqué": "Base blanca con aplique de abalorios negros en los hombros",
+    "White Base with Black Beaded Shoulder and Sleeve Appliqué": "Base blanca con aplique de abalorios negros en hombros y mangas",
+    "White Base with Black Crystal Grid Front Panels and Cuffs": "Base blanca con cuadrícula de cristales negros en delanteros y puños",
+    "White Base with Black Rhinestone Dots on Front Panels and Cuffs": "Base blanca con puntos de pedrería negra en delanteros y puños",
+    "White Base with Black Rhinestone Drip Lines": "Base blanca con líneas en cascada de pedrería negra",
+    "White Base with Black Rhinestone Starburst Shoulders": "Base blanca con hombros con destellos de pedrería negra",
+    "White Base with Black-to-Silver Rhinestone Ombre": "Base blanca con degradado de pedrería de negro a plateado",
+    "White Base with Red-to-Black Rhinestone Ombre": "Base blanca con degradado de pedrería de rojo a negro",
+    "White Base with Scattered Black Rhinestones": "Base blanca con pedrería negra dispersa",
+    "White Satin Peak Lapel": "Solapa de pico de raso blanco",
+    "White Shawl Lapel with Rhinestones": "Solapa chal blanca con pedrería",
+    "Wide Peak Lapel": "Solapa de pico ancha",
+    "Wide Peak Lapel with Velvet Texture": "Solapa de pico ancha con textura aterciopelada",
+    "Wide range of colors and patterns": "Amplia gama de colores y estampados",
+    "Wool Blend": "Mezcla de lana"
+  },
+  "products": {
+    "165": {
+      "title": "Esmoquin cruzado con solapa chal y cristales",
+      "content": "Esmoquin de hombre cruzado con solapa chal de raso negro, un lado totalmente cubierto de cristales y abalorios de cristal que se intensifican hacia el bajo y los puños. Disponible en gris, gris marengo, verde, azul real y azul marino. Incluye chaqueta, pantalón y pajarita para bodas, recepciones y eventos formales."
+    },
+    "238": {
+      "title": "Esmoquin cruzado con solapa de pico y tachuelas",
+      "content": "Esmoquin de hombre cruzado con solapa de pico de raso, un lado cubierto de tachuelas doradas o plateadas y tachuelas que se intensifican hacia el bajo y los puños. Disponible en blanco y en negro. Incluye chaqueta, pantalón a juego y pajarita para bodas y ocasiones formales."
+    },
+    "312": {
+      "title": "Esmoquin estampado con solapa de pico y cinturón",
+      "content": "Esmoquin de hombre en tejido estampado con solapa de pico ancha. Una opción elegante y atrevida para bodas y eventos formales. Incluye pajarita y detalle de cinturón decorativo."
+    },
+    "341": {
+      "title": "Traje de dos piezas asimétrico con solapa de pico y ganchos",
+      "content": "Traje de hombre moderno de diseño asimétrico con cierre de ganchos metálicos. Solapa de pico contemporánea y corte slim fit. Una elección perfecta para bodas, fiestas y eventos de moda."
+    },
+    "366": {
+      "title": "Esmoquin negro cruzado con solapa chal y cristales",
+      "content": "Esmoquin de hombre negro y cruzado con solapa chal de raso, un lado cubierto de cristales y abalorios de cristal que se concentran hacia el bajo y los puños. Disponible con cristales plateados, verdes o dorados. Incluye chaqueta, pantalón y pajarita para bodas, recepciones y eventos formales."
+    },
+    "378": {
+      "title": "Esmoquin estampado dorado con solapa chal",
+      "content": "Esmoquin de hombre en tejido dorado con estampado abstracto y solapa chal de raso. Traje de ceremonia ideal para bodas y ocasiones formales. Incluye pantalón y pajarita."
+    },
+    "403": {
+      "title": "Esmoquin con solapa chal y líneas doradas",
+      "content": "Esmoquin de hombre con solapa chal de raso y bordado de líneas doradas. Traje de ceremonia moderno para bodas, recepciones y ocasiones formales. Incluye pantalón y corbata opcional."
+    },
+    "404": {
+      "title": "Esmoquin cruzado jacquard floral con solapa chal",
+      "content": "Esmoquin de hombre cruzado en jacquard floral y paisley, con solapa chal de raso negro y pantalón negro. Disponible en plateado, azul marino, negro y plata, burdeos, verde y tonos dorados. Incluye chaqueta, pantalón y pajarita para bodas, recepciones y noches de gala."
+    },
+    "500": {
+      "title": "Traje cruzado de corte moderno",
+      "content": "Elegante traje de hombre cruzado con solapa de pico y detalles de botones dorados. Perfecto para ocasiones formales y para hombres que siguen la moda."
+    },
+    "524": {
+      "title": "Traje cruzado con botones metálicos",
+      "content": "Elegante traje de hombre cruzado con solapa de pico y botones dorados. Una opción atemporal para negocios y ocasiones formales."
+    },
+    "666": {
+      "title": "Traje cruzado con solapa de pico",
+      "content": "Sofisticado traje de hombre cruzado con solapa de pico y detalles de botones dorados. Adecuado tanto para el entorno corporativo como para ocasiones formales."
+    },
+    "710": {
+      "title": "Traje cruzado con solapa de pico y botones dorados",
+      "content": "Traje de hombre cruzado y moderno con solapa de pico ancha y elegantes botones dorados. Perfecto para eventos de alto nivel y apariciones con estilo."
+    },
+    "DB-PRE": {
+      "title": "Colección premium de trajes cruzados",
+      "content": "Traje de hombre cruzado premium con solapa de pico y corte moderno. Una opción versátil para compradores mayoristas y marcas propias que buscan elegancia clásica."
+    },
+    "SF-CLS": {
+      "title": "Colección de trajes slim fit clásicos",
+      "content": "Traje de hombre slim fit clásico con solapa de muesca. Diseño atemporal, ideal para compradores mayoristas que buscan trajes de negocios versátiles para el día a día."
+    },
+    "FB-FRM": {
+      "title": "Colección de trajes formales de negocios",
+      "content": "Colección premium de trajes formales de negocios con fotografía profesional con modelo. Amplia gama de diseños slim fit y cruzados para venta al por mayor y producción con marca propia."
+    },
+    "TP-PRE": {
+      "title": "Colección premium de trajes de tres piezas",
+      "content": "Traje de hombre de tres piezas premium con chaleco a juego y solapa de pico. Presentación fotografiada en maniquí. Ideal para compradores mayoristas y marcas propias."
+    },
+    "S01": {
+      "title": "Traje de lino de dos piezas gris para hombre",
+      "content": "Traje de hombre de dos piezas en mezcla de lino gris, con solapa de muesca y bolsillos de parche. Traje de verano ligero y transpirable, perfecto para bodas en la playa, padrinos y ceremonias con calor. Disponible para venta al por mayor y producción con marca propia."
+    },
+    "S02": {
+      "title": "Traje de lino de dos piezas camel para hombre",
+      "content": "Traje de hombre de dos piezas en mezcla de lino camel, con solapa de muesca y bolsillos de parche. Traje de verano ligero y transpirable, perfecto para bodas en la playa, padrinos y ceremonias con calor. Disponible para venta al por mayor y producción con marca propia."
+    },
+    "S03": {
+      "title": "Traje de lino de dos piezas marfil para hombre",
+      "content": "Traje de hombre de dos piezas en mezcla de lino marfil, con solapa de muesca y bolsillos de parche. Traje de verano ligero y transpirable, perfecto para bodas en la playa, padrinos y ceremonias con calor. Disponible para venta al por mayor y producción con marca propia."
+    },
+    "S04": {
+      "title": "Traje de lino de dos piezas beige arena para hombre",
+      "content": "Traje de hombre de dos piezas en mezcla de lino beige arena, con solapa de muesca y bolsillos de parche. Traje de verano ligero y transpirable, perfecto para bodas en la playa, padrinos y ceremonias con calor. Disponible para venta al por mayor y producción con marca propia."
+    },
+    "S05": {
+      "title": "Traje de tres piezas azul marino con solapa de pico",
+      "content": "Traje de hombre de tres piezas azul marino con solapa de pico y chaleco a juego. Diseño slim fit entallado para bodas, novios y vestimenta formal de negocios. Fabricado en Turquía para compradores mayoristas, OEM y de marca propia."
+    },
+    "S06": {
+      "title": "Traje de tres piezas gris marengo con solapa de pico",
+      "content": "Traje de hombre de tres piezas gris marengo con solapa de pico y chaleco a juego. Diseño slim fit entallado para bodas, novios y vestimenta formal de negocios. Fabricado en Turquía para compradores mayoristas, OEM y de marca propia."
+    },
+    "S07": {
+      "title": "Traje de tres piezas negro con solapa de pico",
+      "content": "Traje de hombre de tres piezas negro con solapa de pico y chaleco a juego. Diseño slim fit entallado para bodas, novios y vestimenta formal de negocios. Fabricado en Turquía para compradores mayoristas, OEM y de marca propia."
+    },
+    "S08": {
+      "title": "Traje de tres piezas verde esmeralda con solapa de pico",
+      "content": "Traje de hombre de tres piezas verde esmeralda con solapa de pico y chaleco a juego. Diseño slim fit entallado para bodas, novios y vestimenta formal de negocios. Fabricado en Turquía para compradores mayoristas, OEM y de marca propia."
+    },
+    "S09": {
+      "title": "Traje de tres piezas marrón con solapa de pico",
+      "content": "Traje de hombre de tres piezas marrón con solapa de pico y chaleco a juego. Diseño slim fit entallado para bodas, novios y vestimenta formal de negocios. Fabricado en Turquía para compradores mayoristas, OEM y de marca propia."
+    },
+    "T01": {
+      "title": "Esmoquin azul marino con rombos y solapa de pico",
+      "content": "Esmoquin de hombre azul marino cubierto por una celosía de rombos en abalorios, con solapa de pico de raso azul marino y bolsillos de parche y bajo ribeteados con abalorios. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T02": {
+      "title": "Esmoquin blanco con rombos negros y solapa de pico",
+      "content": "Chaqueta de esmoquin blanca con celosía de rombos en abalorios negros, solapa de pico de raso negro y bolsillos de parche ribeteados con abalorios, combinada con chaleco blanco con ribete negro y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T03": {
+      "title": "Esmoquin negro con rombos de abalorios y solapa de pico",
+      "content": "Esmoquin de hombre negro con celosía de rombos en abalorios negros tono sobre tono en toda la chaqueta, solapa de pico de raso negro y bolsillos de parche ribeteados con abalorios para un brillo discreto de noche. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T04": {
+      "title": "Esmoquin negro con rombos dorados y solapa de pico",
+      "content": "Esmoquin de hombre negro con celosía de rombos en abalorios dorados, ribetes de tachuelas doradas en los bolsillos de parche, el bajo y los puños, y solapa de pico de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T05": {
+      "title": "Esmoquin azul marino con rombos y solapa de pico negra",
+      "content": "Esmoquin de hombre azul marino con celosía de rombos en abalorios y bolsillos de parche ribeteados con abalorios, rematado con una solapa de pico de raso negro en contraste y chaleco negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T06": {
+      "title": "Esmoquin rojo con paisley de pedrería y solapa chal",
+      "content": "Esmoquin de hombre rojo con solapa chal de raso rojo, motivos paisley de pedrería en los hombros y un degradado de pedrería que se intensifica hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T07": {
+      "title": "Esmoquin verde esmeralda con paisley y solapa chal",
+      "content": "Esmoquin de hombre verde esmeralda con solapa chal de raso gris verdoso, motivos paisley de pedrería en los hombros y un degradado de pedrería hacia el bajo. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T08": {
+      "title": "Esmoquin burdeos con paisley de pedrería y solapa chal",
+      "content": "Esmoquin de hombre burdeos con solapa chal de raso burdeos, motivos paisley de pedrería en los hombros y un degradado de pedrería que se concentra hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T09": {
+      "title": "Esmoquin verde bosque con paisley y solapa chal",
+      "content": "Esmoquin de hombre verde bosque con solapa chal de raso verde oscuro, motivos paisley de pedrería en los hombros y un degradado de pedrería hasta el bajo. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T10": {
+      "title": "Esmoquin negro con rombos plateados y solapa de pico",
+      "content": "Esmoquin de hombre negro con celosía de rombos en abalorios plateados, ribetes de perlas en los bolsillos de parche, el bajo y los puños, y solapa de pico de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T11": {
+      "title": "Esmoquin cruzado azul marino con degradado dorado",
+      "content": "Esmoquin de hombre cruzado azul marino con solapa de pico con brillo dorado y un degradado dorado que se extiende desde la cintura hasta el bajo y los puños. Se suministra con pantalón a juego y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T12": {
+      "title": "Esmoquin negro con cascada de pedrería dorada",
+      "content": "Esmoquin de hombre negro con solapa de pico totalmente cubierta de pedrería dorada y líneas en cascada de pedrería dorada que bajan por el pecho, los hombros y las mangas. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T13": {
+      "title": "Esmoquin negro con cascada de pedrería plateada",
+      "content": "Esmoquin de hombre negro con solapa de pico de pedrería plateada y líneas en cascada de pedrería plateada que caen desde los hombros por el pecho y las mangas. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T14": {
+      "title": "Esmoquin negro con cascada de pedrería azabache",
+      "content": "Esmoquin de hombre negro con solapa de pico de pedrería negro azabache y líneas en cascada de pedrería tono sobre tono por el pecho y las mangas, para un brillo discreto. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T15": {
+      "title": "Esmoquin blanco con cascada de pedrería negra",
+      "content": "Esmoquin de hombre blanco con solapa de pico de pedrería negra y líneas en cascada de pedrería negra sobre los hombros y el pecho, combinado con chaleco blanco y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T16": {
+      "title": "Esmoquin azul marino con cascada de pedrería dorada",
+      "content": "Esmoquin de hombre azul marino con solapa de pico de pedrería dorada y líneas en cascada de pedrería dorada que bajan desde los hombros por el pecho y las mangas. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T17": {
+      "title": "Esmoquin negro con degradado de pedrería plateada",
+      "content": "Esmoquin de hombre negro con solapa chal cubierta de pedrería plateada y un motivo de pedrería plateada que se densifica desde el pecho hasta formar una banda continua en el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T18": {
+      "title": "Esmoquin negro con degradado de pedrería dorada",
+      "content": "Esmoquin de hombre negro con solapa chal cubierta de pedrería dorada y un motivo de pedrería dorada que se densifica desde el pecho hasta el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T19": {
+      "title": "Esmoquin azul marino con degradado dorado y solapa chal",
+      "content": "Esmoquin de hombre azul marino con solapa chal cubierta de pedrería negra y una mezcla de pedrería dorada y azul que forma un degradado hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T20": {
+      "title": "Esmoquin verde salvia con paisley y solapa chal",
+      "content": "Esmoquin de hombre verde salvia con solapa chal de raso verde salvia, motivos paisley de pedrería tono sobre tono en los hombros y un degradado de pedrería hacia el bajo. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T21": {
+      "title": "Esmoquin negro con degradado de cristales y borde dorado",
+      "content": "Esmoquin de hombre negro con solapa de pico cubierta de cristales y bordeada de tachuelas doradas, y un degradado de cristales plateados que se concentra hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T22": {
+      "title": "Esmoquin azul marino con puntos de pedrería dorada",
+      "content": "Esmoquin de hombre azul marino con puntos de pedrería dorada en los delanteros y la parte baja de las mangas, y solapa de pico de raso azul marino ribeteada con pedrería dorada. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T23": {
+      "title": "Esmoquin blanco con puntos de pedrería negra",
+      "content": "Esmoquin de hombre blanco con puntos de pedrería negra en los delanteros y la parte baja de las mangas, solapa de pico de raso negro, chaleco blanco y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T24": {
+      "title": "Esmoquin negro con puntos de pedrería plateada",
+      "content": "Esmoquin de hombre negro con puntos de pedrería plateada en los delanteros y la parte baja de las mangas, y solapa de pico de raso negro ribeteada con pedrería plateada. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T25": {
+      "title": "Esmoquin negro con puntos de pedrería dorada",
+      "content": "Esmoquin de hombre negro con puntos de pedrería dorada en los delanteros y la parte baja de las mangas, y solapa de pico de raso negro ribeteada con pedrería dorada. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T26": {
+      "title": "Esmoquin azul marino con cristales y solapa chal",
+      "content": "Esmoquin de hombre azul marino con solapa chal cubierta de cristales azules y cristales azules dispersos que se intensifican hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T27": {
+      "title": "Esmoquin azul marino con degradado de pedrería y solapa chal",
+      "content": "Esmoquin de hombre azul marino con solapa chal negra cubierta de pedrería y pedrería dorada y azul que forma un degradado hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T28": {
+      "title": "Esmoquin azul marino con chevrón de cristales",
+      "content": "Esmoquin de hombre azul marino con paneles en chevrón de cristales en el cuerpo y las mangas, puños y bajo lisos en contraste y solapa chal de raso ancha. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T29": {
+      "title": "Esmoquin negro con chevrón de cristales plateados",
+      "content": "Esmoquin de hombre negro con llamativos paneles en chevrón de cristales plateados en el cuerpo y las mangas, puños y bajo negros lisos y solapa chal ancha de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T30": {
+      "title": "Esmoquin negro con chevrón de cristales azabache",
+      "content": "Esmoquin de hombre negro con paneles en chevrón de cristales azabache tono sobre tono en el cuerpo y las mangas, puños y bajo negros lisos y solapa chal ancha de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T31": {
+      "title": "Esmoquin negro con chevrón de cristales dorados",
+      "content": "Esmoquin de hombre negro con paneles en chevrón de cristales dorados en el cuerpo y las mangas, puños y bajo negros lisos y solapa chal ancha de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T32": {
+      "title": "Esmoquin de lentejuelas plateadas y blancas con solapa chal",
+      "content": "Esmoquin de hombre de lentejuelas plateadas y blancas con líneas en cascada de lentejuelas negras hacia el bajo, solapa chal de raso negro, chaleco blanco y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T33": {
+      "title": "Esmoquin de lentejuelas azul marino y doradas",
+      "content": "Esmoquin de hombre de lentejuelas azul marino y doradas: las lentejuelas doradas de los hombros y el pecho se rompen en líneas en cascada azul marino hacia el bajo, con solapa chal de raso azul marino. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T34": {
+      "title": "Esmoquin de lentejuelas plateadas con degradado negro",
+      "content": "Esmoquin de hombre de lentejuelas plateadas que se funden en líneas en cascada de lentejuelas negras hacia el bajo y los puños, con solapa chal de raso negro y chaleco negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T35": {
+      "title": "Esmoquin azul marino con tachuelas doradas",
+      "content": "Esmoquin de hombre azul marino con tachuelas doradas repartidas por la chaqueta y pantalón a juego con tachuelas, rematado con solapa de pico de raso azul marino y chaleco azul marino. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T36": {
+      "title": "Esmoquin negro con cristales dorados y solapa chal",
+      "content": "Esmoquin de hombre negro con solapa chal cubierta de cristales dorados y cristales dorados dispersos que se densifican hacia el bajo y los puños. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T37": {
+      "title": "Esmoquin negro con tachuelas doradas y solapa de pico",
+      "content": "Esmoquin de hombre negro con tachuelas doradas repartidas por la chaqueta y pantalón a juego con tachuelas, rematado con solapa de pico de raso negro y chaleco negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T38": {
+      "title": "Esmoquin azul marino con cuadrícula de cristales",
+      "content": "Esmoquin de hombre azul marino con una cuadrícula de cristales tono sobre tono en los delanteros y anchas bandas de cristales en los puños, rematado con solapa de pico de raso azul marino. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T39": {
+      "title": "Esmoquin blanco con cuadrícula de cristales negros",
+      "content": "Esmoquin de hombre blanco con cuadrícula de cristales negros en los delanteros, bandas de cristales negros en los puños y solapa de pico de raso negro, combinado con chaleco blanco y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T40": {
+      "title": "Esmoquin negro con cuadrícula de cristales azabache",
+      "content": "Esmoquin de hombre negro con cuadrícula de cristales azabache tono sobre tono en los delanteros y bandas de cristales en los puños, rematado con solapa de pico de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T41": {
+      "title": "Esmoquin negro con cuadrícula de cristales dorados",
+      "content": "Esmoquin de hombre negro con cuadrícula de cristales dorados en los delanteros y bandas de cristales dorados en los puños, rematado con solapa de pico de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T42": {
+      "title": "Esmoquin negro con cuadrícula de cristales plateados",
+      "content": "Esmoquin de hombre negro con cuadrícula de cristales plateados en los delanteros y bandas de cristales plateados en los puños, rematado con solapa de pico de raso negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T43": {
+      "title": "Esmoquin azul marino con raya diplomática de pedrería",
+      "content": "Esmoquin de hombre azul marino con raya diplomática de pedrería dorada a lo largo de toda la chaqueta y solapa de pico de raso azul marino ribeteada con pedrería dorada. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T44": {
+      "title": "Esmoquin negro con destellos de pedrería plateada",
+      "content": "Esmoquin de hombre negro con finas líneas de destellos de pedrería plateada en ambos hombros y solapa chal de raso negro, dejando limpio el resto de la chaqueta. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T45": {
+      "title": "Esmoquin blanco con pedrería negra y solapa de pico",
+      "content": "Esmoquin de hombre blanco con pedrería negra dispersa por la chaqueta, solapa de pico de raso blanco y chaleco blanco, combinado con pantalón negro con pedrería. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T46": {
+      "title": "Esmoquin azul marino con hombros de pedrería dorada",
+      "content": "Esmoquin de hombre azul marino con líneas de destellos de pedrería dorada en ambos hombros y solapa chal de raso azul marino, dejando limpio el resto de la chaqueta. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T47": {
+      "title": "Esmoquin negro con hombros plateados y solapa chal",
+      "content": "Esmoquin de hombre negro con llamativas líneas de destellos de pedrería plateada en los hombros y la parte alta de las mangas y solapa chal de raso negro, dejando limpio el delantero de la chaqueta. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T48": {
+      "title": "Esmoquin negro con hombros de abalorios y solapa chal",
+      "content": "Esmoquin de hombre negro con aplique de abalorios negros tono sobre tono en los hombros y la parte alta de las mangas, solapa chal de raso negro y bolsillos ribeteados en raso. Se suministra con pantalón a juego y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T49": {
+      "title": "Esmoquin negro con hombros bordados en plata",
+      "content": "Esmoquin de hombre negro con aplique de abalorios plateados sobre los hombros y la parte alta de las mangas, solapa chal de raso negro y bolsillos ribeteados en raso. Se suministra con pantalón a juego y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T50": {
+      "title": "Chaqueta de esmoquin blanca con hombros ornamentados",
+      "content": "Chaqueta de esmoquin blanca para hombre con aplique de abalorios negros sobre los hombros y la parte alta de las mangas, solapa chal de raso negro y bolsillos ribeteados en negro. Se combina con pantalón negro para bodas, recepciones y veladas de etiqueta. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T51": {
+      "title": "Chaqueta de esmoquin blanca con hombros de abalorios",
+      "content": "Chaqueta de esmoquin blanca para hombre con aplique de abalorios negros en los hombros, solapa chal de raso negro y bolsillos ribeteados en negro. Se combina con pantalón negro para bodas, recepciones y veladas de etiqueta. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T52": {
+      "title": "Esmoquin blanco con degradado de pedrería roja",
+      "content": "Esmoquin de hombre blanco con pedrería roja en los hombros que se funde en pedrería negra hacia la cintura, solapa chal blanca con pedrería, chaleco blanco y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T53": {
+      "title": "Esmoquin blanco con degradado de pedrería plateada",
+      "content": "Esmoquin de hombre blanco con pedrería negra en los hombros que se funde en plateada hacia la cintura, solapa chal blanca con pedrería, chaleco blanco y pantalón negro. Se suministra como conjunto de tres piezas con chaleco, pantalón y pajarita para bodas, galas, graduaciones y espectáculos. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    },
+    "T54": {
+      "title": "Chaqueta de esmoquin blanca con destellos de pedrería",
+      "content": "Chaqueta de esmoquin blanca para hombre con líneas de destellos de pedrería negra en los hombros y solapa chal de raso negro, combinada con chaleco blanco. Se suministra con chaleco a juego y pantalón negro para bodas, recepciones y veladas de etiqueta. Fabricado en Estambul, Turquía, para compradores mayoristas, OEM y de marca propia."
+    }
+  }
+}

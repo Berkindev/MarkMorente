@@ -5,13 +5,26 @@
   if (burger && nav) {
     const set = (open) => {
       burger.setAttribute('aria-expanded', String(open));
-      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      burger.setAttribute('aria-label', open ? burger.dataset.close || 'Close menu' : burger.dataset.open || 'Open menu');
       nav.classList.toggle('is-open', open);
       document.body.style.overflow = open ? 'hidden' : '';
     };
     burger.addEventListener('click', () => set(burger.getAttribute('aria-expanded') !== 'true'));
     nav.addEventListener('click', (e) => { if (e.target.closest('a')) set(false); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') set(false); });
+  }
+
+  // Mobile contact bar: hidden while the page's own WhatsApp button is on screen, so they never stack
+  const heroCta = document.querySelector('.hero .btn--wa, .phead .btn--wa, .order-box .btn--wa');
+  if (heroCta && 'IntersectionObserver' in window) {
+    new IntersectionObserver(([e]) => document.body.classList.toggle('mbar-off', e.isIntersecting)).observe(heroCta);
+  }
+
+  // Language menu: close on outside click / Escape
+  const lang = document.querySelector('.lang');
+  if (lang) {
+    document.addEventListener('click', (e) => { if (lang.open && !lang.contains(e.target)) lang.open = false; });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') lang.open = false; });
   }
 
   const els = document.querySelectorAll('.reveal');

@@ -45,3 +45,4 @@ next-env.d.ts
 # Yerel analiz verisi (public repo)
 docs/gsc-*/
 .cache/
+docs/dns-*
