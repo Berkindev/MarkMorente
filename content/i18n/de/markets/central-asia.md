@@ -13,7 +13,7 @@ country_list: [Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Geo
 
 Einkäufer von Baku bis Almaty kennen türkische Herrenmode, und viele kaufen sie seit Jahren. Türkische Anzüge haben in der Region den Ruf guter Schnittführung, verlässlicher Qualität und von Modellen, die zum lokalen Geschmack bei Hochzeiten und festlichen Anlässen passen. Istanbul liegt zudem nah, mit Direktflügen in die wichtigsten Hauptstädte und etablierten Lkw-Routen.
 
-Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge in Istanbul. Unsere Produktion ist nach ISO 9001 zertifiziert, hat eine Kapazität von über 1.000 Anzügen pro Tag und verarbeitet Stoffe nach OEKO-TEX Standard 100. Die Produktion dauert in der Regel 12-15 Tage, je nach Menge, Modell und Stoffverfügbarkeit.
+Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge in Istanbul. Unsere Fabrik hat eine Kapazität von über 1.000 Anzügen pro Tag. Die Produktion dauert in der Regel 12-15 Tage, je nach Menge, Modell und Stoffverfügbarkeit.
 
 Wir verkaufen ausschließlich an Unternehmen: Importeure, Großhändler, Herrenausstatter, Hochzeitsausstatter und Marken. Die kleinste Bestellung ist ein Paket.
 

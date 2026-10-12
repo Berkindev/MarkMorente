@@ -62,10 +62,6 @@ La production à la commande prend en général 12-15 jours après validation de
 
 Plus de 1 000 costumes par jour.
 
-### Quelles certifications avez-vous ?
-
-Notre production est certifiée ISO 9001, et nous travaillons avec des tissus OEKO-TEX Standard 100.
-
 ### Comment contrôlez-vous la qualité ?
 
 Les costumes sont contrôlés pendant la coupe et la couture puis à nouveau avant l'emballage : mesures, coutures, doublure, repassage, boutons et étiquettes. La production est suivie dans notre système ERP. Nous pouvons vous envoyer des photos ou une vidéo de votre marchandise avant l'expédition.

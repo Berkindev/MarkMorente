@@ -64,8 +64,8 @@ We ship worldwide and quote freight per destination. These are the regions we wo
 - **Middle East:** wholesalers in the UAE, Saudi Arabia, Iraq, Lebanon, Jordan and the Gulf. [Suits for the Middle East](/markets/middle-east)
 - **North America:** retailers, formalwear shops and brands in the USA and Canada. [Suits for North America](/markets/north-america)
 
-## Quality and certifications
+## Quality control and capacity
 
-Our production is ISO 9001 certified and we work with OEKO-TEX Standard 100 fabrics. Patterns are made in CAD, production is tracked in an ERP system, and suits are checked at each stage of sewing and again before packing. Daily capacity is more than 1,000 suits, which means a 100-unit style or a container order can be planned without long queues.
+Patterns are made in CAD, production is tracked in an ERP system, and suits are checked at each stage of sewing and again before packing. Daily capacity is more than 1,000 suits, which means a 100-unit style or a container order can be planned without long queues.
 
 Send us the models and quantities you have in mind on WhatsApp, and we will reply with a quote.

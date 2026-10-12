@@ -93,9 +93,9 @@ C'est votre marquage qui transforme notre production en votre produit. Nous pouv
 
 Vous pouvez aussi nous envoyer vos propres étiquettes et housses, et nous les poserons pendant la production. Indiquez-nous tôt l'option choisie, car les fournitures imprimées doivent être prêtes avant le début de la couture.
 
-## Qualité et certifications
+## Contrôle qualité
 
-Notre production est certifiée ISO 9001 et nous travaillons avec des tissus OEKO-TEX Standard 100. Les patrons sont tracés en CAO, et nous utilisons le prototypage 3D pour vérifier un nouveau modèle avant de couper le tissu. Les mêmes contrôles qualité s'appliquent aux commandes sous votre marque et à notre propre stock.
+Les patrons sont tracés en CAO, et nous utilisons le prototypage 3D pour vérifier un nouveau modèle avant de couper le tissu. Les mêmes contrôles qualité s'appliquent aux commandes sous votre marque et à notre propre stock.
 
 ## Qui utilise notre service de marque propre
 

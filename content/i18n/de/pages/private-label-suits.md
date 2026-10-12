@@ -93,9 +93,9 @@ Erst Ihre Kennzeichnung macht aus unserer Produktion Ihr Produkt. Wir können li
 
 Sie können uns auch Ihre eigenen Etiketten und Kleidersäcke senden, und wir bringen sie während der Produktion an. Sagen Sie uns früh, welche Option Sie wünschen, denn bedruckte Zutaten müssen vor Nähbeginn bereitliegen.
 
-## Qualität und Zertifizierungen
+## Qualitätskontrolle
 
-Unsere Produktion ist nach ISO 9001 zertifiziert, und wir verarbeiten Stoffe nach OEKO-TEX Standard 100. Die Schnitte entstehen im CAD, und mit 3D-Prototyping prüfen wir ein neues Modell, bevor wir Stoff zuschneiden. Für Private Label Aufträge gelten dieselben Qualitätskontrollen wie für unsere eigene Lagerware.
+Die Schnitte entstehen im CAD, und mit 3D-Prototyping prüfen wir ein neues Modell, bevor wir Stoff zuschneiden. Für Private Label Aufträge gelten dieselben Qualitätskontrollen wie für unsere eigene Lagerware.
 
 ## Wer unseren Private Label Service nutzt
 

@@ -75,7 +75,7 @@ Her takım fabrikadan çıkmadan önce kontrol edilir. Üretim siparişlerinde k
 - Düğmeler, iliklik ve fermuarlar
 - Etiketler, askı etiketleri ve her lottaki bedenlerin doğruluğu
 
-Üretimimiz ISO 9001 sertifikalıdır. Üretimden ve sevkiyat öncesinden fotoğraf ya da video gönderiyoruz; böylece malınızı İstanbul'dan çıkmadan önce görmüş oluyorsunuz.
+Üretimden ve sevkiyat öncesinden fotoğraf ya da video gönderiyoruz; böylece malınızı İstanbul'dan çıkmadan önce görmüş oluyorsunuz.
 
 ## 7. Adım: Paketleme
 

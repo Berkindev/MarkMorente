@@ -24,7 +24,6 @@ export const site = {
     moq: '100 units per style (made to order)',
     stockLot: 'One lot = one model in a size run, 6–7 suits (EU 46–56/58)',
     leadTime: '12–15 days typical production time, depending on quantity, model and fabric',
-    certifications: ['ISO 9001 certified production', 'OEKO-TEX Standard 100 fabrics'],
     technology: ['CAD pattern design', 'ERP-controlled production', '3D prototyping', 'In-house pattern making and sampling'],
   },
   markets: [

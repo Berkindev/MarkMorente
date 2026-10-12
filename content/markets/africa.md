@@ -11,7 +11,7 @@ country_list: [Nigeria, Ghana, Côte d'Ivoire, Senegal, Cameroon, Kenya, Tanzani
 
 ## Why African buyers source suits from Istanbul
 
-African importers buy from Istanbul because they get European-style cutting, a wide range of ceremony styles and short production times from one factory. Mark Morente has been producing men's suits for more than 20 years, with capacity of 1000+ suits per day, ISO 9001 certified production and OEKO-TEX Standard 100 fabrics.
+African importers buy from Istanbul because they get European-style cutting, a wide range of ceremony styles and short production times from one factory. Mark Morente has been producing men's suits for more than 20 years, with capacity of 1000+ suits per day.
 
 Distance matters too. Istanbul is one of the busiest air cargo hubs between Europe, Asia and Africa, and Turkish Airlines flies to dozens of cities on the continent. For many buyers in Lagos, Accra, Nairobi, Kinshasa or Algiers, that means goods can leave our factory and land in their city on a scheduled flight, without changing carriers in the Gulf or Europe.
 

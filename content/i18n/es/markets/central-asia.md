@@ -13,7 +13,7 @@ country_list: [Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Geo
 
 De Bakú a Almaty, los compradores ya conocen la moda masculina turca, y muchos la compran desde hace años. En la región, los trajes turcos tienen fama de buen patronaje, calidad fiable y estilos que encajan con el gusto local para bodas y eventos formales. Además, Estambul está cerca, con vuelos directos a las principales capitales y rutas de camión consolidadas.
 
-Mark Morente fabrica trajes de hombre en Estambul desde hace más de 20 años. Nuestra producción está certificada ISO 9001, tiene una capacidad de más de 1.000 trajes al día y trabaja con tejidos OEKO-TEX Standard 100. La producción suele tardar 12-15 días, según la cantidad, el modelo y la disponibilidad del tejido.
+Mark Morente fabrica trajes de hombre en Estambul desde hace más de 20 años. Nuestra fábrica tiene una capacidad de más de 1.000 trajes al día. La producción suele tardar 12-15 días, según la cantidad, el modelo y la disponibilidad del tejido.
 
 Vendemos solo a empresas: importadores, mayoristas, tiendas de moda masculina, tiendas de trajes de novio y marcas. El pedido mínimo es un lote.
 

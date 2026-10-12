@@ -75,7 +75,7 @@ Every suit is checked before it leaves. For production orders, checks also happe
 - Buttons, buttonholes and zips
 - Labels, hangtags and correct sizes in each lot
 
-Our production is ISO 9001 certified. We send photos or video from production and before shipping, so you see your goods before they leave Istanbul.
+We send photos or video from production and before shipping, so you see your goods before they leave Istanbul.
 
 ## Step 7: Packing
 

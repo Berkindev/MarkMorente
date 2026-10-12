@@ -75,7 +75,7 @@ Revisamos cada traje antes de que salga de la fábrica. En los pedidos de produc
 - Botones, ojales y cremalleras
 - Etiquetas, etiquetas colgantes y tallas correctas en cada lote
 
-Nuestra producción tiene certificación ISO 9001. Le enviamos fotos o vídeo de la producción y antes del envío, para que vea su mercancía antes de que salga de Estambul.
+Le enviamos fotos o vídeo de la producción y antes del envío, para que vea su mercancía antes de que salga de Estambul.
 
 ## Paso 7: Embalaje
 

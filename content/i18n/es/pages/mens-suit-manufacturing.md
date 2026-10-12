@@ -1,7 +1,7 @@
 ---
 slug: mens-suit-manufacturing
 title: Fabricante de trajes de hombre en Turquía | Mark Morente
-description: Fabricante de trajes de hombre en Estambul desde 1994. Lotes al por mayor, marca propia y OEM: trajes, esmoquin y de novio. ISO 9001, 1.000+ trajes al día.
+description: Fabricante de trajes de hombre en Estambul desde 1994. Lotes al por mayor, marca propia y OEM: trajes, esmoquin y de novio. Capacidad de 1.000+ trajes al día.
 h1: Fabricante de trajes de hombre en Turquía
 lead: Fabricamos trajes de hombre, esmoquin y trajes de novio en nuestra fábrica de Estambul para mayoristas, tiendas y marcas. Compre lotes de stock, encárguenos la producción con su marca o envíenos sus especificaciones para producción OEM.
 updated: 2026-10-09
@@ -64,12 +64,10 @@ Cada traje pasa por las mismas fases de producción, sea para nuestro stock o pa
 5. **Control de calidad.** Los trajes se revisan durante la confección y de nuevo al final: medidas, costuras, forro, botones, planchado y etiquetas.
 6. **Embalaje.** Cada traje va en una funda portatrajes con su etiqueta colgante y después en cajas marcadas con modelo, tallas y referencia del pedido.
 
-## Capacidad y certificaciones
+## Capacidad y tecnología de producción
 
 Nuestra capacidad diaria supera los 1.000 trajes, así que tanto un modelo de 100 unidades como un programa de temporada con varios modelos se planifican sin largas esperas.
 
-- **Producción certificada ISO 9001**
-- **Tejidos OEKO-TEX Standard 100**
 - **Producción y seguimiento de calidad controlados por ERP**
 - **Diseño de patrones en CAD y prototipado 3D**
 - **Patronaje y muestras propios**
@@ -119,7 +117,3 @@ Sí. Los pedidos de marca propia desde 100 unidades por modelo llevan sus etique
 ### ¿Venden trajes sueltos?
 
 No. Trabajamos solo con empresas y el pedido más pequeño es un lote.
-
-### ¿Qué certificaciones tienen?
-
-Nuestra producción cuenta con la certificación ISO 9001 y trabajamos con tejidos OEKO-TEX Standard 100.

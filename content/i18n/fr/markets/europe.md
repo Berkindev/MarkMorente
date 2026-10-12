@@ -13,7 +13,7 @@ country_list: [United Kingdom, Germany, Netherlands, Belgium, France, Austria, S
 
 Les détaillants européens achètent leurs costumes en Turquie pour trois raisons pratiques : l'usine est proche, la production est rapide et les minimums sont assez bas pour des marques de taille moyenne. Un camion parti d'Istanbul rejoint la plupart des pays d'Europe par la route, et notre production prend en général 12-15 jours selon la quantité, le modèle et la disponibilité du tissu.
 
-Mark Morente est un fabricant de costumes homme avec plus de 20 ans de production, une capacité de plus de 1 000 costumes par jour, une production certifiée ISO 9001 et des tissus OEKO-TEX Standard 100. Le patronage est réalisé en interne en CAO, et la qualité est contrôlée à chaque étape.
+Mark Morente est un fabricant de costumes homme avec plus de 20 ans de production et une capacité de plus de 1 000 costumes par jour. Le patronage est réalisé en interne en CAO, et la qualité est contrôlée à chaque étape.
 
 Nous vendons uniquement aux professionnels : magasins de prêt-à-porter masculin, chaînes de boutiques, grands magasins, marques en ligne, boutiques de mariage et de tenues de cérémonie, sociétés de location et acheteurs d'entreprise.
 
@@ -54,7 +54,7 @@ Le règlement (UE) n° 1007/2011 impose une étiquette de composition utilisant 
 Chaque marché européen achète un peu différemment. Voici ce que nous observons le plus souvent.
 
 - **Royaume-Uni.** Costumes de ville marine et gris, costumes de mariage pour le marié et ses témoins, tenues de soirée pour les loueurs. Les tailles britanniques au tour de poitrine sont courantes : convenez de la correspondance des tailles dès le départ. Notre [guide des tailles](/size-guide) vous y aide.
-- **Allemagne, Autriche, Pays-Bas, Belgique.** Coupes modernes, laines mélangées de qualité, couleurs sobres. Les acheteurs y posent des questions précises sur la composition des tissus et les certificats, et nous y répondons avant la production.
+- **Allemagne, Autriche, Pays-Bas, Belgique.** Coupes modernes, laines mélangées de qualité, couleurs sobres. Les acheteurs y posent des questions précises sur la composition des tissus, et nous y répondons avant la production.
 - **France.** Coupes slim, costumes de cérémonie et smokings pour les mariages et les événements.
 - **Suède, Danemark, Finlande, Norvège.** Coupes slim et moderne en gris, bleu et tons terre, tissus mi-lourds à lourds pour l'hiver.
 - **Roumanie, Grèce.** Forte demande en saison des mariages, avec de bonnes ventes de costumes trois pièces et de smokings.

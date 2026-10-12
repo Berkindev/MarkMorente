@@ -1,7 +1,7 @@
 ---
 slug: faq
 title: Toptan Takım Elbise Üretimi: Sık Sorulan Sorular
-description: Firmalar için yanıtlar: minimum sipariş, lot, private label, OEM, numune, termin, kalite, sertifikalar, sevkiyat ve ödeme koşulları. Takım elbise üreticisi SSS.
+description: Firmalar için yanıtlar: minimum sipariş, lot, private label, OEM, numune, termin, kalite kontrol, sevkiyat ve ödeme koşulları. Takım elbise üreticisi SSS.
 h1: Sık sorulan sorular
 lead: Toptancıların, mağazaların ve markaların bize en sık sorduğu soruların net yanıtları. Sorunuz burada yoksa WhatsApp'tan yazın.
 updated: 2026-10-09
@@ -61,10 +61,6 @@ Siparişe özel üretim, numune onayı ve sipariş teyidinden sonra genellikle 1
 ### Üretim kapasiteniz nedir?
 
 Günde 1.000 takımın üzerinde.
-
-### Hangi sertifikalara sahipsiniz?
-
-Üretimimiz ISO 9001 sertifikalıdır ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz.
 
 ### Kaliteyi nasıl kontrol ediyorsunuz?
 

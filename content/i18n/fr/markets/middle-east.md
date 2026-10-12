@@ -13,7 +13,7 @@ country_list: [United Arab Emirates, Saudi Arabia, Iraq, Kuwait, Qatar, Jordan, 
 
 Les acheteurs du Moyen-Orient achètent leurs costumes à Istanbul parce que la ville est proche, la production rapide, et parce que les fabricants turcs produisent les modèles de cérémonie que demandent leurs clients. Istanbul est à quelques heures de vol du Golfe et du Levant, et l'Irak est accessible par camion.
 
-Mark Morente fabrique des costumes homme depuis plus de 20 ans. Notre production est certifiée ISO 9001, avec une capacité de plus de 1 000 costumes par jour ; nous utilisons des tissus OEKO-TEX Standard 100 et terminons en général la production en 12-15 jours, selon la quantité, le modèle et la disponibilité du tissu.
+Mark Morente fabrique des costumes homme depuis plus de 20 ans. Notre usine a une capacité de plus de 1 000 costumes par jour et termine en général la production en 12-15 jours, selon la quantité, le modèle et la disponibilité du tissu.
 
 Nous travaillons uniquement avec les professionnels : importateurs, réexportateurs, grossistes, magasins de prêt-à-porter masculin, boutiques de mariage et de tenues de cérémonie, et acheteurs d'entreprise. La plus petite commande est un lot.
 

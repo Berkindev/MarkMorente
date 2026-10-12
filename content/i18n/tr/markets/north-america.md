@@ -15,7 +15,7 @@ ABD ve Kanadalı alıcılar Türkiye'ye; daha kısa üretim süreleri, terzilik 
 
 Bu yapı, binlerce adede girmeden yeni modelleri denemek isteyen orta ölçekli mağazalara, online erkek giyim markalarına ve abiye kiralama firmalarına uygun. Yüksek emniyet stoku taşımak yerine çok satan bir modeli hızlıca yeniden sipariş edebiliyorsunuz.
 
-Mark Morente 20 yılı aşkın süredir İstanbul'da erkek takım elbise üretiyor. Üretimimiz ISO 9001 sertifikalı, günlük kapasitemiz 1.000+ takım, OEKO-TEX Standard 100 kumaşlarla çalışıyoruz ve kalıpları CAD ve 3D prototipleme ile kendi bünyemizde hazırlıyoruz.
+Mark Morente 20 yılı aşkın süredir İstanbul'da erkek takım elbise üretiyor. Günlük kapasitemiz 1.000+ takım ve kalıpları CAD ve 3D prototipleme ile kendi bünyemizde hazırlıyoruz.
 
 ## Türkiye ile tipik Asya tedariki karşılaştırması
 

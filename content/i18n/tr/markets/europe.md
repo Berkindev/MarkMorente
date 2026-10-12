@@ -13,7 +13,7 @@ country_list: [United Kingdom, Germany, Netherlands, Belgium, France, Austria, S
 
 Avrupalı mağazaların takım elbiseyi Türkiye'den almasının üç pratik nedeni var: fabrika yakın, üretim hızlı ve minimum adetler orta ölçekli markaların kaldırabileceği seviyede. İstanbul'dan çıkan bir TIR Avrupa'nın büyük kısmına kara yoluyla ulaşıyor; üretimimiz de adet, model ve kumaş durumuna bağlı olarak genellikle 12-15 gün sürüyor.
 
-Mark Morente, 20 yılı aşkın üretim geçmişi olan bir erkek takım elbise üreticisi. Günlük kapasitemiz 1.000+ takım, üretimimiz ISO 9001 sertifikalı ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz. Kalıplar CAD ile kendi bünyemizde hazırlanıyor, kalite her aşamada kontrol ediliyor.
+Mark Morente, 20 yılı aşkın üretim geçmişi olan bir erkek takım elbise üreticisi. Günlük kapasitemiz 1.000+ takım. Kalıplar CAD ile kendi bünyemizde hazırlanıyor, kalite her aşamada kontrol ediliyor.
 
 Yalnızca firmalara satış yapıyoruz: erkek giyim mağazaları, butik zincirleri, büyük mağazalar, online markalar, damatlık ve abiye mağazaları, kiralama firmaları ve kurumsal alıcılar.
 
@@ -54,7 +54,7 @@ AB'nin 1007/2011 sayılı Tüzüğü, takımın satıldığı ülkenin resmi dil
 Her Avrupa pazarı biraz farklı alım yapıyor. En sık gördüğümüz eğilimler şöyle:
 
 - **Birleşik Krallık.** Lacivert ve gri iş takımları, damat ve sağdıçlar için damatlık, kiralama firmaları için abiye ve smokin. İngiliz göğüs ölçüsü bedenlemesi yaygın olduğu için beden dönüşümünü baştan netleştirin. [Beden rehberimiz](/size-guide) bu konuda yardımcı olur.
-- **Almanya, Avusturya, Hollanda, Belçika.** Modern kesim, kaliteli yün karışımlar, sakin renkler. Buradaki alıcılar kumaş içeriği ve sertifikalar hakkında ayrıntılı sorular soruyor; biz de bunları üretimden önce yanıtlıyoruz.
+- **Almanya, Avusturya, Hollanda, Belçika.** Modern kesim, kaliteli yün karışımlar, sakin renkler. Buradaki alıcılar kumaş içeriği hakkında ayrıntılı sorular soruyor; biz de bunları üretimden önce yanıtlıyoruz.
 - **Fransa.** Slim fit kesimler, tören takımları, düğün ve davetler için smokin.
 - **İsveç, Danimarka, Finlandiya, Norveç.** Gri, mavi ve toprak tonlarında slim fit ve modern kesim; kış için orta ve ağır gramajlar.
 - **Romanya, Yunanistan.** Düğün sezonunda güçlü talep; üçlü takım ve smokin iyi satıyor.

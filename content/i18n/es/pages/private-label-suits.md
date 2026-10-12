@@ -93,9 +93,9 @@ Su marca es lo que convierte nuestra producción en su producto. Podemos suminis
 
 También puede enviarnos sus propias etiquetas y fundas, y las colocamos durante la producción. Díganos pronto qué opción prefiere, porque las fornituras impresas tienen que estar listas antes de empezar a coser.
 
-## Calidad y certificaciones
+## Control de calidad
 
-Nuestra producción cuenta con la certificación ISO 9001 y trabajamos con tejidos OEKO-TEX Standard 100. Los patrones se trazan en CAD y usamos prototipado 3D para revisar cada modelo nuevo antes de cortar el tejido. Los pedidos de marca propia pasan los mismos controles de calidad que nuestro propio stock.
+Los patrones se trazan en CAD y usamos prototipado 3D para revisar cada modelo nuevo antes de cortar el tejido. Los pedidos de marca propia pasan los mismos controles de calidad que nuestro propio stock.
 
 ## Quién usa nuestro servicio de marca propia
 

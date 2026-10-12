@@ -12,7 +12,7 @@ related: [suit-fabric-guide, suit-size-runs-and-lot-planning, private-label-suit
 
 A suit quality check should cover fabric, construction, fit and measurements, finishing, labels and packing, inspected on a random sample of the order. Problems with suits are rarely one big fault. They are usually small issues, like shading between jacket and trousers or a lapel that does not roll, that add up to returns.
 
-At our factory, quality control runs at every step, from fabric inspection to final pressing, under an ISO 9001 certified system. Many buyers still want their own check before shipment, and we support that. This checklist is what we recommend buyers use, whether they inspect themselves or hire an inspection company.
+At our factory, quality control runs at every step, from fabric inspection to final pressing. Many buyers still want their own check before shipment, and we support that. This checklist is what we recommend buyers use, whether they inspect themselves or hire an inspection company.
 
 ## Fabric checklist
 
@@ -140,7 +140,3 @@ Usually the buyer, because the inspector works for the buyer. Agree the date wit
 ### What happens if an order fails inspection?
 
 Usually the defective pieces are repaired or replaced, and the lot is re-inspected. Agreeing on spec and tolerances before production is the best way to avoid this.
-
-### Is your production certified?
-
-Yes. Our production is ISO 9001 certified, and we use OEKO-TEX Standard 100 fabrics.

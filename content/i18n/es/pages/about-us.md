@@ -1,7 +1,7 @@
 ---
 slug: about-us
 title: Sobre Mark Morente | Fabricante de trajes en Estambul
-description: Mark Morente fabrica trajes de hombre en Estambul desde hace más de 20 años. Conozca nuestra fábrica, capacidad, tecnología, certificaciones y clientes B2B.
+description: Mark Morente fabrica trajes de hombre en Estambul desde hace más de 20 años. Conozca nuestra fábrica, capacidad, tecnología de producción y clientes B2B.
 h1: Sobre Mark Morente
 lead: Somos fabricantes de trajes de hombre y esmoquin en Estambul, Turquía. Desde hace más de 20 años fabricamos trajes para mayoristas, tiendas y marcas de todo el mundo.
 updated: 2026-10-09
@@ -30,14 +30,6 @@ Invertimos en las partes de la producción que determinan el ajuste y la regular
 - **Prototipado 3D:** los modelos nuevos se revisan en digital antes de cortar la primera muestra, lo que ahorra rondas de muestras.
 - **Producción controlada por ERP:** cada pedido se sigue desde el corte hasta el embalaje, así sabemos en todo momento en qué punto está el suyo.
 - **Patronaje y muestras propios:** nuestro propio equipo hace los patrones y las muestras, lo que mantiene el desarrollo rápido y bajo nuestro control.
-
-## Certificaciones
-
-- **Producción certificada ISO 9001**
-- **Tejidos OEKO-TEX Standard 100**
-- **Seguimiento de calidad controlado por ERP**
-
-Estas certificaciones pesan sobre todo para los compradores de Europa y Norteamérica, donde las tiendas piden a sus proveedores sistemas de calidad documentados y tejidos certificados. Si necesita copias de los certificados para su archivo, pídanoslas.
 
 ## Cómo trabajamos
 

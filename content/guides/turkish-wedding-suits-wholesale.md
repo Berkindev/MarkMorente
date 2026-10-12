@@ -109,10 +109,6 @@ Yes. Many of our models come in several colours, and for made-to-order we can pr
 
 Yes. Our 3-piece suits include jacket, waistcoat and trousers. Stock colours include navy, charcoal, black, emerald green and brown.
 
-### Are the suits certified?
-
-Our production is ISO 9001 certified and we use OEKO-TEX Standard 100 fabrics.
-
 ### Can I sell your suits under my store's brand?
 
 Yes, with made-to-order production from 100 units per style. We add your labels, lining, buttons and packaging.

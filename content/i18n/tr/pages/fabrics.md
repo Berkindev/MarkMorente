@@ -10,7 +10,7 @@ related: [private-label-suits, wholesale-suits, size-guide, faq]
 
 ## Koleksiyonumuzdaki kumaşlar
 
-Takım elbise ve smokinlerimizin çoğu yün karışımı kumaştan üretiliyor; özel gün modellerinde jakar, kadife, keten karışımı ve payetli kumaşlar kullanıyoruz. Tüm ceketler %100 viskon astarla tam astarlı. Kumaşlarımız OEKO-TEX Standard 100 şartlarını karşılıyor.
+Takım elbise ve smokinlerimizin çoğu yün karışımı kumaştan üretiliyor; özel gün modellerinde jakar, kadife, keten karışımı ve payetli kumaşlar kullanıyoruz. Tüm ceketler %100 viskon astarla tam astarlı.
 
 | Kumaş | Görünüm ve tutum | En uygun iklim | Göreceli fiyat | Tipik kullanım |
 |---|---|---|---|---|
@@ -65,10 +65,6 @@ Müşterileriniz fiyata duyarlıysa en iyi fiyat/performansı yün karışımı 
 
 Hedeflediğiniz mağaza satış fiyatını bize iletin, o seviyeye uygun kumaşları önerelim.
 
-## OEKO-TEX Standard 100
-
-OEKO-TEX Standard 100, tekstil ürünlerini zararlı maddeler açısından test eden bağımsız bir sertifikadır. Kumaşlarımız bu standardı karşılıyor. Bu, birçok perakendecinin tedarikçisinden bu belgeyi istediği AB, Birleşik Krallık ve Kuzey Amerika pazarlarına satış yapan alıcılar için avantaj sağlıyor. Belirli bir sipariş için sertifikaya ihtiyacınız varsa siparişi verirken bize söyleyin.
-
 ## Kendi kumaşınızı kullanmak
 
 Private label ve OEM siparişlerinde kendi kumaşınızı tedarik edebilir ya da bize bir kumaş parçası gönderip en yakın muadilini bulmamızı isteyebilirsiniz. Kumaşın tedarik durumu termini etkilediği için üretim süresini vermeden önce bunu teyit ediyoruz.
@@ -86,10 +82,6 @@ Takım elbise ve smokinlerimizin çoğu, özel gün modellerindeki jakarlı yün
 ### Sıcak iklim için en uygun kumaş hangisi?
 
 Keten karışımları ve viskon astarlı, daha hafif yün karışımları. Daha iyi nefes alırlar ve sıcakta rahat ederler.
-
-### Kumaşlarınız OEKO-TEX sertifikalı mı?
-
-Evet. OEKO-TEX Standard 100 kumaşlarla çalışıyoruz.
 
 ### Üretim için kendi kumaşımı gönderebilir miyim?
 

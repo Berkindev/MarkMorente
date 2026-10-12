@@ -13,7 +13,7 @@ country_list: [United Kingdom, Germany, Netherlands, Belgium, France, Austria, S
 
 Europäische Händler kaufen Anzüge aus der Türkei aus drei praktischen Gründen: Die Fabrik ist nah, die Produktion ist schnell, und die Mindestmengen sind auch für mittelgroße Marken machbar. Ein Lkw aus Istanbul erreicht den Großteil Europas auf dem Landweg, und unsere Produktion dauert in der Regel 12-15 Tage, je nach Menge, Modell und Stoffverfügbarkeit.
 
-Mark Morente ist Hersteller von Herrenanzügen mit mehr als 20 Jahren Produktionserfahrung, einer Kapazität von über 1.000 Anzügen pro Tag, nach ISO 9001 zertifizierter Produktion und Stoffen nach OEKO-TEX Standard 100. Die Schnitte entstehen im eigenen Haus im CAD, und die Qualität wird in jedem Schritt geprüft.
+Mark Morente ist Hersteller von Herrenanzügen mit mehr als 20 Jahren Produktionserfahrung und einer Kapazität von über 1.000 Anzügen pro Tag. Die Schnitte entstehen im eigenen Haus im CAD, und die Qualität wird in jedem Schritt geprüft.
 
 Wir verkaufen ausschließlich an Unternehmen: Herrenausstatter, Boutique-Ketten, Kaufhäuser, Online-Marken, Hochzeits- und Festmodegeschäfte, Verleihfirmen und Firmenkunden. Auch türkischstämmige Großhändler in Deutschland, Österreich und der Schweiz gehören zu den Kunden, die wir beliefern.
 
@@ -54,7 +54,7 @@ Die EU-Verordnung 1007/2011 schreibt ein Etikett zur Faserzusammensetzung mit de
 Jeder europäische Markt kauft etwas anders ein. Diese Muster sehen wir am häufigsten.
 
 - **Großbritannien.** Business-Anzüge in Marine und Grau, Hochzeitsanzüge für Bräutigam und Trauzeugen sowie Festmode für Verleihfirmen. Britische Größen nach Brustumfang sind üblich, stimmen Sie die Größenumrechnung daher vorab ab. Unsere [Größentabelle](/size-guide) hilft dabei.
-- **Deutschland, Österreich, Niederlande, Belgien.** Moderne Passformen, hochwertige Wollmischungen, ruhige Farben. Einkäufer hier stellen detaillierte Fragen zu Materialzusammensetzung und Zertifikaten, und wir beantworten sie vor der Produktion.
+- **Deutschland, Österreich, Niederlande, Belgien.** Moderne Passformen, hochwertige Wollmischungen, ruhige Farben. Einkäufer hier stellen detaillierte Fragen zur Materialzusammensetzung, und wir beantworten sie vor der Produktion.
 - **Frankreich.** Schmale Schnitte, Festanzüge sowie Smokings für Hochzeiten und Veranstaltungen.
 - **Schweden, Dänemark, Finnland, Norwegen.** Slim und Modern Fit in Grau, Blau und Erdtönen, mittlere bis schwerere Stoffgewichte für den Winter.
 - **Rumänien, Griechenland.** Starke Nachfrage in der Hochzeitssaison, dreiteilige Anzüge und Smokings verkaufen sich gut.

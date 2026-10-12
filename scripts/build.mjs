@@ -146,7 +146,6 @@ const orgSchema = {
   sameAs: [site.instagram, site.telegram],
   areaServed: ['Africa', 'Europe', 'Central Asia', 'Middle East', 'North America'],
   knowsAbout: ["Men's suit manufacturing", 'Private label suits', 'OEM suit production', 'Wholesale tuxedos', 'Wedding suits wholesale', 'Made in Turkey menswear'],
-  hasCredential: site.facts.certifications.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c })),
   contactPoint: { '@type': 'ContactPoint', telephone: `+${site.whatsapp}`, contactType: 'sales', availableLanguage: ['English', 'Turkish'] },
 };
 const websiteSchema = { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${site.url}/#website`, url: site.url, name: site.name, inLanguage: LS.map((l) => l.code), publisher: { '@id': ORG } };
@@ -459,7 +458,7 @@ Key facts:
 - Buyers: ${site.audience.join(', ')}. No single-suit or bespoke retail orders.
 - Ordering: ready-stock models in lots (one model, one suit per size, 6–7 suits, EU 46–56/58) or made to order under the buyer's label from 100 units per style (private label / OEM). Fully customizable, including US sizing.
 - Lead time: typically 12–15 days production, depending on quantity, model and fabric; quoted per order. Prices quoted per order, not published.
-- Capacity: ${site.facts.capacity}. Certifications: ${site.facts.certifications.join('; ')}.
+- Capacity: ${site.facts.capacity}.
 - Markets: Africa, Europe, Central Asia & Caucasus, Middle East, North America. Worldwide shipping by air, sea or road, as the buyer prefers (express air for urgent orders). Factory visits welcome; photos/video from production and before shipping.
 - Contact: WhatsApp ${site.phoneDisplay} (https://wa.me/${site.whatsapp}), Telegram ${site.telegramHandle}, Instagram ${site.instagramHandle}.
 - Languages: ${LIVE.map((L) => `${L.name} ${abs(L.P('/'))}`).join(' · ')}

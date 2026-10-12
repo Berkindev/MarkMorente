@@ -15,7 +15,7 @@ Los compradores de Estados Unidos y Canadá vienen a Turquía por plazos de prod
 
 Esta combinación encaja con tiendas medianas, marcas online de moda masculina y empresas de alquiler de ropa formal que quieren probar modelos nuevos sin comprometerse con miles de unidades. Puede reponer rápidamente un modelo que se vende bien en lugar de mantener un stock de seguridad grande.
 
-Mark Morente fabrica trajes de hombre en Estambul desde hace más de 20 años. Nuestra producción está certificada ISO 9001, tiene una capacidad de más de 1.000 trajes al día, trabaja con tejidos OEKO-TEX Standard 100, y diseñamos los patrones en nuestra fábrica con CAD y prototipado 3D.
+Mark Morente fabrica trajes de hombre en Estambul desde hace más de 20 años. Nuestra fábrica tiene una capacidad de más de 1.000 trajes al día, y diseñamos los patrones en nuestra fábrica con CAD y prototipado 3D.
 
 ## Turquía frente a la fabricación habitual en Asia
 

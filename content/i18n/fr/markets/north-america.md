@@ -15,7 +15,7 @@ Les acheteurs des États-Unis et du Canada viennent en Turquie pour des délais 
 
 Cette combinaison convient aux détaillants de taille moyenne, aux marques en ligne et aux loueurs de tenues de soirée qui veulent tester de nouveaux modèles sans s'engager sur des milliers de pièces. Vous pouvez réassortir rapidement une meilleure vente au lieu de porter un gros stock de sécurité.
 
-Mark Morente fabrique des costumes homme à Istanbul depuis plus de 20 ans. Notre production est certifiée ISO 9001, avec une capacité de plus de 1 000 costumes par jour ; nous utilisons des tissus OEKO-TEX Standard 100 et concevons nos patrons en interne, en CAO et avec prototypage 3D.
+Mark Morente fabrique des costumes homme à Istanbul depuis plus de 20 ans. Notre usine a une capacité de plus de 1 000 costumes par jour, et nous concevons nos patrons en interne, en CAO et avec prototypage 3D.
 
 ## La Turquie face à l'approvisionnement asiatique classique
 

@@ -1,7 +1,7 @@
 ---
 slug: about-us
 title: Über Mark Morente | Anzug Hersteller in Istanbul
-description: Mark Morente fertigt seit über 20 Jahren Herrenanzüge in Istanbul. Unsere Fabrik, Kapazität, Technik, Zertifizierungen und die B2B-Kunden, die wir beliefern.
+description: Mark Morente fertigt seit über 20 Jahren Herrenanzüge in Istanbul. Unsere Fabrik, Kapazität, Produktionstechnik und die B2B-Kunden, die wir beliefern.
 h1: Über Mark Morente
 lead: Wir sind Hersteller von Herrenanzügen und Smokings in Istanbul, Türkei. Seit mehr als 20 Jahren fertigen wir Anzüge für Großhändler, Einzelhändler und Marken in aller Welt.
 updated: 2026-10-09
@@ -30,14 +30,6 @@ Wir investieren in die Bereiche der Fertigung, die über Passform und Gleichmä�
 - **3D-Prototyping:** Neue Modelle prüfen wir digital, bevor das erste Muster zugeschnitten wird. Das spart Musterrunden.
 - **ERP-gesteuerte Produktion:** Jeder Auftrag wird vom Zuschnitt bis zur Verpackung verfolgt, sodass wir jederzeit wissen, wo Ihre Ware steht.
 - **Eigene Schnitt- und Musterabteilung:** Unser eigenes Team erstellt Schnitte und Muster. Das hält die Entwicklung schnell und in unserer Hand.
-
-## Zertifizierungen
-
-- **Nach ISO 9001 zertifizierte Produktion**
-- **Stoffe nach OEKO-TEX Standard 100**
-- **ERP-gestützte Qualitätsverfolgung**
-
-Das ist vor allem für Einkäufer in Europa und Nordamerika wichtig, wo Händler von ihren Lieferanten dokumentierte Qualitätssysteme und geprüfte Stoffe verlangen. Wenn Sie Kopien der Zertifikate für Ihre Unterlagen benötigen, sprechen Sie uns an.
 
 ## So arbeiten wir
 

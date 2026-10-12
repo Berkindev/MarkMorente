@@ -11,7 +11,7 @@ country_list: [Nigeria, Ghana, Côte d'Ivoire, Senegal, Cameroon, Kenya, Tanzani
 
 ## Pourquoi les acheteurs africains s'approvisionnent en costumes à Istanbul
 
-Les importateurs africains achètent à Istanbul parce qu'ils y trouvent, chez un seul fabricant, une coupe à l'européenne, un large choix de modèles de cérémonie et des délais de production courts. Mark Morente fabrique des costumes homme depuis plus de 20 ans, avec une capacité de plus de 1 000 costumes par jour, une production certifiée ISO 9001 et des tissus OEKO-TEX Standard 100.
+Les importateurs africains achètent à Istanbul parce qu'ils y trouvent, chez un seul fabricant, une coupe à l'européenne, un large choix de modèles de cérémonie et des délais de production courts. Mark Morente fabrique des costumes homme depuis plus de 20 ans, avec une capacité de plus de 1 000 costumes par jour.
 
 La distance compte aussi. Istanbul est l'une des plateformes de fret aérien les plus actives entre l'Europe, l'Asie et l'Afrique, et Turkish Airlines dessert des dizaines de villes du continent. Pour beaucoup d'acheteurs à Lagos, Accra, Nairobi, Kinshasa ou Alger, la marchandise peut quitter notre usine et arriver dans leur ville sur un vol régulier, sans changer de transporteur dans le Golfe ou en Europe.
 

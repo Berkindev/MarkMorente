@@ -10,7 +10,7 @@ related: [private-label-suits, wholesale-suits, size-guide, faq]
 
 ## Las telas de nuestra colección
 
-La mayoría de nuestros trajes y modelos de esmoquin se confeccionan en mezclas de lana, y para ropa de ceremonia usamos jacquard, terciopelo, mezclas de lino y telas con lentejuelas. Todas las chaquetas llevan forro completo de 100% viscosa. Nuestras telas cumplen la norma OEKO-TEX Standard 100.
+La mayoría de nuestros trajes y modelos de esmoquin se confeccionan en mezclas de lana, y para ropa de ceremonia usamos jacquard, terciopelo, mezclas de lino y telas con lentejuelas. Todas las chaquetas llevan forro completo de 100% viscosa.
 
 | Tela | Aspecto y tacto | Clima ideal | Precio relativo | Uso habitual |
 |---|---|---|---|---|
@@ -65,10 +65,6 @@ Si sus clientes son sensibles al precio, un traje de dos piezas en mezcla de lan
 
 Indíquenos su precio de venta objetivo y le propondremos telas que encajen en ese nivel.
 
-## OEKO-TEX Standard 100
-
-OEKO-TEX Standard 100 es una certificación independiente que analiza los textiles para detectar sustancias nocivas. Nuestras telas cumplen esta norma, lo que ayuda a los compradores que venden en la UE, el Reino Unido y Norteamérica, donde muchos minoristas la exigen a sus proveedores. Si necesita certificados para un pedido concreto, pídanoslos al hacer el pedido.
-
 ## Usar su propia tela
 
 En pedidos de marca propia y fabricación OEM puede suministrar su propia tela, o enviarnos una muestra y buscaremos la equivalente más cercana. La disponibilidad de la tela influye en el plazo de producción, así que la confirmamos antes de indicarle el plazo.
@@ -86,10 +82,6 @@ La mayoría de nuestros trajes y modelos de esmoquin son de mezclas de lana, inc
 ### ¿Qué tela es mejor para climas cálidos?
 
 Las mezclas de lino y las mezclas de lana más ligeras con forro de viscosa. Transpiran mejor y resultan cómodas con calor.
-
-### ¿Sus telas tienen certificación OEKO-TEX?
-
-Sí. Trabajamos con telas OEKO-TEX Standard 100.
 
 ### ¿Puedo enviar mi propia tela para la producción?
 

@@ -13,7 +13,7 @@ country_list: [United Arab Emirates, Saudi Arabia, Iraq, Kuwait, Qatar, Jordan, 
 
 Einkäufer aus dem Nahen Osten kaufen Anzüge in Istanbul, weil die Stadt nah ist, die Produktion schnell geht und türkische Fabriken die Festmodelle fertigen, nach denen ihre Kunden fragen. Istanbul liegt wenige Flugstunden vom Golf und der Levante entfernt, und der Irak ist per Lkw erreichbar.
 
-Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge. Unsere Produktion ist nach ISO 9001 zertifiziert, hat eine Kapazität von über 1.000 Anzügen pro Tag und verarbeitet Stoffe nach OEKO-TEX Standard 100. Die Produktion ist in der Regel in 12-15 Tagen abgeschlossen, je nach Menge, Modell und Stoffverfügbarkeit.
+Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge. Unsere Fabrik hat eine Kapazität von über 1.000 Anzügen pro Tag. Die Produktion ist in der Regel in 12-15 Tagen abgeschlossen, je nach Menge, Modell und Stoffverfügbarkeit.
 
 Wir arbeiten ausschließlich mit Unternehmen: Importeure, Reexporteure, Großhändler, Herrenausstatter, Hochzeits- und Festmodegeschäfte sowie Firmenkunden. Die kleinste Bestellung ist ein Paket.
 

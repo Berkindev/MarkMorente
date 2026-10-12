@@ -11,7 +11,7 @@ country_list: [Nigeria, Ghana, Côte d'Ivoire, Senegal, Cameroon, Kenya, Tanzani
 
 ## Afrikalı alıcılar takım elbiseyi neden İstanbul'dan alıyor
 
-Afrikalı ithalatçılar İstanbul'u tercih ediyor, çünkü Avrupa kalıbını, geniş bir tören ve davet modeli yelpazesini ve kısa üretim sürelerini tek bir fabrikada bulabiliyorlar. Mark Morente 20 yılı aşkın süredir erkek takım elbise üretiyor. Günlük kapasitemiz 1.000+ takım, üretimimiz ISO 9001 sertifikalı ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz.
+Afrikalı ithalatçılar İstanbul'u tercih ediyor, çünkü Avrupa kalıbını, geniş bir tören ve davet modeli yelpazesini ve kısa üretim sürelerini tek bir fabrikada bulabiliyorlar. Mark Morente 20 yılı aşkın süredir erkek takım elbise üretiyor. Günlük kapasitemiz 1.000+ takım.
 
 Mesafe de önemli. İstanbul, Avrupa, Asya ve Afrika arasındaki en yoğun hava kargo merkezlerinden biri ve Türk Hava Yolları kıtada onlarca şehre uçuyor. Lagos, Akra, Nairobi, Kinşasa ya da Cezayir'deki birçok alıcı için bu, malın fabrikamızdan çıkıp Körfez'de veya Avrupa'da aktarma yapmadan, tarifeli bir uçuşla kendi şehrine inmesi demek.
 

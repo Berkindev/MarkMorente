@@ -1,7 +1,7 @@
 ---
 slug: oem-suit-manufacturing
 title: OEM Suit Manufacturing in Turkey | Mark Morente
-description: OEM suit manufacturing in Istanbul to your tech pack: pattern work, grading, fit samples and bulk production. ISO 9001 factory, MOQ 100 units per style.
+description: OEM suit manufacturing in Istanbul to your tech pack: pattern work, grading, fit samples and bulk production in our own factory. MOQ 100 units per style.
 h1: OEM suit manufacturing to your specifications
 lead: Send us your tech pack or sample garment and we produce the suit exactly to your specs, in your fabric, at volume. We make your design for you only.
 updated: 2026-10-09
@@ -57,7 +57,7 @@ We use 3D prototyping to check a new pattern before we cut fabric, which helps r
 
 Bulk production is scheduled after pre-production approval and order confirmation. Production typically takes 12-15 days. The exact lead time depends on quantity, how complex the model is and whether the fabric is ready.
 
-Production runs on our ERP system, so we can tell you where your order is at any stage. Quality is checked during cutting and sewing and again before packing: measurements against your spec, seam quality, pressing, buttons, labels and overall finish. Our production is ISO 9001 certified and we work with OEKO-TEX Standard 100 fabrics.
+Production runs on our ERP system, so we can tell you where your order is at any stage. Quality is checked during cutting and sewing and again before packing: measurements against your spec, seam quality, pressing, buttons, labels and overall finish.
 
 With a daily capacity of more than 1,000 suits, we can handle a single 100-unit style or a full seasonal programme across several styles.
 

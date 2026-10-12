@@ -124,8 +124,6 @@ When you contact a manufacturer, include:
 5. Branding items you need.
 6. Destination country.
 
-Our production is ISO 9001 certified and we use OEKO-TEX Standard 100 fabrics, which helps if your retailers ask for documentation.
-
 ## What is a realistic timeline?
 
 Plan for about three to five months from first contact to launch. Most of that time goes on design decisions, sampling and branding, not production.

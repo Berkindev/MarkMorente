@@ -1,7 +1,7 @@
 ---
 slug: faq
 title: Preguntas frecuentes: trajes al por mayor | Mark Morente
-description: Respuestas para compradores B2B de trajes: pedido mínimo, lotes, marca propia, OEM, muestras, plazos, calidad, certificaciones, envío y condiciones de pago.
+description: Respuestas para compradores B2B de trajes: pedido mínimo, lotes, marca propia, OEM, muestras, plazos, control de calidad, envío y condiciones de pago.
 h1: Preguntas frecuentes
 lead: Respuestas directas a las preguntas que más nos hacen mayoristas, tiendas y marcas que compran trajes de hombre al por mayor. Si no encuentra la suya, escríbanos por WhatsApp.
 updated: 2026-10-09
@@ -61,10 +61,6 @@ La producción bajo pedido suele tardar 12-15 días después de aprobar la muest
 ### ¿Cuál es su capacidad de producción?
 
 Más de 1.000 trajes al día.
-
-### ¿Qué certificaciones tienen?
-
-Nuestra producción tiene la certificación ISO 9001 y trabajamos con tejidos OEKO-TEX Standard 100.
 
 ### ¿Cómo controlan la calidad?
 

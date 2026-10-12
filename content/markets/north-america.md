@@ -15,7 +15,7 @@ US and Canadian buyers come to Turkey for shorter production times, tailoring qu
 
 That combination suits mid-sized retailers, online menswear brands and formalwear rental companies that want to test new styles without committing to thousands of units. You can reorder a best seller quickly instead of carrying large safety stock.
 
-Mark Morente has produced men's suits in Istanbul for more than 20 years. We run ISO 9001 certified production with 1000+ suits per day of capacity, use OEKO-TEX Standard 100 fabrics, and design patterns in-house with CAD and 3D prototyping.
+Mark Morente has produced men's suits in Istanbul for more than 20 years. Our factory has capacity of 1000+ suits per day, and we design patterns in-house with CAD and 3D prototyping.
 
 ## Turkey compared with typical Asian sourcing
 

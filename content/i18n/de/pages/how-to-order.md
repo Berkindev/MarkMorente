@@ -75,7 +75,7 @@ Jeder Anzug wird geprüft, bevor er das Haus verlässt. Bei Produktionsaufträge
 - Knöpfe, Knopflöcher und Reißverschlüsse
 - Etiketten, Hängeetiketten und richtige Größen in jedem Paket
 
-Unsere Produktion ist nach ISO 9001 zertifiziert. Wir senden Ihnen Fotos oder Videos aus der Produktion und vor dem Versand, damit Sie Ihre Ware sehen, bevor sie Istanbul verlässt.
+Wir senden Ihnen Fotos oder Videos aus der Produktion und vor dem Versand, damit Sie Ihre Ware sehen, bevor sie Istanbul verlässt.
 
 ## Schritt 7: Verpackung
 

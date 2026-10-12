@@ -64,8 +64,8 @@ Enviamos a todo el mundo y cotizamos el flete según el destino. Estas son las r
 - **Oriente Medio:** mayoristas en Emiratos Árabes Unidos, Arabia Saudí, Irak, Líbano, Jordania y el Golfo. [Trajes para Oriente Medio](/markets/middle-east)
 - **Norteamérica:** tiendas, comercios de ropa de ceremonia y marcas en Estados Unidos y Canadá. [Trajes para Norteamérica](/markets/north-america)
 
-## Calidad y certificaciones
+## Control de calidad y capacidad
 
-Nuestra producción cuenta con la certificación ISO 9001 y trabajamos con tejidos OEKO-TEX Standard 100. Los patrones se hacen en CAD, la producción se sigue en un sistema ERP y los trajes se revisan en cada fase de la confección y de nuevo antes del embalaje. La capacidad diaria supera los 1.000 trajes, de modo que un modelo de 100 unidades o un pedido de contenedor se planifican sin largas esperas.
+Los patrones se hacen en CAD, la producción se sigue en un sistema ERP y los trajes se revisan en cada fase de la confección y de nuevo antes del embalaje. La capacidad diaria supera los 1.000 trajes, de modo que un modelo de 100 unidades o un pedido de contenedor se planifican sin largas esperas.
 
 Envíenos por WhatsApp los modelos y las cantidades que tiene en mente y le responderemos con una cotización.

@@ -10,7 +10,7 @@ related: [private-label-suits, wholesale-suits, size-guide, faq]
 
 ## Die Stoffe in unserem Sortiment
 
-Die meisten unserer Anzüge und Smokings fertigen wir aus Wollmischungen, für Anlassmode kommen Jacquard, Samt, Leinenmischungen und Paillettenstoffe hinzu. Alle Sakkos sind vollständig mit 100 % Viskose gefüttert. Unsere Stoffe erfüllen den OEKO-TEX Standard 100.
+Die meisten unserer Anzüge und Smokings fertigen wir aus Wollmischungen, für Anlassmode kommen Jacquard, Samt, Leinenmischungen und Paillettenstoffe hinzu. Alle Sakkos sind vollständig mit 100 % Viskose gefüttert.
 
 | Stoff | Optik und Griff | Geeignetes Klima | Relativer Preis | Typischer Einsatz |
 |---|---|---|---|---|
@@ -65,10 +65,6 @@ Wenn Ihre Kunden preisbewusst sind, bietet ein zweiteiliger Anzug aus Wollmischu
 
 Nennen Sie uns Ihren angestrebten Verkaufspreis, und wir schlagen Ihnen Stoffe vor, die zu diesem Niveau passen.
 
-## OEKO-TEX Standard 100
-
-OEKO-TEX Standard 100 ist eine unabhängige Zertifizierung, bei der Textilien auf Schadstoffe geprüft werden. Unsere Stoffe erfüllen diesen Standard. Das hilft Einkäufern, die in die EU, nach Großbritannien und Nordamerika verkaufen, wo viele Händler ihn von ihren Lieferanten verlangen. Wenn Sie Zertifikate für einen bestimmten Auftrag benötigen, teilen Sie uns das bei der Bestellung mit.
-
 ## Eigene Stoffe verwenden
 
 Bei Private Label und OEM-Aufträgen können Sie Ihren eigenen Stoff stellen oder uns ein Stoffmuster senden, und wir beschaffen die nächstliegende Qualität. Die Stoffverfügbarkeit beeinflusst die Lieferzeit, deshalb klären wir sie, bevor wir eine Produktionszeit nennen.
@@ -86,10 +82,6 @@ Die meisten unserer Anzüge und Smokings sind aus Wollmischungen gefertigt, daru
 ### Welcher Stoff eignet sich am besten für heiße Regionen?
 
 Leinenmischungen und leichtere Wollmischungen mit Viskosefutter. Sie sind atmungsaktiver und bleiben bei Hitze angenehm.
-
-### Sind Ihre Stoffe OEKO-TEX zertifiziert?
-
-Ja. Wir verarbeiten Stoffe nach OEKO-TEX Standard 100.
 
 ### Kann ich meinen eigenen Stoff für die Produktion schicken?
 

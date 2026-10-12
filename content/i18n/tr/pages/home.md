@@ -64,8 +64,8 @@ Dünyanın her yerine sevkiyat yapıyor, navlunu varış noktasına göre fiyatl
 - **Orta Doğu:** BAE, Suudi Arabistan, Irak, Lübnan, Ürdün ve Körfez ülkelerindeki toptancılar. [Orta Doğu için takım elbise](/markets/middle-east)
 - **Kuzey Amerika:** ABD ve Kanada'daki mağazalar, abiye ve damatlık mağazaları ve markalar. [Kuzey Amerika için takım elbise](/markets/north-america)
 
-## Kalite ve sertifikalar
+## Kalite kontrol ve kapasite
 
-Üretimimiz ISO 9001 sertifikalıdır ve OEKO-TEX Standard 100 sertifikalı kumaşlarla çalışıyoruz. Kalıplar CAD ile hazırlanır, üretim ERP sistemi üzerinden takip edilir, takımlar dikimin her aşamasında ve paketlemeden önce bir kez daha kontrol edilir. Günlük kapasitemiz 1.000 takımın üzerindedir; bu sayede 100 adetlik bir model de, konteyner siparişi de uzun sıra beklemeden planlanabilir.
+Kalıplar CAD ile hazırlanır, üretim ERP sistemi üzerinden takip edilir, takımlar dikimin her aşamasında ve paketlemeden önce bir kez daha kontrol edilir. Günlük kapasitemiz 1.000 takımın üzerindedir; bu sayede 100 adetlik bir model de, konteyner siparişi de uzun sıra beklemeden planlanabilir.
 
 Takım elbise üreticisi arıyorsanız aklınızdaki modelleri ve adetleri WhatsApp'tan gönderin, size fiyat teklifiyle dönelim.

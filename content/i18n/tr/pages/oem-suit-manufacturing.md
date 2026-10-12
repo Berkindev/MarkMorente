@@ -1,7 +1,7 @@
 ---
 slug: oem-suit-manufacturing
 title: OEM ve Fason Takım Elbise Üretimi | Mark Morente
-description: Teknik föyünüze göre İstanbul'da OEM ve fason takım elbise üretimi: kalıp, serileme, prova numunesi ve seri üretim. ISO 9001, model başına en az 100 adet.
+description: Teknik föyünüze göre İstanbul'da OEM ve fason takım elbise üretimi: kalıp, serileme, prova numunesi ve seri üretim. Fabrikadan, model başına en az 100 adet.
 h1: Ölçü ve şartnamelerinize göre OEM (fason) takım elbise üretimi
 lead: Teknik föyünüzü (tech pack) veya numune ürününüzü gönderin, takımı tam olarak sizin ölçülerinize göre, sizin kumaşınızla ve seri halinde üretelim. Tasarımınızı yalnızca sizin için üretiyoruz.
 updated: 2026-10-09
@@ -57,7 +57,7 @@ Yeni bir kalıbı kumaş kesmeden önce 3D prototiple kontrol ediyoruz; bu da nu
 
 Seri üretim, üretim öncesi onay ve sipariş teyidinden sonra planlanır. Üretim genellikle 12-15 gün sürer. Kesin termin adede, modelin karmaşıklığına ve kumaşın hazır olup olmadığına bağlıdır.
 
-Üretim ERP sistemimiz üzerinden yürür; siparişinizin her aşamada nerede olduğunu size söyleyebiliriz. Kalite kesim ve dikim sırasında, paketlemeden önce de yeniden kontrol edilir: şartnamenize göre ölçüler, dikiş kalitesi, ütü, düğmeler, etiketler ve genel bitiş. Üretimimiz ISO 9001 sertifikalıdır ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz.
+Üretim ERP sistemimiz üzerinden yürür; siparişinizin her aşamada nerede olduğunu size söyleyebiliriz. Kalite kesim ve dikim sırasında, paketlemeden önce de yeniden kontrol edilir: şartnamenize göre ölçüler, dikiş kalitesi, ütü, düğmeler, etiketler ve genel bitiş.
 
 Günde 1.000 takımı aşan kapasitemizle tek bir modelden 100 adetlik bir siparişi de, birden fazla modelden oluşan bir sezon programını da karşılayabiliyoruz.
 

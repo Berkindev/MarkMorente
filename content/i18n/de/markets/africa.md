@@ -11,7 +11,7 @@ country_list: [Nigeria, Ghana, Côte d'Ivoire, Senegal, Cameroon, Kenya, Tanzani
 
 ## Warum afrikanische Einkäufer Anzüge aus Istanbul beziehen
 
-Afrikanische Importeure kaufen in Istanbul, weil sie dort europäische Schnittführung, ein breites Angebot an Festmodellen und kurze Produktionszeiten aus einer Fabrik bekommen. Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge, mit einer Kapazität von über 1.000 Anzügen pro Tag, nach ISO 9001 zertifizierter Produktion und Stoffen nach OEKO-TEX Standard 100.
+Afrikanische Importeure kaufen in Istanbul, weil sie dort europäische Schnittführung, ein breites Angebot an Festmodellen und kurze Produktionszeiten aus einer Fabrik bekommen. Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge, mit einer Kapazität von über 1.000 Anzügen pro Tag.
 
 Auch die Entfernung spielt eine Rolle. Istanbul ist eines der verkehrsreichsten Luftfrachtdrehkreuze zwischen Europa, Asien und Afrika, und Turkish Airlines fliegt Dutzende Städte auf dem Kontinent an. Für viele Einkäufer in Lagos, Accra, Nairobi, Kinshasa oder Algier heißt das: Die Ware kann unsere Fabrik verlassen und mit einem Linienflug in ihrer Stadt landen, ohne Umladen am Golf oder in Europa.
 

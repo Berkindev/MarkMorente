@@ -1,7 +1,7 @@
 ---
 slug: about-us
 title: À propos de Mark Morente | Fabricant de costumes Istanbul
-description: Mark Morente fabrique des costumes homme à Istanbul depuis plus de 20 ans. Usine, capacité, certifications et les acheteurs B2B que nous servons.
+description: Mark Morente fabrique des costumes homme à Istanbul depuis plus de 20 ans. Usine, capacité, technologie de production et les acheteurs B2B que nous servons.
 h1: À propos de Mark Morente
 lead: Nous sommes un fabricant de costumes homme et de smokings à Istanbul, en Turquie. Depuis plus de 20 ans, nous fabriquons des costumes pour des grossistes, des détaillants et des marques du monde entier.
 updated: 2026-10-09
@@ -30,14 +30,6 @@ Nous investissons dans les étapes de production qui déterminent le bien-aller 
 - **Prototypage 3D :** les nouveaux modèles sont vérifiés numériquement avant la coupe du premier échantillon, ce qui économise des tours de prototypage.
 - **Production pilotée par ERP :** chaque commande est suivie de la coupe à l'emballage, nous savons donc toujours où en est la vôtre.
 - **Patronage et échantillonnage internes :** notre propre équipe réalise patrons et échantillons, ce qui garde le développement rapide et sous notre contrôle.
-
-## Certifications
-
-- **Production certifiée ISO 9001**
-- **Tissus OEKO-TEX Standard 100**
-- **Suivi qualité piloté par ERP**
-
-Ces points comptent surtout pour les acheteurs d'Europe et d'Amérique du Nord, où les détaillants demandent à leurs fournisseurs des systèmes qualité documentés et des tissus testés. Si vous avez besoin de copies des certificats pour vos dossiers, demandez-les-nous.
 
 ## Notre façon de travailler
 

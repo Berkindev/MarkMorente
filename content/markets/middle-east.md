@@ -13,7 +13,7 @@ country_list: [United Arab Emirates, Saudi Arabia, Iraq, Kuwait, Qatar, Jordan, 
 
 Middle East buyers source suits from Istanbul because it is close, production is quick, and Turkish factories make the ceremony styles their customers ask for. Istanbul is a few hours by air from the Gulf and the Levant, and Iraq can be reached by truck.
 
-Mark Morente has produced men's suits for more than 20 years. We run ISO 9001 certified production with capacity of 1000+ suits per day, use OEKO-TEX Standard 100 fabrics, and typically finish production in 12-15 days, depending on quantity, model and fabric availability.
+Mark Morente has produced men's suits for more than 20 years. Our factory has capacity of 1000+ suits per day and typically finish production in 12-15 days, depending on quantity, model and fabric availability.
 
 We work with businesses only: importers, re-exporters, wholesalers, menswear retailers, wedding and formalwear shops, and corporate buyers. The smallest order is one lot.
 

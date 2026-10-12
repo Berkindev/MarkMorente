@@ -12,7 +12,7 @@ related: [wholesale-suits, private-label-suits, collections, suit-size-runs-and-
 
 Stock lots are our own finished models sold in fixed size runs, ready to ship. Made-to-order is production for your business under your brand and specification, from 100 units per style. Stock lots are faster and need a much smaller commitment. Made-to-order gives you control over design, fabric and branding.
 
-Both routes come from the same factory, with the same quality control and the same ISO 9001 certified production. The choice depends on what you need: speed and flexibility, or your own product.
+Both routes come from the same factory, with the same quality control. The choice depends on what you need: speed and flexibility, or your own product.
 
 ## How do stock lots work?
 
@@ -125,7 +125,7 @@ Ask us with your plan. Fabric minimums affect how colours can be split, and we c
 
 ### Is quality different between stock lots and made-to-order?
 
-No. Both are produced in the same factory with the same quality checks and ISO 9001 certified production, using OEKO-TEX Standard 100 fabrics.
+No. Both are produced in the same factory with the same quality checks.
 
 ### How long does made-to-order take?
 

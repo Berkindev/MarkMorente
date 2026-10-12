@@ -80,7 +80,7 @@ In the EU, textile products sold to consumers must be labelled with their fibre 
 
 Care labelling symbols are widely used and expected by retailers, though they are handled under separate standards. The UK has kept equivalent fibre labelling rules.
 
-Suits do not need CE marking. CE applies to product groups such as toys, electrical goods and protective equipment, not to ordinary clothing. Chemical safety rules such as REACH still apply to textiles on the EU market. Our fabrics are OEKO-TEX Standard 100 certified, which many European buyers ask for.
+Suits do not need CE marking. CE applies to product groups such as toys, electrical goods and protective equipment, not to ordinary clothing. Chemical safety rules such as REACH still apply to textiles on the EU market.
 
 ## EU and UK import checklist
 

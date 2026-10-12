@@ -79,8 +79,6 @@ Decide your retail price first, then work back to a fabric that fits the margin 
 4. **Premium boutiques and department stores:** pure wool, Super 100s to 120s, with viscose lining.
 5. **Summer and resort collections:** linen blend and cotton, in light colours like ivory, sand, camel and grey.
 
-All fabrics we use are OEKO-TEX Standard 100, which matters for buyers in the EU and UK who need to show their products were tested for harmful substances.
-
 ## How do I check fabric quality on arrival?
 
 Check colour shading between pieces, surface defects and the composition label against your order. Shading between panels of the same suit, or between suits in the same lot, is one of the most common fabric complaints in suiting. Our [suit quality control checklist](/guides/suit-quality-control-checklist) covers what to inspect.

@@ -13,7 +13,7 @@ country_list: [United Arab Emirates, Saudi Arabia, Iraq, Kuwait, Qatar, Jordan, 
 
 Orta Doğulu alıcılar İstanbul'u tercih ediyor, çünkü yakın, üretim hızlı ve Türk fabrikaları müşterilerinin istediği tören modellerini üretiyor. İstanbul, Körfez ve Levant'a uçakla birkaç saat uzaklıkta; Irak'a ise TIR ile ulaşılabiliyor.
 
-Mark Morente 20 yılı aşkın süredir erkek takım elbise üretiyor. Üretimimiz ISO 9001 sertifikalı, günlük kapasitemiz 1.000+ takım, OEKO-TEX Standard 100 kumaşlarla çalışıyoruz ve üretimi adet, model ve kumaş durumuna bağlı olarak genellikle 12-15 günde tamamlıyoruz.
+Mark Morente 20 yılı aşkın süredir erkek takım elbise üretiyor. Günlük kapasitemiz 1.000+ takım ve üretimi adet, model ve kumaş durumuna bağlı olarak genellikle 12-15 günde tamamlıyoruz.
 
 Yalnızca firmalarla çalışıyoruz: ithalatçılar, re-export firmaları, toptancılar, erkek giyim mağazaları, damatlık ve abiye mağazaları ve kurumsal alıcılar. En küçük sipariş bir lottur.
 

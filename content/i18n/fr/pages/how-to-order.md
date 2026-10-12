@@ -75,7 +75,7 @@ Chaque costume est contrôlé avant de partir. Pour les commandes en production,
 - Les boutons, les boutonnières et les fermetures éclair
 - Les étiquettes, les étiquettes volantes et les bonnes tailles dans chaque lot
 
-Notre production est certifiée ISO 9001. Nous vous envoyons des photos ou des vidéos de la production et avant l'expédition, pour que vous voyiez votre marchandise avant qu'elle quitte Istanbul.
+Nous vous envoyons des photos ou des vidéos de la production et avant l'expédition, pour que vous voyiez votre marchandise avant qu'elle quitte Istanbul.
 
 ## Étape 7 : emballage
 

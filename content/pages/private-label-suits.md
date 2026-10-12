@@ -93,9 +93,9 @@ Your branding is what turns our production into your product. We can supply or a
 
 You can also send us your own labels and bags, and we will attach them during production. Tell us early which option you want, because printed trims need to be ready before sewing starts.
 
-## Quality and certifications
+## Quality control
 
-Our production is ISO 9001 certified and we work with OEKO-TEX Standard 100 fabrics. Patterns are drafted in CAD, and we use 3D prototyping to check a new model before we cut fabric. The same quality checks apply to private label orders and our own stock.
+Patterns are drafted in CAD, and we use 3D prototyping to check a new model before we cut fabric. The same quality checks apply to private label orders and our own stock.
 
 ## Who uses our private label service
 

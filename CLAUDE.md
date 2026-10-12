@@ -32,7 +32,7 @@ npm run indexnow       # re-submit sitemap URLs to IndexNow only
 | `content/guides/*.md` | 14 buyer guides → `/guides/<slug>` |
 | `content/markets/*.md` | 5 market pages → `/markets/<slug>` (with `country_list`) |
 | `content/photos/` | Unsplash-licensed stock photos plus `credits.json` (alt text comes from `subject`). |
-| `src/data/site.mjs` | Company facts (MOQ, lead time, certifications, contacts) and `waLink()`. |
+| `src/data/site.mjs` | Company facts (MOQ, lead time, contacts) and `waLink()`. |
 | `src/assets/site.css`, `site.js` | Design system; burger menu, reveal, gallery, contact events, WebMCP tools. |
 | `src/public/` | Fonts (self-hosted subsets), icon.png, favicon.ico; copied to dist root. |
 | `public/` | Catalog images `/collections/<code>/*.webp` (+ `-card` 480w, `-thumb` 160w), logos, og-image. |
@@ -65,7 +65,7 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
   - Stock lot: one model in a size run, 6–7 suits (EU 46–56/58).
   - Made to order: from 100 units per style.
   - Lead time: typically 12–15 days, varies by order, quoted per order.
-  - Certifications: ISO 9001, OEKO-TEX 100. Founded 1994.
+  - Certifications: do NOT mention any (ISO 9001 / OEKO-TEX removed from all languages, schema, llms.txt on 2026-10-12, owner decision). Founded 1994.
 - **Products without prices** use the `ItemPage` + `Service` schema. Never use `Product` (Product without offers or reviews is a critical GSC error).
 - **Category mapping** is in `build.mjs` (`CATS`):
   - tuxedos: all tuxedos and dinner jackets

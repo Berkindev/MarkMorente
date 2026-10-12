@@ -1,7 +1,7 @@
 ---
 slug: about-us
 title: Hakkımızda | İstanbul'da Takım Elbise Üreticisi
-description: Mark Morente, 20 yılı aşkın süredir İstanbul'da takım elbise üretiyor. Fabrikamız, kapasitemiz, teknolojimiz, sertifikalarımız ve çalıştığımız firmalar.
+description: Mark Morente, 20 yılı aşkın süredir İstanbul'da takım elbise üretiyor. Fabrikamız, kapasitemiz, üretim teknolojimiz ve birlikte çalıştığımız B2B firmalar.
 h1: Mark Morente hakkında
 lead: İstanbul'da faaliyet gösteren bir takım elbise ve smokin üreticisiyiz. 20 yılı aşkın süredir dünyanın dört bir yanındaki toptancılar, perakendeciler ve markalar için takım elbise üretiyoruz.
 updated: 2026-10-09
@@ -30,14 +30,6 @@ Yatırımlarımızı kalıbı ve tutarlılığı belirleyen aşamalara yapıyoru
 - **3D prototipleme:** Yeni modeller ilk numune kesilmeden önce dijital olarak kontrol ediliyor, bu da numune turlarını azaltıyor.
 - **ERP ile üretim takibi:** Her sipariş kesimden paketlemeye kadar izleniyor. Siparişinizin hangi aşamada olduğunu her zaman biliyoruz.
 - **Kendi modelhanemiz ve numune bölümümüz:** Kalıpları ve numuneleri kendi ekibimiz hazırlıyor. Geliştirme süreci hızlı ilerliyor ve kontrol bizde kalıyor.
-
-## Sertifikalar
-
-- **ISO 9001 sertifikalı üretim**
-- **OEKO-TEX Standard 100 kumaşlar**
-- **ERP üzerinden kalite takibi**
-
-Bu belgeler özellikle Avrupa ve Kuzey Amerika'daki alıcılar için önemli. Oradaki perakendeciler tedarikçilerinden belgelenmiş kalite sistemleri ve test edilmiş kumaşlar istiyor. Dosyalarınız için sertifika kopyalarına ihtiyacınız olursa bizden isteyebilirsiniz.
 
 ## Nasıl çalışıyoruz
 

@@ -13,7 +13,7 @@ country_list: [Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Geo
 
 De Bakou à Almaty, les acheteurs connaissent déjà le prêt-à-porter masculin turc, et beaucoup en achètent depuis des années. Dans la région, les costumes turcs ont la réputation d'une bonne coupe, d'une qualité fiable et de styles qui correspondent au goût local pour les mariages et les cérémonies. Istanbul est aussi proche, avec des vols directs vers les principales capitales et des routes de camionnage bien établies.
 
-Mark Morente fabrique des costumes homme à Istanbul depuis plus de 20 ans. Notre production est certifiée ISO 9001, avec une capacité de plus de 1 000 costumes par jour, et nous utilisons des tissus OEKO-TEX Standard 100. La production prend en général 12-15 jours, selon la quantité, le modèle et la disponibilité du tissu.
+Mark Morente fabrique des costumes homme à Istanbul depuis plus de 20 ans. Notre usine a une capacité de plus de 1 000 costumes par jour. La production prend en général 12-15 jours, selon la quantité, le modèle et la disponibilité du tissu.
 
 Nous vendons uniquement aux professionnels : importateurs, grossistes, boutiques de prêt-à-porter masculin, magasins de costumes de mariage et marques. La plus petite commande est un lot.
 

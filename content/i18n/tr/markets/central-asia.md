@@ -13,7 +13,7 @@ country_list: [Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Geo
 
 Bakü'den Almatı'ya kadar alıcılar Türk erkek giyimini zaten tanıyor, birçoğu da yıllardır Türkiye'den mal alıyor. Türk takım elbisesi bölgede iyi kalıbı, güvenilir kalitesi ve düğün ile resmi davetlerde yerel zevke uyan modelleriyle biliniyor. İstanbul da yakın: başkentlere direkt uçuşlar var, kara yolu hatları da yıllardır oturmuş durumda.
 
-Mark Morente 20 yılı aşkın süredir İstanbul'da erkek takım elbise üretiyor. Üretimimiz ISO 9001 sertifikalı, günlük kapasitemiz 1.000+ takım ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz. Üretim; adet, model ve kumaş durumuna bağlı olarak genellikle 12-15 gün sürüyor.
+Mark Morente 20 yılı aşkın süredir İstanbul'da erkek takım elbise üretiyor. Fabrikamızın günlük kapasitesi 1.000+ takım. Üretim; adet, model ve kumaş durumuna bağlı olarak genellikle 12-15 gün sürüyor.
 
 Yalnızca firmalara satış yapıyoruz: ithalatçılar, toptancılar, erkek giyim mağazaları, damatlık satan mağazalar ve markalar. En küçük sipariş bir lottur.
 

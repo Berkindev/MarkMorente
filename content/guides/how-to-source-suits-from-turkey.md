@@ -40,7 +40,6 @@ Questions that separate factories from resellers:
 
 - Do you have in-house pattern making and sampling?
 - What is your daily output?
-- Which certifications do you hold, and can you send copies?
 - Can I video call from the production floor?
 
 For example, at Mark Morente we have produced suits for more than 20 years, with in-house CAD pattern design, sampling and capacity of over 1,000 suits a day. See [About us](/about-us) for the details.

@@ -13,7 +13,7 @@ country_list: [Azerbaijan, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Geo
 
 Buyers from Baku to Almaty already know Turkish menswear, and many have bought it for years. Turkish suits have a reputation in the region for good cutting, reliable quality and styles that match local taste for weddings and formal events. Istanbul is also close, with direct flights to the main capitals and established truck routes.
 
-Mark Morente has produced men's suits in Istanbul for more than 20 years. We run ISO 9001 certified production with 1000+ suits per day of capacity and use OEKO-TEX Standard 100 fabrics. Production typically takes 12-15 days, depending on quantity, model and fabric availability.
+Mark Morente has produced men's suits in Istanbul for more than 20 years. Our factory has capacity of 1000+ suits per day. Production typically takes 12-15 days, depending on quantity, model and fabric availability.
 
 We sell to businesses only: importers, wholesalers, menswear shops, wedding suit retailers and brands. The smallest order is one lot.
 

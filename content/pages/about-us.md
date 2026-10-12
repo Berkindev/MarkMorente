@@ -1,7 +1,7 @@
 ---
 slug: about-us
 title: About Mark Morente | Suit Manufacturer in Istanbul
-description: Mark Morente has made men's suits in Istanbul for over 20 years. Our factory, capacity, technology, certifications and the B2B buyers we work with.
+description: Mark Morente has made men's suits in Istanbul for over 20 years. Our factory, capacity, production technology and the B2B buyers we work with.
 h1: About Mark Morente
 lead: We are a men's suit and tuxedo manufacturer in Istanbul, Turkey. For more than 20 years we have been making suits for wholesalers, retailers and brands around the world.
 updated: 2026-10-09
@@ -30,14 +30,6 @@ We invest in the parts of production that decide fit and consistency:
 - **3D prototyping:** new models are checked digitally before we cut the first sample, which saves sampling rounds.
 - **ERP-controlled production:** every order is tracked from cutting to packing, so we always know where your order stands.
 - **In-house pattern making and sampling:** our own team makes patterns and samples, which keeps development fast and under our control.
-
-## Certifications
-
-- **ISO 9001 certified production**
-- **OEKO-TEX Standard 100 fabrics**
-- **ERP-controlled quality tracking**
-
-These matter most to buyers in Europe and North America, where retailers ask suppliers for documented quality systems and tested fabrics. If you need copies of certificates for your files, ask us.
 
 ## How we work
 

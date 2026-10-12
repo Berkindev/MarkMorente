@@ -1,7 +1,7 @@
 ---
 slug: faq
 title: Häufige Fragen: Herrenanzüge Großhandel | Mark Morente
-description: Antworten für B2B-Einkäufer von Anzügen: Mindestmenge, Pakete, Private Label, OEM, Muster, Lieferzeit, Qualität, Zertifikate, Versand und Zahlungsbedingungen.
+description: Antworten für B2B-Einkäufer von Anzügen: Mindestmenge, Pakete, Private Label, OEM, Muster, Lieferzeit, Qualitätskontrolle, Versand und Zahlungsbedingungen.
 h1: Häufige Fragen
 lead: Klare Antworten auf die Fragen, die uns Großhändler, Einzelhändler und Marken am häufigsten stellen. Wenn Ihre Frage nicht dabei ist, schreiben Sie uns per WhatsApp.
 updated: 2026-10-09
@@ -61,10 +61,6 @@ Die Auftragsproduktion dauert in der Regel 12-15 Tage nach Musterfreigabe und Au
 ### Wie hoch ist Ihre Produktionskapazität?
 
 Mehr als 1.000 Anzüge pro Tag.
-
-### Welche Zertifizierungen haben Sie?
-
-Unsere Produktion ist nach ISO 9001 zertifiziert, und wir verarbeiten Stoffe nach OEKO-TEX Standard 100.
 
 ### Wie prüfen Sie die Qualität?
 

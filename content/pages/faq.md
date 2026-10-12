@@ -1,7 +1,7 @@
 ---
 slug: faq
 title: Wholesale Suit Manufacturing FAQ | Mark Morente
-description: Answers for B2B suit buyers: minimum order, lots, private label, OEM, samples, lead time, quality, certifications, shipping and payment terms.
+description: Answers for B2B suit buyers: minimum order, lots, private label, OEM, samples, lead time, quality control, shipping and payment terms.
 h1: Frequently asked questions
 lead: Straight answers to the questions wholesale buyers, retailers and brands ask us most. If yours is not here, message us on WhatsApp.
 updated: 2026-10-09
@@ -61,10 +61,6 @@ Made-to-order production typically takes 12-15 days after sample approval and or
 ### What is your production capacity?
 
 More than 1,000 suits per day.
-
-### Which certifications do you have?
-
-Our production is ISO 9001 certified, and we work with OEKO-TEX Standard 100 fabrics.
 
 ### How do you check quality?
 

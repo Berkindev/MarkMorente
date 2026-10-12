@@ -10,7 +10,7 @@ related: [private-label-suits, wholesale-suits, size-guide, faq]
 
 ## Les tissus de notre gamme
 
-La plupart de nos costumes et smokings sont fabriqués en laine mélangée, avec des tissus jacquard, velours, lin mélangé et pailletés pour les tenues de cérémonie. Toutes les vestes sont entièrement doublées 100 % viscose. Nos tissus sont conformes à OEKO-TEX Standard 100.
+La plupart de nos costumes et smokings sont fabriqués en laine mélangée, avec des tissus jacquard, velours, lin mélangé et pailletés pour les tenues de cérémonie. Toutes les vestes sont entièrement doublées 100 % viscose.
 
 | Tissu | Aspect et toucher | Climat idéal | Prix relatif | Usage courant |
 |---|---|---|---|---|
@@ -65,10 +65,6 @@ Si vos clients sont sensibles au prix, un costume deux pièces en laine mélang�
 
 Indiquez-nous votre prix de vente cible et nous vous proposerons des tissus adaptés à ce niveau.
 
-## OEKO-TEX Standard 100
-
-OEKO-TEX Standard 100 est une certification indépendante qui teste les textiles pour les substances nocives. Nos tissus répondent à ce standard, ce qui aide les acheteurs qui vendent dans l'UE, au Royaume-Uni et en Amérique du Nord, où de nombreux détaillants l'exigent de leurs fournisseurs. Si vous avez besoin des certificats pour une commande précise, demandez-les au moment de la commande.
-
 ## Utiliser votre propre tissu
 
 Pour les commandes sous votre marque et en OEM, vous pouvez fournir votre propre tissu, ou nous envoyer un échantillon et nous trouverons le plus proche. La disponibilité du tissu influe sur le délai : nous la confirmons avant d'annoncer le délai de production.
@@ -86,10 +82,6 @@ La plupart de nos costumes et smokings sont en laine mélangée, y compris en ja
 ### Quel tissu convient le mieux aux climats chauds ?
 
 Le lin mélangé et la laine mélangée plus légère avec doublure viscose. Ils respirent mieux et restent confortables à la chaleur.
-
-### Vos tissus sont-ils certifiés OEKO-TEX ?
-
-Oui. Nous travaillons avec des tissus OEKO-TEX Standard 100.
 
 ### Puis-je envoyer mon propre tissu pour la production ?
 

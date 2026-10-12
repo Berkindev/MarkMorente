@@ -13,7 +13,7 @@ country_list: [United Kingdom, Germany, Netherlands, Belgium, France, Austria, S
 
 Las tiendas europeas compran trajes en Turquía por tres motivos prácticos: la fábrica está cerca, la producción es rápida y los mínimos son lo bastante bajos para marcas medianas. Un camión desde Estambul llega por carretera a la mayor parte de Europa, y nuestra producción suele tardar 12-15 días según la cantidad, el modelo y la disponibilidad del tejido.
 
-Mark Morente es un fabricante de trajes de hombre con más de 20 años de producción, una capacidad de más de 1.000 trajes al día, producción certificada ISO 9001 y tejidos OEKO-TEX Standard 100. El patronaje se hace en nuestra propia fábrica con CAD, y la calidad se controla en cada paso.
+Mark Morente es un fabricante de trajes de hombre con más de 20 años de producción y una capacidad de más de 1.000 trajes al día. El patronaje se hace en nuestra propia fábrica con CAD, y la calidad se controla en cada paso.
 
 Vendemos solo a empresas: tiendas de moda masculina, cadenas de boutiques, grandes almacenes, marcas online, tiendas de trajes de boda y ceremonia, empresas de alquiler y compradores corporativos.
 
@@ -54,7 +54,7 @@ El Reglamento (UE) 1007/2011 exige una etiqueta de composición con las denomina
 Cada mercado europeo compra de forma algo distinta. Estos son los patrones que vemos con más frecuencia.
 
 - **Reino Unido.** Trajes de oficina en azul marino y gris, trajes de boda para el novio y sus padrinos, y ropa de ceremonia para empresas de alquiler. Es habitual el tallaje británico por pecho, así que conviene acordar la conversión de tallas desde el principio. Nuestra [guía de tallas](/size-guide) le ayudará.
-- **Alemania, Austria, Países Bajos, Bélgica.** Cortes modernos, mezclas de lana de calidad y colores sobrios. Aquí los compradores preguntan con detalle por la composición de los tejidos y los certificados, y les respondemos antes de la producción.
+- **Alemania, Austria, Países Bajos, Bélgica.** Cortes modernos, mezclas de lana de calidad y colores sobrios. Aquí los compradores preguntan con detalle por la composición de los tejidos, y les respondemos antes de la producción.
 - **Francia.** Cortes slim, trajes de ceremonia y esmoquin para bodas y eventos.
 - **Suecia, Dinamarca, Finlandia, Noruega.** Cortes slim y modernos en gris, azul y tonos tierra, con tejidos de peso medio a alto para el invierno.
 - **Rumanía, Grecia.** Fuerte demanda en temporada de bodas; los trajes de tres piezas y el esmoquin se venden bien.

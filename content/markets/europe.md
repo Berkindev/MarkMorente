@@ -13,7 +13,7 @@ country_list: [United Kingdom, Germany, Netherlands, Belgium, France, Austria, S
 
 European retailers source suits from Turkey for three practical reasons: the factory is close, production is fast, and minimums are small enough for mid-sized brands. A truck from Istanbul reaches most of Europe by road, and our production typically takes 12-15 days depending on quantity, model and fabric availability.
 
-Mark Morente is a men's suit manufacturer with more than 20 years of production, 1000+ suits per day of capacity, ISO 9001 certified production and OEKO-TEX Standard 100 fabrics. Pattern making is done in-house with CAD, and quality is checked at every step.
+Mark Morente is a men's suit manufacturer with more than 20 years of production, and capacity of 1000+ suits per day. Pattern making is done in-house with CAD, and quality is checked at every step.
 
 We sell to businesses only: menswear retailers, boutique chains, department stores, online brands, wedding and formalwear shops, rental companies and corporate buyers.
 
@@ -54,7 +54,7 @@ EU Regulation 1007/2011 requires a fibre composition label using the regulated f
 Each European market buys a little differently. These are the patterns we see most.
 
 - **United Kingdom.** Business suits in navy and grey, wedding suits for grooms and groomsmen, and formalwear for hire companies. UK chest sizing is common, so agree the size conversion up front. Our [size guide](/size-guide) helps.
-- **Germany, Austria, Netherlands, Belgium.** Modern fits, quality wool blends, quiet colours. Buyers here ask detailed questions about fabric composition and certificates, and we answer them before production.
+- **Germany, Austria, Netherlands, Belgium.** Modern fits, quality wool blends, quiet colours. Buyers here ask detailed questions about fabric composition, and we answer them before production.
 - **France.** Slim cuts, ceremony suits, and tuxedos for weddings and events.
 - **Sweden, Denmark, Finland, Norway.** Slim and modern fits in grey, blue and earth tones, mid to heavier weights for winter.
 - **Romania, Greece.** Strong wedding season demand, with 3-piece suits and tuxedos selling well.

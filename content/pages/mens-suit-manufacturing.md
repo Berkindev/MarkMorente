@@ -1,7 +1,7 @@
 ---
 slug: mens-suit-manufacturing
 title: Men's Suit Manufacturer in Turkey | Wholesale & Private Label
-description: Men's suit manufacturer in Istanbul since 1994. Wholesale stock lots, private label and OEM suits, tuxedos and wedding suits. ISO 9001, 1,000+ suits a day.
+description: Men's suit manufacturer in Istanbul since 1994. Wholesale stock lots, private label and OEM suits, tuxedos and wedding suits. Capacity of 1,000+ suits a day.
 h1: Men's suit manufacturer in Turkey
 lead: We make men's suits, tuxedos and wedding suits in our Istanbul factory for wholesalers, retailers and brands. Buy ready-stock lots, have us produce under your label, or send us your specs for OEM production.
 updated: 2026-10-09
@@ -64,12 +64,10 @@ Every suit goes through the same production steps, whether it is for our stock o
 5. **Quality control.** Suits are checked during sewing and again at the end: measurements, seams, lining, buttons, pressing and labels.
 6. **Packing.** Each suit goes into a garment bag with its hangtag, then into cartons marked with model, sizes and order reference.
 
-## Capacity and certifications
+## Capacity and production technology
 
 Our daily capacity is more than 1,000 suits, so a single 100-unit style and a multi-style seasonal programme can both be planned without long queues.
 
-- **ISO 9001 certified production**
-- **OEKO-TEX Standard 100 fabrics**
 - **ERP-controlled production and quality tracking**
 - **CAD pattern design and 3D prototyping**
 - **In-house pattern making and sampling**
@@ -119,7 +117,3 @@ Yes. Private label orders from 100 units per style carry your woven labels, hang
 ### Do you sell single suits?
 
 No. We work with businesses only, and the smallest order is one lot.
-
-### Which certifications do you have?
-
-Our production is ISO 9001 certified, and we work with OEKO-TEX Standard 100 fabrics.

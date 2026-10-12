@@ -1,7 +1,7 @@
 ---
 slug: mens-suit-manufacturing
 title: Anzug Hersteller Türkei | Großhandel & Private Label
-description: Hersteller von Herrenanzügen in Istanbul seit 1994. Großhandel ab Lager, Private Label und OEM: Anzüge, Smokings, Hochzeitsanzüge. ISO 9001, 1.000+ Anzüge/Tag.
+description: Hersteller von Herrenanzügen in Istanbul seit 1994. Großhandel ab Lager, Private Label und OEM: Anzüge, Smokings, Hochzeitsanzüge. Kapazität 1.000+ Anzüge/Tag.
 h1: Hersteller von Herrenanzügen in der Türkei
 lead: Wir fertigen Herrenanzüge, Smokings und Hochzeitsanzüge in unserer Fabrik in Istanbul für Großhändler, Einzelhändler und Marken. Kaufen Sie Lagerware in Paketen, lassen Sie unter Ihrem Label produzieren oder senden Sie uns Ihre Vorgaben für eine OEM-Fertigung.
 updated: 2026-10-09
@@ -64,12 +64,10 @@ Jeder Anzug durchläuft dieselben Produktionsschritte, ob für unser Lager oder 
 5. **Qualitätskontrolle.** Die Anzüge werden während der Näherei und noch einmal am Ende geprüft: Maße, Nähte, Futter, Knöpfe, Bügelqualität und Etiketten.
 6. **Verpackung.** Jeder Anzug kommt mit Hängeetikett in einen Kleidersack und dann in Kartons, die mit Modell, Größen und Bestellreferenz beschriftet sind.
 
-## Kapazität und Zertifizierungen
+## Kapazität und Produktionstechnik
 
 Unsere Tageskapazität liegt bei über 1.000 Anzügen. Ein einzelnes Modell mit 100 Stück lässt sich deshalb ebenso ohne lange Wartezeit einplanen wie ein saisonales Programm mit mehreren Modellen.
 
-- **Nach ISO 9001 zertifizierte Produktion**
-- **Stoffe nach OEKO-TEX Standard 100**
 - **ERP-gesteuerte Produktion und Qualitätsverfolgung**
 - **CAD-Schnittkonstruktion und 3D-Prototyping**
 - **Eigene Schnitt- und Musterabteilung**
@@ -119,7 +117,3 @@ Ja. Private Label Aufträge ab 100 Stück pro Modell tragen Ihre Webetiketten, H
 ### Verkaufen Sie Einzelanzüge?
 
 Nein. Wir arbeiten ausschließlich mit Unternehmen, und die kleinste Bestellung ist ein Paket.
-
-### Welche Zertifizierungen haben Sie?
-
-Unsere Produktion ist nach ISO 9001 zertifiziert, und wir verarbeiten Stoffe nach OEKO-TEX Standard 100.

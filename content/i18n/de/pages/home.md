@@ -64,8 +64,8 @@ Wir liefern weltweit und kalkulieren die Fracht für jedes Ziel einzeln. Mit die
 - **Naher Osten:** Großhändler in den VAE, Saudi-Arabien, Irak, Libanon, Jordanien und den Golfstaaten. [Anzüge für den Nahen Osten](/markets/middle-east)
 - **Nordamerika:** Händler, Festmodegeschäfte und Marken in den USA und Kanada. [Anzüge für Nordamerika](/markets/north-america)
 
-## Qualität und Zertifizierungen
+## Qualitätskontrolle und Kapazität
 
-Unsere Produktion ist nach ISO 9001 zertifiziert, und wir verarbeiten Stoffe nach OEKO-TEX Standard 100. Die Schnitte entstehen im CAD, die Produktion wird in einem ERP-System gesteuert, und die Anzüge werden in jeder Nähphase und noch einmal vor dem Verpacken geprüft. Unsere Tageskapazität liegt bei über 1.000 Anzügen. So lassen sich ein Modell mit 100 Stück oder eine Containerbestellung ohne lange Wartezeiten einplanen.
+Die Schnitte entstehen im CAD, die Produktion wird in einem ERP-System gesteuert, und die Anzüge werden in jeder Nähphase und noch einmal vor dem Verpacken geprüft. Unsere Tageskapazität liegt bei über 1.000 Anzügen. So lassen sich ein Modell mit 100 Stück oder eine Containerbestellung ohne lange Wartezeiten einplanen.
 
 Schicken Sie uns die gewünschten Modelle und Mengen per WhatsApp, und wir antworten mit einem Angebot.

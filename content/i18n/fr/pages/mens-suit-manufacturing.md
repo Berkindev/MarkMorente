@@ -1,7 +1,7 @@
 ---
 slug: mens-suit-manufacturing
 title: Fabricant de costumes homme en Turquie | Gros et OEM
-description: Fabricant de costumes homme à Istanbul depuis 1994. Lots en stock, marque propre et OEM, smokings, costumes de mariage. ISO 9001, 1 000+ costumes par jour.
+description: Fabricant de costumes homme à Istanbul depuis 1994. Lots en stock, marque propre et OEM, smokings, costumes de mariage. Capacité de 1 000+ costumes par jour.
 h1: Fabricant de costumes homme en Turquie
 lead: Nous fabriquons des costumes homme, des smokings et des costumes de mariage dans notre usine d'Istanbul pour les grossistes, les détaillants et les marques. Achetez des lots en stock, faites produire sous votre marque, ou envoyez-nous vos spécifications pour une production OEM.
 updated: 2026-10-09
@@ -64,12 +64,10 @@ Chaque costume passe par les mêmes étapes de production, qu'il soit destiné �
 5. **Contrôle qualité.** Les costumes sont contrôlés pendant la couture puis à nouveau à la fin : mesures, coutures, doublure, boutons, repassage et étiquettes.
 6. **Emballage.** Chaque costume est placé dans une housse avec son étiquette volante, puis dans des cartons marqués avec le modèle, les tailles et la référence de commande.
 
-## Capacité et certifications
+## Capacité et technologie de production
 
 Notre capacité dépasse 1 000 costumes par jour : un modèle de 100 pièces comme un programme saisonnier sur plusieurs modèles se planifient sans longue file d'attente.
 
-- **Production certifiée ISO 9001**
-- **Tissus OEKO-TEX Standard 100**
 - **Production et suivi qualité pilotés par ERP**
 - **Patronage en CAO et prototypage 3D**
 - **Patronage et échantillonnage internes**
@@ -119,7 +117,3 @@ Oui. Les commandes sous votre marque, dès 100 pièces par modèle, portent vos 
 ### Vendez-vous des costumes à l'unité ?
 
 Non. Nous travaillons uniquement avec les professionnels, et la plus petite commande est un lot.
-
-### Quelles certifications avez-vous ?
-
-Notre production est certifiée ISO 9001, et nous travaillons avec des tissus OEKO-TEX Standard 100.

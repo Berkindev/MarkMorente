@@ -1,7 +1,7 @@
 ---
 slug: oem-suit-manufacturing
 title: Fabrication de costumes OEM en Turquie | Mark Morente
-description: Fabrication de costumes OEM à Istanbul selon votre fiche technique : patronage, gradation, échantillons, production en série. Usine ISO 9001, dès 100 pièces.
+description: Fabrication de costumes OEM à Istanbul selon votre fiche technique : patronage, gradation, échantillons, production en série. Notre propre usine, dès 100 pièces.
 h1: Fabrication de costumes OEM selon vos spécifications
 lead: Envoyez-nous votre fiche technique ou un vêtement modèle et nous produisons le costume exactement selon vos spécifications, dans votre tissu, en volume. Votre modèle est fabriqué pour vous seul.
 updated: 2026-10-09
@@ -57,7 +57,7 @@ Nous utilisons le prototypage 3D pour vérifier un nouveau patron avant de coupe
 
 La production en série est planifiée après la validation de présérie et la confirmation de commande. La production prend en général 12-15 jours. Le délai exact dépend de la quantité, de la complexité du modèle et de la disponibilité du tissu.
 
-La production est pilotée par notre système ERP : nous pouvons vous dire à tout moment où en est votre commande. La qualité est contrôlée pendant la coupe et la couture puis à nouveau avant l'emballage : mesures par rapport à votre spécification, qualité des coutures, repassage, boutons, étiquettes et finition générale. Notre production est certifiée ISO 9001 et nous travaillons avec des tissus OEKO-TEX Standard 100.
+La production est pilotée par notre système ERP : nous pouvons vous dire à tout moment où en est votre commande. La qualité est contrôlée pendant la coupe et la couture puis à nouveau avant l'emballage : mesures par rapport à votre spécification, qualité des coutures, repassage, boutons, étiquettes et finition générale.
 
 Avec une capacité de plus de 1 000 costumes par jour, nous pouvons traiter un seul modèle de 100 pièces comme un programme saisonnier complet sur plusieurs modèles.
 

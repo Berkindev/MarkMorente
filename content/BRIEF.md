@@ -3,7 +3,7 @@
 ## Who we are (verified facts — use only these; do not invent new numbers, clients, awards or certificates)
 - Mark Morente: men's suit and tuxedo **manufacturer and wholesaler** based in **Istanbul, Turkey**. Factory producing suits for 20+ years.
 - Production capacity: 1000+ suits per day. Production tech: CAD pattern design, ERP-controlled production, 3D prototyping, in-house pattern making and sampling, quality control at every step.
-- Certifications (owner-verified): ISO 9001 certified production; OEKO-TEX Standard 100 fabrics.
+- Certifications: owner decided (2026-10-12) NOT to mention any certification (no ISO 9001, no OEKO-TEX) anywhere on the site.
 - Services: **wholesale** (ready-stock models sold in lots), **private label** (our production under the buyer's brand: labels, lining, buttons, packaging), **OEM** (to the buyer's technical specs).
 - Two ways to buy:
   1. **From stock, in lots.** Many catalog models are in stock and sold as size-run lots (example lot: one model in EU sizes 46-48-50-52-54-56, 6 suits per lot; lots vary by model). 

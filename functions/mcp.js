@@ -9,7 +9,7 @@ const TOOLS = [
   { name: 'search_models', description: 'Search Mark Morente wholesale men\'s suit and tuxedo models (B2B only). Matches title, type, colour, fabric, lapel or code, e.g. "navy three piece", "velvet tuxedo", "T05".',
     inputSchema: { type: 'object', properties: { query: { type: 'string' }, in_stock_only: { type: 'boolean' }, category: { type: 'string', description: '3-piece-suits, 2-piece-suits, tuxedos, wedding-suits, ceremony-suits, big-tall-suits' } }, required: ['query'] }, annotations: { readOnlyHint: true } },
   { name: 'get_model', description: 'Full details of one model by code (e.g. "S05").', inputSchema: { type: 'object', properties: { code: { type: 'string' } }, required: ['code'] }, annotations: { readOnlyHint: true } },
-  { name: 'get_ordering_terms', description: 'How to buy: stock lots, private label MOQ, lead time, certifications, markets and contact channels.', inputSchema: { type: 'object', properties: {} }, annotations: { readOnlyHint: true } },
+  { name: 'get_ordering_terms', description: 'How to buy: stock lots, private label MOQ, lead time, markets and contact channels.', inputSchema: { type: 'object', properties: {} }, annotations: { readOnlyHint: true } },
   { name: 'create_quote_link', description: 'Create a WhatsApp link with a prefilled wholesale quote request. The user sends it themselves. Business buyers only.',
     inputSchema: { type: 'object', properties: { models: { type: 'string', description: 'Model codes or description' }, quantity: { type: 'string', description: 'e.g. "3 lots" or "300 units"' }, private_label: { type: 'boolean' }, company: { type: 'string' }, country: { type: 'string' }, note: { type: 'string' } }, required: ['models', 'quantity'] }, annotations: { readOnlyHint: true } },
 ];

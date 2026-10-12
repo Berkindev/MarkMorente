@@ -1,7 +1,7 @@
 ---
 slug: oem-suit-manufacturing
 title: OEM-Anzugfertigung in der Türkei | Mark Morente
-description: OEM-Fertigung von Anzügen in Istanbul nach Ihrem Tech Pack: Schnitt, Gradierung, Passformmuster und Serienproduktion. ISO 9001, ab 100 Stück pro Modell.
+description: OEM-Fertigung von Anzügen in Istanbul nach Ihrem Tech Pack: Schnitt, Gradierung, Passformmuster und Serienproduktion. Eigene Fabrik, ab 100 Stück pro Modell.
 h1: OEM-Anzugfertigung nach Ihren Vorgaben
 lead: Senden Sie uns Ihr Tech Pack oder ein Musterteil, und wir produzieren den Anzug genau nach Ihren Vorgaben, in Ihrem Stoff und in Serie. Ihr Design fertigen wir ausschließlich für Sie.
 updated: 2026-10-09
@@ -57,7 +57,7 @@ Mit 3D-Prototyping prüfen wir einen neuen Schnitt, bevor wir Stoff zuschneiden.
 
 Die Serienproduktion wird nach der Freigabe vor Produktionsbeginn und der Auftragsbestätigung eingeplant. Die Produktion dauert in der Regel 12-15 Tage. Die genaue Lieferzeit hängt von Menge, Komplexität des Modells und Stoffverfügbarkeit ab.
 
-Die Produktion läuft über unser ERP-System, sodass wir Ihnen in jeder Phase sagen können, wo Ihr Auftrag steht. Die Qualität wird während Zuschnitt und Näherei und noch einmal vor dem Verpacken geprüft: Maße im Abgleich mit Ihrer Spezifikation, Nahtqualität, Bügelqualität, Knöpfe, Etiketten und Gesamtverarbeitung. Unsere Produktion ist nach ISO 9001 zertifiziert, und wir verarbeiten Stoffe nach OEKO-TEX Standard 100.
+Die Produktion läuft über unser ERP-System, sodass wir Ihnen in jeder Phase sagen können, wo Ihr Auftrag steht. Die Qualität wird während Zuschnitt und Näherei und noch einmal vor dem Verpacken geprüft: Maße im Abgleich mit Ihrer Spezifikation, Nahtqualität, Bügelqualität, Knöpfe, Etiketten und Gesamtverarbeitung.
 
 Mit einer Tageskapazität von über 1.000 Anzügen fertigen wir ein einzelnes Modell mit 100 Stück ebenso wie ein komplettes Saisonprogramm über mehrere Modelle.
 

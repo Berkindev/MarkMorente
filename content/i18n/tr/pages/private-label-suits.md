@@ -93,9 +93,9 @@ Bizim üretimimizi sizin ürününüze dönüştüren şey markalamadır. Şunla
 
 Kendi etiket ve kılıflarınızı da gönderebilirsiniz, üretim sırasında takarız. Hangi seçeneği istediğinizi erken bildirin, çünkü baskılı aksesuarların dikim başlamadan hazır olması gerekir.
 
-## Kalite ve sertifikalar
+## Kalite kontrol
 
-Üretimimiz ISO 9001 sertifikalıdır ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz. Kalıplar CAD ortamında hazırlanır, yeni bir modeli kumaş kesmeden önce 3D prototiplemeyle kontrol ederiz. Private label siparişlerde de kendi stok ürünlerimizdeki kalite kontrollerin aynısı uygulanır.
+Kalıplar CAD ortamında hazırlanır, yeni bir modeli kumaş kesmeden önce 3D prototiplemeyle kontrol ederiz. Private label siparişlerde de kendi stok ürünlerimizdeki kalite kontrollerin aynısı uygulanır.
 
 ## Private label hizmetimizi kimler kullanıyor
 

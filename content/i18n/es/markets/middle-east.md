@@ -13,7 +13,7 @@ country_list: [United Arab Emirates, Saudi Arabia, Iraq, Kuwait, Qatar, Jordan, 
 
 Los compradores de Oriente Medio compran trajes en Estambul porque está cerca, la producción es rápida y las fábricas turcas hacen los modelos de ceremonia que piden sus clientes. Estambul está a pocas horas de vuelo del Golfo y del Levante, y a Irak se llega en camión.
 
-Mark Morente fabrica trajes de hombre desde hace más de 20 años. Nuestra producción está certificada ISO 9001, tiene una capacidad de más de 1.000 trajes al día, trabaja con tejidos OEKO-TEX Standard 100 y suele completarse en 12-15 días, según la cantidad, el modelo y la disponibilidad del tejido.
+Mark Morente fabrica trajes de hombre desde hace más de 20 años. Nuestra fábrica tiene una capacidad de más de 1.000 trajes al día y la producción suele completarse en 12-15 días, según la cantidad, el modelo y la disponibilidad del tejido.
 
 Trabajamos solo con empresas: importadores, reexportadores, mayoristas, tiendas de moda masculina, tiendas de trajes de boda y ceremonia, y compradores corporativos. El pedido mínimo es un lote.
 

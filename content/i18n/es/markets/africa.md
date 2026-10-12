@@ -11,7 +11,7 @@ country_list: [Nigeria, Ghana, Côte d'Ivoire, Senegal, Cameroon, Kenya, Tanzani
 
 ## Por qué los compradores africanos compran trajes en Estambul
 
-Los importadores africanos compran en Estambul porque en una sola fábrica encuentran patronaje de estilo europeo, una amplia variedad de modelos de ceremonia y plazos de producción cortos. Mark Morente fabrica trajes de hombre desde hace más de 20 años, con una capacidad de más de 1.000 trajes al día, producción certificada ISO 9001 y tejidos OEKO-TEX Standard 100.
+Los importadores africanos compran en Estambul porque en una sola fábrica encuentran patronaje de estilo europeo, una amplia variedad de modelos de ceremonia y plazos de producción cortos. Mark Morente fabrica trajes de hombre desde hace más de 20 años, con una capacidad de más de 1.000 trajes al día.
 
 La distancia también cuenta. Estambul es uno de los centros de carga aérea con más tráfico entre Europa, Asia y África, y Turkish Airlines vuela a decenas de ciudades del continente. Para muchos compradores de Lagos, Accra, Nairobi, Kinsasa o Argel, esto significa que la mercancía sale de nuestra fábrica y llega a su ciudad en un vuelo regular, sin cambiar de transportista en el Golfo o en Europa.
 

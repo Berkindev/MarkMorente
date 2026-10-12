@@ -1,7 +1,7 @@
 ---
 slug: mens-suit-manufacturing
 title: Takım Elbise Üreticisi İstanbul | Toptan ve Private Label
-description: 1994'ten beri İstanbul'da takım elbise üreticisi. Stoktan toptan seri, private label ve OEM üretim; smokin ve damatlık. ISO 9001, günde 1.000+ takım.
+description: 1994'ten beri İstanbul'da takım elbise üreticisi. Stoktan toptan seri, private label ve OEM üretim; smokin ve damatlık. Günde 1.000+ takım kapasite.
 h1: Türkiye'de erkek takım elbise üreticisi
 lead: İstanbul'daki fabrikamızda toptancılar, perakendeciler ve markalar için erkek takım elbise, smokin ve damatlık üretiyoruz. Stoktan seri halinde alabilir, kendi markanızla ürettirebilir ya da teknik föyünüzü göndererek OEM (fason) üretim yaptırabilirsiniz.
 updated: 2026-10-09
@@ -64,12 +64,10 @@ Termin süresi adede, modele ve kumaşın bulunabilirliğine bağlıdır. Genel 
 5. **Kalite kontrol.** Takımlar dikim sırasında ve sonunda yeniden kontrol edilir: ölçüler, dikişler, astar, düğmeler, ütü ve etiketler.
 6. **Paketleme.** Her takım askı etiketiyle birlikte kılıfına konur, ardından model, beden ve sipariş referansı yazılı kolilere yerleştirilir.
 
-## Kapasite ve sertifikalar
+## Kapasite ve üretim teknolojisi
 
 Günlük kapasitemiz 1.000 takımın üzerindedir. Bu sayede tek bir modelden 100 adetlik bir sipariş de, çok modelli bir sezon programı da uzun sıra beklemeden planlanabilir.
 
-- **ISO 9001 sertifikalı üretim**
-- **OEKO-TEX Standard 100 kumaşlar**
 - **ERP ile yönetilen üretim ve kalite takibi**
 - **CAD kalıp tasarımı ve 3D prototipleme**
 - **Kendi bünyemizde kalıp ve numune hazırlama**
@@ -119,7 +117,3 @@ Evet. Model başına 100 adetten başlayan private label siparişlerde sizin dok
 ### Tek takım satıyor musunuz?
 
 Hayır. Yalnızca firmalarla çalışıyoruz; en küçük sipariş bir lottur.
-
-### Hangi sertifikalara sahipsiniz?
-
-Üretimimiz ISO 9001 sertifikalıdır ve OEKO-TEX Standard 100 kumaşlarla çalışıyoruz.

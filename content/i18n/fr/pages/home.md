@@ -64,8 +64,8 @@ Nous expédions dans le monde entier et chiffrons le fret pour chaque destinatio
 - **Moyen-Orient :** grossistes aux Émirats arabes unis, en Arabie saoudite, en Irak, au Liban, en Jordanie et dans le Golfe. [Costumes pour le Moyen-Orient](/markets/middle-east)
 - **Amérique du Nord :** détaillants, magasins de tenues de soirée et marques aux États-Unis et au Canada. [Costumes pour l'Amérique du Nord](/markets/north-america)
 
-## Qualité et certifications
+## Contrôle qualité et capacité
 
-Notre production est certifiée ISO 9001 et nous travaillons avec des tissus OEKO-TEX Standard 100. Les patrons sont réalisés en CAO, la production est suivie dans un système ERP, et les costumes sont contrôlés à chaque étape de la couture puis à nouveau avant l'emballage. Notre capacité dépasse 1 000 costumes par jour : un modèle de 100 pièces ou une commande en conteneur se planifie sans longue file d'attente.
+Les patrons sont réalisés en CAO, la production est suivie dans un système ERP, et les costumes sont contrôlés à chaque étape de la couture puis à nouveau avant l'emballage. Notre capacité dépasse 1 000 costumes par jour : un modèle de 100 pièces ou une commande en conteneur se planifie sans longue file d'attente.
 
 Envoyez-nous sur WhatsApp les modèles et les quantités que vous envisagez, et nous vous répondrons avec un devis.

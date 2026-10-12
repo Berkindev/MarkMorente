@@ -10,7 +10,7 @@ related: [private-label-suits, wholesale-suits, size-guide, faq]
 
 ## The fabrics in our range
 
-Most of our suits and tuxedos are made in wool blends, with jacquard, velvet, linen blend and sequin fabrics for occasion wear. All jackets are fully lined in 100% viscose. Our fabrics meet OEKO-TEX Standard 100.
+Most of our suits and tuxedos are made in wool blends, with jacquard, velvet, linen blend and sequin fabrics for occasion wear. All jackets are fully lined in 100% viscose.
 
 | Fabric | Look and feel | Best climate | Relative price | Typical use |
 |---|---|---|---|---|
@@ -65,10 +65,6 @@ If your customers are price-sensitive, a wool blend two-piece suit gives the bes
 
 Tell us your target retail price and we will suggest fabrics that work at that level.
 
-## OEKO-TEX Standard 100
-
-OEKO-TEX Standard 100 is an independent certification that tests textiles for harmful substances. Our fabrics meet this standard, which helps buyers selling into the EU, UK and North America, where many retailers ask suppliers for it. If you need certificates for a specific order, ask us when you place it.
-
 ## Using your own fabric
 
 For private label and OEM orders you can supply your own fabric, or send us a swatch and we will source the closest match. Fabric availability affects lead time, so we confirm it before we quote production time.
@@ -86,10 +82,6 @@ Most of our suits and tuxedos are made in wool blends, including jacquard wool b
 ### Which fabric is best for hot climates?
 
 Linen blends and lighter wool blends with viscose lining. They breathe better and stay comfortable in heat.
-
-### Are your fabrics OEKO-TEX certified?
-
-Yes. We work with OEKO-TEX Standard 100 fabrics.
 
 ### Can I send my own fabric for production?
 

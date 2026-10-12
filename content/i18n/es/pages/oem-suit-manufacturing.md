@@ -1,7 +1,7 @@
 ---
 slug: oem-suit-manufacturing
 title: Fabricación OEM de trajes en Turquía | Mark Morente
-description: Fabricación OEM de trajes en Estambul según su ficha técnica: patronaje, escalado, muestras de ajuste y producción en serie. Fábrica ISO 9001, mínimo 100 uds.
+description: Fabricación OEM de trajes en Estambul según su ficha técnica: patronaje, escalado, muestras de ajuste y producción en serie. Fábrica propia, mínimo 100 uds.
 h1: Fabricación OEM de trajes según sus especificaciones
 lead: Envíenos su ficha técnica o una prenda de muestra y fabricamos el traje exactamente según sus especificaciones, en su tejido y en volumen. Su diseño lo fabricamos solo para usted.
 updated: 2026-10-09
@@ -57,7 +57,7 @@ Usamos prototipado 3D para revisar cada patrón nuevo antes de cortar el tejido,
 
 La producción en serie se programa tras la aprobación de preproducción y la confirmación del pedido. La producción suele tardar 12-15 días. El plazo exacto depende de la cantidad, de la complejidad del modelo y de si el tejido está listo.
 
-La producción se gestiona en nuestro sistema ERP, así que podemos decirle en qué fase está su pedido en cualquier momento. La calidad se revisa durante el corte y la confección y otra vez antes del embalaje: medidas frente a su especificación, calidad de costuras, planchado, botones, etiquetas y acabado general. Nuestra producción cuenta con la certificación ISO 9001 y trabajamos con tejidos OEKO-TEX Standard 100.
+La producción se gestiona en nuestro sistema ERP, así que podemos decirle en qué fase está su pedido en cualquier momento. La calidad se revisa durante el corte y la confección y otra vez antes del embalaje: medidas frente a su especificación, calidad de costuras, planchado, botones, etiquetas y acabado general.
 
 Con una capacidad diaria de más de 1.000 trajes, podemos asumir tanto un único modelo de 100 unidades como un programa de temporada completo con varios modelos.
 

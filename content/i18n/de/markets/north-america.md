@@ -15,7 +15,7 @@ Einkäufer aus den USA und Kanada kommen wegen kürzerer Produktionszeiten, gute
 
 Diese Kombination passt zu mittelgroßen Händlern, Online-Marken für Herrenmode und Verleihfirmen für Festmode, die neue Modelle testen möchten, ohne sich auf Tausende Stück festzulegen. Einen Bestseller können Sie schnell nachbestellen, statt einen großen Sicherheitsbestand zu halten.
 
-Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge in Istanbul. Unsere Produktion ist nach ISO 9001 zertifiziert, hat eine Kapazität von über 1.000 Anzügen pro Tag und verarbeitet Stoffe nach OEKO-TEX Standard 100. Die Schnitte entwickeln wir im eigenen Haus mit CAD und 3D-Prototyping.
+Mark Morente produziert seit mehr als 20 Jahren Herrenanzüge in Istanbul. Unsere Fabrik hat eine Kapazität von über 1.000 Anzügen pro Tag. Die Schnitte entwickeln wir im eigenen Haus mit CAD und 3D-Prototyping.
 
 ## Türkei im Vergleich zur typischen Beschaffung in Asien
 
