@@ -1,7 +1,7 @@
 # Mark Morente: Project Guide (read this first)
 
 ## What this is
-**Mark Morente** is a B2B manufacturer of men's suits and tuxedos in Istanbul, Turkey. It does wholesale, private label and OEM production for business buyers worldwide (wholesalers, retailers, store chains, formalwear and wedding stores, brands). It does **not** sell single suits to individuals, and the site makes that distinction everywhere.
+**Mark Morente** is a B2B manufacturer of men's suits (and tuxedos, made to order only) in Istanbul, Turkey. It does wholesale, private label and OEM production for business buyers worldwide (wholesalers, retailers, store chains, formalwear and wedding stores, brands). It does **not** sell single suits to individuals, and the site makes that distinction everywhere.
 
 - **Live:** https://www.markmorente.com. The canonical host is **www**, and URLs have **no trailing slash**.
 - **Repo:** https://github.com/Berkindev/MarkMorente (PUBLIC: no secrets, IPs, personal data or confidential lists).
@@ -25,7 +25,8 @@ npm run indexnow       # re-submit sitemap URLs to IndexNow only
 ## File map
 | Path | What |
 |---|---|
-| `collections.json` | **All 78 products** (source of truth). Slugs are live URLs and must **never** be renamed. |
+| `collections.json` | **All 77 products** (source of truth): S10–S68 new suits (2026-10-15) + 18 older suits. Slugs are live URLs and must **never** be renamed. |
+| `removed-products.json` | Models taken off the site (61 tuxedo/dinner jacket codes incl. T27). Build turns it into 301s (all languages → tuxedo page); `functions/_middleware.js` returns 410 for their image folders (regex `GONE`, keep in sync). |
 | `categories.json` | Legacy 6 manufacturing categories (images and fallback text). |
 | `content/BRIEF.md` | Verified company facts, audience and **voice rules**. Read before writing copy. |
 | `content/pages/*.md` | Home, hub, service, info and category pages (category files use bare slugs, e.g. `slug: tuxedos`). |
@@ -52,7 +53,7 @@ npm run indexnow       # re-submit sitemap URLs to IndexNow only
 ## Design
 - Site-wide: ivory paper, charcoal ink, logo gold (`src/assets/site.css` tokens).
 - Home page only (`body.home`): the original Mark Morente classic palette, navy `#1A1F3C` + gold `#C9A962` + off-white `#FAF9F6`, square uppercase buttons, navy header/hero/footer. Owner liked this better ("more classic, suits the brand"); extend to other pages only if asked.
-- Language menu shows inline SVG flags (Arabic = UAE flag).
+- Language menu shows inline SVG flags; Arabic uses a neutral navy tile with the letter ع (not one country's flag, so no Arabic market feels left out; owner request 2026-10-15).
 
 ## Content markdown format
 Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), `h1`, `lead`, `updated`, `related: [slugs]`. The body supports `##`, `###`, paragraphs, lists, **bold**, links and pipe tables. The last section is `## FAQ`, with `### Question` entries that render as FAQPage schema.
@@ -68,10 +69,11 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
   - Certifications: do NOT mention any (ISO 9001 / OEKO-TEX removed from all languages, schema, llms.txt on 2026-10-12, owner decision). Founded 1994.
 - **Products without prices** use the `ItemPage` + `Service` schema. Never use `Product` (Product without offers or reviews is a critical GSC error).
 - **Category mapping** is in `build.mjs` (`CATS`):
-  - tuxedos: all tuxedos and dinner jackets
-  - wedding: three-piece suits, dinner jackets, tuxedos in white/ivory/burgundy/green/red
-  - ceremony: embellished tuxedos (rhinestone, sequin, crystal, beaded, studded, velvet, ombre…)
-  - big & tall: models whose lot includes size 58
+  - 3-piece / 2-piece (incl. double-breasted, safari, overshirt) / wedding (three-piece) / big & tall (lot includes 58)
+  - tuxedos: **no catalog models** (made to order only); the page shows a stock photo (`CAT_PHOTO`) and "made to order" instead of a grid
+  - ceremony-suits page was deleted 2026-10-15 → 301 to wedding-suits in all languages
+- Collections page groups: three-piece / two-piece & double-breasted / safari & overshirt (`col.g3`, `col.g2`, `col.gc`).
+- Out-of-stock models are presented as **made to order only** (`p.box.mto`: "not held as a ready stock lot", no "currently"), so buyers don't ask for restock dates.
 - **Catalog images:** after adding or replacing one, run `python3 scripts/generate-image-variants.py`.
 - **Legacy URLs** (`/collections/<slug>`, `/mens-suit-manufacturing/<slug>`, `/about-us`, `/contact`) must keep working; `_redirects` covers old aliases.
 - **DNS** is on Cloudflare. **MX/SPF are Hostinger mail: never touch them.**
@@ -82,6 +84,7 @@ Front matter fields: `slug`, `title` (≤ 60 chars), `description` (140–160), 
 - Catalog text was audited against the photos (2026-10-09). T27 was a duplicate of T19 (same photo) and was removed with a 301 to T19. Product codes are internal; owner allows removing duplicates.
 
 ## Status
+- [x] 2026-10-15: tuxedo models removed, 59 new suits, Arabic flag → neutral ع badge (see section above)
 - [x] Static rebuild (119 EN URLs + 6 languages = 743 pages), SEO/GEO layer, local QA (audit clean, Lighthouse mobile 96–99, no 375px overflow in any language)
 - [x] DNS cutover 2026-10-09 (www + apex → Pages custom domains, MX/SPF untouched), Vercel removed
 - [x] GSC sitemap submitted, IndexNow 736 URLs accepted (2026-10-09)
@@ -100,6 +103,12 @@ After any change: `npm run build && npm run audit`, check locally with `npm run 
 - **Change UI text / buttons:** `src/i18n/en.json` + the 6 other language files (same keys). Mobile top bar text is `top.m` (keep ≤ ~42 chars).
 - **Stock photos (process/market pages):** `content/photos/*.jpg` + `credits.json`; mapping slug → photo is `PHOTOS` in `build.mjs`. Real factory photos from the owner should replace these (same file names = no code change).
 - **Home page sections/photos:** home markup is the `HOME` block in `build.mjs`; featured models are the code lists `featSuits` / `featTux`; category card images `CAT_IMG`.
+
+## 2026-10-15 catalog change (owner)
+- Removed all 60 tuxedo / dinner jacket models (T01–T54, 165, 238, 312, 366, 378, 403, 404): too many single-item enquiries and a supply issue with stones. Their pages 301 to /mens-suit-manufacturing/tuxedos (localized), their images return 410, all their files were deleted. GSC: these pages had ~2 clicks in 3 months, so the SEO cost is negligible.
+- Added 59 new suits from `yenifotolar/` (owner's branded photos, 800×1200): S10–S20 three-piece, S21–S31 contrast waistcoat, S32–S40 pinstripe double-breasted, S41–S44 pinstripe two-piece, S45–S48 buckle-belt wrap, S49–S55 side-adjuster trousers, S56–S63 safari, S64–S68 overshirt. Photo 59 was a duplicate of 35 and was skipped; 18 + 22 are one model (S42).
+- New models are set to **In Stock, lot EU 46–56 (6 suits)** and fabric names describe what the photo shows (Plain/Pinstripe Suiting Fabric, Linen-Look, Textured); `TODO(owner)`: confirm stock status, size runs and fabric composition per model.
+- Tuxedos stay as a made-to-order service (category page rewritten); stock-tuxedo and sequin/rhinestone claims removed from pages, markets, guides and all translations.
 
 ## History (2026-10-09, one long session)
 1. Audit of the old Next.js/Vercel site + GSC CSVs (≈181 clicks/6.7k impressions in 3 months; best pages /mens-suit-manufacturing and wedding-suits; Product-without-price GSC error; thin category pages).

@@ -29,9 +29,9 @@ Las bodas generan una gran parte de la demanda de trajes en toda la región. Las
 
 Estos estilos de ceremonia se venden bien:
 
-- Esmoquin con solapa chal o de pico en negro, blanco, crudo, azul marino y burdeos
-- Chaquetas de esmoquin en jacquard y con efecto terciopelo
-- Modelos con lentejuelas y pedrería para el look de noche del novio
+- Trajes cruzados de raya diplomática en burdeos, azul marino y marrón
+- Trajes con chaleco en contraste para el look de noche del novio
+- Esmoquin con solapa chal o de pico, bajo pedido desde 100 unidades por modelo
 - Trajes de tres piezas con chaleco a juego para familiares e invitados
 - Trajes clásicos de dos piezas en azul marino, gris y negro para la oficina y el uso formal diario
 
@@ -82,7 +82,7 @@ Sí. Trabajamos en turco y en inglés. Muchos compradores de Azerbaiyán y Turkm
 
 ### ¿Qué estilos se venden mejor para bodas en la región?
 
-Se venden bien el esmoquin con solapa chal o de pico, las chaquetas de esmoquin en jacquard o con efecto terciopelo y los trajes de tres piezas. Para la noche, el novio suele elegir un modelo más llamativo.
+Se venden bien los trajes de tres piezas, los trajes con chaleco en contraste y los trajes cruzados de raya diplomática. Para la noche, el novio suele elegir un modelo más llamativo, y el esmoquin está disponible bajo pedido.
 
 ### ¿Cómo envían a Kazajistán o Uzbekistán?
 

@@ -1,18 +1,18 @@
 ---
 slug: wedding-suits
 title: Wedding Suit Manufacturer in Turkey | Mark Morente
-description: Wholesale and private label wedding suits from Istanbul for groom, groomsmen and guests: tuxedos, 3-piece and linen suits. Stock lots or runs from 100 units.
+description: Wholesale and private label wedding suits from Istanbul for groom, groomsmen and guests: 3-piece, double-breasted and linen suits. Stock lots or runs from 100 units.
 h1: Wedding suits manufacturing
-lead: We make wedding suits and tuxedos for grooms, groomsmen and guests, and sell them to wedding shops, formalwear retailers and wholesalers. Buy Turkish wedding suits from our stock in lots, or have us produce a wedding collection under your label.
+lead: We make wedding suits for grooms, groomsmen and guests, and sell them to wedding shops, formalwear retailers and wholesalers. Buy Turkish wedding suits from our stock in lots, or have us produce a wedding collection under your label.
 updated: 2026-10-09
-related: [tuxedos, 3-piece-suits, ceremony-suits, wholesale-suits, private-label-suits]
+related: [3-piece-suits, 2-piece-suits, tuxedos, wholesale-suits, private-label-suits]
 ---
 
 ## What we produce
 
 A wedding range needs three things: a standout look for the groom, matching suits for groomsmen, and smart options for guests. As a wedding suit manufacturer, we make all three, so a wedding shop can buy its whole range from one supplier.
 
-- **Groom:** tuxedos, dinner jackets, three-piece suits and embellished styles that stand out in photos
+- **Groom:** three-piece suits, suits with a contrast waistcoat, double-breasted suits and, made to order, tuxedos and dinner jackets
 - **Groomsmen:** matching two-piece or three-piece suits, ordered in the same model and colour across sizes
 - **Guests:** business-style suits, linen summer suits and double-breasted suits that work beyond the wedding day
 
@@ -20,17 +20,17 @@ A wedding range needs three things: a standout look for the groom, matching suit
 
 | Wedding style | Our models | Fabric |
 |---|---|---|
-| Classic black tie | Shawl and peak lapel tuxedos, satin trims | Satin-trimmed wool blend |
-| Ivory and white | Dinner jackets and tuxedos | Wool blend, satin trims |
 | Three-piece wedding suit | Jacket, trousers, matching waistcoat | Wool blend |
-| Statement groom | Jacquard, velvet, sequin, crystal and embroidered tuxedos | Jacquard, velvet, sequin |
+| Contrast waistcoat | Cream, brown, navy, black or green waistcoat under a different jacket colour | Wool blend |
+| Statement groom | Pinstripe double-breasted suits in burgundy, cream, navy and brown | Pinstripe suiting |
+| Classic black tie | Shawl and peak lapel tuxedos, made to order from 100 units | Satin-trimmed wool blend |
 | Summer and destination | Linen two-piece suits | Linen blend |
 
-Our wedding styles are mostly slim fit and fully lined in 100% viscose. For made-to-order wedding collections we can produce modern or classic fits, your own colour palette and coordinated waistcoats or bowties. See [tuxedos](/mens-suit-manufacturing/tuxedos), [3-piece suits](/mens-suit-manufacturing/3-piece-suits) and [ceremony suits](/mens-suit-manufacturing/ceremony-suits) for each style in detail.
+Our wedding styles are mostly slim fit and fully lined in 100% viscose. For made-to-order wedding collections we can produce modern or classic fits, your own colour palette and coordinated waistcoats or bowties. See [3-piece suits](/mens-suit-manufacturing/3-piece-suits), [2-piece suits](/mens-suit-manufacturing/2-piece-suits) and [tuxedos](/mens-suit-manufacturing/tuxedos) for each style in detail.
 
 ## Sizes
 
-Stock wedding suits come in EU 46 to 56, and most tuxedos run 46 to 58. In UK and US sizes that is 36 to 46 or 48. Groomsmen orders usually need a wide range of sizes in one model, which is exactly how our lots are built. See the [size guide](/size-guide).
+Stock wedding suits come in EU 46 to 56, and some models run to 58. In UK and US sizes that is 36 to 46 or 48. Groomsmen orders usually need a wide range of sizes in one model, which is exactly how our lots are built. See the [size guide](/size-guide).
 
 ## Lots and minimum order
 

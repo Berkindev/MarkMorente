@@ -23,9 +23,9 @@ Les mariages et les cérémonies représentent une grande partie du commerce du 
 
 Les modèles qui se vendent bien :
 
-- Vestes de soirée blanches, ivoire et crème pour les mariages d'été et de soirée
-- Smokings noirs et bleu nuit à revers châle ou pointe
-- Vestes jacquard, effet velours, à paillettes et à strass pour le marié
+- Costumes crème, pierre claire et beige pour les mariages d'été et de soirée
+- Costumes trois pièces et costumes avec gilet contrasté pour le marié
+- Smokings noirs et bleu nuit à revers châle ou pointe, fabriqués à la commande
 - Costumes deux pièces en coupe slim et moderne en marine, gris, bleu et beige
 - Costumes trois pièces avec gilet pour les proches et les invités
 

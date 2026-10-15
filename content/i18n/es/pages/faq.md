@@ -16,7 +16,7 @@ Desde stock, el mínimo es un lote de un modelo, normalmente 6 o 7 trajes. Para 
 
 ### ¿Qué es un lote?
 
-Un lote es un modelo en una curva de tallas completa, un traje por talla. Por ejemplo, EU 46-48-50-52-54-56 es un lote de 6 trajes, y muchos esmoquin vienen en lotes de 7 trajes de la EU 46 a la 58. La curva de cada modelo figura en las [colecciones](/collections).
+Un lote es un modelo en una curva de tallas completa, un traje por talla. Por ejemplo, EU 46-48-50-52-54-56 es un lote de 6 trajes, y algunos modelos vienen en lotes de 7 trajes de la EU 46 a la 58. La curva de cada modelo figura en las [colecciones](/collections).
 
 ### ¿Puedo combinar modelos en un pedido?
 
@@ -96,15 +96,15 @@ Los aranceles e impuestos de importación en su país los paga normalmente el co
 
 ### ¿Qué tipos de trajes fabrican?
 
-Trajes de dos y tres piezas, trajes cruzados, esmoquin y chaquetas de esmoquin, trajes de boda y de ceremonia, trajes de verano de lino y trajes en tallas grandes. Consulte [fabricación de trajes de hombre](/mens-suit-manufacturing).
+Trajes de dos y tres piezas, trajes cruzados, trajes de boda, trajes safari y con sobrecamisa, trajes de verano de lino y trajes en tallas grandes. El esmoquin y las chaquetas de esmoquin se fabrican solo bajo pedido, desde 100 unidades por modelo. Consulte [fabricación de trajes de hombre](/mens-suit-manufacturing).
 
 ### ¿Qué cortes ofrecen?
 
-Corte slim, moderno y clásico. La mayoría de nuestros esmoquin y trajes de ocasión son de corte slim.
+Corte slim, moderno y clásico. La mayoría de nuestros trajes son de corte slim.
 
 ### ¿Qué tejidos utilizan?
 
-Principalmente mezclas de lana, además de lana premium, jacquard, terciopelo, mezclas de lino, lentejuelas y tejidos ornamentados. Las chaquetas llevan forro 100% viscosa. Consulte [tejidos](/fabrics).
+Principalmente mezclas de lana, además de lana premium, raya diplomática, mezclas de lino y jacquard. Las chaquetas llevan forro 100% viscosa. Consulte [tejidos](/fabrics).
 
 ### ¿Qué tallas fabrican?
 

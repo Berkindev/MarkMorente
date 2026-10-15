@@ -16,7 +16,7 @@ Hedefimiz baştan beri aynı: Türk tekstil birikimini modern üretimle birleşt
 
 ## Neler üretiyoruz
 
-İkili ve üçlü (yelekli) takım elbise, kruvaze takım, smokin ve smokin ceket, damatlık ve tören takımları, keten yazlık takımlar ile büyük beden ve uzun boy takım elbise üretiyoruz. Kalıplarımız slim fit, modern kesim ve klasik kesim. Kumaşlarımız günlük kullanıma uygun yün karışımlarından özel gün için jakar, kadife ve payetli kumaşlara kadar uzanıyor. Ayrıntılar için [ürettiklerimiz](/mens-suit-manufacturing) ve güncel [koleksiyonlar](/collections) sayfalarına bakabilirsiniz.
+İkili ve üçlü (yelekli) takım elbise, kruvaze takım, damatlık, safari ve overshirt takımlar, keten yazlık takımlar ile büyük beden ve uzun boy takım elbise üretiyoruz; smokin ve smokin ceketleri ise siparişe özel üretiyoruz. Kalıplarımız slim fit, modern kesim ve klasik kesim. Kumaşlarımız günlük kullanıma uygun yün karışımlarından özel gün için çizgili kumaşlara ve jakara kadar uzanıyor. Ayrıntılar için [ürettiklerimiz](/mens-suit-manufacturing) ve güncel [koleksiyonlar](/collections) sayfalarına bakabilirsiniz.
 
 ## Kapasite
 

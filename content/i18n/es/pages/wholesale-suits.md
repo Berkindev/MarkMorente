@@ -1,7 +1,7 @@
 ---
 slug: wholesale-suits
 title: Trajes de hombre al por mayor desde Turquía en lotes
-description: Compre trajes de hombre y esmoquin al por mayor desde nuestro stock en Estambul, en lotes de 6 o 7 trajes por curva de tallas. Combine modelos y repita pedidos.
+description: Compre trajes de hombre al por mayor desde nuestro stock en Estambul, en lotes de 6 o 7 trajes por curva de tallas. Combine modelos y repita pedidos.
 h1: Trajes de hombre al por mayor desde stock, vendidos en lotes
 lead: Muchos modelos de nuestro catálogo están en stock en Estambul. Se compran en lotes con curva de tallas, un traje por talla, para que llene sus estanterías sin hacer un pedido de producción.
 updated: 2026-10-09
@@ -18,7 +18,7 @@ Un lote típico es así:
 |---|---|---|---|---|---|---|---|
 | Trajes | 1 | 1 | 1 | 1 | 1 | 1 | 6 |
 
-Los lotes varían según el modelo. Muchos de nuestros esmoquin van en lotes de 7, de la talla EU 46 a la 58. Algunos modelos van de la 48 a la 58. La curva de tallas exacta de cada modelo aparece en su página dentro de nuestras [colecciones](/collections). Si necesita ayuda para convertir tallas a su mercado, consulte la [guía de tallas](/size-guide).
+Los lotes varían según el modelo. Algunos modelos van en lotes de 7, de la talla EU 46 a la 58. La curva de tallas exacta de cada modelo aparece en su página dentro de nuestras [colecciones](/collections). Si necesita ayuda para convertir tallas a su mercado, consulte la [guía de tallas](/size-guide).
 
 Comprar por lotes mantiene equilibrada la curva de tallas, y cada modelo le llega listo para vender a una clientela con tallas normales.
 
@@ -37,7 +37,7 @@ Los lotes de stock llevan nuestras etiquetas estándar. Si quiere los trajes con
 
 ## Combinar modelos en un pedido
 
-Puede combinar tantos modelos como quiera en un pedido, siempre que cada modelo se pida en lotes completos. Por ejemplo, un pedido puede incluir dos lotes de un esmoquin negro con solapa chal, un lote de un traje de tres piezas azul marino y un lote de una chaqueta de esmoquin color marfil.
+Puede combinar tantos modelos como quiera en un pedido, siempre que cada modelo se pida en lotes completos. Por ejemplo, un pedido puede incluir dos lotes de un traje de tres piezas azul marino, un lote de un traje cruzado burdeos de raya diplomática y un lote de un traje crudo con chaleco marrón.
 
 Combinar modelos es habitual en las tiendas de novios y de ropa de ceremonia, que suelen preferir variedad de colores y estilos antes que mucha profundidad en un solo modelo. Los distribuidores suelen llevarse varios lotes de sus modelos más vendidos y un lote de cada novedad para probarla.
 
@@ -60,7 +60,7 @@ Para pedidos repetidos más grandes de un mismo modelo, pregunte por una producc
 
 No publicamos precios porque dependen de cada pedido. Los factores principales son:
 
-- **Modelo y confección:** un esmoquin con adornos o lentejuelas cuesta más que un traje de dos piezas liso
+- **Modelo y confección:** un traje de tres piezas o un traje cruzado cuesta más que un traje de dos piezas liso
 - **Tejido:** las mezclas de lana, el jacquard, el terciopelo y las mezclas de lino tienen precios distintos
 - **Número de lotes:** los pedidos más grandes se cotizan en consecuencia
 - **Embalaje y envío:** fundas portatrajes, cajas y destino

@@ -29,9 +29,9 @@ Bölgedeki takım elbise talebinin büyük kısmını düğünler belirliyor. Ai
 
 İyi satan tören modelleri:
 
-- Siyah, beyaz, krem, lacivert ve bordo şal yaka ve sivri yaka smokinler
-- Jakarlı ve kadife görünümlü smokin ceketler
-- Damadın akşam kıyafeti için payetli ve taşlı modeller
+- Bordo, lacivert ve kahverengi çizgili kruvaze takımlar
+- Damadın akşam kıyafeti için kontrast yelekli takımlar
+- Model başına 100 adetten siparişe özel üretilen şal yaka ve sivri yaka smokinler
 - Akrabalar ve davetliler için yelekli üçlü takımlar
 - İş ve günlük resmi kullanım için klasik lacivert, gri ve siyah ikili takımlar
 
@@ -82,7 +82,7 @@ Elbette. Türkçe ve İngilizce çalışıyoruz. Azerbaycan ve Türkmenistan'dan
 
 ### Bölgede düğünler için en çok hangi modeller satıyor?
 
-Şal yaka veya sivri yaka smokinler, jakarlı ve kadife görünümlü smokin ceketler ve üçlü takımlar iyi satıyor. Damatlar akşam için genellikle dikkat çeken bir model seçiyor.
+Üçlü takımlar, kontrast yelekli takımlar ve çizgili kruvaze takımlar iyi satıyor. Damatlar akşam için genellikle dikkat çeken bir model seçiyor; smokinleri ise siparişe özel üretiyoruz.
 
 ### Kazakistan veya Özbekistan'a nasıl gönderiyorsunuz?
 

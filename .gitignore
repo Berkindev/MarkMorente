@@ -47,3 +47,6 @@ docs/gsc-*/
 .cache/
 docs/dns-*
 .indexnow-key
+
+# Owner photo drops (sources; site uses the webp copies in public/collections)
+yenifotolar/

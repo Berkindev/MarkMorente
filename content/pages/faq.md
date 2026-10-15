@@ -16,7 +16,7 @@ From stock, the minimum is one lot of one model, usually 6 or 7 suits. For made-
 
 ### What is a lot?
 
-A lot is one model in a full size run, one suit per size. For example, EU 46-48-50-52-54-56 is a 6-suit lot, and many tuxedos come in 7-suit lots from EU 46 to 58. The run of each model is listed in the [collections](/collections).
+A lot is one model in a full size run, one suit per size. For example, EU 46-48-50-52-54-56 is a 6-suit lot, and some models come in 7-suit lots from EU 46 to 58. The run of each model is listed in the [collections](/collections).
 
 ### Can I mix models in one order?
 
@@ -96,15 +96,15 @@ Import duties and taxes in your country are normally paid by the buyer. We prepa
 
 ### What types of suits do you make?
 
-Two-piece and three-piece suits, double-breasted suits, tuxedos and dinner jackets, wedding and ceremony suits, linen summer suits and big and tall suits. See [men's suit manufacturing](/mens-suit-manufacturing).
+Two-piece and three-piece suits, double-breasted suits, wedding suits, safari and overshirt suits, linen summer suits and big and tall suits. Tuxedos and dinner jackets are made to order only, from 100 units per style. See [men's suit manufacturing](/mens-suit-manufacturing).
 
 ### Which fits do you offer?
 
-Slim, modern and classic fits. Most of our tuxedos and occasion suits are slim fit.
+Slim, modern and classic fits. Most of our suits are slim fit.
 
 ### What fabrics do you use?
 
-Mainly wool blends, plus premium wool, jacquard, velvet, linen blends, sequin and embellished fabrics. Jackets are lined in 100% viscose. See [fabrics](/fabrics).
+Mainly wool blends, plus premium wool, pinstripe suiting, linen blends and jacquard. Jackets are lined in 100% viscose. See [fabrics](/fabrics).
 
 ### What sizes do you produce?
 

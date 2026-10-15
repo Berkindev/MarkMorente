@@ -6,8 +6,8 @@ const text = (obj) => ({ content: [{ type: 'text', text: typeof obj === 'string'
 const waUrl = (msg) => `https://wa.me/${PHONE}?text=${encodeURIComponent(`Hello Mark Morente, I'm contacting you from your website. ${msg}`)}`;
 
 const TOOLS = [
-  { name: 'search_models', description: 'Search Mark Morente wholesale men\'s suit and tuxedo models (B2B only). Matches title, type, colour, fabric, lapel or code, e.g. "navy three piece", "velvet tuxedo", "T05".',
-    inputSchema: { type: 'object', properties: { query: { type: 'string' }, in_stock_only: { type: 'boolean' }, category: { type: 'string', description: '3-piece-suits, 2-piece-suits, tuxedos, wedding-suits, ceremony-suits, big-tall-suits' } }, required: ['query'] }, annotations: { readOnlyHint: true } },
+  { name: 'search_models', description: 'Search Mark Morente wholesale men\'s suit models (B2B only). Matches title, type, colour, fabric, lapel or code, e.g. "navy three piece", "pinstripe double-breasted", "S05".',
+    inputSchema: { type: 'object', properties: { query: { type: 'string' }, in_stock_only: { type: 'boolean' }, category: { type: 'string', description: '3-piece-suits, 2-piece-suits, wedding-suits, big-tall-suits' } }, required: ['query'] }, annotations: { readOnlyHint: true } },
   { name: 'get_model', description: 'Full details of one model by code (e.g. "S05").', inputSchema: { type: 'object', properties: { code: { type: 'string' } }, required: ['code'] }, annotations: { readOnlyHint: true } },
   { name: 'get_ordering_terms', description: 'How to buy: stock lots, private label MOQ, lead time, markets and contact channels.', inputSchema: { type: 'object', properties: {} }, annotations: { readOnlyHint: true } },
   { name: 'create_quote_link', description: 'Create a WhatsApp link with a prefilled wholesale quote request. The user sends it themselves. Business buyers only.',
@@ -24,7 +24,7 @@ async function call(name, a, c) {
         .filter((p) => !cat || (p.categories || []).includes(cat.slug))
         .filter((p) => { const h = norm([p.code, p.title, p.model, p.color, p.fabric, p.lapel, p.fit].join(' ')); return words.every((w) => h.includes(w)); })
         .slice(0, 15).map(({ code, title, model, status, lot, url, quoteUrl }) => ({ code, title, model, status, lot, url, quoteUrl }));
-      return text(hits.length ? hits : 'No match. Try a colour, fabric or type (tuxedo, three piece, velvet, navy).');
+      return text(hits.length ? hits : 'No match. Try a colour, fabric or type (three piece, double-breasted, pinstripe, safari, navy).');
     }
     case 'get_model': {
       const p = c.products.find((x) => norm(x.code) === norm(a.code));

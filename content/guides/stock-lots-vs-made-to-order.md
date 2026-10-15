@@ -103,7 +103,7 @@ Answer these questions to choose.
 5. **Do you need goods quickly with little planning?** Yes: stock lots.
 6. **Are you testing a new market or a new supplier?** Yes: start with stock lots.
 
-Many of our customers combine both. A typical pattern is a core range of navy, grey and black suits made to order under the buyer's brand, plus stock lots of ceremony styles and tuxedos for variety. Both can travel in the same shipment.
+Many of our customers combine both. A typical pattern is a core range of navy, grey and black suits made to order under the buyer's brand, plus stock lots of wedding and statement suits for variety. Both can travel in the same shipment.
 
 ## Ready to choose?
 
@@ -113,7 +113,7 @@ Tell us what you sell, where, and roughly how many units on WhatsApp or Telegram
 
 ### What is the smallest order I can place?
 
-One stock lot of one model, usually 6 suits or 7 tuxedos across a size run. We work with businesses only and do not sell single suits.
+One stock lot of one model, usually 6 or 7 suits across a size run. We work with businesses only and do not sell single suits.
 
 ### Can I put my label on stock lot suits?
 

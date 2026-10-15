@@ -58,7 +58,7 @@
     try {
       mc.registerTool({
         name: 'search_suits',
-        description: 'Search Mark Morente wholesale suit and tuxedo models (B2B, sold in lots or made to order).',
+        description: 'Search Mark Morente wholesale suit models (B2B, sold in lots or made to order).',
         inputSchema: { type: 'object', properties: { query: { type: 'string' }, in_stock_only: { type: 'boolean' } }, required: ['query'] },
         async execute({ query, in_stock_only }) {
           const c = await load(); const q = norm(query);

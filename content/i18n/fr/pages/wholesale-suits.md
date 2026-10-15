@@ -1,7 +1,7 @@
 ---
 slug: wholesale-suits
 title: Costumes homme en gros de Turquie, vendus par lots
-description: Costumes homme et smokings en gros sur notre stock d'Istanbul, par lots de tailles de 6 ou 7 pièces. Mélangez les modèles, réassortez, livraison mondiale.
+description: Costumes homme en gros sur notre stock d'Istanbul, par lots de tailles de 6 ou 7 pièces. Mélangez les modèles, réassortez, livraison mondiale.
 h1: Costumes homme en gros sur stock, vendus par lots
 lead: De nombreux modèles de notre catalogue sont en stock à Istanbul. Vous les achetez par lots de tailles, un costume par taille, pour remplir vos rayons sans passer de commande de production.
 updated: 2026-10-09
@@ -18,7 +18,7 @@ Voici un lot type :
 |---|---|---|---|---|---|---|---|
 | Costumes | 1 | 1 | 1 | 1 | 1 | 1 | 6 |
 
-La composition varie selon le modèle. Beaucoup de nos smokings sont emballés par lots de 7, du 46 au 58 EU. Certains modèles vont du 48 au 58. La série de tailles exacte de chaque modèle est indiquée sur sa page dans nos [collections](/collections). Pour convertir les tailles pour votre marché, consultez le [guide des tailles](/size-guide).
+La composition varie selon le modèle. Certains modèles sont emballés par lots de 7, du 46 au 58 EU. La série de tailles exacte de chaque modèle est indiquée sur sa page dans nos [collections](/collections). Pour convertir les tailles pour votre marché, consultez le [guide des tailles](/size-guide).
 
 L'achat par lots garde une courbe de tailles équilibrée : chaque modèle vous arrive prêt à la vente pour une clientèle normale.
 
@@ -37,7 +37,7 @@ Les lots en stock portent nos étiquettes standard. Si vous voulez votre propre 
 
 ## Mélanger plusieurs modèles dans une commande
 
-Vous pouvez mélanger autant de modèles que vous le souhaitez dans une commande, à condition que chaque modèle soit commandé par lots complets. Une commande peut par exemple comprendre deux lots d'un smoking noir à revers châle, un lot d'un costume trois pièces marine et un lot d'une veste de soirée ivoire.
+Vous pouvez mélanger autant de modèles que vous le souhaitez dans une commande, à condition que chaque modèle soit commandé par lots complets. Une commande peut par exemple comprendre deux lots d'un costume trois pièces marine, un lot d'un costume croisé bordeaux à fines rayures et un lot d'un costume crème avec gilet marron.
 
 Le mélange est courant chez les boutiques de mariage et de tenues de soirée, qui veulent en général un éventail de couleurs et de styles plutôt que de la profondeur sur un seul modèle. Les distributeurs prennent souvent plusieurs lots de leurs meilleures ventes et un lot de chaque nouveauté pour tester.
 
@@ -60,7 +60,7 @@ Pour les recommandes importantes d'un même modèle, renseignez-vous sur une pro
 
 Nous ne publions pas nos prix car ils dépendent de la commande. Les principaux facteurs sont :
 
-- **Le modèle et sa construction :** un smoking orné ou pailleté coûte plus cher qu'un deux pièces uni
+- **Le modèle et sa construction :** un costume trois pièces ou croisé coûte plus cher qu'un deux pièces uni
 - **Le tissu :** laine mélangée, jacquard, velours et lin mélangé ont des prix différents
 - **Le nombre de lots :** les commandes plus importantes sont chiffrées en conséquence
 - **L'emballage et l'expédition :** housses, cartons et destination

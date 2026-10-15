@@ -3,8 +3,8 @@ slug: wholesale-tuxedo-buying-guide
 title: Wholesale Tuxedo Buying Guide for Formalwear Stores
 description: How formalwear shops, wedding stores and rental companies buy tuxedos wholesale: lapels, ceremony styles, fabrics, size runs, colour mix and ordering.
 h1: Wholesale tuxedo buying guide for formalwear retailers
-lead: A practical guide for shops, wedding stores and rental companies planning a tuxedo order. It covers styles, fabrics, sizes, colour mix and the two ways to buy from our Istanbul factory.
-updated: 2026-10-09
+lead: A practical guide for shops, wedding stores and rental companies planning a tuxedo order. It covers styles, fabrics, sizes, colour mix and how made-to-order tuxedo production works at our Istanbul factory.
+updated: 2026-10-15
 related: [tuxedos, wedding-suits, stock-lots-vs-made-to-order, suit-size-runs-and-lot-planning, how-to-order]
 ---
 
@@ -16,7 +16,7 @@ Most buyers who contact us already know their market. The questions that cost mo
 
 ## Which lapel type sells best: shawl, peak or notch?
 
-Shawl lapel is the strongest seller in ceremony and wedding tuxedos, peak lapel is the classic black-tie choice, and notch lapel suits buyers who want a tuxedo that also works as a dinner suit. In our own catalog, most tuxedo models are shawl lapel.
+Shawl lapel is the strongest seller in ceremony and wedding tuxedos, peak lapel is the classic black-tie choice, and notch lapel suits buyers who want a tuxedo that also works as a dinner suit. Shawl lapel is also the style buyers ask us for most.
 
 | Lapel | Look | Best for | Notes for buyers |
 |---|---|---|---|
@@ -37,17 +37,17 @@ Ceremony styles are the tuxedos customers come in to look at:
 - **Sequin and glitter tuxedos** in silver, copper, champagne gold or black. Popular for stage, parties and grooms who want to stand out.
 - **Rhinestone and embellished tuxedos**, including shoulder details and ombre crystal designs. These are a big part of demand from Middle East, North Africa and some Balkan and Central Asian markets.
 
-You can see current models on the [tuxedos category page](/mens-suit-manufacturing/tuxedos) and in our full collections.
+We produce tuxedos to order only, from 100 units per style; see the [tuxedos page](/mens-suit-manufacturing/tuxedos).
 
 ## Do I need dinner jackets in ivory or white?
 
-Yes, if you sell for summer weddings, destination events or hot climates. An ivory or white shawl lapel dinner jacket worn with black trousers is a standard request from buyers in the Gulf, North Africa, West Africa and southern Europe. We make plain ivory versions, satin trimmed versions and embellished ones with rhinestone or shoulder details.
+Yes, if you sell for summer weddings, destination events or hot climates. An ivory or white shawl lapel dinner jacket worn with black trousers is a standard request from buyers in the Gulf, North Africa, West Africa and southern Europe. We make plain ivory and satin-trimmed versions to order.
 
 For a first order, one or two ivory models is usually enough. They sell in a shorter season than black, so keep the quantity smaller and reorder if they move.
 
 ## Which tuxedo fabrics should a retailer choose?
 
-For most formalwear stock, a good wool blend gives the best balance of drape, comfort and price. Our tuxedos are mainly wool blend, jacquard wool blend, satin trimmed wool blend, velvet, and sequin or embellished fabrics, all with a 100% viscose lining that breathes better than polyester.
+For most formalwear stock, a good wool blend gives the best balance of drape, comfort and price. For made-to-order tuxedos we mainly use wool blend, jacquard wool blend and satin-trimmed wool blend, with a 100% viscose lining that breathes better than polyester.
 
 - **Wool blend:** the standard choice for black and navy tuxedos. Holds a press, recovers from creasing, and is the best option for rental.
 - **Jacquard wool blend:** pattern is woven into the cloth, so it does not wear off. Good for ceremony styles that will be worn more than once.
@@ -68,7 +68,7 @@ Rental tuxedos need durable fabric, strong construction at stress points and a s
 
 ## How should I plan sizes and colours per market?
 
-Cover EU sizes 46 to 56 at minimum, and add 58 to 60 if your customers are larger. Our stock tuxedo lots usually come in EU sizes 46-48-50-52-54-56-58, one piece per size, seven pieces per lot. That gives a shop one of every size to sell from and reorder against.
+Cover EU sizes 46 to 56 at minimum, and add 58 to 60 if your customers are larger. For made-to-order runs you set the size ratio yourself, so you can weight it towards the sizes your customers buy most.
 
 For colour, start with what you know sells locally and add a few ceremony pieces to test. As general guidance from what we see in buyer orders:
 
@@ -83,20 +83,13 @@ These are tendencies, not rules. Your own sales history is always the better gui
 
 ## Should I order from stock lots or custom production?
 
-Buy from stock lots when you want to test models fast with a small commitment, and order made to order when you want your own label, fabric or fit. Many buyers do both: stock lots for ceremony styles and custom production for their core black tuxedo.
-
-| | Stock lots | Made to order |
-|---|---|---|
-| Design | Our catalog models | Your spec or our model adjusted |
-| Quantity | One lot per model (6-7 pieces) | From 100 units per style |
-| Branding | Our standard labels | Your labels, lining, buttons, packaging |
-| Timing | Ships once your order is confirmed and packed | Typically 12-15 days production, depending on quantity, model and fabric |
+We do not hold tuxedos in stock, so tuxedos are always made to order. Many buyers combine a made-to-order tuxedo line with stock lots of our suits, which ship once the order is confirmed.
 
 For a full comparison, read [stock lots vs made-to-order](/guides/stock-lots-vs-made-to-order).
 
-## How does ordering a tuxedo lot work?
+## How does ordering tuxedos work?
 
-Send us the model codes you like, the quantity of lots, and your destination country. We confirm stock, price and shipping options, then pack and ship by air or sea, either door to door or to your forwarder. For custom orders we confirm fabric, fit and branding first, then quote price and lead time per model and quantity. The full process is on our [how to order](/how-to-order) page.
+Send us a photo, sample or tech pack, the quantity per style and your destination country. We confirm fabric, fit and branding, then quote price and lead time per model and quantity. After sample approval we produce, pack and ship by air or sea, either door to door or to your forwarder. The full process is on our [how to order](/how-to-order) page.
 
 When you are ready, send us your list on WhatsApp or Telegram through the [contact page](/contact) and we will prepare a wholesale quote. We reply within 24 hours on business days.
 
@@ -104,19 +97,19 @@ When you are ready, send us your list on WhatsApp or Telegram through the [conta
 
 ### What is the minimum tuxedo order?
 
-From stock, the minimum is one lot of one model, usually 7 pieces in EU sizes 46 to 58. For made to order under your own brand, the minimum is 100 units per style.
+Tuxedos are made to order only, with a minimum of 100 units per style. Our suits are also sold from stock in lots of 6 or 7.
 
 ### Can I mix models and colours in one order?
 
-Yes. You can combine lots of different tuxedo models, dinner jackets and suits in one shipment. Each lot is one model in one colour across the size run.
+Yes. A made-to-order tuxedo run can ship together with stock lots of our suits.
 
 ### Are your tuxedos suitable for rental?
 
-Our wool blend and jacquard tuxedos are a good fit for rental fleets. Sequin and rhinestone models are better for sale or premium rental, as they need careful cleaning and handling.
+Wool blend and jacquard tuxedos are a good fit for rental fleets, as they handle repeated cleaning well.
 
 ### Do you sell single tuxedos to grooms?
 
-No. We work with businesses only, and the smallest order is one lot. If you are a groom, a local formalwear store or rental shop that stocks Turkish tuxedos is the right place to buy.
+No. We work with businesses only, and tuxedos start at 100 units per style. If you are a groom, a local formalwear store or rental shop that stocks Turkish tuxedos is the right place to buy.
 
 ### Can I get tuxedos with my own label?
 

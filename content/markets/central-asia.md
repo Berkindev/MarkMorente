@@ -29,9 +29,9 @@ Weddings drive a large share of suit demand across the region. Families buy suit
 
 Ceremony styles that sell well include:
 
-- Shawl and peak lapel tuxedos in black, white, cream, navy and burgundy
-- Jacquard and velvet-look dinner jackets
-- Sequin and rhinestone styles for the groom's evening look
+- Pinstripe double-breasted suits in burgundy, navy and brown
+- Suits with a contrast waistcoat for the groom's evening look
+- Shawl and peak lapel tuxedos, made to order from 100 units per style
 - 3-piece suits with matching waistcoat for relatives and guests
 - Classic navy, grey and black 2-piece suits for business and everyday formal wear
 
@@ -82,7 +82,7 @@ Yes. We work in Turkish and English. Many buyers from Azerbaijan and Turkmenista
 
 ### What styles sell best for weddings in the region?
 
-Tuxedos with shawl or peak lapels, jacquard and velvet-look dinner jackets, and 3-piece suits sell well. Grooms often choose a statement style for the evening.
+3-piece suits, suits with a contrast waistcoat and pinstripe double-breasted suits sell well. Grooms often choose a statement style for the evening, and tuxedos are available made to order.
 
 ### How do you ship to Kazakhstan or Uzbekistan?
 

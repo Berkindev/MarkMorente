@@ -48,7 +48,6 @@ THUMB = {"suffix": "thumb", "width": 160, "quality": 76}
 FABRIC_IMAGES = [
     "/collections/S05/navy-blue-three-piece-mens-suit-01.webp",
     "/collections/S06/charcoal-grey-three-piece-mens-suit-01.webp",
-    "/collections/T03/black-jacquard-shawl-lapel-mens-tuxedo-01.webp",
     "/collections/S03/ivory-linen-two-piece-mens-summer-suit-01.webp",
 ]
 

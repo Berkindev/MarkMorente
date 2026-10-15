@@ -1,7 +1,7 @@
 ---
 slug: wholesale-suits
 title: Herrenanzüge Großhandel aus der Türkei | Mark Morente
-description: Herrenanzüge und Smokings im Großhandel ab Lager in Istanbul, in Größenläufen zu 6 oder 7 Anzügen. Modelle mischen, Bestseller nachbestellen, weltweit liefern.
+description: Herrenanzüge im Großhandel ab Lager in Istanbul, in Größenläufen zu 6 oder 7 Anzügen. Modelle mischen, Bestseller nachbestellen, weltweit liefern.
 h1: Herrenanzüge im Großhandel ab Lager, in Paketen
 lead: Viele unserer Katalogmodelle sind in Istanbul auf Lager. Sie kaufen sie in Größenläufen, ein Anzug pro Größe, und füllen so Ihre Regale, ohne einen Produktionsauftrag zu erteilen.
 updated: 2026-10-09
@@ -18,7 +18,7 @@ Ein typisches Paket sieht so aus:
 |---|---|---|---|---|---|---|---|
 | Anzüge | 1 | 1 | 1 | 1 | 1 | 1 | 6 |
 
-Die Pakete unterscheiden sich je nach Modell. Viele unserer Smokings sind in Paketen zu 7 Stück gepackt, von EU 46 bis 58. Einige Modelle laufen von 48 bis 58. Den genauen Größenlauf jedes Modells finden Sie auf der Modellseite in unseren [Kollektionen](/collections). Hilfe bei der Umrechnung für Ihren Markt bietet die [Größentabelle](/size-guide).
+Die Pakete unterscheiden sich je nach Modell. Einige Modelle sind in Paketen zu 7 Stück gepackt, von EU 46 bis 58. Den genauen Größenlauf jedes Modells finden Sie auf der Modellseite in unseren [Kollektionen](/collections). Hilfe bei der Umrechnung für Ihren Markt bietet die [Größentabelle](/size-guide).
 
 Der Einkauf in Paketen hält die Größenverteilung ausgewogen, und jedes Modell kommt verkaufsfertig für eine normale Kundenbreite bei Ihnen an.
 
@@ -37,7 +37,7 @@ Lagerpakete tragen unsere Standardetiketten. Wenn Sie Ihre eigene Marke auf den 
 
 ## Modelle in einer Bestellung mischen
 
-Sie können beliebig viele Modelle in einer Bestellung mischen, solange jedes Modell in vollständigen Paketen bestellt wird. Eine Bestellung könnte zum Beispiel zwei Pakete eines schwarzen Smokings mit Schalkragen, ein Paket eines marineblauen Dreiteilers und ein Paket eines elfenbeinfarbenen Dinnerjacketts enthalten.
+Sie können beliebig viele Modelle in einer Bestellung mischen, solange jedes Modell in vollständigen Paketen bestellt wird. Eine Bestellung könnte zum Beispiel zwei Pakete eines marineblauen Dreiteilers, ein Paket eines bordeauxroten Zweireihers mit Nadelstreifen und ein Paket eines cremefarbenen Anzugs mit brauner Weste enthalten.
 
 Das Mischen ist bei Hochzeits- und Festmodegeschäften üblich, die meist eine Auswahl an Farben und Modellen statt Tiefe in einem Modell wollen. Distributoren nehmen oft mehrere Pakete ihrer Bestseller und je ein Paket neuer Modelle zum Testen.
 
@@ -60,7 +60,7 @@ Bei größeren Nachbestellungen eines Modells fragen Sie nach einer Produktion. 
 
 Wir veröffentlichen keine Preise, weil sie vom Auftrag abhängen. Die wichtigsten Faktoren sind:
 
-- **Modell und Verarbeitung:** Ein verzierter oder Paillettensmoking kostet mehr als ein schlichter Zweiteiler
+- **Modell und Verarbeitung:** Ein Dreiteiler oder Zweireiher kostet mehr als ein schlichter Zweiteiler
 - **Stoff:** Wollmischungen, Jacquard, Samt und Leinenmischungen haben unterschiedliche Preise
 - **Anzahl der Pakete:** Größere Aufträge werden entsprechend kalkuliert
 - **Verpackung und Versand:** Kleidersäcke, Kartons und das Zielland

@@ -16,7 +16,7 @@ Ab Lager beträgt die Mindestmenge ein Paket eines Modells, meist 6 oder 7 Anzü
 
 ### Was ist ein Paket?
 
-Ein Paket ist ein Modell in einem vollständigen Größenlauf, ein Anzug pro Größe. EU 46-48-50-52-54-56 ergibt zum Beispiel ein Paket mit 6 Anzügen, und viele Smokings kommen in 7er-Paketen von EU 46 bis 58. Den Größenlauf jedes Modells finden Sie in den [Kollektionen](/collections).
+Ein Paket ist ein Modell in einem vollständigen Größenlauf, ein Anzug pro Größe. EU 46-48-50-52-54-56 ergibt zum Beispiel ein Paket mit 6 Anzügen, und einige Modelle kommen in 7er-Paketen von EU 46 bis 58. Den Größenlauf jedes Modells finden Sie in den [Kollektionen](/collections).
 
 ### Kann ich in einer Bestellung verschiedene Modelle mischen?
 
@@ -96,15 +96,15 @@ Einfuhrzölle und Steuern in Ihrem Land trägt in der Regel der Käufer. Wir ers
 
 ### Welche Anzugarten fertigen Sie?
 
-Zweiteilige und dreiteilige Anzüge, Zweireiher, Smokings und Dinnerjacketts, Hochzeits- und Festanzüge, Leinenanzüge für den Sommer und Anzüge in Übergrößen. Siehe [Herrenanzüge aus eigener Fertigung](/mens-suit-manufacturing).
+Zweiteilige und dreiteilige Anzüge, Zweireiher, Hochzeitsanzüge, Safari- und Overshirt-Anzüge, Leinenanzüge für den Sommer und Anzüge in Übergrößen. Smokings und Dinnerjacketts fertigen wir nur in Auftragsproduktion, ab 100 Stück pro Modell. Siehe [Herrenanzüge aus eigener Fertigung](/mens-suit-manufacturing).
 
 ### Welche Passformen bieten Sie an?
 
-Slim, Modern und Classic Fit. Die meisten unserer Smokings und Festanzüge sind Slim Fit.
+Slim, Modern und Classic Fit. Die meisten unserer Anzüge sind Slim Fit.
 
 ### Welche Stoffe verwenden Sie?
 
-Hauptsächlich Wollmischungen, dazu hochwertige Schurwolle, Jacquard, Samt, Leinenmischungen sowie Pailletten- und verzierte Stoffe. Die Sakkos sind mit 100 % Viskose gefüttert. Siehe [Stoffe](/fabrics).
+Hauptsächlich Wollmischungen, dazu hochwertige Schurwolle, Nadelstreifenstoffe, Leinenmischungen und Jacquard. Die Sakkos sind mit 100 % Viskose gefüttert. Siehe [Stoffe](/fabrics).
 
 ### Welche Größen produzieren Sie?
 

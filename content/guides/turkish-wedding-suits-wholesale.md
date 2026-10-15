@@ -99,7 +99,7 @@ Send us your shortlist and destination on WhatsApp or Telegram through our [cont
 
 ### What is the minimum order for Turkish wedding suits?
 
-One lot per model from stock, usually six suits or seven tuxedos in a size run. For made-to-order production under your own label, the minimum is 100 units per style.
+One lot per model from stock, usually six or seven suits in a size run. For made-to-order production under your own label, the minimum is 100 units per style.
 
 ### Can I order groom and groomsmen suits in the same colour?
 

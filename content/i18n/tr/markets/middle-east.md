@@ -23,9 +23,9 @@ Bölgedeki takım elbise ticaretinin büyük kısmını düğünler ve resmi dav
 
 İyi satan modeller:
 
-- Yaz ve akşam düğünleri için beyaz, kırık beyaz ve krem smokin ceketler
-- Şal yaka veya sivri yaka siyah ve gece mavisi smokinler
-- Damat için jakarlı, kadife görünümlü, payetli ve taşlı ceketler
+- Yaz ve akşam düğünleri için krem, açık taş rengi ve bej takımlar
+- Damat için üçlü takımlar ve kontrast yelekli takımlar
+- Siparişe özel üretilen, şal yaka veya sivri yaka siyah ve gece mavisi smokinler
 - Lacivert, gri, mavi ve bej slim fit ve modern kesim ikili takımlar
 - Akrabalar ve davetliler için yelekli üçlü takımlar
 

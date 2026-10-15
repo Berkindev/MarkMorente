@@ -1,7 +1,7 @@
 ---
 slug: wholesale-suits
 title: Toptan Takım Elbise: Stoktan Beden Serisi Lotlar
-description: İstanbul stoğumuzdan toptan takım elbise ve smokin: 6 veya 7 takımlık beden serisi lotlar. Modelleri karıştırın, çok satanları tekrarlayın, dünyaya sevk edelim.
+description: İstanbul stoğumuzdan toptan erkek takım elbise: 6 veya 7 takımlık beden serisi lotlar. Modelleri karıştırın, çok satanları tekrarlayın, dünyaya sevk edelim.
 h1: Stoktan toptan takım elbise, lot halinde satış
 lead: Katalog modellerimizin birçoğu İstanbul'da stokta. Bunları her bedenden bir takım olacak şekilde beden serisi lotlar halinde alıyorsunuz; üretim siparişi vermeden rafınızı doldurabilirsiniz.
 updated: 2026-10-09
@@ -18,7 +18,7 @@ Tipik bir lot şöyledir:
 |---|---|---|---|---|---|---|---|
 | Takım | 1 | 1 | 1 | 1 | 1 | 1 | 6 |
 
-Lotlar modele göre değişir. Smokinlerimizin çoğu EU 46'dan 58'e kadar 7'li lotlar halinde paketlenir. Bazı modeller 48-58 aralığındadır. Her modelin beden serisi [koleksiyonlarımızdaki](/collections) model sayfasında yazar. Bedenleri kendi pazarınıza çevirmek için [beden tablosuna](/size-guide) bakabilirsiniz.
+Lotlar modele göre değişir. Bazı modeller EU 46'dan 58'e kadar 7'li lotlar halinde paketlenir. Her modelin beden serisi [koleksiyonlarımızdaki](/collections) model sayfasında yazar. Bedenleri kendi pazarınıza çevirmek için [beden tablosuna](/size-guide) bakabilirsiniz.
 
 Lot halinde almak beden dağılımını dengede tutar ve her model size, normal bir müşteri yelpazesine satışa hazır şekilde ulaşır.
 
@@ -37,7 +37,7 @@ Stok lotlar bizim standart etiketlerimizle gelir. Takımlarda kendi markanızı 
 
 ## Tek siparişte farklı modeller
 
-Her model tam lot halinde sipariş edildiği sürece tek siparişte istediğiniz kadar modeli karıştırabilirsiniz. Örneğin bir siparişte iki lot siyah şal yaka smokin, bir lot lacivert üçlü takım ve bir lot krem smokin ceket olabilir.
+Her model tam lot halinde sipariş edildiği sürece tek siparişte istediğiniz kadar modeli karıştırabilirsiniz. Örneğin bir siparişte iki lot lacivert üçlü takım, bir lot bordo çizgili kruvaze takım ve bir lot kahverengi yelekli krem takım olabilir.
 
 Damatlık ve abiye mağazaları genelde tek modelde derinlik yerine farklı renk ve stillerden çeşit istediği için karışık sipariş çok yaygındır. Distribütörler ise çoğunlukla en çok satan modellerinden birkaç lot, yeni modellerden de denemek için birer lot alır.
 
@@ -60,7 +60,7 @@ Tek modelde daha büyük tekrar siparişler için üretim partisi isteyebilirsin
 
 Fiyatlar siparişe göre değiştiği için fiyat listesi yayınlamıyoruz. Başlıca etkenler şunlar:
 
-- **Model ve dikim:** işlemeli veya payetli bir smokin, düz bir ikili takımdan daha pahalıdır
+- **Model ve dikim:** üçlü veya kruvaze bir takım, düz bir ikili takımdan daha pahalıdır
 - **Kumaş:** yün karışımlar, jakarlar, kadife ve keten karışımlar farklı fiyatlanır
 - **Lot sayısı:** büyük siparişler buna göre fiyatlandırılır
 - **Paketleme ve sevkiyat:** takım elbise kılıfları, koliler ve varış noktası

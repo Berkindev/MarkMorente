@@ -18,9 +18,8 @@ We produce the full range of men's tailoring for business and occasion wear, in 
 
 - [3-piece suits](/mens-suit-manufacturing/3-piece-suits): jacket, trousers and matching waistcoat, for weddings, formal events and business.
 - [2-piece suits](/mens-suit-manufacturing/2-piece-suits): business suits, double-breasted suits and linen-blend summer suits.
-- [Tuxedos](/mens-suit-manufacturing/tuxedos): shawl and peak lapel tuxedos, dinner jackets, jacquard and velvet styles.
-- [Wedding suits](/mens-suit-manufacturing/wedding-suits): suits and tuxedos for grooms, groomsmen and guests.
-- [Ceremony suits](/mens-suit-manufacturing/ceremony-suits): sequin, crystal, embroidered and velvet styles for galas and stage wear.
+- [Tuxedos](/mens-suit-manufacturing/tuxedos): shawl and peak lapel tuxedos and dinner jackets, made to order from 100 units per style.
+- [Wedding suits](/mens-suit-manufacturing/wedding-suits): three-piece and statement suits for grooms, groomsmen and guests.
 - [Big and tall suits](/mens-suit-manufacturing/big-tall-suits): extended sizes with patterns adjusted for fuller and taller builds.
 
 You can see the current models, with fabric, fit and lot details, in our [collections](/collections).
@@ -72,7 +71,7 @@ Our daily capacity is more than 1,000 suits, so a single 100-unit style and a mu
 - **CAD pattern design and 3D prototyping**
 - **In-house pattern making and sampling**
 
-Our fabric range covers wool blends, premium wool, jacquard, velvet, linen blends and sequin fabrics, all lined in 100% viscose. See [fabrics](/fabrics) for how buyers choose by climate and price, and the [size guide](/size-guide) for EU, UK and US sizing.
+Our fabric range covers wool blends, premium wool, pinstripe suiting, jacquard and linen blends. See [fabrics](/fabrics) for how buyers choose by climate and price, and the [size guide](/size-guide) for EU, UK and US sizing.
 
 ## Markets we serve
 

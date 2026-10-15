@@ -16,7 +16,7 @@ Nuestro objetivo no ha cambiado: unir la experiencia textil turca con una produc
 
 ## Qué fabricamos
 
-Producimos trajes de hombre de dos y tres piezas, trajes cruzados, esmoquin y chaquetas de esmoquin, trajes de novio y de ceremonia, trajes de lino para verano y trajes de tallas grandes. Trabajamos los cortes slim, moderno y clásico. Nuestros tejidos van desde mezclas de lana para el día a día hasta jacquard, terciopelo y lentejuelas para ocasiones especiales. Vea [lo que fabricamos](/mens-suit-manufacturing) y las [colecciones](/collections) actuales.
+Producimos trajes de hombre de dos y tres piezas, trajes cruzados, trajes de novio, trajes safari y con sobrecamisa, trajes de lino para verano y trajes de tallas grandes, además de esmoquin y chaquetas de esmoquin bajo pedido. Trabajamos los cortes slim, moderno y clásico. Nuestros tejidos van desde mezclas de lana para el día a día hasta raya diplomática y jacquard para ocasiones especiales. Vea [lo que fabricamos](/mens-suit-manufacturing) y las [colecciones](/collections) actuales.
 
 ## Capacidad
 

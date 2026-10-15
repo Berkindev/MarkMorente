@@ -29,9 +29,9 @@ Hochzeiten machen in der gesamten Region einen großen Teil der Nachfrage nach A
 
 Gut verkaufte Festmodelle sind:
 
-- Smokings mit Schalkragen und spitzem Revers in Schwarz, Weiß, Creme, Marine und Bordeaux
-- Dinnerjacketts aus Jacquard und in Samtoptik
-- Modelle mit Pailletten und Strass für den Abendlook des Bräutigams
+- Zweireiher mit Nadelstreifen in Bordeaux, Marine und Braun
+- Anzüge mit kontrastierender Weste für den Abendlook des Bräutigams
+- Smokings mit Schalkragen und spitzem Revers, in Auftragsproduktion ab 100 Stück pro Modell
 - Dreiteilige Anzüge mit passender Weste für Verwandte und Gäste
 - Klassische Zweiteiler in Marine, Grau und Schwarz für Business und alltägliche formelle Anlässe
 
@@ -82,7 +82,7 @@ Ja. Wir arbeiten auf Türkisch und Englisch. Viele Einkäufer aus Aserbaidschan 
 
 ### Welche Modelle verkaufen sich in der Region am besten für Hochzeiten?
 
-Smokings mit Schalkragen oder spitzem Revers, Dinnerjacketts aus Jacquard und in Samtoptik sowie dreiteilige Anzüge verkaufen sich gut. Bräutigame wählen für den Abend oft ein auffälliges Modell.
+Dreiteilige Anzüge, Anzüge mit kontrastierender Weste und Zweireiher mit Nadelstreifen verkaufen sich gut. Bräutigame wählen für den Abend oft ein auffälliges Modell, und Smokings sind in Auftragsproduktion erhältlich.
 
 ### Wie liefern Sie nach Kasachstan oder Usbekistan?
 

@@ -23,9 +23,9 @@ Hochzeiten und festliche Anlässe machen in der Region einen großen Teil des An
 
 Gut verkaufte Modelle:
 
-- Dinnerjacketts in Weiß, Elfenbein und Creme für Sommer- und Abendhochzeiten
-- Smokings in Schwarz und Mitternachtsblau mit Schalkragen oder spitzem Revers
-- Sakkos aus Jacquard, in Samtoptik, mit Pailletten und Strass für den Bräutigam
+- Anzüge in Creme, hellem Steingrau und Beige für Sommer- und Abendhochzeiten
+- Dreiteilige Anzüge und Anzüge mit kontrastierender Weste für den Bräutigam
+- Smokings in Schwarz und Mitternachtsblau mit Schalkragen oder spitzem Revers, in Auftragsproduktion
 - Zweiteiler in Slim und Modern Fit in Marine, Grau, Blau und Beige
 - Dreiteilige Anzüge mit Weste für Verwandte und Gäste
 

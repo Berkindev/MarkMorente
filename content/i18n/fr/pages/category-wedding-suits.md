@@ -1,18 +1,18 @@
 ---
 slug: wedding-suits
 title: Costume de mariage en gros, fabricant turc | Mark Morente
-description: Costumes de mariage en gros et sous votre marque, d'Istanbul, pour marié, témoins et invités : smokings, trois pièces, lin. Lots ou séries dès 100 pièces.
+description: Costumes de mariage en gros et sous votre marque, d'Istanbul, pour marié, témoins et invités : trois pièces, croisés et lin. Lots ou séries dès 100 pièces.
 h1: Fabrication de costumes de mariage
-lead: Nous fabriquons des costumes de mariage et des smokings pour le marié, ses témoins et les invités, et les vendons aux boutiques de mariage, aux magasins de tenues de soirée et aux grossistes. Achetez des costumes de mariage turcs sur notre stock par lots, ou faites produire une collection mariage sous votre marque.
+lead: Nous fabriquons des costumes de mariage pour le marié, ses témoins et les invités, et les vendons aux boutiques de mariage, aux magasins de tenues de soirée et aux grossistes. Achetez des costumes de mariage turcs sur notre stock par lots, ou faites produire une collection mariage sous votre marque.
 updated: 2026-10-09
-related: [tuxedos, 3-piece-suits, ceremony-suits, wholesale-suits, private-label-suits]
+related: [3-piece-suits, 2-piece-suits, tuxedos, wholesale-suits, private-label-suits]
 ---
 
 ## Ce que nous produisons
 
 Une gamme mariage a besoin de trois choses : une tenue forte pour le marié, des costumes assortis pour les témoins et garçons d'honneur, et des options élégantes pour les invités. En tant que fabricant de costumes de mariage, nous produisons les trois, pour qu'une boutique de mariage puisse acheter toute sa gamme chez un seul fournisseur.
 
-- **Marié :** smokings, vestes de soirée, costumes trois pièces et modèles ornés qui ressortent sur les photos
+- **Marié :** costumes trois pièces, costumes avec gilet contrasté, costumes croisés et, à la commande, smokings et vestes de soirée
 - **Témoins et garçons d'honneur :** costumes deux ou trois pièces assortis, commandés dans le même modèle et la même couleur sur plusieurs tailles
 - **Invités :** costumes de ville, costumes d'été en lin et costumes croisés qui se portent aussi après le mariage
 
@@ -20,17 +20,17 @@ Une gamme mariage a besoin de trois choses : une tenue forte pour le marié, des
 
 | Style mariage | Nos modèles | Tissu |
 |---|---|---|
-| Black tie classique | Smokings à revers châle et pointe, parements satin | Laine mélangée à parements satin |
-| Ivoire et blanc | Vestes de soirée et smokings | Laine mélangée, parements satin |
 | Costume de marié trois pièces | Veste, pantalon, gilet assorti | Laine mélangée |
-| Marié qui se démarque | Smokings jacquard, velours, paillettes, cristaux et brodés | Jacquard, velours, paillettes |
+| Gilet contrasté | Gilet crème, marron, marine, noir ou vert sous une veste d'une autre couleur | Laine mélangée |
+| Marié qui se démarque | Costumes croisés à fines rayures en bordeaux, crème, marine et marron | Tissu à fines rayures |
+| Black tie classique | Smokings à revers châle et pointe, à la commande dès 100 pièces | Laine mélangée à parements satin |
 | Été et destination | Costumes deux pièces en lin | Lin mélangé |
 
-Nos modèles mariage sont pour la plupart en coupe slim et entièrement doublés 100 % viscose. Pour les collections mariage à la commande, nous pouvons produire des coupes moderne ou classique, votre propre palette de couleurs et des gilets ou nœuds papillon coordonnés. Voir [smokings](/mens-suit-manufacturing/tuxedos), [costumes trois pièces](/mens-suit-manufacturing/3-piece-suits) et [costumes de cérémonie](/mens-suit-manufacturing/ceremony-suits) pour le détail de chaque style.
+Nos modèles mariage sont pour la plupart en coupe slim et entièrement doublés 100 % viscose. Pour les collections mariage à la commande, nous pouvons produire des coupes moderne ou classique, votre propre palette de couleurs et des gilets ou nœuds papillon coordonnés. Voir [costumes trois pièces](/mens-suit-manufacturing/3-piece-suits), [costumes deux pièces](/mens-suit-manufacturing/2-piece-suits) et [smokings](/mens-suit-manufacturing/tuxedos) pour le détail de chaque style.
 
 ## Tailles
 
-Les costumes de mariage en stock vont du 46 au 56 EU, et la plupart des smokings du 46 au 58. En tailles UK et US, cela correspond au 36 à 46 ou 48. Les commandes pour les témoins demandent en général un large éventail de tailles sur un seul modèle, ce qui correspond exactement à la composition de nos lots. Voir le [guide des tailles](/size-guide).
+Les costumes de mariage en stock vont du 46 au 56 EU, et certains modèles vont jusqu'au 58. En tailles UK et US, cela correspond au 36 à 46 ou 48. Les commandes pour les témoins demandent en général un large éventail de tailles sur un seul modèle, ce qui correspond exactement à la composition de nos lots. Voir le [guide des tailles](/size-guide).
 
 ## Lots et commande minimum
 

@@ -16,7 +16,7 @@ Stoktan alımda minimum, bir modelden bir lottur; bu genellikle 6 veya 7 takım 
 
 ### Lot ne demek?
 
-Lot, bir modelin her bedenden bir takım olacak şekilde tam beden serisidir. Örneğin EU 46-48-50-52-54-56 serisi 6 takımlık bir lottur. Smokinlerin çoğu ise EU 46'dan 58'e 7 takımlık lotlar halinde gelir. Her modelin serisi [koleksiyonlar](/collections) sayfasında yazılıdır.
+Lot, bir modelin her bedenden bir takım olacak şekilde tam beden serisidir. Örneğin EU 46-48-50-52-54-56 serisi 6 takımlık bir lottur. Bazı modeller ise EU 46'dan 58'e 7 takımlık lotlar halinde gelir. Her modelin serisi [koleksiyonlar](/collections) sayfasında yazılıdır.
 
 ### Bir siparişte farklı modelleri birleştirebilir miyim?
 
@@ -96,15 +96,15 @@ Evet. Malları ve ihracat evraklarını İstanbul'da nakliye firmanıza (forward
 
 ### Hangi tür takım elbiseler üretiyorsunuz?
 
-İkili ve üçlü (yelekli) takım elbise, kruvaze takım, smokin ve smokin ceket, damatlık ve tören takımları, keten yazlık takımlar ile büyük beden ve uzun boy takımlar. Ayrıntılar için [erkek takım elbise üretimi](/mens-suit-manufacturing) sayfasına bakın.
+İkili ve üçlü (yelekli) takım elbise, kruvaze takım, damatlık, safari ve overshirt takımlar, keten yazlık takımlar ile büyük beden ve uzun boy takımlar. Smokin ve smokin ceketleri yalnızca siparişe özel, model başına 100 adetten üretiyoruz. Ayrıntılar için [erkek takım elbise üretimi](/mens-suit-manufacturing) sayfasına bakın.
 
 ### Hangi kalıpları sunuyorsunuz?
 
-Slim fit, modern kesim ve klasik kesim. Smokin ve özel gün takımlarımızın çoğu slim fit.
+Slim fit, modern kesim ve klasik kesim. Takımlarımızın çoğu slim fit.
 
 ### Hangi kumaşları kullanıyorsunuz?
 
-Ağırlıklı olarak yün karışımları; bunun yanında premium yün, jakar, kadife, keten karışımları, payetli ve süslemeli kumaşlar. Ceketlerde %100 viskon astar kullanıyoruz. Ayrıntılar [kumaşlar](/fabrics) sayfasında.
+Ağırlıklı olarak yün karışımları; bunun yanında premium yün, çizgili takım elbise kumaşı, keten karışımları ve jakar. Ceketlerde %100 viskon astar kullanıyoruz. Ayrıntılar [kumaşlar](/fabrics) sayfasında.
 
 ### Hangi bedenleri üretiyorsunuz?
 

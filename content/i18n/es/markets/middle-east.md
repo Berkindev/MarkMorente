@@ -23,9 +23,9 @@ Las bodas y los eventos formales son una parte importante del negocio de trajes 
 
 Estilos que se venden bien:
 
-- Chaquetas de esmoquin en blanco, marfil y crudo para bodas de verano y de noche
-- Esmoquin negro y azul medianoche con solapa chal o de pico
-- Chaquetas en jacquard, con efecto terciopelo, lentejuelas y pedrería para el novio
+- Trajes en crudo, piedra claro y beige para bodas de verano y de noche
+- Trajes de tres piezas y trajes con chaleco en contraste para el novio
+- Esmoquin negro y azul medianoche con solapa chal o de pico, bajo pedido
 - Trajes de dos piezas de corte slim y moderno en azul marino, gris, azul y beige
 - Trajes de tres piezas con chaleco para familiares e invitados
 

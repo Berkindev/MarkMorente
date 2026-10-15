@@ -16,7 +16,7 @@ Unser Ziel ist gleich geblieben: türkisches Textil-Know-how mit moderner Fertig
 
 ## Was wir herstellen
 
-Wir fertigen zweiteilige und dreiteilige Herrenanzüge, Zweireiher, Smokings und Dinnerjacketts, Hochzeits- und Festanzüge, Leinenanzüge für den Sommer sowie Anzüge in Übergrößen. Die Passformen sind Slim, Modern und Classic. Unsere Stoffe reichen von alltagstauglichen Wollmischungen bis zu Jacquard, Samt und Paillettenstoffen für festliche Anlässe. Mehr unter [Was wir herstellen](/mens-suit-manufacturing) und in den aktuellen [Kollektionen](/collections).
+Wir fertigen zweiteilige und dreiteilige Herrenanzüge, Zweireiher, Hochzeitsanzüge, Safari- und Overshirt-Anzüge, Leinenanzüge für den Sommer sowie Anzüge in Übergrößen, dazu Smokings und Dinnerjacketts in Auftragsproduktion. Die Passformen sind Slim, Modern und Classic. Unsere Stoffe reichen von alltagstauglichen Wollmischungen bis zu Nadelstreifenstoffen und Jacquard für festliche Anlässe. Mehr unter [Was wir herstellen](/mens-suit-manufacturing) und in den aktuellen [Kollektionen](/collections).
 
 ## Kapazität
 

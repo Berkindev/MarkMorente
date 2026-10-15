@@ -1,18 +1,18 @@
 ---
 slug: wedding-suits
 title: Damatlık Toptan Üretici, İstanbul | Mark Morente
-description: İstanbul'dan damat, sağdıç ve davetliler için toptan ve private label damatlık: smokin, üçlü ve keten takımlar. Stoktan lot alım veya 100 adetten üretim.
+description: İstanbul'dan damat, sağdıç ve davetliler için toptan ve private label damatlık: üçlü, kruvaze ve keten takımlar. Stoktan lot alım veya 100 adetten üretim.
 h1: Toptan damatlık ve düğün takımı üretimi
-lead: Damat, sağdıç ve davetliler için damatlık ve smokin üretiyor; gelinlik ve damatlık mağazalarına, abiye perakendecilerine ve toptancılara satıyoruz. Türk damatlıklarını stoktan lot halinde alabilir veya kendi markanızla bir düğün koleksiyonu ürettirebilirsiniz.
+lead: Damat, sağdıç ve davetliler için damatlık üretiyor; gelinlik ve damatlık mağazalarına, abiye perakendecilerine ve toptancılara satıyoruz. Türk damatlıklarını stoktan lot halinde alabilir veya kendi markanızla bir düğün koleksiyonu ürettirebilirsiniz.
 updated: 2026-10-09
-related: [tuxedos, 3-piece-suits, ceremony-suits, wholesale-suits, private-label-suits]
+related: [3-piece-suits, 2-piece-suits, tuxedos, wholesale-suits, private-label-suits]
 ---
 
 ## Neler üretiyoruz
 
 Bir düğün koleksiyonunda üç şey gerekir: damat için öne çıkan bir görünüm, sağdıçlar için birbirine uyumlu takımlar ve davetliler için şık seçenekler. Bir damatlık üreticisi olarak üçünü de üretiyoruz; böylece bir mağaza tüm koleksiyonunu tek tedarikçiden alabiliyor.
 
-- **Damat:** fotoğraflarda öne çıkan smokinler, smokin ceketler, üçlü takımlar ve süslemeli modeller
+- **Damat:** üçlü takımlar, kontrast yelekli takımlar, kruvaze takımlar ve siparişe özel smokin ve smokin ceketler
 - **Sağdıçlar:** aynı model ve renkte, farklı bedenlerde sipariş edilen ikili veya üçlü takımlar
 - **Davetliler:** düğün gününden sonra da giyilebilen iş takımları, keten yazlık takımlar ve kruvaze takımlar
 
@@ -20,17 +20,17 @@ Bir düğün koleksiyonunda üç şey gerekir: damat için öne çıkan bir gör
 
 | Düğün tarzı | Modellerimiz | Kumaş |
 |---|---|---|
-| Klasik black tie | Şal ve sivri yaka smokinler, saten garnili | Saten garnili yün karışımlı |
-| Kırık beyaz ve beyaz | Smokin ceketler ve smokinler | Yün karışımlı, saten garnili |
 | Üçlü damatlık | Ceket, pantolon, aynı kumaştan yelek | Yün karışımlı |
-| İddialı damat | Jakar, kadife, payetli, kristalli ve işlemeli smokinler | Jakar, kadife, payet |
+| Kontrast yelek | Ceketten farklı renkte krem, kahverengi, lacivert, siyah veya yeşil yelek | Yün karışımlı |
+| İddialı damat | Bordo, krem, lacivert ve kahverengi çizgili kruvaze takımlar | Çizgili takım elbise kumaşı |
+| Klasik black tie | Şal ve sivri yaka smokinler, 100 adetten siparişe özel | Saten garnili yün karışımlı |
 | Yaz ve destinasyon düğünü | Keten ikili takımlar | Keten karışımlı |
 
-Damatlık modellerimiz çoğunlukla slim fit ve %100 viskon astarla tam astarlı. Siparişe özel düğün koleksiyonlarında modern veya klasik kesim, kendi renk paletiniz ve takımla uyumlu yelek ya da papyon üretebiliyoruz. Her modelin ayrıntıları için [smokinler](/mens-suit-manufacturing/tuxedos), [üçlü takımlar](/mens-suit-manufacturing/3-piece-suits) ve [tören takımları](/mens-suit-manufacturing/ceremony-suits) sayfalarına bakın.
+Damatlık modellerimiz çoğunlukla slim fit ve %100 viskon astarla tam astarlı. Siparişe özel düğün koleksiyonlarında modern veya klasik kesim, kendi renk paletiniz ve takımla uyumlu yelek ya da papyon üretebiliyoruz. Her modelin ayrıntıları için [üçlü takımlar](/mens-suit-manufacturing/3-piece-suits), [ikili takımlar](/mens-suit-manufacturing/2-piece-suits) ve [smokinler](/mens-suit-manufacturing/tuxedos) sayfalarına bakın.
 
 ## Bedenler
 
-Stoktaki damatlıklar EU 46-56 arasında, smokinlerin çoğu ise 46-58 arasında. UK ve ABD ölçülerinde bu 36-46 veya 48'e denk gelir. Sağdıç siparişlerinde genellikle tek modelden geniş bir beden aralığı gerekir; lotlarımız da tam olarak bu şekilde kurgulanmış. Bkz. [beden tablosu](/size-guide).
+Stoktaki damatlıklar EU 46-56 arasında, bazı modeller ise 58'e kadar çıkıyor. UK ve ABD ölçülerinde bu 36-46 veya 48'e denk gelir. Sağdıç siparişlerinde genellikle tek modelden geniş bir beden aralığı gerekir; lotlarımız da tam olarak bu şekilde kurgulanmış. Bkz. [beden tablosu](/size-guide).
 
 ## Lot ve minimum sipariş
 

@@ -29,9 +29,9 @@ Les mariages représentent une grande part de la demande de costumes dans toute 
 
 Les modèles de cérémonie qui se vendent bien :
 
-- Smokings à revers châle et pointe en noir, blanc, crème, marine et bordeaux
-- Vestes de soirée en jacquard et effet velours
-- Modèles à paillettes et à strass pour la tenue de soirée du marié
+- Costumes croisés à fines rayures en bordeaux, marine et marron
+- Costumes avec gilet contrasté pour la tenue de soirée du marié
+- Smokings à revers châle et pointe, fabriqués à la commande dès 100 pièces par modèle
 - Costumes trois pièces avec gilet assorti pour les proches et les invités
 - Costumes deux pièces classiques marine, gris et noir pour le bureau et les tenues habillées du quotidien
 
@@ -82,7 +82,7 @@ Oui. Nous travaillons en turc et en anglais. Beaucoup d'acheteurs d'Azerbaïdjan
 
 ### Quels styles se vendent le mieux pour les mariages dans la région ?
 
-Les smokings à revers châle ou pointe, les vestes de soirée en jacquard et effet velours, et les costumes trois pièces se vendent bien. Les mariés choisissent souvent un modèle qui se remarque pour la soirée.
+Les costumes trois pièces, les costumes avec gilet contrasté et les costumes croisés à fines rayures se vendent bien. Les mariés choisissent souvent un modèle qui se remarque pour la soirée, et les smokings sont disponibles à la commande.
 
 ### Comment expédiez-vous vers le Kazakhstan ou l'Ouzbékistan ?
 

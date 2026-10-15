@@ -18,9 +18,8 @@ Nous produisons toute la gamme de la confection masculine, pour le bureau comme 
 
 - [Costumes trois pièces](/mens-suit-manufacturing/3-piece-suits) : veste, pantalon et gilet assorti, pour les mariages, les cérémonies et le bureau.
 - [Costumes deux pièces](/mens-suit-manufacturing/2-piece-suits) : costumes de ville, costumes croisés et costumes d'été en lin mélangé.
-- [Smokings](/mens-suit-manufacturing/tuxedos) : smokings à revers châle et pointe, vestes de soirée, modèles jacquard et velours.
-- [Costumes de mariage](/mens-suit-manufacturing/wedding-suits) : costumes et smokings pour le marié, les témoins et les invités.
-- [Costumes de cérémonie](/mens-suit-manufacturing/ceremony-suits) : modèles à paillettes, à cristaux, brodés et en velours pour les galas et la scène.
+- [Smokings](/mens-suit-manufacturing/tuxedos) : smokings à revers châle et pointe et vestes de soirée, fabriqués à la commande dès 100 pièces par modèle.
+- [Costumes de mariage](/mens-suit-manufacturing/wedding-suits) : costumes trois pièces et modèles qui se remarquent pour le marié, les témoins et les invités.
 - [Grandes tailles](/mens-suit-manufacturing/big-tall-suits) : tailles étendues avec patrons adaptés aux morphologies fortes et grandes.
 
 Vous trouverez les modèles actuels, avec tissu, coupe et composition des lots, dans nos [collections](/collections).
@@ -72,7 +71,7 @@ Notre capacité dépasse 1 000 costumes par jour : un modèle de 100 pièces com
 - **Patronage en CAO et prototypage 3D**
 - **Patronage et échantillonnage internes**
 
-Notre gamme de tissus couvre la laine mélangée, la laine premium, le jacquard, le velours, le lin mélangé et les tissus pailletés, tous doublés 100 % viscose. Voir [tissus](/fabrics) pour savoir comment choisir selon le climat et le prix, et le [guide des tailles](/size-guide) pour les tailles EU, UK et US.
+Notre gamme de tissus couvre la laine mélangée, la laine premium, les tissus à fines rayures, le jacquard et le lin mélangé. Voir [tissus](/fabrics) pour savoir comment choisir selon le climat et le prix, et le [guide des tailles](/size-guide) pour les tailles EU, UK et US.
 
 ## Les marchés que nous servons
 

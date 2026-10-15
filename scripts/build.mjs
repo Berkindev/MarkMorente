@@ -51,14 +51,15 @@ const sizesOf = (p) => p.description?.lot?.sizes || [];
 const lotCount = (p) => (p.description?.lot?.quantities || []).reduce((a, b) => a + b, 0) || sizesOf(p).length;
 const sizeRange = (p) => (sizesOf(p).length ? `EU ${sizesOf(p)[0]}–${sizesOf(p).at(-1)}` : '');
 const isTux = (p) => /tuxedo|dinner jacket/i.test(p.model);
-const isCeremony = (p) => isTux(p) && /embellish|sequin|rhinestone|crystal|beaded|glitter|gold|velvet|studded|shimmer|sparkle|ombre|colour block|embroider/i.test(`${p.fabric} ${p.title}`);
-const CAT_IMG = { tuxedos: 'T44', 'wedding-suits': 'S08', 'ceremony-suits': 'T12' }; // single mannequin shots (T05 is a two-up collage with text)
+const CAT_IMG = { '3-piece-suits': 'S21', '2-piece-suits': 'S35', 'wedding-suits': 'S08' };
+// Tuxedos have no catalog models since 2026-10-15 (all tuxedo/dinner jacket models removed, supply issue): the page stays as made-to-order only, with a stock photo.
+const CAT_PHOTO = { tuxedos: ['tuxedo-detail.jpg', 'made-to-order-tuxedo'] };
+const REMOVED = JSON.parse(readFileSync('removed-products.json', 'utf8'));
 const CATS = [
   { slug: '3-piece-suits', test: (p) => /three piece/i.test(p.model) },
   { slug: '2-piece-suits', test: (p) => /two piece|double-breasted/i.test(p.model) || (/suit/i.test(p.model) && !/three/i.test(p.model) && !isTux(p)) },
   { slug: 'tuxedos', test: (p) => isTux(p) },
   { slug: 'wedding-suits', test: (p) => /three piece/i.test(p.model) || /dinner jacket/i.test(p.model) || (isTux(p) && /white|ivory|burgundy|emerald|green|red/i.test(p.color)) },
-  { slug: 'ceremony-suits', test: (p) => isCeremony(p) },
   { slug: 'big-tall-suits', test: (p) => sizesOf(p).includes('58') },
 ].map((c) => {
   const legacy = legacyCats.find((x) => x.slug === c.slug) || {};
@@ -66,6 +67,7 @@ const CATS = [
   return { ...c, legacy, items, image: CAT_IMG[c.slug] ? byCode(CAT_IMG[c.slug])?.images[0] || legacy.image : legacy.image };
 });
 const catDoc = (code, slug) => CONTENT[code].pages[slug] || CONTENT[code].pages[`category-${slug}`];
+const catPhoto = (c) => (CAT_PHOTO[c.slug] ? photo(...CAT_PHOTO[c.slug]) : null);
 const sorted = [...products].sort((a, b) => (a.status === b.status ? 0 : a.status === 'In Stock' ? -1 : 1));
 
 // ── Images (stock photography for process/market pages) ─────
@@ -162,7 +164,11 @@ const pcard = (L, p) => {
   <div class="pcard__body"><h3>${esc(x.title)}</h3><p>${esc(p.code)} · ${esc(x.fabric)} · ${esc(L.t('card.lotOf', { n: lotCount(p) }))}</p></div>
 </a>`;
 };
-const catCard = (L, c) => `<a class="cat reveal" href="${href(L, `/mens-suit-manufacturing/${c.slug}`)}">${catalogPic(c.image, L.t('cat.alt', { name: catName(L, c) }), { sizes: '(max-width: 860px) 50vw, 400px' })}<div class="cat__body"><h3>${esc(catName(L, c))}</h3><p>${esc(L.t('cat.meta', { n: c.items.length }))}</p></div></a>`;
+const catCard = (L, c) => {
+  const alt = L.t('cat.alt', { name: catName(L, c) });
+  const img = c.image ? catalogPic(c.image, alt, { sizes: '(max-width: 860px) 50vw, 400px' }) : pic(catPhoto(c), alt, { sizes: '(max-width: 860px) 50vw, 400px', cls: 'cat__photo' });
+  return `<a class="cat reveal" href="${href(L, `/mens-suit-manufacturing/${c.slug}`)}">${img}<div class="cat__body"><h3>${esc(catName(L, c))}</h3><p>${esc(c.items.length ? L.t('cat.meta', { n: c.items.length }) : L.t('cat.mto'))}</p></div></a>`;
+};
 const ctaBand = (L, title, text, msg, ev) => `<section class="section" style="padding-top:20px"><div class="wrap"><div class="cta-band reveal"><div><h2>${esc(title)}</h2><p>${esc(text)}</p></div><div class="btn-row">${waBtn(L, L.t('btn.quoteOnWhatsApp'), msg, ev)}${tgBtn(L.t('btn.telegram'), 'btn--ghost')}</div></div></div></section>`;
 const quoteBox = (L, msg, ev) => `<div class="quote-box"><h2>${esc(L.t('quote.h'))}</h2><p>${esc(L.t('quote.p'))}</p>${waBtn(L, L.t('btn.whatsapp'), msg, ev)}<div style="height:8px"></div>${tgBtn(L.t('btn.telegram'), 'btn--ghost')}</div>`;
 const tocBox = (L, toc) => (toc?.length > 2 ? `<nav class="toc" aria-label="${esc(L.t('toc'))}"><h2>${esc(L.t('toc'))}</h2><ol>${toc.filter((t) => !/^faq/i.test(t.text)).map((t) => `<li><a href="#${t.id}">${esc(t.text)}</a></li>`).join('')}</ol></nav>` : '');
@@ -215,8 +221,8 @@ for (const L of LS) {
 
   // ── HOME ──
   plan(L, '/', '1.0', () => {
-    const featSuits = ['S05', 'S08', 'S06', 'S02'].map(byCode).filter(Boolean);
-    const featTux = ['T07', 'T20', 'T14', 'T09'].map(byCode).filter(Boolean);
+    const featSuits = ['S21', 'S12', 'S26', 'S08'].map(byCode).filter(Boolean);
+    const featTwo = ['S35', 'S42', 'S49', 'S56'].map(byCode).filter(Boolean);
     const homeSections = home ? splitFaq(locLinks(L, home.html)).main.split(/(?=<h2 )/).filter((s) => s.startsWith('<h2')) : [];
     const firstAfterHero = 1; // home.md sections 2 and 3 ("two ways", "what we manufacture") are rendered as components below
     const prose = homeSections.filter((_, i) => i !== firstAfterHero && i !== firstAfterHero + 1);
@@ -255,10 +261,10 @@ for (const L of LS) {
 </div></section>
 <section class="section"><div class="wrap">
   <div class="section__head"><div><span class="eyebrow">${esc(L.t('home.cat.eyebrow'))}</span><h2>${esc(L.t('home.cat.h'))}</h2></div><a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('home.cat.all', { n: products.length }))}</a></div>
-  <h3 class="row-title">${esc(L.t('home.cat.suits'))}</h3>
+  <h3 class="row-title">${esc(L.t('col.g3'))}</h3>
   <div class="products">${featSuits.map((p) => pcard(L, p)).join('')}</div>
-  <h3 class="row-title">${esc(L.t('home.cat.tux'))}</h3>
-  <div class="products">${featTux.map((p) => pcard(L, p)).join('')}</div>
+  <h3 class="row-title">${esc(L.t('col.g2'))}</h3>
+  <div class="products">${featTwo.map((p) => pcard(L, p)).join('')}</div>
 </div></section>
 ${prose.map((s, i) => `<section class="section${i % 2 ? '' : ' section--ivory'}"><div class="wrap"><div class="prose reveal">${s}</div></div></section>`).join('')}
 <section class="section section--dark"><div class="wrap">
@@ -292,11 +298,12 @@ ${ctaBand(L, L.t('home.band.title'), L.t('home.band.text'), L.t('msg.general'), 
       const path = L.P(key);
       const name = catName(L, c);
       const bc = [crumbHome, [L.P('/mens-suit-manufacturing'), L.t('crumb.manufacturing')], [path, name]];
-      const grid = `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('cat.grid.eyebrow', { n: c.items.length }))}</span><h2>${esc(L.t('cat.grid.h', { name }))}</h2></div><p>${esc(L.t('cat.grid.p'))}</p></div><div class="products">${c.items.slice(0, 24).map((p) => pcard(L, p)).join('')}</div>${c.items.length > 24 ? `<div style="margin-top:24px"><a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('cat.seeAll', { n: c.items.length }))}</a></div>` : ''}</div></section>`;
-      const r = articlePage(L, { doc, path, bc, eyebrow: L.t('cat.eyebrow', { name }), image: null, afterArticle: grid,
+      const grid = !c.items.length ? '' : `<section class="section section--ivory"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('cat.grid.eyebrow', { n: c.items.length }))}</span><h2>${esc(L.t('cat.grid.h', { name }))}</h2></div><p>${esc(L.t('cat.grid.p'))}</p></div><div class="products">${c.items.slice(0, 24).map((p) => pcard(L, p)).join('')}</div>${c.items.length > 24 ? `<div style="margin-top:24px"><a class="btn btn--ghost" href="${href(L, '/collections')}">${esc(L.t('cat.seeAll', { n: c.items.length }))}</a></div>` : ''}</div></section>`;
+      const cp = c.items.length ? null : catPhoto(c);
+      const r = articlePage(L, { doc, path, bc, eyebrow: L.t('cat.eyebrow', { name }), image: cp, imageAlt: cp ? (L.code === 'en' ? credits[CAT_PHOTO[c.slug][0]] : doc.h1) : undefined, afterArticle: grid,
         msg: L.t('cat.msg', { name: name.toLocaleLowerCase(L.code) }),
-        schemaExtra: [serviceSchema(doc.h1, path, { image: abs(c.image) }), { '@context': 'https://schema.org', '@type': 'ItemList', name, itemListElement: c.items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(href(L, `/collections/${p.slug}`)), name: L.prod(p).title })) }] });
-      return { ...r, title: cleanTitle(doc.title, `${name} | Mark Morente`), description: clip(doc.description || doc.lead || ''), images: c.items.slice(0, 10).map((p) => p.images[0]) };
+        schemaExtra: [serviceSchema(doc.h1, path, { image: abs(c.image || cp?.og || '/og-image.jpg') }), c.items.length ? { '@context': 'https://schema.org', '@type': 'ItemList', name, itemListElement: c.items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(href(L, `/collections/${p.slug}`)), name: L.prod(p).title })) } : null] });
+      return { ...r, title: cleanTitle(doc.title, `${name} | Mark Morente`), description: clip(doc.description || doc.lead || ''), og: cp?.og, images: c.items.slice(0, 10).map((p) => p.images[0]) };
     });
   }
 
@@ -305,13 +312,14 @@ ${ctaBand(L, L.t('home.band.title'), L.t('home.band.text'), L.t('msg.general'), 
     plan(L, '/collections', '0.9', () => {
       const path = L.P('/collections');
       const bc = [crumbHome, [path, L.t('crumb.collections')]];
-      const groups = [['col.tux', (p) => isTux(p)], ['col.suits', (p) => !isTux(p)]];
+      const casual = (p) => /safari|overshirt/i.test(p.model);
+      const groups = [['col.g3', (p) => /three piece/i.test(p.model)], ['col.g2', (p) => !/three piece/i.test(p.model) && !casual(p)], ['col.gc', casual]];
       const body = `${crumbs(bc)}
 <section class="phead"><div class="wrap"><span class="eyebrow">${esc(L.t('col.eyebrow'))}</span><h1>${esc(L.t('col.h1'))}</h1><p class="lead">${esc(L.t('col.lead', { n: products.length }))}</p>
 <div class="btn-row" style="margin-top:18px">${waBtn(L, L.t('col.btn'), L.t('col.msg'), 'collections')}</div><div style="margin-top:18px">${b2bNotice(L)}</div></div></section>
 ${groups.map(([k, f]) => { const list = sorted.filter(f); return `<section class="section" style="padding-top:24px"><div class="wrap"><div class="section__head"><div><span class="eyebrow">${esc(L.t('col.models', { n: list.length }))}</span><h2>${esc(L.t(k))}</h2></div></div><div class="products">${list.map((p) => pcard(L, p)).join('')}</div></div></section>`; }).join('')}
 ${ctaBand(L, L.t('col.band.title'), L.t('col.band.text'), L.t('col.band.msg'), 'collections-band')}`;
-      const md = `# ${L.t('col.h1')}\n\n${L.t('col.lead', { n: products.length })}\n\n${sorted.map((p) => { const x = L.prod(p); return `- [${x.title} (${p.code})](${abs(href(L, `/collections/${p.slug}`))}): ${x.model}, ${x.fabric}, ${p.status}, ${L.t('card.lotOf', { n: lotCount(p) })} (${sizeRange(p)})`; }).join('\n')}\n${mdFooter}`;
+      const md = `# ${L.t('col.h1')}\n\n${L.t('col.lead', { n: products.length })}\n\n${sorted.map((p) => { const x = L.prod(p); return `- [${x.title} (${p.code})](${abs(href(L, `/collections/${p.slug}`))}): ${x.model}, ${x.fabric}, ${L.t(p.status === 'In Stock' ? 'card.inStock' : 'card.madeToOrder')}, ${L.t('card.lotOf', { n: lotCount(p) })} (${sizeRange(p)})`; }).join('\n')}\n${mdFooter}`;
       return { title: L.t('col.title'), description: clip(L.t('col.description', { n: products.length })), body, md, schema: [bcSchema(bc), { '@context': 'https://schema.org', '@type': 'CollectionPage', name: L.t('col.h1'), url: abs(path), inLanguage: L.code, isPartOf: { '@id': `${site.url}/#website` }, mainEntity: { '@type': 'ItemList', itemListElement: sorted.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(href(L, `/collections/${p.slug}`)), name: L.prod(p).title })) } }] };
     });
     for (const p of products) {
@@ -388,7 +396,7 @@ function productPage(L, p, key) {
   const range = sizeRange(p);
   const msgStock = L.t('p.msg.stock', { title: x.title, code: p.code });
   const msgPL = L.t('p.msg.pl', { title: x.title, code: p.code });
-  const specs = [['p.spec.code', p.code], ['p.spec.type', x.model], ['p.spec.fit', x.fit], ['p.spec.lapel', x.lapel], ['p.spec.fabric', x.fabric], ['p.spec.lining', x.lining], ['p.spec.colour', x.color], ['p.spec.availability', L.t(stock ? 'p.avail.stock' : 'p.avail.mto')], ['p.spec.lot', L.t('p.lot', { n: lotCount(p), range })]].map(([k, v]) => [L.t(k), v]);
+  const specs = [['p.spec.code', p.code], ['p.spec.type', x.model], ['p.spec.fit', x.fit], ['p.spec.lapel', x.lapel], ['p.spec.fabric', x.fabric], ['p.spec.lining', x.lining], ['p.spec.colour', x.color], ['p.spec.availability', L.t(stock ? 'p.avail.stock' : 'p.avail.mto')], ['p.spec.lot', L.t('p.lot', { n: lotCount(p), range })]].filter(([, v]) => v).map(([k, v]) => [L.t(k), v]);
   const link = (k, h) => `<a href="${href(L, h)}">${esc(L.t(k))}</a>`;
   const body = `${crumbs(bc)}
 <div class="wrap"><div class="product">
@@ -422,7 +430,7 @@ ${related.length ? `<section class="section section--ivory"><div class="wrap"><d
   const md = `# ${x.title} (${p.code})\n\n${x.content}\n\n| | |\n|---|---|\n${specs.map(([k, v]) => `| ${k} | ${v} |`).join('\n')}\n\n${L.t('p.sizes')}: ${sizesOf(p).join(', ')}\n\n${x.features.length ? `${L.t('p.details')}: ${x.features.join('; ')}\n\n` : ''}WhatsApp: ${waHref(L, stock ? msgStock : msgPL)}\n${mdFooter}`;
   const t = L.t('p.title', { title: x.title, code: p.code });
   const description = clip(L.t('p.description', { title: x.title, code: p.code, fabric: x.fabric.toLocaleLowerCase(L.code), lapel: x.lapel.toLocaleLowerCase(L.code), fit: x.fit.toLocaleLowerCase(L.code), lot: stock ? L.t('p.description.lot', { n: lotCount(p), range }) : L.t('p.avail.mto') }));
-  return { title: t.length <= 60 ? t : x.title, description, body, md, schema, og: p.images[0], ogType: 'product' };
+  return { title: t.length <= 60 ? t : `${x.title} ${p.code}`.length <= 60 ? `${x.title} ${p.code}` : x.title, description, body, md, schema, og: p.images[0], ogType: 'product' };
 }
 
 // ════════════════════════════════════════════════════════════
@@ -506,7 +514,7 @@ writeFileSync(join(DIST, 'api/catalog.json'), JSON.stringify({
   company: { name: site.name, url: site.url, city: 'Istanbul', country: 'Turkey', founded: site.founded, whatsapp: `https://wa.me/${site.whatsapp}`, telegram: site.telegram, instagram: site.instagram, facts: site.facts, buyers: site.audience, b2bOnly: true, languages: LIVE.map((L) => ({ code: L.code, url: abs(L.P('/')) })) },
   ordering: { stockLot: site.facts.stockLot, madeToOrderMOQ: site.facts.moq, leadTime: site.facts.leadTime, customization: 'Fully customizable for made-to-order (fabric, colour, fit, sizes incl. US sizing, lining, buttons, labels, packaging)', shipping: 'Air, sea or road as the buyer prefers; express air for urgent orders', pricing: 'Quoted per order; not published.' },
   categories: CATS.map((c) => ({ slug: c.slug, name: catName(EN, c), url: abs(`/mens-suit-manufacturing/${c.slug}`), models: c.items.length })),
-  products: sorted.map((p) => ({ code: p.code, title: p.title, model: p.model, fit: p.fit, lapel: p.lapel, fabric: p.fabric, lining: p.lining.replace(/^%100/, '100%'), color: p.color, status: p.status, lot: { sizes: sizesOf(p), suits: lotCount(p) }, categories: CATS.filter((c) => c.test(p)).map((c) => c.slug), url: abs(`/collections/${p.slug}`), markdown: abs(`/collections/${p.slug}.md`), image: abs(p.images[0]), quoteUrl: waHref(EN, `I'm interested in ${p.title} (code ${p.code}). Please send the wholesale price.`) })),
+  products: sorted.map((p) => ({ code: p.code, title: p.title, model: p.model, fit: p.fit, lapel: p.lapel, fabric: p.fabric, lining: (p.lining || '').replace(/^%100/, '100%') || undefined, color: p.color, status: p.status, availability: p.status === 'In Stock' ? 'In stock, sold in lots' : 'Made to order from 100 units (not held in stock)', lot: { sizes: sizesOf(p), suits: lotCount(p) }, categories: CATS.filter((c) => c.test(p)).map((c) => c.slug), url: abs(`/collections/${p.slug}`), markdown: abs(`/collections/${p.slug}.md`), image: abs(p.images[0]), quoteUrl: waHref(EN, `I'm interested in ${p.title} (code ${p.code}). Please send the wholesale price.`) })),
 }, null, 2));
 writeFileSync(join(DIST, 'openapi.json'), JSON.stringify({ openapi: '3.1.0', info: { title: 'Mark Morente wholesale catalog', version: '1.0.0', description: 'Read-only catalog of wholesale suit and tuxedo models. Quotes via WhatsApp (quoteUrl per product).' }, servers: [{ url: site.url }], paths: { '/api/catalog.json': { get: { operationId: 'getCatalog', summary: 'All models, categories and ordering terms', responses: { 200: { description: 'Catalog' } } } }, '/mcp': { post: { operationId: 'mcp', summary: 'MCP endpoint (Streamable HTTP, JSON-RPC 2.0)', responses: { 200: { description: 'JSON-RPC response' } } } } } }, null, 2));
 const WK = join(DIST, '.well-known');
@@ -540,15 +548,16 @@ writeFileSync(join(DIST, '_headers'), `/*
 // Catalog image caching is set in functions/_middleware.js (path patterns can't tell .webp from product HTML).
 writeFileSync(join(DIST, '_routes.json'), JSON.stringify({ version: 1, include: ['/*'], exclude: ['/assets/*', '/fonts/*', '/img/*', '/favicon.ico'] }, null, 2));
 writeFileSync(join(DIST, 'site.webmanifest'), JSON.stringify({ name: 'Mark Morente', short_name: 'Mark Morente', description: site.tagline, start_url: '/', display: 'standalone', background_color: '#F8F5EF', theme_color: '#16140F', icons: [{ src: '/logo-192.png', sizes: '192x192', type: 'image/png' }, { src: '/logo-512.png', sizes: '512x512', type: 'image/png' }] }));
+// Static rules first: Cloudflare counts every line after the first splat as "dynamic" (max 100) and skips the rest.
 writeFileSync(join(DIST, '_redirects'), `/index /  301
 /home /  301
 /products /collections 301
-/products/* /collections/:splat 301
 /manufacturing /mens-suit-manufacturing 301
 /about /about-us 301
 /contact-us /contact 301
-/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27 /collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19 301
-/collections/T27/* /collections/T19/:splat 301
-${LIVE.filter((L) => L.code !== 'en').map((L) => `/${L.code}/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27 /${L.code}/collections/navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19 301`).join('\n')}
+${LIVE.map((L) => `${L.P('/mens-suit-manufacturing/ceremony-suits')} ${L.P('/mens-suit-manufacturing/wedding-suits')} 301`).join('\n')}
+${LIVE.flatMap((L) => REMOVED.products.map((p) => `${L.P(`/collections/${p.slug}`)} ${href(L, REMOVED.redirectTo)} 301`)).join('\n')}
+/products/* /collections/:splat 301
 `);
+// Removed models' image folders (/collections/<code>/*) answer 410 Gone in functions/_middleware.js.
 console.log(`✓ ${out.length} pages (${LIVE.map((L) => `${L.code}:${out.filter((p) => p.lang === L.code).length}`).join(' ')}), ${guides.length} guides, ${Object.keys(IMG).length} photos → ${DIST}/ (v${V})`);

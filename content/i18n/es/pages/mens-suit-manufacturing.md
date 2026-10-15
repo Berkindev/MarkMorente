@@ -18,9 +18,8 @@ Producimos toda la gama de sastrería masculina para trabajo y para ocasiones es
 
 - [Trajes de tres piezas](/mens-suit-manufacturing/3-piece-suits): chaqueta, pantalón y chaleco a juego, para bodas, eventos formales y negocios.
 - [Trajes de dos piezas](/mens-suit-manufacturing/2-piece-suits): trajes de negocios, trajes cruzados y trajes de verano en mezcla de lino.
-- [Esmoquin](/mens-suit-manufacturing/tuxedos): esmoquin con solapa chal y solapa de pico, chaquetas de esmoquin, modelos en jacquard y terciopelo.
-- [Trajes de novio](/mens-suit-manufacturing/wedding-suits): trajes y esmoquin para el novio, los padrinos y los invitados.
-- [Trajes de ceremonia](/mens-suit-manufacturing/ceremony-suits): modelos con lentejuelas, cristales, bordados y terciopelo para galas y escenario.
+- [Esmoquin](/mens-suit-manufacturing/tuxedos): esmoquin con solapa chal y solapa de pico y chaquetas de esmoquin, bajo pedido desde 100 unidades por modelo.
+- [Trajes de novio](/mens-suit-manufacturing/wedding-suits): trajes de tres piezas y trajes llamativos para el novio, los padrinos y los invitados.
 - [Trajes de tallas grandes](/mens-suit-manufacturing/big-tall-suits): tallas ampliadas con patrones adaptados a complexiones más corpulentas y más altas.
 
 Puede ver los modelos actuales, con detalles de tejido, corte y lote, en nuestras [colecciones](/collections).
@@ -72,7 +71,7 @@ Nuestra capacidad diaria supera los 1.000 trajes, así que tanto un modelo de 10
 - **Diseño de patrones en CAD y prototipado 3D**
 - **Patronaje y muestras propios**
 
-Nuestra gama de tejidos incluye mezclas de lana, lana premium, jacquard, terciopelo, mezclas de lino y tejidos con lentejuelas, todos con forro 100% viscosa. En [tejidos](/fabrics) verá cómo eligen los compradores según el clima y el precio, y en la [guía de tallas](/size-guide), las tallas EU, UK y US.
+Nuestra gama de tejidos incluye mezclas de lana, lana premium, raya diplomática, jacquard y mezclas de lino. En [tejidos](/fabrics) verá cómo eligen los compradores según el clima y el precio, y en la [guía de tallas](/size-guide), las tallas EU, UK y US.
 
 ## Mercados que atendemos
 

@@ -16,7 +16,7 @@ Notre objectif n'a pas changé : associer le savoir-faire textile turc à une pr
 
 ## Ce que nous fabriquons
 
-Nous produisons des costumes homme deux pièces et trois pièces, des costumes croisés, des smokings et vestes de soirée, des costumes de mariage et de cérémonie, des costumes d'été en lin et des grandes tailles. Coupes slim, moderne et classique. Nos tissus vont des mélanges laine pour tous les jours aux tissus jacquard, velours et paillettes pour les cérémonies. Voir [ce que nous fabriquons](/mens-suit-manufacturing) et nos [collections](/collections) actuelles.
+Nous produisons des costumes homme deux pièces et trois pièces, des costumes croisés, des costumes de mariage, des costumes saharienne et surchemise, des costumes d'été en lin et des grandes tailles, ainsi que des smokings et vestes de soirée à la commande. Coupes slim, moderne et classique. Nos tissus vont des mélanges laine pour tous les jours aux tissus à fines rayures et jacquard pour les cérémonies. Voir [ce que nous fabriquons](/mens-suit-manufacturing) et nos [collections](/collections) actuelles.
 
 ## Capacité
 

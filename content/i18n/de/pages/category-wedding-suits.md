@@ -1,18 +1,18 @@
 ---
 slug: wedding-suits
 title: Hochzeitsanzug Hersteller Türkei | Großhandel Mark Morente
-description: Hochzeitsanzüge aus Istanbul im Großhandel und als Private Label für Bräutigam, Trauzeugen und Gäste: Smokings, Dreiteiler, Leinenanzüge. Lager oder 100 Stück.
+description: Hochzeitsanzüge aus Istanbul im Großhandel und als Private Label für Bräutigam, Trauzeugen und Gäste: Dreiteiler, Zweireiher, Leinenanzüge. Lager oder 100 Stück.
 h1: Herstellung von Hochzeitsanzügen
-lead: Wir fertigen Hochzeitsanzüge und Smokings für Bräutigam, Trauzeugen und Gäste und verkaufen sie an Brautmodengeschäfte, Festmodehändler und Großhändler. Kaufen Sie türkische Hochzeitsanzüge ab Lager in Paketen oder lassen Sie eine Hochzeitskollektion unter Ihrem Label produzieren.
+lead: Wir fertigen Hochzeitsanzüge für Bräutigam, Trauzeugen und Gäste und verkaufen sie an Brautmodengeschäfte, Festmodehändler und Großhändler. Kaufen Sie türkische Hochzeitsanzüge ab Lager in Paketen oder lassen Sie eine Hochzeitskollektion unter Ihrem Label produzieren.
 updated: 2026-10-09
-related: [tuxedos, 3-piece-suits, ceremony-suits, wholesale-suits, private-label-suits]
+related: [3-piece-suits, 2-piece-suits, tuxedos, wholesale-suits, private-label-suits]
 ---
 
 ## Was wir produzieren
 
 Ein Hochzeitssortiment braucht drei Dinge: einen auffälligen Look für den Bräutigam, passende Anzüge für die Trauzeugen und elegante Optionen für die Gäste. Als Hersteller von Hochzeitsanzügen fertigen wir alle drei, sodass ein Hochzeitsausstatter sein gesamtes Sortiment bei einem Lieferanten einkaufen kann.
 
-- **Bräutigam:** Smokings, Dinnerjacketts, dreiteilige Anzüge und verzierte Modelle, die auf Fotos herausstechen
+- **Bräutigam:** dreiteilige Anzüge, Anzüge mit kontrastierender Weste, Zweireiher und, in Auftragsproduktion, Smokings und Dinnerjacketts
 - **Trauzeugen:** passende zwei- oder dreiteilige Anzüge, bestellt im selben Modell und derselben Farbe über alle Größen
 - **Gäste:** Business-Anzüge, Sommeranzüge aus Leinen und Zweireiher, die auch nach dem Hochzeitstag getragen werden
 
@@ -20,17 +20,17 @@ Ein Hochzeitssortiment braucht drei Dinge: einen auffälligen Look für den Brä
 
 | Hochzeitsstil | Unsere Modelle | Stoff |
 |---|---|---|
-| Klassisches Black Tie | Smokings mit Schalkragen und spitzem Revers, Satinbesatz | Wollmischung mit Satinbesatz |
-| Elfenbein und Weiß | Dinnerjacketts und Smokings | Wollmischung, Satinbesatz |
 | Dreiteiliger Hochzeitsanzug | Sakko, Hose, passende Weste | Wollmischung |
-| Auffälliger Bräutigam-Look | Smokings aus Jacquard, Samt, mit Pailletten, Kristallen und Stickerei | Jacquard, Samt, Pailletten |
+| Kontrastweste | Weste in Creme, Braun, Marine, Schwarz oder Grün zu einem Sakko in anderer Farbe | Wollmischung |
+| Auffälliger Bräutigam-Look | Zweireiher mit Nadelstreifen in Bordeaux, Creme, Marine und Braun | Nadelstreifenstoff |
+| Klassisches Black Tie | Smokings mit Schalkragen und spitzem Revers, in Auftragsproduktion ab 100 Stück | Wollmischung mit Satinbesatz |
 | Sommer und Destination Wedding | Zweiteilige Leinenanzüge | Leinenmischung |
 
-Unsere Hochzeitsmodelle sind überwiegend Slim Fit und vollständig mit 100 % Viskose gefüttert. Für Hochzeitskollektionen in Auftragsproduktion fertigen wir auch Modern oder Classic Fit, Ihre eigene Farbpalette und abgestimmte Westen oder Fliegen. Details zu jedem Stil finden Sie unter [Smokings](/mens-suit-manufacturing/tuxedos), [dreiteilige Anzüge](/mens-suit-manufacturing/3-piece-suits) und [Festanzüge](/mens-suit-manufacturing/ceremony-suits).
+Unsere Hochzeitsmodelle sind überwiegend Slim Fit und vollständig mit 100 % Viskose gefüttert. Für Hochzeitskollektionen in Auftragsproduktion fertigen wir auch Modern oder Classic Fit, Ihre eigene Farbpalette und abgestimmte Westen oder Fliegen. Details zu jedem Stil finden Sie unter [dreiteilige Anzüge](/mens-suit-manufacturing/3-piece-suits), [zweiteilige Anzüge](/mens-suit-manufacturing/2-piece-suits) und [Smokings](/mens-suit-manufacturing/tuxedos).
 
 ## Größen
 
-Hochzeitsanzüge ab Lager gibt es in EU 46 bis 56, die meisten Smokings laufen von 46 bis 58. In UK- und US-Größen entspricht das 36 bis 46 bzw. 48. Bestellungen für Trauzeugen brauchen meist viele Größen in einem Modell, und genau so sind unsere Pakete aufgebaut. Siehe [Größentabelle](/size-guide).
+Hochzeitsanzüge ab Lager gibt es in EU 46 bis 56, einige Modelle laufen bis 58. In UK- und US-Größen entspricht das 36 bis 46 bzw. 48. Bestellungen für Trauzeugen brauchen meist viele Größen in einem Modell, und genau so sind unsere Pakete aufgebaut. Siehe [Größentabelle](/size-guide).
 
 ## Pakete und Mindestmenge
 

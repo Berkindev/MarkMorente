@@ -95,7 +95,7 @@ Hava, deniz veya kara yoluyla gönderiyoruz ya da malı İstanbul'da kendi nakli
 
 İhtiyacımız olan bilgileri veren kısa bir mesaj şöyle olabilir:
 
-"Merhaba, biz Bakü'de abiye ve takım elbise satan Örnek Menswear mağazasıyız. T05 modelinden 3 lot, S05 modelinden 2 lot almak istiyoruz. Sizin etiketleriniz bizim için uygun. Bakü'ye hava yoluyla teslim için fiyat verebilir misiniz? En yeni smokin modellerinizi de paylaşabilir misiniz?"
+"Merhaba, biz Bakü'de abiye ve takım elbise satan Örnek Menswear mağazasıyız. S35 modelinden 3 lot, S05 modelinden 2 lot almak istiyoruz. Sizin etiketleriniz bizim için uygun. Bakü'ye hava yoluyla teslim için fiyat verebilir misiniz? En yeni modellerinizi de paylaşabilir misiniz?"
 
 Bu kadarı, size eksiksiz bir fiyat teklifi göndermemiz için yeterlidir.
 

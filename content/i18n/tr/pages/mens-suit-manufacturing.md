@@ -18,9 +18,8 @@ Mark Morente, 1994'ten beri takım elbise üreten, İstanbul merkezli bir erkek 
 
 - [Üçlü takımlar](/mens-suit-manufacturing/3-piece-suits): ceket, pantolon ve aynı kumaştan yelek; düğün, davet ve iş giyimi için.
 - [İkili takımlar](/mens-suit-manufacturing/2-piece-suits): iş takımları, kruvaze takımlar ve keten karışımlı yazlık takımlar.
-- [Smokinler](/mens-suit-manufacturing/tuxedos): şal yaka ve sivri yaka smokinler, smokin ceketler, jakarlı ve kadife modeller.
-- [Damatlıklar](/mens-suit-manufacturing/wedding-suits): damat, sağdıç ve davetliler için takım elbise ve smokinler.
-- [Abiye takımlar](/mens-suit-manufacturing/ceremony-suits): gala ve sahne için payetli, taşlı, işlemeli ve kadife modeller.
+- [Smokinler](/mens-suit-manufacturing/tuxedos): şal yaka ve sivri yaka smokinler ve smokin ceketler, model başına 100 adetten siparişe özel üretim.
+- [Damatlıklar](/mens-suit-manufacturing/wedding-suits): damat, sağdıç ve davetliler için üçlü ve iddialı takımlar.
 - [Büyük beden ve uzun boy takımlar](/mens-suit-manufacturing/big-tall-suits): iri ve uzun yapılara göre düzenlenmiş kalıplarla genişletilmiş beden aralığı.
 
 Güncel modelleri kumaş, kalıp ve lot bilgileriyle birlikte [koleksiyonlarımızda](/collections) görebilirsiniz.
@@ -72,7 +71,7 @@ Günlük kapasitemiz 1.000 takımın üzerindedir. Bu sayede tek bir modelden 10
 - **CAD kalıp tasarımı ve 3D prototipleme**
 - **Kendi bünyemizde kalıp ve numune hazırlama**
 
-Kumaş yelpazemizde yün karışımları, premium yün, jakar, kadife, keten karışımları ve payetli kumaşlar bulunur; hepsinde %100 viskon astar kullanılır. Alıcıların iklime ve fiyata göre nasıl seçim yaptığını [kumaşlar](/fabrics) sayfasında, EU, UK ve US beden karşılıklarını [beden rehberinde](/size-guide) bulabilirsiniz.
+Kumaş yelpazemizde yün karışımları, premium yün, çizgili takım elbise kumaşı, jakar ve keten karışımları bulunur. Alıcıların iklime ve fiyata göre nasıl seçim yaptığını [kumaşlar](/fabrics) sayfasında, EU, UK ve US beden karşılıklarını [beden rehberinde](/size-guide) bulabilirsiniz.
 
 ## Hizmet verdiğimiz pazarlar
 

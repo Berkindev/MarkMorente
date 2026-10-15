@@ -1,89 +1,71 @@
 ---
 slug: tuxedos
-title: Wholesale Tuxedo Manufacturer in Turkey | Mark Morente
-description: Tuxedo wholesale and private label production in Istanbul: shawl and peak lapel tuxedos, dinner jackets, jacquard and velvet. Stock lots of 7, EU 46-58.
-h1: Tuxedo manufacturing
-lead: Tuxedos are the largest part of our catalog. We make shawl and peak lapel tuxedos and dinner jackets for wedding shops, formalwear retailers and wholesalers, from stock or under your label.
-updated: 2026-10-09
-related: [ceremony-suits, wedding-suits, wholesale-suits, private-label-suits, fabrics]
+title: Private Label Tuxedo Manufacturer in Turkey | Mark Morente
+description: Made-to-order tuxedo production in Istanbul from 100 units per style: shawl and peak lapel tuxedos and dinner jackets under your label, EU, UK and US sizes.
+h1: Tuxedo manufacturing to order
+lead: We produce tuxedos and dinner jackets to order for wedding shops, formalwear retailers, rental companies and brands, from 100 units per style under your label. Tuxedos are not held in stock.
+updated: 2026-10-15
+related: [wedding-suits, 3-piece-suits, private-label-suits, oem-suit-manufacturing, fabrics]
 ---
 
-## What we produce
+## How we make tuxedos
 
-We are a tuxedo manufacturer with more than 50 tuxedo and dinner jacket models in our current catalog, most of them in stock. They are made for weddings, black-tie events, galas, proms and formal receptions.
+Tuxedos are made to order only. We do not keep ready-stock tuxedo lots, so every run is cut for your order: your model, fabric, colour, size ratio and labels. The minimum is 100 units per style, and production typically takes 12-15 days after sample approval, depending on the order.
 
-Most stock tuxedos are sold as a set with jacket, trousers and bowtie, so your customer has a complete look from one purchase.
+For ready-stock wholesale, see our [suit collections](/collections), where three-piece, double-breasted and two-piece suits are sold in size-run lots.
 
-## Styles
+## Styles we produce
 
-- **Shawl lapel tuxedos** with satin-finished lapels, our most popular style
-- **Peak lapel tuxedos** for a sharper, more traditional black-tie look
-- **Double-breasted tuxedos**, which make up much of our current range
-- **Single-button dinner jackets** in ivory and white, worn with black trousers
-- **Jacquard tuxedos** with woven patterns in black, navy, bronze, silver, charcoal and green
-- **Velvet tuxedos** in red, burgundy, emerald, sage green and navy
-- **Satin-trimmed tuxedos** in black and ivory for classic black tie
+- **Shawl lapel tuxedos** with satin-faced lapels, the classic black-tie choice
+- **Peak lapel tuxedos** for a sharper, more formal look
+- **Double-breasted tuxedos**
+- **Dinner jackets** in ivory and white, worn with black trousers
+- **Three-piece tuxedos** with a matching waistcoat
 
-For sequin, crystal and embroidered styles, see [ceremony suits](/mens-suit-manufacturing/ceremony-suits).
+Send us a photo, a sample or a technical sheet and we will tell you what we can produce.
 
 ## Fabrics and fits
 
 | Type | Fabric | Best for |
 |---|---|---|
-| Classic black tie | Satin-trimmed wool blend | Formal events, all markets |
-| Patterned | Jacquard wool blend | Weddings and receptions, standout looks |
-| Evening | Velvet | Winter events, statement pieces |
+| Classic black tie | Wool blend with satin trims | Formal events, all markets |
+| Patterned | Jacquard wool blend | Weddings and receptions |
 | Summer and destination | Ivory or white wool blend dinner jacket | Warm-climate weddings, daytime events |
 
-Our tuxedos are slim fit and fully lined in 100% viscose. For made-to-order runs we can produce modern or classic fits, other colours, and your choice of lapel, buttons and trims. See [fabrics](/fabrics) for more on each fabric.
+We cut slim, modern or classic fits and can match your lining, buttons and trims. See [fabrics](/fabrics) for more on each fabric.
 
 ## Sizes
 
-Most stock tuxedos come in lots of 7, one in each EU size from 46 to 58 (UK and US 36 to 48). Some models run 48 to 58. Made-to-order runs can go further for [big and tall](/mens-suit-manufacturing/big-tall-suits) customers. See the [size guide](/size-guide).
+We produce in EU, UK and US sizing, in the size ratio your market needs. For [big and tall](/mens-suit-manufacturing/big-tall-suits) customers we adjust the pattern for larger sizes. See the [size guide](/size-guide).
 
-## Lots and minimum order
+## Who orders tuxedos from us
 
-- **Tuxedo wholesale from stock:** one lot per model, usually 7 suits. You can mix as many models as you like. This is how most wedding shops and formalwear retailers buy from us, because they want many styles and colours rather than depth in one. [Wholesale suits](/wholesale-suits)
-- **Private label tuxedos:** 100 units per style, in your fabric and colour, with your labels, hangtags and garment bags. Production typically takes 12-15 days after sample approval. [Private label](/private-label-suits)
-
-## Who buys our tuxedos
-
-Our tuxedos are bought by formalwear and wedding shops, rental companies, menswear retailers and wholesalers who supply them. Here is where they go, and what we usually suggest for each region:
-
-- [Africa](/markets/africa): Nigeria, Ghana, DR Congo, Côte d'Ivoire and Cameroon. Jacquard, bronze and bold colours for weddings and celebrations.
-- [Middle East](/markets/middle-east): UAE, Iraq, Lebanon and Jordan. Black and navy jacquard and satin-trimmed styles.
-- [Europe](/markets/europe): the UK, Germany, France and the Balkans. Classic black and ivory, plus velvet for winter.
-- [Central Asia](/markets/central-asia): Azerbaijan, Kazakhstan and Uzbekistan. Wedding tuxedos across the colour range.
-- [North America](/markets/north-america): USA and Canada. Classic black-tie styles for formalwear, prom and rental businesses.
+Formalwear and wedding shops, tuxedo rental companies, menswear brands and wholesalers who want their own tuxedo line. Rental companies often repeat the same model and fabric for reorders, subject to fabric availability.
 
 ## How to order
 
-1. Browse the tuxedos in our [collections](/collections) and note the model codes.
-2. Send the codes and number of lots on WhatsApp with your company name and country.
-3. We confirm stock, price and shipping.
-4. You confirm the order. Payment terms are agreed per order.
-5. Each tuxedo is checked, packed in a garment bag and shipped.
+1. Send a photo, sample or tech pack on WhatsApp, with your company name and country.
+2. Tell us the quantity per style and the size ratio.
+3. We quote price and lead time and make a sample.
+4. You approve the sample and confirm the order.
+5. Each tuxedo is checked, packed in a garment bag and shipped by air, sea or road.
 
-Read [how to order](/how-to-order) for the full steps.
+Read [private label suits](/private-label-suits) and [how to order](/how-to-order) for the full steps.
 
 ## FAQ
 
-### What comes with a tuxedo from your stock?
+### Do you have tuxedos in stock?
 
-Most stock tuxedos are sold as a set: jacket, trousers and bowtie.
+No. Tuxedos and dinner jackets are produced to order only, from 100 units per style. Our ready-stock lots are suits; see the [collections](/collections).
 
 ### What is the minimum order for tuxedos?
 
-One lot per model from stock, usually 7 tuxedos in EU 46-58. Private label production starts at 100 units per style.
+100 units per style, in your fabric, colour and labels.
 
-### Can I mix tuxedo models in one order?
+### Can you copy a tuxedo from a photo?
 
-Yes, as long as each model is ordered in full lots.
+Yes. Send a clear photo or a sample and we will confirm the details, fabric options and price.
 
 ### Do you make tuxedos for rental companies?
 
-Yes. Rental companies buy our stock lots or order made-to-order runs in the sizes they rent most.
-
-### Can I order a tuxedo in a colour that is not in the catalog?
-
-Yes, as a made-to-order run from 100 units per style. Send us the colour or a swatch.
+Yes, as made-to-order runs in the sizes they rent most. We can repeat models and fabrics for reorders, subject to fabric availability.

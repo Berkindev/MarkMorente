@@ -16,7 +16,7 @@ Sur stock, le minimum est un lot d'un modèle, en général 6 ou 7 costumes. Pou
 
 ### Qu'est-ce qu'un lot ?
 
-Un lot correspond à un modèle dans une série de tailles complète, un costume par taille. Par exemple, 46-48-50-52-54-56 EU forme un lot de 6 costumes, et beaucoup de smokings sont vendus en lots de 7 du 46 au 58 EU. La série de chaque modèle est indiquée dans les [collections](/collections).
+Un lot correspond à un modèle dans une série de tailles complète, un costume par taille. Par exemple, 46-48-50-52-54-56 EU forme un lot de 6 costumes, et certains modèles sont vendus en lots de 7 du 46 au 58 EU. La série de chaque modèle est indiquée dans les [collections](/collections).
 
 ### Puis-je mélanger plusieurs modèles dans une commande ?
 
@@ -96,15 +96,15 @@ Les droits et taxes d'importation dans votre pays sont normalement à la charge 
 
 ### Quels types de costumes fabriquez-vous ?
 
-Costumes deux pièces et trois pièces, costumes croisés, smokings et vestes de soirée, costumes de mariage et de cérémonie, costumes d'été en lin et grandes tailles. Voir [fabrication de costumes homme](/mens-suit-manufacturing).
+Costumes deux pièces et trois pièces, costumes croisés, costumes de mariage, costumes saharienne et surchemise, costumes d'été en lin et grandes tailles. Les smokings et vestes de soirée sont fabriqués uniquement à la commande, dès 100 pièces par modèle. Voir [fabrication de costumes homme](/mens-suit-manufacturing).
 
 ### Quelles coupes proposez-vous ?
 
-Slim, moderne et classique. La plupart de nos smokings et costumes de cérémonie sont en coupe slim.
+Slim, moderne et classique. La plupart de nos costumes sont en coupe slim.
 
 ### Quels tissus utilisez-vous ?
 
-Surtout de la laine mélangée, ainsi que de la laine premium, du jacquard, du velours, du lin mélangé, des tissus pailletés et ornés. Les vestes sont doublées 100 % viscose. Voir [tissus](/fabrics).
+Surtout de la laine mélangée, ainsi que de la laine premium, des tissus à fines rayures, du lin mélangé et du jacquard. Les vestes sont doublées 100 % viscose. Voir [tissus](/fabrics).
 
 ### Quelles tailles produisez-vous ?
 

@@ -16,7 +16,7 @@ Our aim has stayed the same: combine Turkish textile know-how with modern produc
 
 ## What we make
 
-We produce men's two-piece and three-piece suits, double-breasted suits, tuxedos and dinner jackets, wedding and ceremony suits, linen summer suits and big and tall suits. Fits are slim, modern and classic. Our fabrics range from everyday wool blends to jacquard, velvet and sequin fabrics for occasion wear. See [what we manufacture](/mens-suit-manufacturing) and the current [collections](/collections).
+We produce men's two-piece and three-piece suits, double-breasted suits, wedding suits, safari and overshirt suits, linen summer suits and big and tall suits, plus tuxedos and dinner jackets made to order. Fits are slim, modern and classic. Our fabrics range from everyday wool blends to pinstripe suiting and jacquard for occasion wear. See [what we manufacture](/mens-suit-manufacturing) and the current [collections](/collections).
 
 ## Capacity
 

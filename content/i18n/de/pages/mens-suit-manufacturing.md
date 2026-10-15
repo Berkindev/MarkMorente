@@ -18,9 +18,8 @@ Wir produzieren das gesamte Sortiment der Herrenkonfektion für Business und Anl
 
 - [Dreiteilige Anzüge](/mens-suit-manufacturing/3-piece-suits): Sakko, Hose und passende Weste für Hochzeiten, festliche Anlässe und Business.
 - [Zweiteilige Anzüge](/mens-suit-manufacturing/2-piece-suits): Business-Anzüge, Zweireiher und Sommeranzüge aus Leinenmischung.
-- [Smokings](/mens-suit-manufacturing/tuxedos): Smokings mit Schalkragen und spitzem Revers, Dinnerjacketts, Modelle aus Jacquard und Samt.
-- [Hochzeitsanzüge](/mens-suit-manufacturing/wedding-suits): Anzüge und Smokings für Bräutigam, Trauzeugen und Gäste.
-- [Festanzüge](/mens-suit-manufacturing/ceremony-suits): Modelle mit Pailletten, Kristallen, Stickerei und aus Samt für Galas und Bühne.
+- [Smokings](/mens-suit-manufacturing/tuxedos): Smokings mit Schalkragen und spitzem Revers sowie Dinnerjacketts, in Auftragsproduktion ab 100 Stück pro Modell.
+- [Hochzeitsanzüge](/mens-suit-manufacturing/wedding-suits): dreiteilige und auffällige Anzüge für Bräutigam, Trauzeugen und Gäste.
 - [Anzüge in Übergrößen](/mens-suit-manufacturing/big-tall-suits): erweiterte Größen mit Schnitten, die für kräftigere und größere Statur angepasst sind.
 
 Die aktuellen Modelle mit Angaben zu Stoff, Passform und Paketen finden Sie in unseren [Kollektionen](/collections).
@@ -72,7 +71,7 @@ Unsere Tageskapazität liegt bei über 1.000 Anzügen. Ein einzelnes Modell mit 
 - **CAD-Schnittkonstruktion und 3D-Prototyping**
 - **Eigene Schnitt- und Musterabteilung**
 
-Unser Stoffsortiment umfasst Wollmischungen, hochwertige Schurwolle, Jacquard, Samt, Leinenmischungen und Paillettenstoffe, alle mit 100 % Viskose gefüttert. Unter [Stoffe](/fabrics) erfahren Sie, wie Einkäufer nach Klima und Preis auswählen, und in der [Größentabelle](/size-guide) finden Sie EU-, UK- und US-Größen.
+Unser Stoffsortiment umfasst Wollmischungen, hochwertige Schurwolle, Nadelstreifenstoffe, Jacquard und Leinenmischungen. Unter [Stoffe](/fabrics) erfahren Sie, wie Einkäufer nach Klima und Preis auswählen, und in der [Größentabelle](/size-guide) finden Sie EU-, UK- und US-Größen.
 
 ## Märkte, die wir beliefern
 

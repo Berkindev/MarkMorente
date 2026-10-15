@@ -4,6 +4,9 @@
 // 4) content types for agent files, Link header to the markdown alternate, cache for catalog images.
 
 const HOST = 'www.markmorente.com';
+// Images of models taken off the site (removed-products.json: all tuxedos/dinner jackets, 2026-10-15) → 410 Gone,
+// so Google Images drops them quickly. The product pages themselves 301 (see _redirects in scripts/build.mjs).
+const GONE = /^\/collections\/(T\d\d|165|238|312|366|378|403|404)\//;
 const TYPES = [
   [/\.md$|^\/llms(-full)?\.txt$/, 'text/markdown; charset=utf-8'],
   [/^\/\.well-known\/api-catalog$/, 'application/linkset+json'],
@@ -65,6 +68,7 @@ async function handle(ctx) {
 export async function onRequest(ctx) {
   const u = new URL(ctx.request.url);
   if (u.hostname === 'markmorente.com') return Response.redirect(`https://${HOST}${u.pathname}${u.search}`, 301);
+  if (GONE.test(u.pathname)) return new Response('Gone', { status: 410, headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=86400' } });
   const res = await handle(ctx);
   if (!u.hostname.endsWith('.pages.dev')) return res;
   const out = new Response(res.body, res);

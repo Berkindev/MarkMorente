@@ -95,7 +95,7 @@ Wir versenden per Luftfracht, Seefracht oder Lkw oder übergeben die Ware Ihrem 
 
 Diese kurze Nachricht enthält alles, was wir brauchen:
 
-"Guten Tag, wir sind Beispiel Herrenmode, ein Geschäft für Festmode in Frankfurt am Main. Wir interessieren uns für 3 Pakete des Modells T05 und 2 Pakete des Modells S05. Ihre Etiketten sind für uns in Ordnung. Bitte nennen Sie uns die Lieferung nach Frankfurt per Lkw. Können Sie uns auch Ihre neuesten Smoking-Modelle schicken?"
+"Guten Tag, wir sind Beispiel Herrenmode, ein Geschäft für Festmode in Frankfurt am Main. Wir interessieren uns für 3 Pakete des Modells S35 und 2 Pakete des Modells S05. Ihre Etiketten sind für uns in Ordnung. Bitte nennen Sie uns die Lieferung nach Frankfurt per Lkw. Können Sie uns auch Ihre neuesten Modelle schicken?"
 
 Damit können wir Ihnen ein vollständiges Angebot senden.
 

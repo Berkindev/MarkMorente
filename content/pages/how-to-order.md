@@ -95,7 +95,7 @@ We ship by air, sea or road, or hand the goods to your own forwarder in Istanbul
 
 Here is a short message that gives us what we need:
 
-"Hello, we are Example Menswear, a formalwear shop in Lagos, Nigeria. We are interested in 3 lots of model T05 and 2 lots of model S05. Our labels are fine. Please quote delivery to Lagos by air. Can you also share your newest tuxedo models?"
+"Hello, we are Example Menswear, a formalwear shop in Lagos, Nigeria. We are interested in 3 lots of model S35 and 2 lots of model S05. Our labels are fine. Please quote delivery to Lagos by air. Can you also share your newest models?"
 
 That is enough for us to send a full quote.
 

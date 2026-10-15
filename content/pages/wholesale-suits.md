@@ -1,7 +1,7 @@
 ---
 slug: wholesale-suits
 title: Wholesale Men's Suits from Turkey in Size-Run Lots
-description: Buy wholesale men's suits and tuxedos from our Istanbul stock in size-run lots of 6 or 7 suits. Mix models, reorder bestsellers, ship worldwide.
+description: Buy wholesale men's suits from our Istanbul stock in size-run lots of 6 or 7 suits. Mix models, reorder bestsellers, ship worldwide.
 h1: Wholesale men's suits from stock, sold in lots
 lead: Many of our catalog models are in stock in Istanbul. You buy them in size-run lots, one suit per size, so you can fill your shelves without placing a production order.
 updated: 2026-10-09
@@ -18,7 +18,7 @@ A typical lot looks like this:
 |---|---|---|---|---|---|---|---|
 | Suits | 1 | 1 | 1 | 1 | 1 | 1 | 6 |
 
-Lots vary by model. Many of our tuxedos are packed in lots of 7, covering EU 46 to 58. Some models run from 48 to 58. The exact size run of each model is shown on its page in our [collections](/collections). If you need help converting sizes for your market, see the [size guide](/size-guide).
+Lots vary by model. Some models are packed in lots of 7, covering EU 46 to 58. The exact size run of each model is shown on its page in our [collections](/collections). If you need help converting sizes for your market, see the [size guide](/size-guide).
 
 Buying in lots keeps the size curve balanced and means every model reaches you ready to sell across a normal range of customers.
 
@@ -37,7 +37,7 @@ Stock lots carry our standard labels. If you want your own brand on the suits, t
 
 ## Mixing models in one order
 
-You can mix as many models as you like in one order, as long as each model is ordered in full lots. For example, one order could include two lots of a black shawl-lapel tuxedo, one lot of a navy three-piece suit and one lot of an ivory dinner jacket.
+You can mix as many models as you like in one order, as long as each model is ordered in full lots. For example, one order could include two lots of a navy three-piece suit, one lot of a burgundy pinstripe double-breasted suit and one lot of a cream suit with a brown waistcoat.
 
 Mixing is common with wedding and formalwear shops, who usually want a spread of colours and styles rather than depth in one model. Distributors often take several lots of their best-selling models and one lot each of new ones to test.
 
@@ -60,7 +60,7 @@ For larger reorders of one model, ask about a production run. Once you are order
 
 We don't publish prices because they depend on the order. The main factors are:
 
-- **Model and construction:** an embellished or sequin tuxedo costs more than a plain two-piece suit
+- **Model and construction:** a three-piece or double-breasted suit costs more than a plain two-piece suit
 - **Fabric:** wool blends, jacquards, velvet and linen blends are priced differently
 - **Number of lots:** larger orders are quoted accordingly
 - **Packing and shipping:** garment bags, cartons and the destination

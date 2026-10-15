@@ -23,9 +23,9 @@ Weddings and formal events are a large part of the suit trade in the region. Ret
 
 Styles that sell well:
 
-- White, ivory and cream dinner jackets for summer and evening weddings
-- Black and midnight navy tuxedos with shawl or peak lapels
-- Jacquard, velvet-look, sequin and rhinestone jackets for the groom
+- Cream, light stone and beige suits for summer and evening weddings
+- Three-piece suits and suits with a contrast waistcoat for the groom
+- Black and midnight navy tuxedos with shawl or peak lapels, made to order
 - Slim and modern fit 2-piece suits in navy, grey, blue and beige
 - 3-piece suits with waistcoat for relatives and guests
 

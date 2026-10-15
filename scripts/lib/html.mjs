@@ -45,11 +45,12 @@ const NAV = [
   ['/contact', 'nav.contact', false, true],
 ]; // 4th flag: only in the mobile menu (desktop header has no room; footer links them)
 
-// Small inline flags (emoji flags don't render on Windows). Arabic uses the UAE flag (simple, one of the main Arabic-speaking markets).
+// Small inline flags (emoji flags don't render on Windows). Arabic is spoken in 20+ countries, so it gets a neutral
+// navy tile with the letter ع instead of one country's flag (no buyer market feels left out).
 const star = (cx, cy, R, r) => Array.from({ length: 10 }, (_, i) => { const a = Math.PI / 5 * i + Math.PI; const d = i % 2 ? r : R; return `${(cx + d * Math.cos(a)).toFixed(2)},${(cy + d * Math.sin(a)).toFixed(2)}`; }).join(' ');
 const FLAGS = {
   en: '<svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" stroke="#C8102E" stroke-width="2"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg>',
-  ar: '<svg viewBox="0 0 12 6"><rect width="12" height="2" fill="#00732F"/><rect y="2" width="12" height="2" fill="#fff"/><rect y="4" width="12" height="2" fill="#000"/><rect width="3" height="6" fill="#FF0000"/></svg>',
+  ar: '<svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#1A1F3C"/><text x="15" y="15" text-anchor="middle" font-size="14" fill="#E9D9A6" font-family="Geeza Pro, Noto Naskh Arabic, Segoe UI, Tahoma, Arial, sans-serif">ع</text></svg>',
   ru: '<svg viewBox="0 0 9 6"><rect width="9" height="2" fill="#fff"/><rect y="2" width="9" height="2" fill="#0039A6"/><rect y="4" width="9" height="2" fill="#D52B1E"/></svg>',
   fr: '<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#002395"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ED2939"/></svg>',
   de: '<svg viewBox="0 0 5 3"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#DD0000"/><rect y="2" width="5" height="1" fill="#FFCE00"/></svg>',

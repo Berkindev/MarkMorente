@@ -1,89 +1,71 @@
 ---
 slug: tuxedos
-title: Esmoquin al por mayor: fabricante en Turquía | Mark Morente
-description: Esmoquin al por mayor y con su propia marca, fabricados en Estambul: solapa chal y de pico, chaquetas de esmoquin, jacquard y terciopelo. Lotes de 7, EU 46-58.
-h1: Fabricación de esmoquin al por mayor
-lead: El esmoquin es la parte más grande de nuestro catálogo. Fabricamos modelos con solapa chal y de pico y chaquetas de esmoquin para tiendas de bodas, tiendas de ceremonia y mayoristas, desde stock o con su etiqueta.
-updated: 2026-10-09
-related: [ceremony-suits, wedding-suits, wholesale-suits, private-label-suits, fabrics]
+title: Fabricante de esmoquin bajo pedido en Turquía | Mark Morente
+description: Producción de esmoquin bajo pedido en Estambul desde 100 unidades por modelo: solapa chal y de pico y chaquetas de esmoquin con su marca, tallas EU, UK y US.
+h1: Fabricación de esmoquin bajo pedido
+lead: Fabricamos esmoquin y chaquetas de esmoquin bajo pedido para tiendas de bodas, tiendas de ceremonia, empresas de alquiler y marcas, desde 100 unidades por modelo con su etiqueta. No tenemos esmoquin en stock.
+updated: 2026-10-15
+related: [wedding-suits, 3-piece-suits, private-label-suits, oem-suit-manufacturing, fabrics]
 ---
 
-## Qué fabricamos
+## Cómo fabricamos el esmoquin
 
-Somos fabricantes de esmoquin con más de 50 modelos de esmoquin y chaqueta de esmoquin en nuestro catálogo actual, la mayoría en stock. Están pensados para bodas, eventos de etiqueta, galas, graduaciones y recepciones formales.
+El esmoquin se fabrica solo bajo pedido. No tenemos lotes de esmoquin en stock, así que cada producción se corta para su pedido: su modelo, tejido, color, reparto de tallas y etiquetas. El mínimo es de 100 unidades por modelo, y la producción suele tardar 12-15 días después de aprobar la muestra, según el pedido.
 
-La mayoría de los modelos en stock se venden como conjunto de chaqueta, pantalón y pajarita, así su cliente se lleva el look completo en una sola compra.
+Para compras al por mayor desde stock, consulte nuestras [colecciones de trajes](/collections), donde los trajes de tres piezas, cruzados y de dos piezas se venden en lotes con curva de tallas.
 
-## Estilos
+## Estilos que fabricamos
 
-- **Esmoquin con solapa chal** y acabado de raso, nuestro estilo más vendido
-- **Esmoquin con solapa de pico** para un look de etiqueta más marcado y tradicional
-- **Esmoquin cruzado**, que representa buena parte de nuestra gama actual
-- **Chaquetas de esmoquin de un botón** en marfil y blanco, para llevar con pantalón negro
-- **Esmoquin de jacquard** con dibujos tejidos en negro, azul marino, bronce, plata, gris marengo y verde
-- **Esmoquin de terciopelo** en rojo, burdeos, esmeralda, verde salvia y azul marino
-- **Esmoquin con vivos de raso** en negro y marfil para la etiqueta clásica
+- **Esmoquin con solapa chal** y solapas forradas de raso, la opción clásica de etiqueta
+- **Esmoquin con solapa de pico** para un look más marcado y formal
+- **Esmoquin cruzados**
+- **Chaquetas de esmoquin** en marfil y blanco, para llevar con pantalón negro
+- **Esmoquin de tres piezas** con chaleco a juego
 
-Para modelos con lentejuelas, cristales y bordados, consulte [trajes de ceremonia](/mens-suit-manufacturing/ceremony-suits).
+Envíenos una foto, una muestra o una ficha técnica y le diremos qué podemos fabricar.
 
 ## Tejidos y cortes
 
 | Tipo | Tejido | Ideal para |
 |---|---|---|
 | Etiqueta clásica | Mezcla de lana con vivos de raso | Eventos formales, todos los mercados |
-| Con dibujo | Mezcla de lana jacquard | Bodas y recepciones, looks que destacan |
-| Noche | Terciopelo | Eventos de invierno, piezas protagonistas |
-| Verano y bodas de destino | Chaqueta de esmoquin en mezcla de lana marfil o blanca | Bodas en climas cálidos, eventos de día |
+| Con dibujo | Mezcla de lana jacquard | Bodas y recepciones |
+| Verano y bodas de destino | Chaqueta de esmoquin marfil o blanca en mezcla de lana | Bodas en climas cálidos, eventos de día |
 
-Nuestros esmoquin son de corte slim y llevan forro completo 100% viscosa. En la producción bajo pedido podemos fabricar corte moderno o clásico, otros colores y la solapa, botones y fornituras que usted elija. Consulte [tejidos](/fabrics) para más detalles de cada tejido.
+Cortamos en corte slim, moderno o clásico, y podemos adaptar el forro, los botones y los detalles a su gusto. En [tejidos](/fabrics) encontrará más información sobre cada tejido.
 
 ## Tallas
 
-La mayoría de los esmoquin en stock se venden en lotes de 7, uno en cada talla EU de la 46 a la 58 (UK y US 36 a 48). Algunos modelos van de la 48 a la 58. La producción bajo pedido puede ampliar la curva para clientes [big and tall](/mens-suit-manufacturing/big-tall-suits). Consulte la [guía de tallas](/size-guide).
+Fabricamos en tallas EU, UK y US, con el reparto de tallas que necesite su mercado. Para clientes de [tallas grandes](/mens-suit-manufacturing/big-tall-suits) ajustamos el patrón en las tallas más grandes. Consulte la [guía de tallas](/size-guide).
 
-## Lotes y pedido mínimo
+## Quién nos encarga esmoquin
 
-- **Esmoquin al por mayor desde stock:** un lote por modelo, normalmente 7 unidades. Puede combinar tantos modelos como quiera. Así nos compran la mayoría de las tiendas de bodas y de ceremonia, porque buscan muchos estilos y colores más que profundidad en uno solo. [Trajes al por mayor](/wholesale-suits)
-- **Esmoquin con su propia marca:** 100 unidades por modelo, en su tejido y color, con sus etiquetas, etiquetas colgantes y fundas portatrajes. La producción suele tardar 12-15 días después de aprobar la muestra. [Marca propia](/private-label-suits)
-
-## Quién compra nuestros esmoquin
-
-Nuestros esmoquin los compran tiendas de ceremonia y de bodas, empresas de alquiler, tiendas de moda masculina y los mayoristas que las abastecen. Estos son sus destinos y lo que solemos recomendar en cada región:
-
-- [África](/markets/africa): Nigeria, Ghana, RD del Congo, Costa de Marfil y Camerún. Jacquard, bronce y colores intensos para bodas y celebraciones.
-- [Oriente Medio](/markets/middle-east): Emiratos Árabes Unidos, Irak, Líbano y Jordania. Jacquard negro y azul marino y modelos con vivos de raso.
-- [Europa](/markets/europe): Reino Unido, Alemania, Francia y los Balcanes. Negro y marfil clásicos, y terciopelo para el invierno.
-- [Asia Central](/markets/central-asia): Azerbaiyán, Kazajistán y Uzbekistán. Esmoquin de boda en toda la gama de colores.
-- [Norteamérica](/markets/north-america): Estados Unidos y Canadá. Estilos clásicos de etiqueta para tiendas de ceremonia, graduaciones y alquiler.
+Tiendas de ceremonia y de bodas, empresas de alquiler de esmoquin, marcas de moda masculina y mayoristas que quieren su propia línea de esmoquin. Las empresas de alquiler suelen repetir el mismo modelo y tejido en sus reposiciones, según la disponibilidad del tejido.
 
 ## Cómo hacer un pedido
 
-1. Consulte los esmoquin de nuestras [colecciones](/collections) y anote los códigos de modelo.
-2. Envíenos por WhatsApp los códigos y el número de lotes, con el nombre de su empresa y país.
-3. Le confirmamos stock, precio y envío.
-4. Usted confirma el pedido. Las condiciones de pago se acuerdan en cada pedido.
-5. Revisamos cada esmoquin, lo embalamos en su funda portatrajes y lo enviamos.
+1. Envíenos por WhatsApp una foto, una muestra o una ficha técnica, con el nombre de su empresa y su país.
+2. Indíquenos la cantidad por modelo y el reparto de tallas.
+3. Le cotizamos precio y plazo y hacemos una muestra.
+4. Usted aprueba la muestra y confirma el pedido.
+5. Revisamos cada esmoquin, lo embalamos en su funda portatrajes y lo enviamos por avión, barco o carretera.
 
-Lea [cómo hacer un pedido](/how-to-order) para ver todos los pasos.
+Lea [trajes con marca propia](/private-label-suits) y [cómo hacer un pedido](/how-to-order) para ver todos los pasos.
 
 ## FAQ
 
-### ¿Qué incluye un esmoquin de su stock?
+### ¿Tienen esmoquin en stock?
 
-La mayoría de los esmoquin en stock se venden como conjunto: chaqueta, pantalón y pajarita.
+No. El esmoquin y las chaquetas de esmoquin se fabrican solo bajo pedido, desde 100 unidades por modelo. Nuestros lotes en stock son de trajes; consulte las [colecciones](/collections).
 
 ### ¿Cuál es el pedido mínimo de esmoquin?
 
-Un lote por modelo desde stock, normalmente 7 unidades en EU 46-58. La producción con su propia marca empieza en 100 unidades por modelo.
+100 unidades por modelo, con su tejido, color y etiquetas.
 
-### ¿Puedo combinar varios modelos de esmoquin en un pedido?
+### ¿Pueden copiar un esmoquin a partir de una foto?
 
-Sí, siempre que cada modelo se pida en lotes completos.
+Sí. Envíenos una foto clara o una muestra y le confirmaremos los detalles, las opciones de tejido y el precio.
 
 ### ¿Fabrican esmoquin para empresas de alquiler?
 
-Sí. Las empresas de alquiler compran nuestros lotes de stock o encargan producción bajo pedido en las tallas que más alquilan.
-
-### ¿Puedo pedir un esmoquin en un color que no está en el catálogo?
-
-Sí, como producción bajo pedido a partir de 100 unidades por modelo. Envíenos el color o una muestra de tejido.
+Sí, como producciones bajo pedido en las tallas que más alquilan. Podemos repetir modelos y tejidos en las reposiciones, según la disponibilidad del tejido.

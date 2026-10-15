@@ -95,7 +95,7 @@ Nous expédions par avion, par mer ou par route, ou remettons la marchandise à 
 
 Voici un message court qui nous donne tout ce dont nous avons besoin :
 
-« Bonjour, nous sommes Exemple Homme, une boutique de tenues de cérémonie à Abidjan, en Côte d'Ivoire. Nous sommes intéressés par 3 lots du modèle T05 et 2 lots du modèle S05. Vos étiquettes nous conviennent. Merci de chiffrer la livraison à Abidjan par avion. Pouvez-vous aussi nous envoyer vos derniers modèles de smokings ? »
+« Bonjour, nous sommes Exemple Homme, une boutique de tenues de cérémonie à Abidjan, en Côte d'Ivoire. Nous sommes intéressés par 3 lots du modèle S35 et 2 lots du modèle S05. Vos étiquettes nous conviennent. Merci de chiffrer la livraison à Abidjan par avion. Pouvez-vous aussi nous envoyer vos derniers modèles ? »
 
 Cela nous suffit pour vous envoyer un devis complet.
 

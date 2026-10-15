@@ -1,89 +1,71 @@
 ---
 slug: tuxedos
-title: Toptan Smokin Üreticisi, İstanbul | Mark Morente
-description: İstanbul'da toptan smokin ve private label üretim: şal ve sivri yaka smokinler, smokin ceketler, jakar ve kadife modeller. 7 takımlık stok lotlar, EU 46-58.
-h1: Toptan smokin üretimi
-lead: Smokinler kataloğumuzun en büyük bölümü. Damatlık ve abiye mağazaları, erkek giyim perakendecileri ve toptancılar için şal ve sivri yakalı smokinler ve smokin ceketler üretiyoruz; stoktan veya kendi markanızla.
-updated: 2026-10-09
-related: [ceremony-suits, wedding-suits, wholesale-suits, private-label-suits, fabrics]
+title: Private Label Smokin Üreticisi, İstanbul | Mark Morente
+description: İstanbul'da model başına 100 adetten siparişe özel smokin üretimi: kendi markanızla şal ve sivri yaka smokinler, smokin ceketler. EU, UK ve US bedenleri.
+h1: Siparişe özel smokin üretimi
+lead: Damatlık ve abiye mağazaları, kiralama firmaları ve markalar için smokin ve smokin ceketleri siparişe özel, model başına 100 adetten kendi markanızla üretiyoruz. Smokinleri stokta tutmuyoruz.
+updated: 2026-10-15
+related: [wedding-suits, 3-piece-suits, private-label-suits, oem-suit-manufacturing, fabrics]
 ---
 
-## Neler üretiyoruz
+## Smokinleri nasıl üretiyoruz
 
-Güncel kataloğumuzda, büyük kısmı stokta olan 50'den fazla smokin ve smokin ceket modeli bulunan bir smokin üreticisiyiz. Bu modeller düğün, black tie davetler, galalar, mezuniyet baloları ve resmi resepsiyonlar için üretiliyor.
+Smokinleri yalnızca siparişe özel üretiyoruz. Hazır stok smokin lotu tutmuyoruz; her üretim sizin siparişinize göre kesiliyor: model, kumaş, renk, beden dağılımı ve etiketler sizin. Minimum sipariş model başına 100 adet; üretim, siparişe bağlı olarak numune onayından sonra genellikle 12-15 gün sürüyor.
 
-Stok smokinlerin çoğu ceket, pantolon ve papyondan oluşan set halinde satılıyor; böylece müşteriniz tek alışverişte kombinin tamamını almış oluyor.
+Hazır stoktan toptan alım için üçlü, kruvaze ve ikili takımları beden serisi lotlar halinde sattığımız [takım elbise koleksiyonlarımıza](/collections) bakabilirsiniz.
 
-## Modeller
+## Ürettiğimiz modeller
 
-- **Şal yaka smokinler:** saten kaplı yakalı, en çok tercih edilen modelimiz
-- **Sivri yaka smokinler:** daha keskin ve geleneksel bir black tie görünüm için
-- **Kruvaze smokinler:** güncel koleksiyonumuzun önemli bir bölümü
-- **Tek düğmeli smokin ceketler:** kırık beyaz ve beyaz, siyah pantolonla
-- **Jakar smokinler:** siyah, lacivert, bronz, gümüş, antrasit ve yeşil dokuma desenli
-- **Kadife smokinler:** kırmızı, bordo, zümrüt, adaçayı yeşili ve lacivert
-- **Saten garnili smokinler:** klasik black tie için siyah ve kırık beyaz
+- **Şal yaka smokinler:** saten kaplı yakalarıyla klasik black tie tercihi
+- **Sivri yaka smokinler:** daha keskin ve daha resmi bir görünüm için
+- **Kruvaze smokinler**
+- **Smokin ceketler:** siyah pantolonla giyilen fildişi ve beyaz modeller
+- **Üçlü smokinler:** aynı kumaştan yelekli
 
-Payetli, kristalli ve işlemeli modeller için [tören takımları](/mens-suit-manufacturing/ceremony-suits) sayfasına bakın.
+Bize bir fotoğraf, numune veya teknik föy gönderin, neyi üretebileceğimizi söyleyelim.
 
 ## Kumaşlar ve kalıplar
 
 | Tür | Kumaş | En uygun kullanım |
 |---|---|---|
-| Klasik black tie | Saten garnili yün karışımlı | Resmi davetler, tüm pazarlar |
-| Desenli | Jakar yün karışımlı | Düğün ve resepsiyonlar, dikkat çeken kombinler |
-| Gece | Kadife | Kış davetleri, iddialı parçalar |
-| Yaz ve destinasyon düğünü | Kırık beyaz veya beyaz yün karışımlı smokin ceket | Sıcak iklimde düğünler, gündüz davetleri |
+| Klasik black tie | Saten garnili yün karışımı | Resmi davetler, tüm pazarlar |
+| Desenli | Jakarlı yün karışımı | Düğünler ve resepsiyonlar |
+| Yaz ve destinasyon düğünü | Fildişi veya beyaz yün karışımı smokin ceket | Sıcak iklimde düğünler, gündüz davetleri |
 
-Smokinlerimiz slim fit ve %100 viskon astarla tam astarlı. Siparişe özel üretimde modern veya klasik kesim, farklı renkler ve dilediğiniz yaka, düğme ve aksesuar seçeneklerini üretebiliyoruz. Her kumaş hakkında daha fazla bilgi için [kumaşlar](/fabrics).
+Slim fit, modern veya klasik kesim üretiyor; astar, düğme ve garnileri sizin tercihinize göre eşleştirebiliyoruz. Her kumaşın ayrıntıları için [kumaşlar](/fabrics) sayfasına bakın.
 
 ## Bedenler
 
-Stok smokinlerin çoğu 7 takımlık lotlar halinde, EU 46'dan 58'e her bedenden bir adet (UK ve ABD 36-48). Bazı modeller 48-58 aralığında. Siparişe özel üretimde [büyük beden ve uzun boy](/mens-suit-manufacturing/big-tall-suits) müşteriler için daha büyük bedenlere de çıkılabiliyor. Bkz. [beden tablosu](/size-guide).
+Pazarınızın ihtiyaç duyduğu beden dağılımıyla EU, UK ve US bedenlerinde üretiyoruz. [Büyük beden ve uzun boy](/mens-suit-manufacturing/big-tall-suits) müşteriler için büyük bedenlerde kalıbı düzenliyoruz. Bkz. [beden tablosu](/size-guide).
 
-## Lot ve minimum sipariş
+## Bizden kimler smokin sipariş ediyor
 
-- **Stoktan toptan smokin:** model başına bir lot, genellikle 7 takım. İstediğiniz kadar modeli karıştırabilirsiniz. Damatlık ve abiye mağazalarının çoğu bizden bu şekilde alıyor, çünkü tek modelde derinlik yerine çok sayıda model ve renk istiyorlar. [Toptan takım elbise](/wholesale-suits)
-- **Private label smokin:** model başına 100 adet; kumaş ve renk sizin seçiminiz, dokuma etiket, askı etiketi ve takım elbise kılıfı sizin markanız. Üretim, numune onayından sonra genellikle 12-15 gün sürer. [Private label](/private-label-suits)
-
-## Smokinlerimizi kimler alıyor
-
-Smokinlerimizi abiye ve damatlık mağazaları, kiralama firmaları, erkek giyim perakendecileri ve bu sektöre tedarik yapan toptancılar alıyor. Gittiği bölgeler ve her bölge için genelde önerdiklerimiz:
-
-- [Afrika](/markets/africa): Nijerya, Gana, Demokratik Kongo, Fildişi Sahili ve Kamerun. Düğün ve kutlamalar için jakar, bronz ve canlı renkler.
-- [Orta Doğu](/markets/middle-east): BAE, Irak, Lübnan ve Ürdün. Siyah ve lacivert jakar ile saten garnili modeller.
-- [Avrupa](/markets/europe): İngiltere, Almanya, Fransa ve Balkanlar. Klasik siyah ve kırık beyaz, kış için kadife.
-- [Orta Asya](/markets/central-asia): Azerbaycan, Kazakistan ve Özbekistan. Tüm renk yelpazesinde damatlık smokinler.
-- [Kuzey Amerika](/markets/north-america): ABD ve Kanada. Abiye, mezuniyet balosu ve kiralama işletmeleri için klasik black tie modeller.
+Abiye ve damatlık mağazaları, smokin kiralama firmaları, erkek giyim markaları ve kendi smokin serisini isteyen toptancılar. Kiralama firmaları tekrar siparişlerinde, kumaş durumuna bağlı olarak, genellikle aynı model ve kumaşı yeniden üretiyor.
 
 ## Nasıl sipariş verilir
 
-1. [Koleksiyonlarımızdaki](/collections) smokinlere göz atın ve model kodlarını not edin.
-2. Kodları ve lot sayısını, firma adınız ve ülkenizle birlikte WhatsApp'tan gönderin.
-3. Stok, fiyat ve sevkiyatı teyit edelim.
-4. Siparişi onaylayın. Ödeme koşulları her sipariş için ayrıca belirlenir.
-5. Her smokin kontrol edilir, takım elbise kılıfına konur ve sevk edilir.
+1. WhatsApp'tan firma adınız ve ülkenizle birlikte bir fotoğraf, numune veya teknik föy gönderin.
+2. Model başına adedi ve beden dağılımını bize iletin.
+3. Fiyat ve termin verip numune hazırlıyoruz.
+4. Numuneyi onaylıyor ve siparişi kesinleştiriyorsunuz.
+5. Her smokin kontrol edilip elbise kılıfına paketleniyor ve uçak, gemi veya TIR ile sevk ediliyor.
 
-Tüm adımlar için [nasıl sipariş verilir](/how-to-order).
+Tüm adımlar için [private label takım elbise](/private-label-suits) ve [nasıl sipariş verilir](/how-to-order) sayfalarına bakın.
 
 ## FAQ
 
-### Stoktan alınan smokinle neler geliyor?
+### Stokta smokininiz var mı?
 
-Stok smokinlerin çoğu set halinde satılıyor: ceket, pantolon ve papyon.
+Hayır. Smokin ve smokin ceketleri yalnızca siparişe özel, model başına 100 adetten üretiyoruz. Hazır stok lotlarımız takım elbiselerden oluşuyor; bkz. [koleksiyonlar](/collections).
 
 ### Smokinde minimum sipariş nedir?
 
-Stoktan model başına bir lot, genellikle EU 46-58 aralığında 7 smokin. Private label üretim model başına 100 adetten başlıyor.
+Sizin kumaşınız, renginiz ve etiketlerinizle model başına 100 adet.
 
-### Tek siparişte farklı smokin modellerini karıştırabilir miyim?
+### Bir fotoğraftaki smokini üretebilir misiniz?
 
-Evet, her model tam lot olarak sipariş edildiği sürece.
+Evet. Net bir fotoğraf veya numune gönderin; detayları, kumaş seçeneklerini ve fiyatı teyit edelim.
 
 ### Kiralama firmaları için smokin üretiyor musunuz?
 
-Evet. Kiralama firmaları stok lotlarımızı alıyor veya en çok kiraladıkları bedenlerde siparişe özel üretim yaptırıyor.
-
-### Katalogda olmayan bir renkte smokin sipariş edebilir miyim?
-
-Evet, model başına 100 adetten siparişe özel üretim olarak. Bize rengi veya bir kumaş örneğini gönderin.
+Evet, en çok kiraladıkları bedenlerde siparişe özel üretim olarak. Kumaş durumuna bağlı olarak tekrar siparişlerde aynı modelleri ve kumaşları yeniden üretebiliyoruz.

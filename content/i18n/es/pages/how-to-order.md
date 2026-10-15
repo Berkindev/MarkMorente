@@ -95,7 +95,7 @@ Enviamos por vía aérea, marítima o terrestre, como usted prefiera, o entregam
 
 Este mensaje corto nos da todo lo que necesitamos:
 
-"Hola, somos Example Menswear, una tienda de ropa de ceremonia en Lagos, Nigeria. Nos interesan 3 lotes del modelo T05 y 2 lotes del modelo S05. Sus etiquetas nos sirven. ¿Nos pueden cotizar la entrega en Lagos por avión? ¿Y enviarnos sus últimos modelos de esmoquin?"
+"Hola, somos Example Menswear, una tienda de ropa de ceremonia en Lagos, Nigeria. Nos interesan 3 lotes del modelo S35 y 2 lotes del modelo S05. Sus etiquetas nos sirven. ¿Nos pueden cotizar la entrega en Lagos por avión? ¿Y enviarnos sus últimos modelos?"
 
 Con eso podemos enviarle una cotización completa.
 

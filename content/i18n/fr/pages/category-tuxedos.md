@@ -1,89 +1,71 @@
 ---
 slug: tuxedos
-title: Smoking en gros, fabricant en Turquie | Mark Morente
-description: Smokings en gros et sous votre marque, fabriqués à Istanbul : revers châle et pointe, vestes de soirée, jacquard, velours. Lots de 7 en stock, du 46 au 58 EU.
-h1: Fabrication de smokings
-lead: Les smokings sont la plus grande partie de notre catalogue. Nous fabriquons des smokings à revers châle et à revers pointe ainsi que des vestes de soirée pour les boutiques de mariage, les magasins de tenues de soirée et les grossistes, sur stock ou sous votre marque.
-updated: 2026-10-09
-related: [ceremony-suits, wedding-suits, wholesale-suits, private-label-suits, fabrics]
+title: Smokings sous votre marque, fabricant turc | Mark Morente
+description: Smokings fabriqués à la commande à Istanbul dès 100 pièces par modèle : revers châle et pointe, vestes de soirée sous votre marque, tailles EU, UK et US.
+h1: Fabrication de smokings à la commande
+lead: Nous produisons des smokings et des vestes de soirée à la commande pour les boutiques de mariage, les magasins de tenues de soirée, les sociétés de location et les marques, dès 100 pièces par modèle sous votre marque. Les smokings ne sont pas tenus en stock.
+updated: 2026-10-15
+related: [wedding-suits, 3-piece-suits, private-label-suits, oem-suit-manufacturing, fabrics]
 ---
 
-## Ce que nous produisons
+## Comment nous fabriquons les smokings
 
-Nous sommes un fabricant de smokings avec plus de 50 modèles de smokings et de vestes de soirée dans notre catalogue actuel, la plupart en stock. Ils sont faits pour les mariages, les soirées black tie, les galas, les bals de fin d'études et les réceptions.
+Les smokings sont fabriqués uniquement à la commande. Nous ne gardons pas de lots de smokings en stock : chaque série est coupée pour votre commande, avec votre modèle, votre tissu, votre couleur, votre répartition de tailles et vos étiquettes. Le minimum est de 100 pièces par modèle, et la production prend en général 12-15 jours après validation de l'échantillon, selon la commande.
 
-La plupart des smokings en stock sont vendus en ensemble avec veste, pantalon et nœud papillon : votre client a une tenue complète en un seul achat.
+Pour le gros sur stock, consultez nos [collections de costumes](/collections), où les costumes trois pièces, croisés et deux pièces sont vendus par lots de tailles.
 
-## Styles
+## Les styles que nous produisons
 
-- **Smokings à revers châle** avec revers finition satin, notre style le plus demandé
-- **Smokings à revers pointe** pour un black tie plus net et plus traditionnel
-- **Smokings croisés**, qui représentent une grande partie de notre gamme actuelle
-- **Vestes de soirée à un bouton** en ivoire et blanc, portées avec un pantalon noir
-- **Smokings en jacquard** à motifs tissés en noir, marine, bronze, argent, anthracite et vert
-- **Smokings en velours** en rouge, bordeaux, émeraude, vert sauge et marine
-- **Smokings à parements satin** en noir et ivoire pour un black tie classique
+- **Smokings à revers châle** avec revers finition satin, le choix black tie classique
+- **Smokings à revers pointe** pour une allure plus nette et plus habillée
+- **Smokings croisés**
+- **Vestes de soirée** en ivoire et blanc, portées avec un pantalon noir
+- **Smokings trois pièces** avec gilet assorti
 
-Pour les modèles à paillettes, à cristaux et brodés, voir [costumes de cérémonie](/mens-suit-manufacturing/ceremony-suits).
+Envoyez-nous une photo, un échantillon ou une fiche technique, et nous vous dirons ce que nous pouvons produire.
 
 ## Tissus et coupes
 
 | Type | Tissu | Idéal pour |
 |---|---|---|
 | Black tie classique | Laine mélangée à parements satin | Soirées habillées, tous les marchés |
-| À motifs | Jacquard laine mélangée | Mariages et réceptions, tenues remarquées |
-| Soirée | Velours | Événements d'hiver, pièces fortes |
+| À motifs | Jacquard laine mélangée | Mariages et réceptions |
 | Été et destination | Veste de soirée en laine mélangée ivoire ou blanche | Mariages en climat chaud, événements de journée |
 
-Nos smokings sont en coupe slim et entièrement doublés 100 % viscose. En production à la commande, nous pouvons réaliser des coupes moderne ou classique, d'autres couleurs, et le revers, les boutons et les finitions de votre choix. Voir [tissus](/fabrics) pour le détail de chaque tissu.
+Nous coupons en slim, moderne ou classique, et pouvons reprendre votre doublure, vos boutons et vos finitions. Voir [tissus](/fabrics) pour le détail de chaque tissu.
 
 ## Tailles
 
-La plupart des smokings en stock sont vendus par lots de 7, un dans chaque taille EU du 46 au 58 (36 à 48 UK et US). Certains modèles vont du 48 au 58. La production à la commande peut aller plus loin pour la clientèle [grandes tailles](/mens-suit-manufacturing/big-tall-suits). Voir le [guide des tailles](/size-guide).
+Nous produisons en tailles EU, UK et US, dans la répartition de tailles dont votre marché a besoin. Pour la clientèle [grandes tailles](/mens-suit-manufacturing/big-tall-suits), nous adaptons le patronage aux grandes tailles. Voir le [guide des tailles](/size-guide).
 
-## Lots et commande minimum
+## Qui nous commande des smokings
 
-- **Smoking en gros sur stock :** un lot par modèle, en général 7 pièces. Vous pouvez mélanger autant de modèles que vous le souhaitez. C'est ainsi que la plupart des boutiques de mariage et des magasins de tenues de soirée achètent chez nous, car ils veulent de nombreux styles et couleurs plutôt que de la profondeur sur un seul. [Costumes homme en gros](/wholesale-suits)
-- **Smokings sous votre marque :** 100 pièces par modèle, dans votre tissu et votre couleur, avec vos étiquettes, étiquettes volantes et housses. La production prend en général 12-15 jours après validation de l'échantillon. [Sous votre marque](/private-label-suits)
-
-## Qui achète nos smokings
-
-Nos smokings sont achetés par les boutiques de tenues de soirée et de mariage, les sociétés de location, les magasins de prêt-à-porter masculin et les grossistes qui les approvisionnent. Voici où ils partent, et ce que nous conseillons en général pour chaque région :
-
-- [Afrique](/markets/africa) : Nigeria, Ghana, RD Congo, Côte d'Ivoire et Cameroun. Jacquard, bronze et couleurs affirmées pour les mariages et les fêtes.
-- [Moyen-Orient](/markets/middle-east) : Émirats arabes unis, Irak, Liban et Jordanie. Jacquard noir et marine, modèles à parements satin.
-- [Europe](/markets/europe) : Royaume-Uni, Allemagne, France et Balkans. Noir et ivoire classiques, plus le velours pour l'hiver.
-- [Asie centrale](/markets/central-asia) : Azerbaïdjan, Kazakhstan et Ouzbékistan. Smokings de mariage dans toute la gamme de couleurs.
-- [Amérique du Nord](/markets/north-america) : États-Unis et Canada. Styles black tie classiques pour les magasins de tenues de soirée, les bals de promo et la location.
+Les boutiques de tenues de soirée et de mariage, les sociétés de location de smokings, les marques de prêt-à-porter masculin et les grossistes qui veulent leur propre ligne de smokings. Les loueurs reprennent souvent le même modèle et le même tissu pour leurs réassorts, sous réserve de disponibilité du tissu.
 
 ## Comment commander
 
-1. Parcourez les smokings de nos [collections](/collections) et notez les références des modèles.
-2. Envoyez sur WhatsApp les références et le nombre de lots, avec le nom de votre société et votre pays.
-3. Nous confirmons le stock, le prix et l'expédition.
-4. Vous confirmez la commande. Les conditions de paiement sont convenues pour chaque commande.
-5. Chaque smoking est contrôlé, emballé dans une housse et expédié.
+1. Envoyez une photo, un échantillon ou un dossier technique sur WhatsApp, avec le nom de votre société et votre pays.
+2. Indiquez-nous la quantité par modèle et la répartition de tailles.
+3. Nous chiffrons le prix et le délai, et réalisons un échantillon.
+4. Vous validez l'échantillon et confirmez la commande.
+5. Chaque smoking est contrôlé, emballé dans une housse et expédié par avion, par mer ou par route.
 
-Lisez [comment commander](/how-to-order) pour toutes les étapes.
+Lisez [costumes sous votre marque](/private-label-suits) et [comment commander](/how-to-order) pour toutes les étapes.
 
 ## FAQ
 
-### Que comprend un smoking de votre stock ?
+### Avez-vous des smokings en stock ?
 
-La plupart des smokings en stock sont vendus en ensemble : veste, pantalon et nœud papillon.
+Non. Les smokings et vestes de soirée sont produits uniquement à la commande, dès 100 pièces par modèle. Nos lots en stock sont des costumes : voir les [collections](/collections).
 
 ### Quelle est la commande minimum pour les smokings ?
 
-Un lot par modèle sur stock, en général 7 smokings du 46 au 58 EU. La production sous votre marque commence à 100 pièces par modèle.
+100 pièces par modèle, dans votre tissu, votre couleur et avec vos étiquettes.
 
-### Puis-je mélanger plusieurs modèles de smoking dans une commande ?
+### Pouvez-vous reproduire un smoking à partir d'une photo ?
 
-Oui, à condition que chaque modèle soit commandé par lots complets.
+Oui. Envoyez une photo nette ou un échantillon, et nous vous confirmerons les détails, les options de tissu et le prix.
 
 ### Fabriquez-vous des smokings pour les sociétés de location ?
 
-Oui. Les loueurs achètent nos lots en stock ou commandent des productions dans les tailles qu'ils louent le plus.
-
-### Puis-je commander un smoking dans une couleur absente du catalogue ?
-
-Oui, en production à la commande dès 100 pièces par modèle. Envoyez-nous la couleur ou un échantillon de tissu.
+Oui, en séries à la commande dans les tailles qu'ils louent le plus. Nous pouvons reprendre les mêmes modèles et tissus pour les réassorts, sous réserve de disponibilité du tissu.

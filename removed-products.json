@@ -1,0 +1,250 @@
+{
+  "_note": "Models taken off the site (2026-10-15: all tuxedos and dinner jackets, supply issue). Product URLs 301 to the tuxedo page; their image folders return 410 (functions/_middleware.js).",
+  "redirectTo": "/mens-suit-manufacturing/tuxedos",
+  "products": [
+    {
+      "code": "165",
+      "slug": "crystal-shawl-ceremony-tuxedo-165"
+    },
+    {
+      "code": "238",
+      "slug": "gold-studded-ceremony-tuxedo-238"
+    },
+    {
+      "code": "312",
+      "slug": "patterned-peak-tuxedo-312"
+    },
+    {
+      "code": "366",
+      "slug": "crystal-detailed-ceremony-tuxedo-366"
+    },
+    {
+      "code": "378",
+      "slug": "gold-patterned-ceremony-tuxedo-378"
+    },
+    {
+      "code": "403",
+      "slug": "gold-line-shawl-ceremony-tuxedo-403"
+    },
+    {
+      "code": "404",
+      "slug": "floral-pattern-shawl-ceremony-tuxedo-404"
+    },
+    {
+      "code": "T01",
+      "slug": "navy-blue-paisley-jacquard-shawl-lapel-mens-tuxedo-t01"
+    },
+    {
+      "code": "T02",
+      "slug": "ivory-shawl-lapel-mens-dinner-jacket-t02"
+    },
+    {
+      "code": "T03",
+      "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t03"
+    },
+    {
+      "code": "T04",
+      "slug": "bronze-diamond-jacquard-shawl-lapel-mens-tuxedo-t04"
+    },
+    {
+      "code": "T05",
+      "slug": "navy-blue-jacquard-shawl-lapel-mens-tuxedo-t05"
+    },
+    {
+      "code": "T06",
+      "slug": "red-shawl-lapel-mens-tuxedo-t06"
+    },
+    {
+      "code": "T07",
+      "slug": "emerald-green-shawl-lapel-mens-tuxedo-t07"
+    },
+    {
+      "code": "T08",
+      "slug": "burgundy-shawl-lapel-mens-tuxedo-t08"
+    },
+    {
+      "code": "T09",
+      "slug": "forest-green-jacquard-shawl-lapel-mens-tuxedo-t09"
+    },
+    {
+      "code": "T10",
+      "slug": "black-silver-dotted-shawl-lapel-mens-tuxedo-t10"
+    },
+    {
+      "code": "T11",
+      "slug": "bronze-jacquard-peak-lapel-mens-tuxedo-t11"
+    },
+    {
+      "code": "T12",
+      "slug": "black-shawl-lapel-mens-tuxedo-t12"
+    },
+    {
+      "code": "T13",
+      "slug": "black-shawl-lapel-mens-tuxedo-t13"
+    },
+    {
+      "code": "T14",
+      "slug": "ivory-shawl-lapel-mens-tuxedo-t14"
+    },
+    {
+      "code": "T15",
+      "slug": "black-rhinestone-ombre-shawl-lapel-mens-tuxedo-t15"
+    },
+    {
+      "code": "T16",
+      "slug": "copper-sequin-shawl-lapel-mens-tuxedo-t16"
+    },
+    {
+      "code": "T17",
+      "slug": "champagne-gold-glitter-jacquard-shawl-lapel-mens-tuxedo-t17"
+    },
+    {
+      "code": "T18",
+      "slug": "black-gold-floral-shawl-lapel-mens-tuxedo-t18"
+    },
+    {
+      "code": "T19",
+      "slug": "navy-blue-jacquard-shawl-lapel-mens-tuxedo-t19"
+    },
+    {
+      "code": "T20",
+      "slug": "sage-green-shawl-lapel-mens-tuxedo-t20"
+    },
+    {
+      "code": "T21",
+      "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t21"
+    },
+    {
+      "code": "T22",
+      "slug": "navy-blue-dotted-shawl-lapel-mens-tuxedo-t22"
+    },
+    {
+      "code": "T23",
+      "slug": "silver-dotted-shawl-lapel-mens-tuxedo-t23"
+    },
+    {
+      "code": "T24",
+      "slug": "charcoal-jacquard-shawl-lapel-mens-tuxedo-t24"
+    },
+    {
+      "code": "T25",
+      "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t25"
+    },
+    {
+      "code": "T26",
+      "slug": "navy-blue-shawl-lapel-mens-tuxedo-t26"
+    },
+    {
+      "code": "T28",
+      "slug": "silver-glitter-shawl-lapel-mens-tuxedo-t28"
+    },
+    {
+      "code": "T29",
+      "slug": "silver-sequin-shawl-lapel-mens-tuxedo-t29"
+    },
+    {
+      "code": "T30",
+      "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t30"
+    },
+    {
+      "code": "T31",
+      "slug": "bronze-jacquard-shawl-lapel-mens-tuxedo-t31"
+    },
+    {
+      "code": "T32",
+      "slug": "black-shimmer-shawl-lapel-mens-tuxedo-t32"
+    },
+    {
+      "code": "T33",
+      "slug": "ivory-shawl-lapel-mens-dinner-jacket-t33"
+    },
+    {
+      "code": "T34",
+      "slug": "silver-sequin-shawl-lapel-mens-tuxedo-t34"
+    },
+    {
+      "code": "T35",
+      "slug": "black-jacquard-shawl-lapel-mens-tuxedo-t35"
+    },
+    {
+      "code": "T36",
+      "slug": "black-gold-shoulder-detail-shawl-lapel-mens-tuxedo-t36"
+    },
+    {
+      "code": "T37",
+      "slug": "black-gold-rhinestone-shawl-lapel-mens-tuxedo-t37"
+    },
+    {
+      "code": "T38",
+      "slug": "navy-blue-shawl-lapel-mens-tuxedo-t38"
+    },
+    {
+      "code": "T39",
+      "slug": "silver-colour-block-shawl-lapel-mens-tuxedo-t39"
+    },
+    {
+      "code": "T40",
+      "slug": "black-sparkle-shawl-lapel-mens-tuxedo-t40"
+    },
+    {
+      "code": "T41",
+      "slug": "bronze-colour-block-jacquard-shawl-lapel-mens-tuxedo-t41"
+    },
+    {
+      "code": "T42",
+      "slug": "charcoal-colour-block-shawl-lapel-mens-tuxedo-t42"
+    },
+    {
+      "code": "T43",
+      "slug": "black-gold-pinstripe-shawl-lapel-mens-tuxedo-t43"
+    },
+    {
+      "code": "T44",
+      "slug": "black-shawl-lapel-mens-tuxedo-t44"
+    },
+    {
+      "code": "T45",
+      "slug": "ivory-rhinestone-shawl-lapel-mens-dinner-jacket-t45"
+    },
+    {
+      "code": "T46",
+      "slug": "black-silver-shoulder-rhinestone-shawl-lapel-mens-tuxedo-t46"
+    },
+    {
+      "code": "T47",
+      "slug": "black-silver-shoulder-detail-shawl-lapel-mens-tuxedo-t47"
+    },
+    {
+      "code": "T48",
+      "slug": "black-shawl-lapel-mens-tuxedo-t48"
+    },
+    {
+      "code": "T49",
+      "slug": "black-silver-embroidered-shoulder-shawl-lapel-mens-tuxedo-t49"
+    },
+    {
+      "code": "T50",
+      "slug": "white-embellished-shoulder-shawl-lapel-mens-dinner-jacket-t50"
+    },
+    {
+      "code": "T51",
+      "slug": "ivory-shoulder-detail-shawl-lapel-mens-dinner-jacket-t51"
+    },
+    {
+      "code": "T52",
+      "slug": "white-red-rhinestone-ombre-shawl-lapel-mens-tuxedo-t52"
+    },
+    {
+      "code": "T53",
+      "slug": "white-silver-rhinestone-ombre-shawl-lapel-mens-tuxedo-t53"
+    },
+    {
+      "code": "T54",
+      "slug": "ivory-shawl-lapel-mens-dinner-jacket-t54"
+    },
+    {
+      "code": "T27",
+      "slug": "navy-blue-jacquard-shawl-lapel-mens-tuxedo-t27"
+    }
+  ]
+}

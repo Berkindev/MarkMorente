@@ -28,7 +28,7 @@ export function makeLang(code) {
       content: tr.content || p.content,
       features: tr.features || (p.description?.features || []).map(v),
       model: v(p.model), fit: v(p.fit), lapel: v(p.lapel), fabric: v(p.fabric), color: v(p.color),
-      lining: v(p.lining.replace(/^%100/, '100%')),
+      lining: v((p.lining || '').replace(/^%100/, '100%')),
     };
   };
   return { code, name: meta.name, locale: meta.locale, dir: meta.dir || 'ltr', t, P, v, prod, translated: code === 'en' || !!cat.products };
